@@ -125,8 +125,27 @@
           "choices":["","", "", ""],
           "answer":""
         },
-               
+
       ]
     }
+    {
+      "name": "G.O.T",
+      "id": "03",
+      "tags": ["series", "a00"],
+      "tagline": "Defeat is coming.",
+      "questions":[
+        {
+          "text":"",
+          "choices":["","", "", ""],
+          "answer":""
+        },
+        {
+          "text":"",
+          "choices":["","", "", ""],
+          "answer":""
+        },
+               
+      ]
+    }    
   ]
 }
