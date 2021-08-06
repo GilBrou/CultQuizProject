@@ -1,0 +1,177 @@
+
+/////BANNER/////
+.banner{
+  @include flex-column;
+  width: 100%;  
+  min-width: 225px;    
+  background-image: url("../Ressources/Photos/QuizKaamelott.jpg");////DYNAMIC
+  height: 250px; 
+  border-radius: 20px;
+  background-position: 50% 34% ;   
+  h1{
+    margin-top: 170px;
+    font-size: 130%;
+    padding: 17px;
+    color: $tertiary-color;
+    @include self-text-align;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 20px;
+  }
+}
+
+
+///border logo
+header{
+  #logo{
+    border-bottom: 0px;// solid $tertiary-color;
+  }
+}
+
+main{
+  //width: 100vw;
+  //height: 50vh;
+  box-sizing: border-box;
+  text-align: center;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  color: $primary-color;
+  /*
+
+  @include just-flex;
+  width: 100%;
+  padding: 25px;
+  @include flex-wrap;
+  margin: auto;
+  @include justify-content-center;
+  overflow-x: hidden;
+  @include mobile-style{
+    width: 100%;
+    padding: 25px 0px 25px 0px;
+  }
+  */
+  @include mobile-style{
+    @include flex-column;
+    flex-wrap: nowrap;
+    //width: 100%;
+  }
+  h3{
+    color: $primary-color;
+    font-size: 1.5rem;
+  }  
+  .container{
+    .choices{
+      display: flex;
+      flex-wrap: wrap;
+      margin: 3rem auto 3rem;
+      width: 500px;
+    }
+    @include mobile-style{
+      h2{
+        width: 80%;
+        align-self: center;
+        @include self-text-align;
+        margin: auto;
+        flex-wrap: nowrap;
+      }
+      .choices{
+         width: 80%;
+        align-self: center;
+        @include self-text-align;
+        margin: auto;
+      }
+    }
+  }
+  #progress {
+    font-size: 1.3rem;
+    color: $primary-color;
+  }
+  button {
+    color: $tertiary-color;
+    background: $primary-color;
+    border: 1px solid $primary-color;
+    flex: 1 0 45%;
+    width: 200px;
+    min-height: 80px;
+    height: auto;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    margin: .4rem;
+    outline: none;
+    user-select: none;
+    font-weight: 600;
+    &:hover{
+      color: $primary-color;
+      background: $fourth-color;
+      border: 1px solid $fourth-color;
+      transition: .4s;
+      @include truemobile-style{
+      background: $primary-color;
+      color: $tertiary-color;
+      }   
+    }
+    &:active{
+      transform: scale(1.05);
+      transition: transform .1s;
+      @include truemobile-style{
+      transform: none;
+      }   
+    }
+    p{
+      font-size: 1.3rem;
+      margin: 0;
+    }
+  }
+  .retryOrLeave button{
+    @include justify-content-center;
+    height: 40px;
+    max-height: 40px;
+    min-height: 40px;
+    color: $primary-color;
+    background: $fourth-color;
+    border: 1px solid $fourth-color;
+     &:hover{
+      border: 1px solid $tertiary-color;
+      background: $primary-color;
+      color: $tertiary-color;
+      transition: .4s;
+      @include truemobile-style{
+        background: $tertiary-color;
+        color: $primary-color;
+      }  
+    }
+    p{font-size: 0.9rem;}
+  }
+}
+
+/////ANSWERS DISPLAYING /////
+
+.all-in-one{  
+  @include just-flex;
+  @include justify-content-center;
+  p{ font-size : 150%;}
+  .h2-quiz{
+      //@include just-flex;
+      //flex : 2;
+      //color: $fourth-color;
+      color: white;
+      margin: 0;
+      @include self-text-align;
+  }
+  .h3-quiz{
+    margin: 0;
+    margin-left: 15px;
+    @include self-text-align;
+      //@include just-flex;
+      //flex : 1;
+  }
+  @include mobile-style{
+    @include flex-column;
+    p{ font-size : 120%;}
+
+  }
+}
+
+ 
+

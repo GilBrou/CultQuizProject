@@ -1,0 +1,38 @@
+body {
+	width: 100vw;// instead of 98
+	//min-width: 437px;//instead of 495
+	//min-width: 225px;    
+	margin: auto;
+	background-color: $tertiary-color;
+	font-family:  lato, Arial, Verdana, sans-serif;
+	padding: 5px;
+	overflow-x: hidden;
+	a{
+		text-decoration: none;
+		color: black;
+	}
+	@include tablet-style{/*width: 95vw;*/}
+	@include mobile-style{
+		/*width: 100vw;*/
+		@include justify-content-center;
+		margin: 0;
+	}
+}
+
+main{
+	@include just-flex;
+	width: 80%;
+	padding: 25px;
+	@include flex-wrap;
+	margin: auto;
+	@include justify-content-center;
+	overflow-x: hidden;
+	@include mobile-style{
+		width: 100%;
+		padding: 25px 0px 25px 0px;
+	}
+}
+
+
+
+

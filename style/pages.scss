@@ -1,0 +1,15 @@
+
+	/*****Import Order*****/
+
+/*utils (Variables/Fonctions/Mixins/Placeholders)*/	
+@import "utils/variablesAndMixins";
+/*vendors (NONE)*/
+/*Base (site specs, ex : fonts)*/
+@import "base/base";
+/*components (independant blocks, ex : buttons)*/
+@import "components/components";
+/*layout (reusable blocks, ex: header, article, footer)*/
+@import "layout/layout";
+/*pages*/
+@import "pages/quizpage";
+/*themes (NONE)*/

@@ -1,0 +1,114 @@
+{
+  "Quiz": [
+    {
+      "name": "Kaamelott",
+      "id": "01",
+      "photo": "./Ressources/Photos/QuizKaamelott.jpg",
+      "tags": ["a00", "films", "series"],
+      "tagline": "Si vous passez pour des pégus, faudra pas venir faire vos raclettes.",
+      "questions":[
+        {
+          "text":"Lorsqu'elle doit participer à une pièce de théâtre, pour quel rôle se prépare Guenièvre ?",
+          "choices":["Andromaque","Hécube", "Pénélope", "Cassandre"],
+          "answer":"Cassandre"
+        },
+        {
+          "text":"Lorsque le joueur de bonneteau escroque Karadoc, il explique à celui-ci qu'il est imbattable car il possède...",
+          "choices":["La vision de l'aigle","L'oeil de lynx", "L'oeil de truite", "L'oeil de taupe"],
+          "answer":"L'oeil de taupe"
+        },
+        {
+          "text":"Selon Lancelot, ce ne serait pas bon pour son autorité que ses soldats apprennent qu'il est...",
+          "choices":["Une petite vierge","Un gros innocent", "Une grosse pucelle", "Un sacré puceau"],
+          "answer":"Une grosse pucelle"
+        },
+        {
+          "text":"Pas du tout, les lapins, les lapins, c'est...",
+          "choices":["Mignon","Gentil", "Caca", "Pas bien"],
+          "answer":"Gentil"
+        },
+        {
+          "text":"Lorsqu'il a un coup de mou, que propose le Maître d'armes à Arthur ?",
+         "choices":["Une saucisse grillée, un tonnelet de pinard et des filles","Un cochon rôti, un tonnelet de picrate et des gonzesses", "Des graines, un grand verre d'eau et un bon dodo",
+          "Un croque, un godet d'hydromel et des femmes"],    
+          "answer":"Une saucisse grillée, un tonnelet de pinard et des filles" 
+        },
+        {
+          "text":"Que demande Seli à Ygerne et Cryda : C'est des claques dans le museau qu'elles cherchent, les...?",
+          "choices":["Soeurs Tape-Dur","Soeurs Sourire", "Soeurs Casse-Burne", "Soeurs Pécores"],
+          "answer":"Soeurs Tape-Dur"
+        },
+        {
+          "text":"Comment s'appelle le compagnon sur lequel Arthur refuse de taper au début du livre VI ?",
+          "choices":["Appius Manilius", "Titus Nipius Glaucia", "Caius Camillus", "Caius Papinius"],
+          "answer":"Caius Papinius"
+        },
+        {
+            "text":"Quel est l'autre nom sous lequel Méléagan est connu ?",
+          "choices":["La Question","La Réponse", "Le Verdict", "Le Bourreau"],
+          "answer":"La Réponse"
+        },
+        {
+          "text":"Que trouve-t-on vraiment la nuit en forêt ?",
+          "choices":["Mais de tout... C'est une forêt !", "De minuscules lapereaux, mignons et inoffensifs", "Des lapins adultes", "Des faisans d'une toise et demie"],
+          "answer":"Mais de tout... C'est une forêt !"
+        },
+        {
+          "text":"Afin de la courtiser, qu'offre Arthur à la jeune fille qui ne sait pas qui il est ?",
+          "choices":["Un poème","884 charettes de bouse", "Une fleur", "Une place au château"],
+          "answer":"Une fleur" 
+        },
+        {
+          "text":"Complétez l'émouvant poème d'Yvain : La colombe blanche et sèche... ?",
+         "choices": ["Peut donner de l'élan à un pigeon", "Cesse de nous esbaudir les oreilles", "Retombe souvent sur sa poitrine", "Rabat son crincrin dans la prairie de notre enfance."],
+          "answer":"Retombe souvent sur sa poitrine" 
+        },
+        {
+          "text":"Qu'est-ce qui est petit et marron ?",
+          "choices":["Un marron", "Franchement, j'saurais pas dire", "La potion de fécondité", "La pierre de Lune"],
+          "answer":"Un marron" 
+        },
+        {
+          "text":"Vous êtes d'accord pour dire que la définition même des taxes et les critiques qu'elles soulèvent forment une dichotomie?",
+         "choices": ["C'est pas faux", "Ouais, c'est pas faux", "Euh, c'est pas faux", "C'est... non, je connais pas c'mot là"],
+          "answer":"C'est... non, je connais pas c'mot là"
+        },
+        {
+          "text":"Avec qui Arthur a-t-il eu un enfant ?",
+          "choices":["La fille de Roparzh","La soeur du tavernier", "La fille de Gethenoc", "L'une des jumelles du pêcheur"],
+          "answer":"La fille de Gethenoc" 
+        },
+        {
+          "text":"À quel âge Arthur a-t-il retiré l'épée pour la première fois ?",
+          "choices":["8 ans", "6 ans", "4 ans", "2 ans"],
+          "answer":"4 ans" 
+        },
+        {
+          "text":"Où est passé Grüdu ?",
+          "choices":["Il s'est fait tuer par le maître d'armes","Qui ?", "Il est parti retrouver ses parents fromagers", "Il a été enlevé par Attila"],
+          "answer":"Il a été enlevé par Attila" 
+        },
+        {
+          "text":"Que mangent les oiseaux venimeux ?",
+         "choices": ["Des noix et des escalopes de veau","Des noisettes et des escalopes de veau", "Des noix de cajou et des escalopes de veau", "Des baguettes et des escalopes de veau"],
+          "answer":"Des noisettes et des escalopes de veau" 
+        },
+        {
+          "text":"Quels objets Perceval a t-il déjà ramené d'une visite à travers un portail dimensionnel ?",
+         "choices": ["Un totem et une poule","Un sabre laser et un totem", "Une poule et un tambour", "Un tambour et un sabre laser"],
+          "answer":"Un sabre laser et un totem" 
+        },
+        {
+          "text":"Lorsque Léodagan et son père Goustan se moquent du roi, quels surnoms lui trouvent-il ?",
+          "choices":["Le brave, l'agréable, le molasson et le mignonet","Le bon, le jovial, le gland et le jardinier", "L'aimable, le juste, le faiblard et le ramolli", "Le bon, le sympathique, le mou et le gentillet"],
+          "answer":"Le bon, le sympathique, le mou et le gentillet" 
+        },
+        {
+          "text":"Pour Karadoc, y'a pas trente-six recettes du bonheur :",
+          "choices":["La joie de vivre et le cochon","La joie de vivre et le saucisson", "La joie de vivre et le jambon", "La joie de vivre et le gras"],
+          "answer":"La joie de vivre et le jambon"         
+        }
+      ]
+    }
+  ]
+}

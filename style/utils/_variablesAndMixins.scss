@@ -1,0 +1,146 @@
+/*///VARIABLES & MIXINS/////*/
+
+/*///COLORS*/
+
+
+$primary-color:#ffcc00; //
+$secondary-color:#F19E1A; // 
+$tertiary-color:#1B3E4A; // 
+$fourth-color: #2C6B80; 
+
+/*///BREAKPOINTS*/
+$break-tablet:1199px;
+$break-mobile:820px;
+$break-truemobile:508px;
+
+@mixin tablet-style{
+	@media screen and(max-width: $break-tablet){
+		@content;
+	}
+}
+
+@mixin mobile-style{
+	@media screen and( max-width:$break-mobile){
+		@content;
+	}
+}
+
+@mixin truemobile-style{
+	@media screen and(max-width: $break-truemobile){
+		@content;
+	}
+}
+
+
+/*///CONTENT STYLES*/
+@mixin flex-row-centered{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: row;
+	 flex-direction: row;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+}
+
+@mixin justify-content-center{
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+}
+
+@mixin justify-content-space-between{
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+}
+
+@mixin justify-content-space-around{
+	-ms-flex-pack: distribute;
+	 justify-content: space-around;
+}
+
+@mixin flex-column{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	 flex-direction: column;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-ms-flex-line-pack: center;
+	align-content: center;
+}
+
+@mixin start-align{
+	-webkit-box-align: start;
+	-ms-flex-align: start;
+	align-items: flex-start;
+	-webkit-box-pack: start;
+	-ms-flex-pack: start;
+	justify-content: flex-start;
+}
+
+@mixin self-text-align{
+	-ms-flex-item-align: center;
+	-ms-grid-row-align: center;
+	align-self: center;
+	text-align: center;
+	-ms-flex-line-pack: center;
+	align-content: center;
+}
+
+@mixin just-flex{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: row;
+	flex-direction: row;
+}
+
+@mixin flex-row-end{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: end;
+	-ms-flex-pack: end;
+	justify-content: flex-end
+}
+
+@mixin flex-wrap{
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+
+@mixin flex-nowrap{
+	-ms-flex-wrap: nowrap;
+	flex-wrap: nowrap;
+}
+
+/*///IMAGES*/
+
+@mixin portrait-style{
+-o-object-fit: cover;
+ object-fit: cover;
+width: 100%;
+height: 220px;
+border-radius: 25px 25px 0px 0px;
+padding : none;
+margin : none;
+}
+
+@mixin portrait-style-page{
+-o-object-fit: cover;
+   object-fit: cover;
+width: 220px;
+height: 220px;
+border-radius: 50%;
+}
