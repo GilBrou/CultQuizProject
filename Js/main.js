@@ -14,20 +14,19 @@ const main = async () =>{
   .then(function(resp){return resp.json();})
   .then(function(data){quizDataBase = data;});
 
-  console.log(quizData);
+  
   quizData = quizDataBase.Quiz
-
-  let quizId = quizData.Quiz;
+  console.log(quizData);
 
   //Instanciate quizCard Class
-  for (let i in quizId){
+  for (let i in quizData){
     let newQuizCard = new quizCard(
-      quizId[i].name,
-      quizId[i].id,
-      quizId[i].photo,
-      quizId[i].tags,
-      quizId[i].tagline,
-      quizId[i].questions
+      quizData[i].name,
+      quizData[i].id,
+      quizData[i].photo,
+      quizData[i].tags,
+      quizData[i].tagline,
+      quizData[i].questions
     );
 
     //Create Dom elements from Photographers

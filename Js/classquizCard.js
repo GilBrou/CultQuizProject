@@ -17,7 +17,7 @@ class quizCard {
         let thatQuiz = document.createElement('div');
           let portrait = document.createElement('img');
           let name = document.createElement('h1');
-          let tags = document.createElement('div');
+          let nTags = document.createElement('div');
         let lineContainer = document.createElement('div');
           let lineContent = document.createElement('div');
             let tagline = document.createElement('p');
@@ -29,7 +29,7 @@ class quizCard {
         mainQuizCard.appendChild(thatQuiz);
           thatQuiz.appendChild(portrait);
           thatQuiz.appendChild(name);
-          thatQuiz.appendChild(tags);
+          thatQuiz.appendChild(nTags);
         mainQuizCard.appendChild(lineContainer);
           lineContainer.appendChild(lineContent);
             lineContent.appendChild(tagline);
@@ -42,10 +42,9 @@ class quizCard {
 
 
     //Setup Taglist
-    tags.classList.add("tags");
-    let thoseTags = this.tags;
-    for (let i in thoseTags){
-      tags.classList.add(thoseTags[i]);
+    nTags.classList.add("tags");
+    for (let i in this.tags){
+      nTags.classList.add(this.tags[i]);
     }
 
     //Assign classes & refs or ids to Dom elements
