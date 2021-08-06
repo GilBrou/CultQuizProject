@@ -6,15 +6,16 @@ const main = async () =>{
   const main = document.getElementById('main-section');
 
   //Variables
-  let quizData;
+  let quizData, newQuizCard;
 
 
   //Get Json File
-  await fetch('https://github.com/GilBrou/cultQuiz/QuizData.json')
+  await fetch('https://raw.githubusercontent.com/GilBrou/CultQuizProject/main/QuizData.json')
   .then(function(resp){return resp.json();})
   .then(function(data){quizData = data;});
-  
-  let quizId = quizData.Quiz;
+
+  console.log(quizData);
+let quizId = quizData.Quiz;
 
   //Instanciate quizCard Class
   for (let i in quizId){

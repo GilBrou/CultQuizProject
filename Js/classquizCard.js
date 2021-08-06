@@ -44,9 +44,9 @@ class quizCard {
 
     //Setup Taglist
     tags.classList.add("tags");
-    let tagList = this.tags;
-    for (let i in tagList){
-      tags.classList.add(taglist[i]);
+    let thoseTags = this.tags;
+    for (let i in thoseTags){
+      tags.classList.add(thoseTags[i]);
     }
 
     //Assign classes & refs or ids to Dom elements
