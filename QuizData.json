@@ -3,7 +3,6 @@
     {
       "name": "Kaamelott",
       "id": "01",
-      "photo": "./Ressources/Photos/QuizKaamelott.jpg",
       "tags": ["a00", "films", "series"],
       "tagline": "Si vous passez pour des pégus, faudra pas venir faire vos raclettes.",
       "questions":[
@@ -108,6 +107,25 @@
           "choices":["La joie de vivre et le cochon","La joie de vivre et le saucisson", "La joie de vivre et le jambon", "La joie de vivre et le gras"],
           "answer":"La joie de vivre et le jambon"         
         }
+      ]
+    }
+    {
+      "name": "Alien",
+      "id": "02",
+      "tags": ["films", "a80"],
+      "tagline": "Vos voisins, eux, risquent de vous entendre crier.",
+      "questions":[
+        {
+          "text":"",
+          "choices":["","", "", ""],
+          "answer":""
+        },
+        {
+          "text":"",
+          "choices":["","", "", ""],
+          "answer":""
+        },
+               
       ]
     }
   ]

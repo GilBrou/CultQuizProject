@@ -1,9 +1,8 @@
 /////Photographer Class Creation/////
 class quizCard {
-  constructor(name, id, photo, tags, tagline, questions){
+  constructor(name, id, tags, tagline, questions){
     this.name = name;
     this.id = id;
-    this.photo = photo;
     this.tags = tags;
     this.tagline = tagline;
     this.questions = [];
@@ -31,13 +30,13 @@ class quizCard {
           thatQuiz.appendChild(portrait);
           thatQuiz.appendChild(name);
           thatQuiz.appendChild(tags);
-      aQuizCard.appendChild(lineContainer);
-        lineContainer.appendChild(lineContent);
-          lineContent.appendChild(tagline);
-    
+        mainQuizCard.appendChild(lineContainer);
+          lineContainer.appendChild(lineContent);
+            lineContent.appendChild(tagline);
+      
 
     //Assing to Dom
-    portrait.src = this.photo;
+    portrait.src = "./Ressources/Photos/Quiz" + this.name + ".jpg";
     name.innerHTML = this.name;     
     tagline.innerHTML = this.tagline;
 
