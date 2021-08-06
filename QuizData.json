@@ -1,5 +1,5 @@
 {
-  "Quiz": [
+  "Quiz":[
     {
       "name": "Kaamelott",
       "id": "01",
@@ -143,8 +143,7 @@
           "text":"",
           "choices":["","", "", ""],
           "answer":""
-        }
-               
+        }               
       ]
     }    
   ]
