@@ -108,7 +108,7 @@
           "answer":"La joie de vivre et le jambon"         
         }
       ]
-    }
+    },
     {
       "name": "Alien",
       "id": "02",
@@ -124,10 +124,10 @@
           "text":"",
           "choices":["","", "", ""],
           "answer":""
-        },
+        }
 
       ]
-    }
+    },
     {
       "name": "G.O.T",
       "id": "03",
@@ -143,7 +143,7 @@
           "text":"",
           "choices":["","", "", ""],
           "answer":""
-        },
+        }
                
       ]
     }    
