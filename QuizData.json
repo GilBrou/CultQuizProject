@@ -4,7 +4,7 @@
       "name": "Kaamelott",
       "id": "01",
       "tags": ["a00", "films", "series"],
-      "tagline": "Si vous passez pour des pégus, faudra pas venir faire vos raclettes.",
+      "punchLine": "Si vous passez pour des pégus, faudra pas venir faire vos raclettes.",
       "questions":[
         {
           "text":"Lorsqu'elle doit participer à une pièce de théâtre, pour quel rôle se prépare Guenièvre ?",
@@ -113,7 +113,7 @@
       "name": "Alien",
       "id": "02",
       "tags": ["films", "a80"],
-      "tagline": "Vos voisins, eux, risquent de vous entendre crier.",
+      "punchLine": "Vos voisins, eux, risquent de vous entendre crier.",
       "questions":[
         {
           "text":"",
@@ -132,7 +132,7 @@
       "name": "G.O.T",
       "id": "03",
       "tags": ["series", "a00"],
-      "tagline": "Defeat is coming.",
+      "punchLine": "Defeat is coming.",
       "questions":[
         {
           "text":"",

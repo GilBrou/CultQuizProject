@@ -1,15 +1,17 @@
 /////Photographer Class Creation/////
 class quizCard {
-  constructor(name, id, tags, tagline, questions){
+  constructor(name, id, tags, punchLine, questions){
     this.name = name;
     this.id = id;
     this.tags = tags;
-    this.tagline = tagline;
+    this.punchLine = punchLine;
     this.questions = [];
   }
 
   //Create And Display into Dom Photographer's Cards
   createAndDisplayQuizCards(main){
+
+     console.log(this.punchLine);
 
     //Dom element creation
     let aQuizCard = document.createElement('article');
@@ -43,9 +45,13 @@ class quizCard {
 
     //Setup Taglist
     nTags.classList.add("tags");
-    for (let i in this.tags){
-      nTags.classList.add(this.tags[i]);
-    }
+   
+   
+    /*
+    for (let i in thoseTags){
+      console.log(thoseTags[i]);
+      //nTags.classList.add(this.tags[i]);
+    }*/
 
     //Assign classes & refs or ids to Dom elements
     aQuizCard.id = this.id; 

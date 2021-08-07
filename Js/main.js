@@ -16,7 +16,7 @@ const main = async () =>{
 
   
   quizData = quizDataBase.Quiz
-  console.log(quizData);
+  //console.log(quizData);
 
   //Instanciate quizCard Class
   for (let i in quizData){
