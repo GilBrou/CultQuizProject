@@ -32,12 +32,19 @@ const main = async () =>{
     newQuizCard.createAndDisplayQuizCards(main);
   };
 
+};
+
+function  nextStep(){
+
+  sortingTags ();
+
+
   /////Dom Elements
   const QuizCard = document.querySelectorAll(".thatQuiz");
 
   /////Events
 
-  //Increase number
+  //Go to Quiz
   QuizCard.forEach((btn) => btn.addEventListener("click", getQuizz));
 
   /////Functions
@@ -45,12 +52,12 @@ const main = async () =>{
   //launch quizz page
   function getQuizz() {    
   let QuizId = event.target.id;   
-  //console.log(QuizId);
+  console.log(QuizId);
   //window.location = "./QuizPage" + QuizId +".html";
-  window.location = "./QuizPage.html";
+  //window.location = "./QuizPage.html";
   };
 
-  sortingTags ();
+  
 
  
 };
