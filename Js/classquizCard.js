@@ -5,13 +5,14 @@ class quizCard {
     this.id = id;
     this.tags = tags;
     this.punchLine = punchLine;
-    this.questions = [];
+    this.questions = questions;
   }
 
   //Create And Display into Dom Photographer's Cards
   createAndDisplayQuizCards(main){
 
-     console.log(this.punchLine);
+    console.log(this.questions);
+
 
     //Dom element creation
     let aQuizCard = document.createElement('article');
@@ -40,18 +41,14 @@ class quizCard {
     //Assing to Dom
     portrait.src = "./Ressources/Photos/Quiz" + this.name + ".jpg";
     name.innerHTML = this.name;     
-    tagline.innerHTML = this.tagline;
+    tagline.innerHTML = this.punchLine;
 
 
     //Setup Taglist
     nTags.classList.add("tags");
-   
-   
-    /*
-    for (let i in thoseTags){
-      console.log(thoseTags[i]);
-      //nTags.classList.add(this.tags[i]);
-    }*/
+    for (let i in this.tags){
+        nTags.classList.add(this.tags[i]);
+    }
 
     //Assign classes & refs or ids to Dom elements
     aQuizCard.id = this.id; 

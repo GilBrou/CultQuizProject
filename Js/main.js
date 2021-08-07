@@ -23,30 +23,13 @@ const main = async () =>{
     let newQuizCard = new quizCard(
       quizData[i].name,
       quizData[i].id,
-      quizData[i].photo,
       quizData[i].tags,
-      quizData[i].tagline,
+      quizData[i].punchLine,
       quizData[i].questions
     );
 
     //Create Dom elements from Photographers
     newQuizCard.createAndDisplayQuizCards(main);
-
-/*
-   //Get and display Images from Photographer's Id
-    for (let i in mediaImage){
-      if(mediaImage[i].photographerId == newPhotographer.id){
-        newPhotographer.images.push(mediaImage[i]);
-      }
-    }
-
-    //Get and display Videos from Photographer's Id
-    for (let i in mediaVideo){
-      if(mediaVideo[i].photographerId == newPhotographer.id){
-        newPhotographer.videos.push(mediaVideo[i]);
-      }
-    }
-*/
   };
 
   /////Dom Elements
