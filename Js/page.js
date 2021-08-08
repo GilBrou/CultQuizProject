@@ -50,7 +50,7 @@ const main = async () =>{
 
 
   banner.classList.add("banner" + MainID); 
-
+/*
   for (let i in quizArray){
     isItTheQuiz = quizArray[i].name;
     console.log(MainID);
@@ -60,7 +60,7 @@ const main = async () =>{
       thisTaunt.innerHTML = quizArray[i].taunt;
     }
   }
-
+*/
   
 
 
