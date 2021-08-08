@@ -1,26 +1,65 @@
+/////On page load/////
+const main = async () =>{
 
-/////Classes QUESTION/////
+  /*
+  //Dom Elements
+  const main = document.getElementById('main-section');
+  */
 
-class Question {
-  constructor(text, choices, answer) {
-    this.text = text;
-    this.choices = choices;
-    this.answer = answer;
+  //Variables
+  let quizDataBase, quizData, newQuizCard;
+  let quizArray = []
+
+
+  //Get Json File
+  await fetch('https://raw.githubusercontent.com/GilBrou/CultQuizProject/main/QuizData.json')
+  .then(function(resp){return resp.json();})
+  .then(function(data){quizDataBase = data;});
+
+  
+  quizData = quizDataBase.Quiz
+
+  for (let i in quizData){
+    //push in array
+    quizArray.push(quizData[i])
+  };
+
+  //console.log(quizArray);
+
+  /////Class Question/////
+
+  class Question {
+    constructor(text, choices, answer) {
+      this.text = text;
+      this.choices = choices;
+      this.answer = answer;
+    }
+    isCorrectAnswer(choice) {
+      return this.answer === choice;
+    }
   }
-  isCorrectAnswer(choice) {
-    return this.answer === choice;
+
+  /////Display Questions/////
+
+  let questions = [];
+  let forThisQuiz = document.getElementsByClassName("for-this-quiz");
+  let Main = document.querySelector(".mainId");
+  let MainID = Main.id;
+  //console.log(Main);
+  //console.log(MainID);
+  //console.log(forThisQuiz);
+
+  for (let i in quizArray){
+    if( MainID == quizArray[i].name){
+      questions = quizArray[i].questions;
+      forThisQuiz.innerHTML = quizArray[i].taunt;
+
+    };
   }
-}
 
-/////QUESTIONS/////
+  //if(MainID == Kaamelott){};
 
-//let Main = document.querySelector(".mainId");
-//let MainID = Main.id;
-//console.log(Main);
-//console.log(MainID);
-//if(MainID == Kaamelott){};
-
-
+/*
 let questions = [
 
   new Question("Lorsqu'elle doit participer à une pièce de théâtre, pour quel rôle se prépare Guenièvre ?",
@@ -104,7 +143,7 @@ let questions = [
     ["La joie de vivre et le cochon","La joie de vivre et le saucisson", "La joie de vivre et le jambon", "La joie de vivre et le gras"],
     "La joie de vivre et le jambon"), 
 ];
-
+*/
 
 /////CLASS QUIZ/////
 
@@ -159,12 +198,12 @@ const display = {
   }
 
   endQuizHTML = `
-    <h1>Quiz terminé !</h1>`;
+    <h1>Quiz terminé !<br>Votre score est de : ${quiz.score} / ${quiz.questions.length} </h1>`;
 
-  endQuizHTML3 = `
-    <h1> Votre score est de : ${quiz.score} / ${quiz.questions.length}</1>`;
+  /*endQuizHTML3 = `
+    <h1> Votre score est de : ${quiz.score} / ${quiz.questions.length}</1>`;*/
 
-  this.elementShown("quiz", endQuizHTML + getResults() + endQuizHTML3);
+  this.elementShown("quiz", endQuizHTML + getResults()/* + endQuizHTML3*/);
 
   var elements = document.getElementById("quiz");
   console.log(elements);
@@ -196,20 +235,22 @@ const display = {
   },
 };
 
-/////QUIZ LOGIC/////
-quizApp = () => {
-  if (quiz.hasEnded()) {
-    display.endQuiz();
-  } else {
-    display.question();
-    display.choices();
-    display.progress();
-  } 
-}
-// Create Quiz
-let quiz = new Quiz(questions);
-quizApp();
+  /////QUIZ LOGIC/////
+  quizApp = () => {
+    if (quiz.hasEnded()) {
+      display.endQuiz();
+    } else {
+      display.question();
+      display.choices();
+      display.progress();
+    } 
+  }
+  // Create Quiz
+  let quiz = new Quiz(questions);
+  quizApp();
 
+};
 
-
-
+/////Initiate Main Function On Page Load
+window.onload = main;
+/////Classes QUESTION/////

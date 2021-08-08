@@ -1,18 +1,16 @@
 /////Photographer Class Creation/////
 class quizCard {
-  constructor(name, id, tags, punchLine, questions){
+  constructor(name, id, tags, punchLine, taunt, questions){
     this.name = name;
     this.id = id;
     this.tags = tags;
     this.punchLine = punchLine;
+    this.taunt = taunt;
     this.questions = questions;
   }
 
   //Create And Display into Dom Photographer's Cards
   createAndDisplayQuizCards(main){
-
-    console.log(this.questions);
-
 
     //Dom element creation
     let aQuizCard = document.createElement('article');

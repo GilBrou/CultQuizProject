@@ -52,9 +52,9 @@ function  nextStep(){
   //launch quizz page
   function getQuizz() {    
   let QuizId = event.target.id;   
-  console.log(QuizId);
-  //window.location = "./QuizPage" + QuizId +".html";
-  //window.location = "./QuizPage.html";
+  //console.log(QuizId);
+  window.location = "./quizPage" + QuizId +".html";
+  //window.location = "./quizPage.html";
   };
 
   
