@@ -115,7 +115,7 @@
       "id": "02",
       "tags": ["films", "a80"],
       "punchLine": "Vos voisins, eux, risquent de vous entendre crier.",
-      "taunt": "",
+      "taunt": "Alors on se prend pour Ripley ?",
       "questions":[
         {
           "text":"",
@@ -135,7 +135,7 @@
       "id": "03",
       "tags": ["series", "a00"],
       "punchLine": "Defeat is coming.",
-      "taunt": "Alors on se prend pour un pro de Kaamelott ?",
+      "taunt": "Intéréssé par le trône ?",
       "questions":[
         {
           "text":"",

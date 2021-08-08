@@ -25,6 +25,7 @@ const main = async () =>{
       quizData[i].id,
       quizData[i].tags,
       quizData[i].punchLine,
+      quizData[i].taunt,
       quizData[i].questions
     );
 

@@ -24,7 +24,7 @@ const main = async () =>{
     quizArray.push(quizData[i])
   };
 
-  //console.log(quizArray);
+  console.log(quizArray);
 
   /////Class Question/////
 
@@ -42,25 +42,32 @@ const main = async () =>{
   /////Display Questions/////
 
   let questions = [];
-  let forThisQuiz = document.getElementsByClassName("for-this-quiz");
+
   let Main = document.querySelector(".mainId");
+  let banner = document.querySelector(".banner");
+  let thisTaunt = document.querySelector(".this-taunt");
   let MainID = Main.id;
-  //console.log(Main);
-  //console.log(MainID);
-  //console.log(forThisQuiz);
+
+
+  banner.classList.add("banner" + MainID); 
 
   for (let i in quizArray){
-    if( MainID == quizArray[i].name){
-      questions = quizArray[i].questions;
-      forThisQuiz.innerHTML = quizArray[i].taunt;
-
-    };
+    isItTheQuiz = quizArray[i].name;
+    console.log(MainID);
+    console.log(isItTheQuiz);
+    if(MainId = isItTheQuiz){
+      //console.log ("yessssssssss");
+      thisTaunt.innerHTML = quizArray[i].taunt;
+    }
   }
 
-  //if(MainID == Kaamelott){};
+  
 
-/*
-let questions = [
+
+
+
+
+ questions = [
 
   new Question("Lorsqu'elle doit participer à une pièce de théâtre, pour quel rôle se prépare Guenièvre ?",
     ["Andromaque","Hécube", "Pénélope", "Cassandre"],
@@ -143,7 +150,7 @@ let questions = [
     ["La joie de vivre et le cochon","La joie de vivre et le saucisson", "La joie de vivre et le jambon", "La joie de vivre et le gras"],
     "La joie de vivre et le jambon"), 
 ];
-*/
+
 
 /////CLASS QUIZ/////
 
@@ -205,9 +212,9 @@ const display = {
 
   this.elementShown("quiz", endQuizHTML + getResults()/* + endQuizHTML3*/);
 
-  var elements = document.getElementById("quiz");
+  /*var elements = document.getElementById("quiz");
   console.log(elements);
-  elements.innerHTML = elements.innerHTML.replace(/,/g,'');
+  elements.innerHTML = elements.innerHTML.replace(/,/g,'');*/
     
   },
 
@@ -253,4 +260,3 @@ const display = {
 
 /////Initiate Main Function On Page Load
 window.onload = main;
-/////Classes QUESTION/////

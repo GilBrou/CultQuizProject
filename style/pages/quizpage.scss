@@ -3,8 +3,7 @@
 .banner{
   @include flex-column;
   width: 100%;  
-  min-width: 225px;    
-  background-image: url("../Ressources/Photos/QuizKaamelott.jpg");////DYNAMIC
+  min-width: 225px;   
   height: 250px; 
   border-radius: 20px;
   background-position: 50% 34% ;   
@@ -12,12 +11,15 @@
     margin-top: 170px;
     font-size: 130%;
     padding: 17px;
-    color: $tertiary-color;
     @include self-text-align;
     background-color: rgba(255, 255, 255, 0.7);
     border-radius: 20px;
   }
 }
+
+.bannerKaamelott{background-image: url("../Ressources/Photos/QuizKaamelott.jpg");}
+.bannerAlien{background-image: url("../Ressources/Photos/QuizAlien.jpg");}
+.bannerG.O.T{background-image: url("../Ressources/Photos/QuizG.O.T.jpg");}
 
 
 ///border logo
