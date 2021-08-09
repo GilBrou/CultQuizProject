@@ -24,7 +24,7 @@ const main = async () =>{
     quizArray.push(quizData[i])
   };
 
-  console.log(quizArray);
+  //console.log(quizArray);
 
   /////Class Question/////
 
@@ -47,6 +47,7 @@ const main = async () =>{
   let banner = document.querySelector(".banner");
   let thisTaunt = document.querySelector(".this-taunt");
   let MainID = Main.id;
+  //console.log(MainID)
 
 
   banner.classList.add("banner" + MainID); 
@@ -61,11 +62,6 @@ const main = async () =>{
     }
   }
 */
-  
-
-
-
-
 
  questions = [
 
@@ -193,8 +189,7 @@ const display = {
       allAnswers.push(A);
     }
     for (let i in allQuestions){
-      //console.log(allQuestions[i] + "<br>" + " La bonne réponse était " + "''" +  allAnswers[i] + "''");
-      let thatQAndA ='<div class="all-in-one">' + '<p class="h2-quiz">' + allQuestions[i] + '</p>' + '<p class="h3-quiz">' + allAnswers[i] + '.' + '</p>' + '</div>' + '<br>';
+      let thatQAndA ='<div class="all-in-one">' + '<p class="h2-quiz">' + allQuestions[i] + '</p>' + '<p class="h3-quiz">' + allAnswers[i] + '</p>' + '</div>' + '<br>';
       //console.log(thatQAndA);
       allResults.push(thatQAndA);
     }
@@ -206,9 +201,6 @@ const display = {
 
   endQuizHTML = `
     <h1>Quiz terminé !<br>Votre score est de : ${quiz.score} / ${quiz.questions.length} </h1>`;
-
-  /*endQuizHTML3 = `
-    <h1> Votre score est de : ${quiz.score} / ${quiz.questions.length}</1>`;*/
 
   this.elementShown("quiz", endQuizHTML + getResults()/* + endQuizHTML3*/);
 

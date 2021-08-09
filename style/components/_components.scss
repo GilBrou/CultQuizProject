@@ -10,7 +10,7 @@
 	color: $primary-color;
 	border-radius: 5px;
 	cursor: pointer;
-	//flex-wrap: nowrap;
+	flex-wrap: nowrap;
 		&:hover, &:active{
 			font-weight: bold;	
 			color: $tertiary-color;
@@ -27,7 +27,7 @@
 			font-size: 150%;
 		}
 		@include truemobile-style{
-			font-size: 130%;
+			font-size: 100%;
 			//padding: 15px;//instead of nothing	
 		}
 }

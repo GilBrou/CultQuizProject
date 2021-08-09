@@ -14,6 +14,7 @@
     @include self-text-align;
     background-color: rgba(255, 255, 255, 0.7);
     border-radius: 20px;
+    color: $tertiary-color;
   }
 }
 
@@ -152,10 +153,10 @@ main{
 .all-in-one{  
   @include just-flex;
   @include justify-content-center;
-  p{ font-size : 150%;}
+  p{ font-size : 120%;}
   .h2-quiz{
       //@include just-flex;
-      //flex : 2;
+      //flex : 3;
       //color: $fourth-color;
       color: white;
       margin: 0;
@@ -163,16 +164,20 @@ main{
   }
   .h3-quiz{
     margin: 0;
-    margin-left: 15px;
+    margin-left: 10px;
     @include self-text-align;
       //@include just-flex;
       //flex : 1;
   }
-  @include mobile-style{
-    @include flex-column;
-    p{ font-size : 120%;}
-
+  @include mobile-style{p{ font-size : 120%;}}
+@include tablet-style{
+  @include flex-column;
+  .h2-quiz, .h3-quiz{
+    margin: 0;
+    flex: 1;
   }
+
+}
 }
 
  
