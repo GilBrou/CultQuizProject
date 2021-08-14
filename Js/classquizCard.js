@@ -1,15 +1,16 @@
-/////Photographer Class Creation/////
+/////Photographer Class/////
 class quizCard {
-  constructor(name, id, tags, punchLine, taunt, questions){
+  constructor(name, id, tags, punchLine, taunt, scoreReact, questions){
     this.name = name;
     this.id = id;
     this.tags = tags;
     this.punchLine = punchLine;
     this.taunt = taunt;
+    this.scoreReact = scoreReact;
     this.questions = questions;
   }
 
-  //Create And Display into Dom Photographer's Cards
+  //Create And Display into Dom Quiz's Cards
   createAndDisplayQuizCards(main){
 
     //Dom element creation
@@ -59,7 +60,52 @@ class quizCard {
     lineContainer.classList.add("line-container");
     lineContent.classList.add("line-content");
 
-    nextStep();
+    /*nextStep();*/
   }
 
+  //Display Quiz's info into page Dom
+  DisplayQuizInfos(page){    
+    document.title ="cultQuiz" + " " + this.name;
+    let thisTaunt = document.querySelector(".taunt");
+    thisTaunt.innerHTML = this.taunt;    
+    let banner = document.querySelector(".banner");
+    banner.classList.add("banner" + this.name);     
+  }
+
+}
+
+/////Question Class/////
+
+  class Question {
+    constructor(text, choices, answer) {
+      this.text = text;
+      this.choices = choices;
+      this.answer = answer;
+    }
+    isCorrectAnswer(choice) {
+      return this.answer === choice;
+    }
+  }
+
+
+/////Quiz class/////
+
+class Quiz {
+  constructor(questions) {
+    this.score = 0;
+    this.questions = questions;
+    this.currentQuestionIndex = 0;
+  }
+  getCurrentQuestion() {
+    return this.questions[this.currentQuestionIndex];
+  }
+  guess(answer) {
+    if (this.getCurrentQuestion().isCorrectAnswer(answer)) {
+      this.score++;
+    }
+    this.currentQuestionIndex++;
+  }
+  hasEnded() {
+    return this.currentQuestionIndex >= this.questions.length;
+  }
 }

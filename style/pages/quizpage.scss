@@ -1,5 +1,5 @@
 
-/////BANNER/////
+/*///BANNER/////*/
 .banner{
   @include flex-column;
   width: 100%;  
@@ -18,25 +18,36 @@
   }
 }
 
-.bannerKaamelott{background-image: url("../Ressources/Photos/QuizKaamelott.jpg");}
-.bannerAlien{background-image: url("../Ressources/Photos/QuizAlien.jpg");}
-.bannerGOT{background-image: url("../Ressources/Photos/QuizGOT.jpg");}
+.bannerKaamelott{
+  background-image: url("../Ressources/Photos/QuizKaamelott.jpg");
+}
+.bannerAlien{
+  background-image: url("../Ressources/Photos/QuizAlien.jpg");
+}
+.bannerGOT{
+  background-image: url("../Ressources/Photos/QuizGOT.jpg");
+  background-position: 50% 17% ;   
+}
 
 
-///border logo
+/*/border logo*/
 header{
   #logo{
-    border-bottom: 0px;// solid $tertiary-color;
+    border-bottom: 0px;/* solid $tertiary-color;*/
   }
 }
 
 main{
-  //width: 100vw;
-  //height: 50vh;
-  box-sizing: border-box;
+  /*width: 100vw;*/
+  /*height: 50vh;*/
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   text-align: center;
+  display: -ms-grid;
   display: grid;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   justify-items: center;
   color: $primary-color;
   /*
@@ -55,8 +66,9 @@ main{
   */
   @include mobile-style{
     @include flex-column;
-    flex-wrap: nowrap;
-    //width: 100%;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    /*width: 100%;*/
   }
   h3{
     color: $primary-color;
@@ -64,22 +76,30 @@ main{
   }  
   .container{
     .choices{
+      display: -webkit-box;
+      display: -ms-flexbox;
       display: flex;
-      flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
       margin: 3rem auto 3rem;
       width: 500px;
     }
     @include mobile-style{
       h2{
         width: 80%;
-        align-self: center;
+        -ms-flex-item-align: center;
+            -ms-grid-row-align: center;
+            align-self: center;
         @include self-text-align;
         margin: auto;
-        flex-wrap: nowrap;
+        -ms-flex-wrap: nowrap;
+            flex-wrap: nowrap;
       }
       .choices{
          width: 80%;
-        align-self: center;
+        -ms-flex-item-align: center;
+            -ms-grid-row-align: center;
+            align-self: center;
         @include self-text-align;
         margin: auto;
       }
@@ -93,7 +113,9 @@ main{
     color: $tertiary-color;
     background: $primary-color;
     border: 1px solid $primary-color;
-    flex: 1 0 45%;
+    -webkit-box-flex: 1;
+        -ms-flex: 1 0 45%;
+            flex: 1 0 45%;
     width: 200px;
     min-height: 80px;
     height: auto;
@@ -102,12 +124,17 @@ main{
     border: none;
     margin: .4rem;
     outline: none;
-    user-select: none;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
     font-weight: 600;
     &:hover{
       color: $primary-color;
       background: $fourth-color;
       border: 1px solid $fourth-color;
+      -webkit-transition: .4s;
+      -o-transition: .4s;
       transition: .4s;
       @include truemobile-style{
       background: $primary-color;
@@ -115,10 +142,18 @@ main{
       }   
     }
     &:active{
-      transform: scale(1.05);
+      -webkit-transform: scale(1.05);
+          -ms-transform: scale(1.05);
+              transform: scale(1.05);
+      -webkit-transition: -webkit-transform .1s;
+      transition: -webkit-transform .1s;
+      -o-transition: transform .1s;
       transition: transform .1s;
+      transition: transform .1s, -webkit-transform .1s;
       @include truemobile-style{
-      transform: none;
+      -webkit-transform: none;
+          -ms-transform: none;
+              transform: none;
       }   
     }
     p{
@@ -126,6 +161,7 @@ main{
       margin: 0;
     }
   }
+  .retryOrLeave { margin-top: 25px;} 
   .retryOrLeave button{
     @include justify-content-center;
     height: 40px;
@@ -138,6 +174,8 @@ main{
       border: 1px solid $tertiary-color;
       background: $primary-color;
       color: $tertiary-color;
+      -webkit-transition: .4s;
+      -o-transition: .4s;
       transition: .4s;
       @include truemobile-style{
         background: $tertiary-color;
@@ -148,16 +186,16 @@ main{
   }
 }
 
-/////ANSWERS DISPLAYING /////
+/*///ANSWERS DISPLAYING /////*/
 
 .all-in-one{  
   @include just-flex;
   @include justify-content-center;
   p{ font-size : 120%;}
   .h2-quiz{
-      //@include just-flex;
-      //flex : 3;
-      //color: $fourth-color;
+      /*@include just-flex;*/
+      /*flex : 3;*/
+      /*color: $fourth-color;*/
       color: white;
       margin: 0;
       @include self-text-align;
@@ -166,15 +204,17 @@ main{
     margin: 0;
     margin-left: 10px;
     @include self-text-align;
-      //@include just-flex;
-      //flex : 1;
+      /*@include just-flex;*/
+      /*flex : 1;*/
   }
   @include mobile-style{p{ font-size : 120%;}}
 @include tablet-style{
   @include flex-column;
   .h2-quiz, .h3-quiz{
     margin: 0;
-    flex: 1;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
   }
 
 }

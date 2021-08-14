@@ -3,19 +3,13 @@ const main = async () =>{
 
   
   //Dom Elements
-  const main = document.getElementById('main-section');
+  const main = document.getElementById('main-section');  
 
-  //Variables
-  let quizDataBase, quizData, newQuizCard;
-
-
-  //Get Json File
-  await fetch('https://raw.githubusercontent.com/GilBrou/CultQuizProject/main/QuizData.json')
-  .then(function(resp){return resp.json();})
-  .then(function(data){quizDataBase = data;});
-
+   //Get Json Data
+  let quizDataBase = await myFetch();
   
-  quizData = quizDataBase.Quiz
+  
+  let quizData = quizDataBase.Quiz
   //console.log(quizData);
 
   //Instanciate quizCard Class
@@ -26,41 +20,31 @@ const main = async () =>{
       quizData[i].tags,
       quizData[i].punchLine,
       quizData[i].taunt,
+      quizData[i].scoreReact,
       quizData[i].questions
     );
 
     //Create Dom elements from Photographers
     newQuizCard.createAndDisplayQuizCards(main);
+    let haha = newQuizCard.scoreReact;
+    console.log(haha);
   };
 
-};
 
-function  nextStep(){
-
+   //Sort tags
   sortingTags ();
-
-
-  /////Dom Elements
-  const QuizCard = document.querySelectorAll(".thatQuiz");
 
   /////Events
 
-  //Go to Quiz
-  QuizCard.forEach((btn) => btn.addEventListener("click", getQuizz));
+  //listen to click on quiz
+  const QuizCard = document.querySelectorAll(".thatQuiz");
+  Array.from(QuizCard).map(element => {
 
-  /////Functions
-
-  //launch quizz page
-  function getQuizz() {    
-  let QuizId = event.target.id;   
-  //console.log(QuizId);
-  window.location = "./quizPage" + QuizId +".html";
-  //window.location = "./quizPage.html";
-  };
-
-  
-
- 
+    element.addEventListener("click", function (event) {
+      let targetId = element.id;
+      window.location.href = "quizPage.html" + "?id=" + targetId;
+    });
+  }); 
 };
 
 /////Initiate Main Function On Page Load
