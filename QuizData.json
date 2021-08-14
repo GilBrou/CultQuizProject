@@ -197,7 +197,7 @@
         },
         {
           "text":"Savez vous pourquoi, dans l'introduction, le titre n'est composé que de sept lignes avant d'apparaître plus clairement ?",
-          "choices":["Parce que c'est hyper classe","En référence au nombre de fois où le mot ''Shit'' est pronomcé", "Pour annoncer le nombre de morts du film", "Afin d'indiquer le nombre de suites originellement prévues"],
+          "choices":["Sans raisons, c'est juste hyper classe","En référence au nombre de fois où le mot ''Shit'' est pronomcé", "Pour annoncer le nombre de morts du film", "Afin d'indiquer le nombre de suites originellement prévues"],
           "answer":"Pour annoncer le nombre de morts du film"
         },
         {
