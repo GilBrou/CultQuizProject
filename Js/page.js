@@ -75,14 +75,14 @@ const page = async () =>{
       }
       endQuizHTML = `<h1>Quiz terminé !<br>Votre score est de : ${quiz.score} / ${quiz.questions.length} </h1>`;
       this.elementShown("quiz", endQuizHTML + getResults()/* + endQuizHTML3*/);
-      
+
       /*var elements = document.getElementById("quiz");
       console.log(elements);
       elements.innerHTML = elements.innerHTML.replace(/,/g,'');*/
 
       const modalbg = document.querySelector(".bground2"); 
       const scoreReact = document.querySelector(".reaction");
-      reaction = `<h1>Score de : ${quiz.score} / ${quiz.questions.length}</h1>`;
+      reaction = `<h1>Score de : ${quiz.score} / ${quiz.questions.length}</h1> + '<br>' + 'coucou coucou coucou coucou coucou coucou coucou'`;
       scoreReact.innerHTML = reaction;
       modalbg2.style.display = "block";
       //close second modal

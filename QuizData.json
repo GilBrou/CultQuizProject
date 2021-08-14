@@ -8,7 +8,8 @@
       "taunt": "Alors on se prend pour un pro de Kaamelott ?",
       "scoreReact" : [
         "Non, moi j'crois qu'il faut qu'vous arrêtiez d'essayer d'faire des Quiz. Ça vous fatigue, déjà, et pour les autres, vous vous rendez pas compte de c'que c'est. Moi quand vous faites un score comme ça, ça me fout une angoisse...",
-        "Alors là, Sire, je vous dis château !"],
+        "Alors là, Sire, je vous dis château !"
+      ],
       "questions":[
         {
           "text":"Lorsqu'elle doit participer à une pièce de théâtre, pour quel rôle se prépare Guenièvre ?",
@@ -119,7 +120,10 @@
       "tags": ["films", "a80"],
       "punchLine": "Vos voisins, eux, risquent de vous entendre crier.",
       "taunt": "Alors on se prend pour Ripley ?",
-      "scoreReact" : ["","",],
+      "scoreReact" : [
+        "",
+        ""
+      ],
       "questions":[
         {
           "text":"",
@@ -142,7 +146,7 @@
       "taunt": "Intéréssé par le trône ?",
       "scoreReact" : [
         "Tu ne sais rien, Jean Neige !",
-        "Tes connaissances impressionnantes feraient même trembler Daenerys du Typhon de la Maison Targaryen,première du nom, Reine des Andals, de Rhoynar et des Premiers Hommes, Suzeraine des Sept Couronnes et Protectrice du Royaume, Dame de Peyredragon, Reine de Meereen, Khaleesi de la Grande Mer herbeuse...",
+        "Tes connaissances impressionnantes feraient même trembler Daenerys du Typhon de la Maison Targaryen,première du nom, Reine des Andals, de Rhoynar et des Premiers Hommes, Suzeraine des Sept Couronnes et Protectrice du Royaume, Dame de Peyredragon, Reine de Meereen, Khaleesi de la Grande Mer herbeuse..."
       ],
       "questions":[
         {
