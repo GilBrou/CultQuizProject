@@ -1,29 +1,5 @@
 /////HOMEPAGE/////
-/*
-/////SORTING MEDIAS
 
-.sorting{
-	width: 100%;
-	height: auto;
-	color: $primary-color;
-  margin: 0px 20px 40px 20px;
-  @include just-flex;
-  @include truemobile-style{
-  display: none;
-  }
-  label{
-    font-weight: bold;
-    margin-right: 20px;
-    align-self: center;
-  }
-  #sort-by{
-    padding-left: 10px;
-    margin-top: 0px;
-    height: 45px;
-    width: 125px;
-    }
-  }
-*/
 .main-section{
 	//@include justify-content-space-around;
 	//@include justify-content-space-between;

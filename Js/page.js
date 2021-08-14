@@ -2,8 +2,8 @@
 const page = async () =>{
   
   /////Dom Elements
-  const main = document.getElementById('main-section');  
-
+  const main = document.getElementById('main-section');   
+  
   /////Variables
   let selectedQuiz;
 
@@ -12,7 +12,15 @@ const page = async () =>{
   let url_string = (window.location.href);
   let url = new URL(url_string);
   let targetId = url.searchParams.get("id");
-  
+
+
+ //listen to click on retry button
+  const retry = document.querySelectorAll(".retry");
+  Array.from(retry).map(element => {
+    element.addEventListener("click", function (event) {
+      window.location.href = "QuizPage.html" + "?id=" + targetId;
+    });
+  }); 
 
   /////Get Json Data
   let quizDataBase = await myFetch();  
@@ -80,25 +88,32 @@ const page = async () =>{
       console.log(elements);
       elements.innerHTML = elements.innerHTML.replace(/,/g,'');*/
 
+      ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
       const modalbg = document.querySelector(".bground2"); 
       const scoreReact = document.querySelector(".reaction");
       let ReactBad = selectedQuiz.scoreReact[0];
       let ReactGood = selectedQuiz.scoreReact[1];
-      if(quiz.score < 10){
-        console.log(quiz.score);
-        reaction = `<h1>Score de : ${quiz.score} / ${quiz.questions.length}</h1><br><p>` + ReactBad + `</p><br>`;
+      if(quiz.score < 10){      
+        reaction = `<h1>Score : ${quiz.score} / ${quiz.questions.length}</h1><br><p>` + ReactBad + `</p><br>`;
       } else {
-        reaction = `<h1>Score de : ${quiz.score} / ${quiz.questions.length}</h1><br><p>` + ReactGood + `</p><br>`;
-
-      }
-      
+        reaction = `<h1>Score : ${quiz.score} / ${quiz.questions.length}</h1><br><p>` + ReactGood + `</p><br>`;
+      };     
       scoreReact.innerHTML = reaction;
-      modalbg.style.display = "block";
-      //close second modal
-      function closeModal() {modalbg.style.display = "none";}
+      modalbg.style.display = "block";     
 
-      //Automatically close modal
-      setTimeout(closeModal, 3000);
+      const closeBtn = document.querySelectorAll(".close");
+      /////close modals & ligthboxes
+      //on click X
+      closeBtn.forEach((btn) => btn.addEventListener("click", closeModal));
+      //on press enter on focus
+      closeBtn.forEach((btn) => btn.addEventListener("keyup", ckeckKeyClose));
+      //setTimeout(closeModal, 3000); //have to add close button
+      /////Close modal and lightboxes by enter key pressed on focus
+      function ckeckKeyClose(){if (event.keyCode === 13){closeModal();}}
+      //close  modal
+      function closeModal() {modalbg.style.display = "none";}
+      ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
     },

@@ -127,8 +127,8 @@
       "questions":[
         {
           "text":"Comment s'apelle l'intelligence artificielle du Nostromo ?",
-          "choices":["Bob","Mom", "Pop", "LV-426"],
-          "answer":"Mom"
+          "choices":["Ash","Maman", "Papa", "LV-426"],
+          "answer":"Maman"
         },
         {
           "text":"",

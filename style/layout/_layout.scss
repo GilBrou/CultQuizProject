@@ -86,7 +86,10 @@ header{
       animation-name: modalopen;
       -webkit-animation-duration: 0.8s;
       animation-duration: 0.8s;
-      background: $primary-color;
+      background: $tertiary-color;//////////////////
+      border: 5px solid $primary-color;/////////////
+      box-shadow: 0 5px 20px 3px rgba(0, 0, 0, 0.6);
+
       border-radius: 5px;
       overflow: hidden;
       position: relative;
@@ -95,11 +98,10 @@ header{
         line-height: 90%;
         font-size: 250%;
         text-align: left;
-        padding-left: 15px;
+        //padding-left: 15px;
         font-weight: 600;
       }    
       .modal-body2{
-        padding: 50px;
         margin: 15px auto;
         -ms-flex-item-align: center;
         -ms-grid-row-align: center;
@@ -107,7 +109,10 @@ header{
         @include justify-content-center;
         .reaction{
           padding: 10px;
+          @include flex-column;
+          @include justify-content-center;
           h1{
+            width: 50%;
             padding: 5px 10px 5px 10px;
             border: 1px solid $fourth-color;
             background-color : $fourth-color;
@@ -118,9 +123,10 @@ header{
           p{
             font-size: 200%;
             @include self-text-align;
-            color: $tertiary-color;
+            color: $primary-color;/////////////
             @include flex-wrap;
-            line-height: 120%;           
+            line-height: 120%;  
+            padding: 0px 20px 0px 20px;         
         }  
       }
       }
