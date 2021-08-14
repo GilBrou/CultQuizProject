@@ -162,23 +162,23 @@
         },
         {
           "text":"Quel est la fin de cette réplique culte : ''Je ne vous mentirai pas sur vos chances de survie mais...",
-          "choices":["vous allez périr''","C'était pas une gastro''", "vous avez intéret de courir''", "vous avez ma sympathie''"],
+          "choices":["vous allez vous en sortir''","C'était pas une gastro''", "vous avez intéret de courir''", "vous avez ma sympathie''"],
           "answer":"vous avez ma sympathie''"
         },
                                 {
-          "text":"Quel est le titre Québécois d' ''Alien : le huitième passager'' ?",
+          "text":"Quel est le titre Québécois d' Alien : le huitième passager ?",
           "choices":["Alien : le passager clandestin","L’Étranger : le huitième passager", "L'Extraterrestre : le huitième passager", "Alien : le huitième voyageur"],
           "answer":"L’Étranger : le huitième passager"
         },
         {
-          "text":"",
-          "choices":["","", "", ""],
-          "answer":""
+          "text":"Ce premier volet de la saga à été réalisé par :",
+          "choices":["Ridley Scott","David Fincher", "Jean-Pierre Jeunet", "James Cameron"],
+          "answer":"Ridley Scott"
         },
         {
-          "text":"",
-          "choices":["","", "", ""],
-          "answer":""
+          "text":" à certains moments, pour accentuer à l'écran le gigantisme des lieux, le réalisateur à eu l'idée de :",
+          "choices":["Construire des décors cinq fois plus gros que nécéssaire","Filmer les acteurs avec des objectifs à focale courtes", "Rajouter énormément de fumée", "Remplacer les acteurs par des enfants"],
+          "answer":"Remplacer les acteurs par des enfants"
         },
         {
           "text":"",
