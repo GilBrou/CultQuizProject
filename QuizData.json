@@ -127,7 +127,7 @@
       "questions":[
         {
           "text":"Comment s'appelle l'intelligence artificielle du Nostromo ?",
-          "choices":["Ash","Maman", "Papa", "LV-426"],
+          "choices":["Hal-9000","Maman", "Papa", "LV-426"],
           "answer":"Maman"
         },
         {
@@ -146,8 +146,8 @@
           "answer":"Un androïde"
         },
         {
-          "text":"Ellen Ripley possède le grade de",
-          "choices":["Navigatrice","Capitaine", "chef-ingénieur", "Lieutenant"],
+          "text":"Ellen Ripley possède le grade de :",
+          "choices":["Navigatrice","Capitaine", "Chef-ingénieur", "Lieutenant"],
           "answer":"Lieutenant"
         },
                         {
@@ -161,9 +161,9 @@
           "answer":"Jones, le chat"
         },
         {
-          "text":"",
-          "choices":["","", "", ""],
-          "answer":""
+          "text":"Quel est la fin de cette réplique culte : ''Je ne vous mentirai pas sur vos chances de survie mais...",
+          "choices":["vous allez périr","C'était pas une gastro", "vous avez intéret de courir", "vous avez ma sympathie"],
+          "answer":"vous avez ma sympathie"
         },
                                 {
           "text":"",
