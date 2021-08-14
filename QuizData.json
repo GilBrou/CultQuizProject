@@ -131,24 +131,24 @@
           "answer":"Maman"
         },
         {
-          "text":"",
-          "choices":["","", "", ""],
-          "answer":""
+          "text":"Quel artiste est à l'origine du design du Xénomorphe ?",
+          "choices":["H.R Giger","H.P Lovecraft", "H.G wells", "H.P. Blavatsky"],
+          "answer":"H.R Giger"
         },
         {
-          "text":"",
-          "choices":["","", "", ""],
-          "answer":""
+          "text":"Les oeufs d'alien non fécondés donnent naissance aux :",
+          "choices":["Face-diggers","Chest-busters", "Flesh-eaters", "Face-huggers"],
+          "answer":"Face-huggers"
         },
                         {
-          "text":"",
-          "choices":["","", "", ""],
-          "answer":""
+          "text":"Ash, l'officier scientifique du Nostromo, est en vérité :",
+          "choices":["Un extraterrestre","Bilbon Sacquet", "Un androïde", "Un clone"],
+          "answer":"Un androïde"
         },
         {
-          "text":"",
-          "choices":["","", "", ""],
-          "answer":""
+          "text":"Ellen Ripley possède le grade de",
+          "choices":["Navigatrice","Capitaine", "chef-ingénieur", "Lieutenant"],
+          "answer":"Lieutenant"
         },
                         {
           "text":"",
