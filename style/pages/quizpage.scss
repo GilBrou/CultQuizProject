@@ -15,6 +15,7 @@
     background-color: rgba(255, 255, 255, 0.7);
     border-radius: 20px;
     color: $tertiary-color;
+     @include truemobile-style{border-radius: 0px;}
   }
   @include truemobile-style{
     border-radius: 0px;
@@ -208,20 +209,10 @@ main{
     margin: 0;
     //@include just-flex;
     flex : 1;
+  }  
+  @include mobile-style{
+  padding: 0px 30px 0px 30px;
   }
-  /*
-  @include mobile-style{p{ font-size : 120%;}}
-  @include tablet-style{
-    @include flex-column;
-    .h2-quiz, .h3-quiz{
-      margin: 0;
-      -webkit-box-flex: 1;
-          -ms-flex: 1;
-              flex: 1;
-  }
-
-}
-*/
 }
 
  

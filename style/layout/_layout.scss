@@ -119,7 +119,10 @@ header{
             background-color : $fourth-color;
             color: $primary-color;
             border-radius: 5px;
-            @include self-text-align;    
+            @include self-text-align; 
+            @include truemobile-style{
+              width: 80%; 
+            }   
           }
           p{
             font-size: 200%;
@@ -127,7 +130,10 @@ header{
             color: $primary-color;/////////////
             @include flex-wrap;
             line-height: 120%;  
-            padding: 0px 20px 0px 20px;         
+            padding: 0px 20px 0px 20px; 
+            @include truemobile-style{
+              font-size: 150%;           
+            }        
         }  
       }
       }
