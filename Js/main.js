@@ -26,8 +26,6 @@ const main = async () =>{
 
     //Create Dom elements from Photographers
     newQuizCard.createAndDisplayQuizCards(main);
-    let haha = newQuizCard.scoreReact;
-    console.log(haha);
   };
 
 

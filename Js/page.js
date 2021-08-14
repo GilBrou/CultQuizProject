@@ -82,15 +82,23 @@ const page = async () =>{
 
       const modalbg = document.querySelector(".bground2"); 
       const scoreReact = document.querySelector(".reaction");
-      reaction = `<h1>Score de : ${quiz.score} / ${quiz.questions.length}</h1> + '<br>' + 'coucou coucou coucou coucou coucou coucou coucou'`;
+      let ReactBad = selectedQuiz.scoreReact[0];
+      let ReactGood = selectedQuiz.scoreReact[1];
+      if(quiz.score < 10){
+        console.log(quiz.score);
+        reaction = `Score de : ${quiz.score} / ${quiz.questions.length}<br>` + ReactBad;
+      } else {
+        reaction = `Score de : ${quiz.score} / ${quiz.questions.length}<br>`  + ReactGood;
+
+      }
+      
       scoreReact.innerHTML = reaction;
-      modalbg2.style.display = "block";
+      modalbg.style.display = "block";
       //close second modal
       function closeModal() {modalbg.style.display = "none";}
 
       //Automatically close modal
-      //setTimeout(closeModal, 3500);
-    }
+      //setTimeout(closeModal, 3000);
 
 
     },
