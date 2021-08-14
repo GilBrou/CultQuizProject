@@ -181,9 +181,9 @@
           "answer":"Remplacer les acteurs par des enfants"
         },
         {
-          "text":"",
-          "choices":["","", "", ""],
-          "answer":""
+          "text":"Le film à gagné l'oscar :",
+          "choices":["Des meilleurs effets visuels","Des meilleurs décors", "Du meilleur réalisateur", "Des meilleurs costumes"],
+          "answer":"Des meilleurs effets visuels"
         },
         {
           "text":"",
