@@ -112,9 +112,10 @@
 		@include justify-content-center;
 		.main-QuizCard{
 			width: 90%;
+			min-width: 276px;
 			margin: auto;
 			.thatQuiz{
-				width: 90%;
+				width: 85%;
 				margin: auto;
 				.portrait{}
 				.name{font-size: 300%;}

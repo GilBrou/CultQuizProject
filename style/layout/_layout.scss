@@ -1,7 +1,8 @@
 /////HEADER/////
 
 header{
-  width: 95%;
+  //width: 95%;
+  width: 100vw;
   max-width: 1300px;
   padding:1px;
   margin: auto;
@@ -112,13 +113,13 @@ header{
           @include flex-column;
           @include justify-content-center;
           h1{
-            width: 50%;
+            width: 60%;            
             padding: 5px 10px 5px 10px;
             border: 1px solid $fourth-color;
             background-color : $fourth-color;
             color: $primary-color;
             border-radius: 5px;
-            @include self-text-align;
+            @include self-text-align;    
           }
           p{
             font-size: 200%;
@@ -131,9 +132,14 @@ header{
       }
       }
       @include mobile-style{max-width: 480px;}
-      @include truemobile-style{max-width: 450px;}          
+      @include truemobile-style{
+        //max-width: 450px;
+        max-width: 80vw;
+        min-width: 298px;;
+            }
+      }          
     }
-}
+
 .content2{
       height: 100%;
       max-height: 500px;
