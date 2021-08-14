@@ -196,9 +196,9 @@
           "answer":"The Who"
         },
         {
-          "text":"Savez vous pourquoi, dans l'introduction, les lettres du titre ne sont composées que de simples traits avant d'apparaître plus clairement ?",
-          "choices":["Parce que c'est hyper classe","Parce que les sept traits font référence au nombre de fois où le mot ''Shit'' est pronomcé", "Parce que les sept traits annoncent le nombre de morts du film", "Parce que les sept traits indiquent le nombre de mois de tournage"],
-          "answer":"Parce que les sept traits annoncent le nombre de morts du film"
+          "text":"Savez vous pourquoi, dans l'introduction, le titre n'est composé que de sept lignes avant d'apparaître plus clairement ?",
+          "choices":["Parce que c'est hyper classe","En référence au nombre de fois où le mot ''Shit'' est pronomcé", "Pour annoncer le nombre de morts du film", "Afin d'indiquer le nombre de suites originellement prévues"],
+          "answer":"Pour annoncer le nombre de morts du film"
         },
         {
           "text":"",
