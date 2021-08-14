@@ -193,28 +193,31 @@ main{
   @include justify-content-center;
   p{ font-size : 120%;}
   .h2-quiz{
-      /*@include just-flex;*/
-      /*flex : 3;*/
+      @include just-flex;
+      flex : 3;
+      text-align: end;
       /*color: $fourth-color;*/
       color: white;
       margin: 0;
-      @include self-text-align;
+      //@include self-text-align;
   }
   .h3-quiz{
     margin: 0;
     margin-left: 10px;
-    @include self-text-align;
-      /*@include just-flex;*/
-      /*flex : 1;*/
+    //@include self-text-align;
+    align-self: flex-end;
+    text-align: start;
+      @include just-flex;
+      flex : 1;
   }
   @include mobile-style{p{ font-size : 120%;}}
-@include tablet-style{
-  @include flex-column;
-  .h2-quiz, .h3-quiz{
-    margin: 0;
-    -webkit-box-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
+  @include tablet-style{
+    @include flex-column;
+    .h2-quiz, .h3-quiz{
+      margin: 0;
+      -webkit-box-flex: 1;
+          -ms-flex: 1;
+              flex: 1;
   }
 
 }

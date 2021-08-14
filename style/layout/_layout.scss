@@ -105,12 +105,24 @@ header{
         -ms-grid-row-align: center;
         align-self: center;
         @include justify-content-center;
-        p{
-          margin: 50px 0px 50px 0px;
-          @include self-text-align;
-          color: $tertiary-color;
-          font-size: auto;
+        .reaction{
+          padding: 10px;
+          h1{
+            padding: 5px 10px 5px 10px;
+            border: 1px solid $fourth-color;
+            background-color : $fourth-color;
+            color: $primary-color;
+            border-radius: 5px;
+            @include self-text-align;
+          }
+          p{
+            font-size: 200%;
+            @include self-text-align;
+            color: $tertiary-color;
+            @include flex-wrap;
+            line-height: 120%;           
         }  
+      }
       }
       @include mobile-style{max-width: 480px;}
       @include truemobile-style{max-width: 450px;}          

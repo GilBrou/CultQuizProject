@@ -86,9 +86,9 @@ const page = async () =>{
       let ReactGood = selectedQuiz.scoreReact[1];
       if(quiz.score < 10){
         console.log(quiz.score);
-        reaction = `Score de : ${quiz.score} / ${quiz.questions.length}<br>` + ReactBad;
+        reaction = `<h1>Score de : ${quiz.score} / ${quiz.questions.length}</h1><br><p>` + ReactBad + `</p><br>`;
       } else {
-        reaction = `Score de : ${quiz.score} / ${quiz.questions.length}<br>`  + ReactGood;
+        reaction = `<h1>Score de : ${quiz.score} / ${quiz.questions.length}</h1><br><p>` + ReactGood + `</p><br>`;
 
       }
       
@@ -98,7 +98,7 @@ const page = async () =>{
       function closeModal() {modalbg.style.display = "none";}
 
       //Automatically close modal
-      //setTimeout(closeModal, 3000);
+      setTimeout(closeModal, 3000);
 
 
     },
