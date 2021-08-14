@@ -206,14 +206,14 @@
           "answer":""
         },
         {
-          "text":"",
-          "choices":["","", "", ""],
-          "answer":""
+          "text":"Au fait, quel était la mission du Nostromo avant que tout ne parte en sucette ?",
+          "choices":["La recherche de vie extraterrestre","La vente d'armes", "L'acheminement de minerai", "La surveillance de colonies spatiales"],
+          "answer":"L'acheminement de minerai"
         },
         {
-          "text":"",
-          "choices":["","", "", ""],
-          "answer":""
+          "text":"Pourquoi les membres du vaisseau partent-il à la recherche de la source du mystérieux signal ?",
+          "choices":["Parce ce qu'ils sont serviables","Parce qu'ils pensent trouver une technologie avancée", "Pour trouver des matériaux afin de réparer le Nostromo", "Parce qu'ils y sont obligé par contrat"],
+          "answer":"Parce qu'ils y sont obligé par contrat"
         },
         {
           "text":"Comment Ripley se débarasse-t-elle de l'Alien à la fin du film ?",
