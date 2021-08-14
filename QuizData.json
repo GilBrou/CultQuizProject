@@ -151,7 +151,7 @@
           "answer":"Lieutenant"
         },
                         {
-          "text":"Quel acteur à eu le plaisir d'être le premier à avoir la poitrine déchiquetée par un Chest-buster ?",
+          "text":"Quel acteur a eu le plaisir d'être le premier à avoir la poitrine déchiquetée par un Chest-buster ?",
           "choices":["Tom Skerrit","John Hurt", "Ian Holm", "Harry Dean Stanton"],
           "answer":"John Hurt"
         },
@@ -162,7 +162,7 @@
         },
         {
           "text":"Quel est la fin de cette réplique culte : ''Je ne vous mentirai pas sur vos chances de survie mais...",
-          "choices":["vous allez vous en sortir''","C'était pas une gastro''", "vous avez intéret de courir''", "vous avez ma sympathie''"],
+          "choices":["vous allez vous en sortir''","C'était pas une gastro''", "vous avez intérêt de courir''", "vous avez ma sympathie''"],
           "answer":"vous avez ma sympathie''"
         },
                                 {
@@ -176,8 +176,8 @@
           "answer":"Ridley Scott"
         },
         {
-          "text":" à certains moments, pour accentuer à l'écran le gigantisme des lieux, le réalisateur à eu l'idée de :",
-          "choices":["Construire des décors cinq fois plus gros que nécéssaire","Filmer les acteurs avec des objectifs à focale courtes", "Rajouter énormément de fumée", "Remplacer les acteurs par des enfants"],
+          "text":" À certains moments, pour accentuer à l'écran le gigantisme des lieux, le réalisateur à eu l'idée de :",
+          "choices":["Construire des décors cinq fois plus gros que nécessaire","Filmer les acteurs avec des objectifs à focale courtes", "Rajouter énormément de fumée", "Remplacer les acteurs par des enfants"],
           "answer":"Remplacer les acteurs par des enfants"
         },
         {
@@ -197,7 +197,7 @@
         },
         {
           "text":"Savez vous pourquoi, dans l'introduction, le titre n'est composé que de sept lignes avant d'apparaître plus clairement ?",
-          "choices":["Sans raisons, c'est juste hyper classe","En référence au nombre de fois où le mot ''Shit'' est pronomcé", "Pour annoncer le nombre de morts du film", "Afin d'indiquer le nombre de suites originellement prévues"],
+          "choices":["Sans raisons, c'est juste hyper classe","En référence au nombre de fois où le mot ''Shit'' est prononcé", "Pour annoncer le nombre de morts du film", "Afin d'indiquer le nombre de suites originellement prévues"],
           "answer":"Pour annoncer le nombre de morts du film"
         },
         {
@@ -216,12 +216,12 @@
           "answer":"Parce qu'ils y sont obligé par contrat"
         },
         {
-          "text":"Comment Ripley se débarasse-t-elle de l'Alien à la fin du film ?",
+          "text":"Comment Ripley se débarrasse-t-elle de l'Alien à la fin du film ?",
           "choices":["En l'expulsant hors de la navette","En lui tirant une balle dans la bouche", "En lui tirant sur le doigt", "En le carbonisant grâce à son lance-flammes"],
           "answer":"En l'expulsant hors de la navette"
         },                                                                                
         {
-          "text":"Comment s'apelle la compagnie pour laquelle travaillent Ripley et ses compagnons ?",
+          "text":"Comment s'appelle la compagnie pour laquelle travaillent Ripley et ses compagnons ?",
           "choices":["La Weyland-Yutani Corporation","Le Weyland Consortium", "La Leland-Tiffany Bakery", "La Yutani Incorporated"],
           "answer":"La Weyland-Yutani Corporation"
         }
