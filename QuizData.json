@@ -162,8 +162,8 @@
         },
         {
           "text":"Quel est la fin de cette réplique culte : ''Je ne vous mentirai pas sur vos chances de survie mais...",
-          "choices":["vous allez périr","C'était pas une gastro", "vous avez intéret de courir", "vous avez ma sympathie"],
-          "answer":"vous avez ma sympathie"
+          "choices":["vous allez périr''","C'était pas une gastro''", "vous avez intéret de courir''", "vous avez ma sympathie''"],
+          "answer":"vous avez ma sympathie''"
         },
                                 {
           "text":"",
