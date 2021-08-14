@@ -119,10 +119,7 @@
       "tags": ["films", "a80"],
       "punchLine": "Vos voisins, eux, risquent de vous entendre crier.",
       "taunt": "Alors on se prend pour Ripley ?",
-      "scoreReact" : [
-        "",
-        "",
-      ],
+      "scoreReact" : ["","",],
       "questions":[
         {
           "text":"",
@@ -143,7 +140,7 @@
       "tags": ["series", "a00"],
       "punchLine": "Defeat is coming.",
       "taunt": "Intéréssé par le trône ?",
-        "scoreReact" : [
+      "scoreReact" : [
         "Tu ne sais rien, Jean Neige !",
         "Tes connaissances impressionnantes feraient même trembler Daenerys du Typhon de la Maison Targaryen,première du nom, Reine des Andals, de Rhoynar et des Premiers Hommes, Suzeraine des Sept Couronnes et Protectrice du Royaume, Dame de Peyredragon, Reine de Meereen, Khaleesi de la Grande Mer herbeuse...",
       ],

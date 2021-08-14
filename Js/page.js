@@ -75,9 +75,24 @@ const page = async () =>{
       }
       endQuizHTML = `<h1>Quiz terminé !<br>Votre score est de : ${quiz.score} / ${quiz.questions.length} </h1>`;
       this.elementShown("quiz", endQuizHTML + getResults()/* + endQuizHTML3*/);
+      
       /*var elements = document.getElementById("quiz");
       console.log(elements);
       elements.innerHTML = elements.innerHTML.replace(/,/g,'');*/
+
+      const modalbg = document.querySelector(".bground2"); 
+      const scoreReact = document.querySelector(".reaction");
+      reaction = `<h1>Score de : ${quiz.score} / ${quiz.questions.length}</h1>`;
+      scoreReact.innerHTML = reaction;
+      modalbg2.style.display = "block";
+      //close second modal
+      function closeModal() {modalbg.style.display = "none";}
+
+      //Automatically close modal
+      //setTimeout(closeModal, 3500);
+    }
+
+
     },
     question: function(){this.elementShown("question", quiz.getCurrentQuestion().text);},
     choices: function(){

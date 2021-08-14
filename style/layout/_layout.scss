@@ -66,6 +66,66 @@ header{
   }*/
 }
 
+/*///CONTACT MODALS/////*/
+
+.bground2{
+  display: none;
+  position: fixed;
+  z-index: 100;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  background-color: blue;//$around-modal-bg-color;
+    .content2{
+      margin: 5% auto;
+      width: 100%;
+      max-width: 500px;
+      -webkit-animation-name: modalopen;
+      animation-name: modalopen;
+      -webkit-animation-duration: 0.8s;
+      animation-duration: 0.8s;
+      background: $primary-color;
+      border-radius: 5px;
+      overflow: hidden;
+      position: relative;
+      padding-top: 20px;
+      p{
+        line-height: 90%;
+        font-size: 250%;
+        text-align: left;
+        padding-left: 15px;
+        font-weight: 600;
+      }    
+      .modal-body2{
+        padding: 50px;
+        margin: 15px auto;
+        -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+        @include justify-content-center;
+        p{
+          margin: 50px 0px 50px 0px;
+          @include self-text-align;
+        }  
+      }
+      @include mobile-style{max-width: 480px;}
+      @include truemobile-style{max-width: 450px;}          
+    }
+}
+.content2{
+      height: 100%;
+      max-height: 500px;
+      @include just-flex;
+      @include justify-content-center;
+      top: 40%;
+      -webkit-transform: translateY(-40%);
+      -ms-transform: translateY(-40%);
+      transform: translateY(-40%);
+}
+
+
 
 /////FOOTER/////
 footer{
