@@ -221,9 +221,9 @@
           "answer":"En l'expulsant hors de la navette"
         },                                                                                
         {
-          "text":"",
-          "choices":["","", "", ""],
-          "answer":""
+          "text":"Comment s'apelle la compagnie pour laquelle travaillent Ripley et ses compagnons ?",
+          "choices":["La Weyland-Yutani Corporation","Le Weyland Consortium", "La Leland-Tiffany Bakery", "La Yutani Incorporated"],
+          "answer":"La Weyland-Yutani Corporation"
         }
 
       ]
