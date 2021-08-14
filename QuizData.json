@@ -151,14 +151,14 @@
           "answer":"Lieutenant"
         },
                         {
-          "text":"",
-          "choices":["","", "", ""],
-          "answer":""
+          "text":"Quel acteur à eu le plaisir d'être le premier à avoir la poitrine déchiquetée par un Chest-buster ?",
+          "choices":["Tom Skerrit","John Hurt", "Ian Holm", "Harry Dean Stanton"],
+          "answer":"John Hurt"
         },
         {
-          "text":"",
-          "choices":["","", "", ""],
-          "answer":""
+          "text":"Quel animal est à bord du vaisseau, parvenant même à survivre à l'Alien ?",
+          "choices":["Mary, le furet","Jones, le chat", "Indiana, le chien", "Bob, la souris"],
+          "answer":"Jones, le chat"
         },
         {
           "text":"",
