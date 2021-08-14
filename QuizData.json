@@ -201,8 +201,8 @@
           "answer":"Pour annoncer le nombre de morts du film"
         },
         {
-          "text":"",
-          "choices":["","", "", ""],
+          "text":" Veronica Cartwright, qui joue le rôle de Lambert, devait à l'origine interpréter Ellen Ripley. Elle a appris ce changement lors :",
+          "choices":["De la seconde semaine de tournage","Des essais de costumes", "D'un rendez-vous avec Ridley Scott, un jour avant le début du tournage", "De la réédition DVD"],
           "answer":""
         },
         {
@@ -216,9 +216,9 @@
           "answer":""
         },
         {
-          "text":"",
-          "choices":["","", "", ""],
-          "answer":""
+          "text":"Comment Ripley se débarasse-t-elle de l'Alien à la fin du film ?",
+          "choices":["En l'expulsant hors de la navette","En lui tirant une balle dans la bouche", "En lui tirant sur le doigt", "En le carbonisant grâce à son lance-flammes"],
+          "answer":"En l'expulsant hors de la navette"
         },                                                                                
         {
           "text":"",
