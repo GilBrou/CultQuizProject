@@ -166,7 +166,7 @@
           "answer":"vous avez ma sympathie''"
         },
                                 {
-          "text":"Quel est le titre Québécois d' Alien : le huitième passager ?",
+          "text":"Quel est le titre Québécois d'Alien : le huitième passager ?",
           "choices":["Alien : le passager clandestin","L’Étranger : le huitième passager", "L'Extraterrestre : le huitième passager", "Alien : le huitième voyageur"],
           "answer":"L’Étranger : le huitième passager"
         },
@@ -191,7 +191,7 @@
           "answer":"Star Beast"
         },
         {
-          "text":"La machine à fumée utilisée pendant le tournage à été emprunté à quel groupe de rock ?",
+          "text":"La machine à fumée utilisée pendant le tournage à été empruntée à quel groupe de rock ?",
           "choices":["Pink Floyd","The Who", "The BB Brunes", "The Rolling Stones"],
           "answer":"The Who"
         },
