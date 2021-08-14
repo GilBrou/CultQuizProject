@@ -133,6 +133,7 @@
 	    			margin: 0px 10px 10px 10px;
 	    		}
 	    	}
+	    	@include truemobile-style{width: 98%;}
 	    }
 		}
 	}

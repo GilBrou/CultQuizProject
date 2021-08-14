@@ -18,8 +18,8 @@
         },
         {
           "text":"Lorsque le joueur de bonneteau escroque Karadoc, il explique à celui-ci qu'il est imbattable car il possède...",
-          "choices":["La vision de l'aigle","L'oeil de lynx", "L'oeil de truite", "L'oeil de taupe"],
-          "answer":"L'oeil de taupe"
+          "choices":["La vision de l'aigle","l’œil de lynx", "L'œil de truite", "L'œil de taupe"],
+          "answer":"L'œil de taupe"
         },
         {
           "text":"Selon Lancelot, ce ne serait pas bon pour son autorité que ses soldats apprennent qu'il est...",
@@ -39,8 +39,8 @@
         },
         {
           "text":"Que demande Seli à Ygerne et Cryda : C'est des claques dans le museau qu'elles cherchent, les...?",
-          "choices":["Soeurs Tape-Dur","Soeurs Sourire", "Soeurs Casse-Burne", "Soeurs Pécores"],
-          "answer":"Soeurs Tape-Dur"
+          "choices":["Sœurs Tape-Dur","Sœurs Sourire", "Sœurs Casse-Burne", "Sœurs Pécores"],
+          "answer":"Sœurs Tape-Dur"
         },
         {
           "text":"Comment s'appelle le compagnon sur lequel Arthur refuse de taper au début du livre VI ?",
@@ -59,7 +59,7 @@
         },
         {
           "text":"Afin de la courtiser, qu'offre Arthur à la jeune fille qui ne sait pas qui il est ?",
-          "choices":["Un poème","884 charettes de bouse", "Une fleur", "Une place au château"],
+          "choices":["Un poème","884 charrettes de bouse", "Une fleur", "Une place au château"],
           "answer":"Une fleur" 
         },
         {
@@ -79,7 +79,7 @@
         },
         {
           "text":"Avec qui Arthur a-t-il eu un enfant ?",
-          "choices":["La fille de Roparzh","La soeur du tavernier", "La fille de Gethenoc", "L'une des jumelles du pêcheur"],
+          "choices":["La fille de Roparzh","La sœur du tavernier", "La fille de Gethenoc", "L'une des jumelles du pêcheur"],
           "answer":"La fille de Gethenoc" 
         },
         {
@@ -104,7 +104,7 @@
         },
         {
           "text":"Lorsque Léodagan et son père Goustan se moquent du roi, quels surnoms lui trouvent-il ?",
-          "choices":["Le brave, l'agréable, le molasson et le mignonet","Le bon, le jovial, le gland et le jardinier", "L'aimable, le juste, le faiblard et le ramolli", "Le bon, le sympathique, le mou et le gentillet"],
+          "choices":["Le brave, l'agréable, le mollasson et le mignonet","Le bon, le jovial, le gland et le jardinier", "L'aimable, le juste, le faiblard et le ramolli", "Le bon, le sympathique, le mou et le gentillet"],
           "answer":"Le bon, le sympathique, le mou et le gentillet" 
         },
         {
@@ -121,12 +121,12 @@
       "punchLine": "Vos voisins, eux, risquent de vous entendre crier.",
       "taunt": "Vous pensez pouvoir rivaliser avec Ripley ?",
       "scoreReact" : [
-        "Vous êtes du genre à regarder au fond de l'oeuf gluant découvert sur une planète inconnue, non? ",
+        "Vous êtes du genre à regarder au fond de l'œuf gluant découvert sur une planète inconnue, non? ",
         "Avec vous, le Xénomorphe finit grillé à point au lance-flamme, bravo !"
       ],
       "questions":[
         {
-          "text":"Comment s'apelle l'intelligence artificielle du Nostromo ?",
+          "text":"Comment s'appelle l'intelligence artificielle du Nostromo ?",
           "choices":["Ash","Maman", "Papa", "LV-426"],
           "answer":"Maman"
         },
@@ -146,7 +146,7 @@
       "taunt": "Intéréssé par le trône ?",
       "scoreReact" : [
         "Tu ne sais rien, Jean Neige !",
-        "Tes connaissances impressionnantes feraient même trembler Daenerys du Typhon de la Maison Targaryen,première du nom, Reine des Andals, de Rhoynar et des Premiers Hommes, Suzeraine des Sept Couronnes et Protectrice du Royaume, Dame de Peyredragon, Reine de Meereen, Khaleesi de la Grande Mer herbeuse..."
+        "Tes connaissances impressionnantes feraient même trembler Daenerys du Typhon de la Maison Targaryen, première du nom, Reine des Andals, de Rhoynar et des Premiers Hommes, Suzeraine des Sept Couronnes et Protectrice du Royaume, Dame de Peyredragon, Reine de Meereen, Khaleesi de la Grande Mer herbeuse..."
       ],
       "questions":[
         {

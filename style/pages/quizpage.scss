@@ -15,7 +15,6 @@
     background-color: rgba(255, 255, 255, 0.7);
     border-radius: 20px;
     color: $tertiary-color;
-     @include truemobile-style{border-radius: 0px;}
   }
   @include truemobile-style{
     border-radius: 0px;
