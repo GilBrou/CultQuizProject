@@ -162,7 +162,7 @@
         },
         {
           "text":"Quel est la fin de cette réplique culte : ''Je ne vous mentirai pas sur vos chances de survie mais...",
-          "choices":["vous allez vous en sortir ''","C'était pas une gastro ''", "vous avez intérêt de courir ''", "vous avez ma sympathie ''"],
+          "choices":["vous allez vous en sortir ''","c'était pas une gastro ''", "vous avez intérêt de courir ''", "vous avez ma sympathie ''"],
           "answer":"vous avez ma sympathie''"
         },
                                 {
@@ -203,7 +203,7 @@
         {
           "text":" Veronica Cartwright, qui joue le rôle de Lambert, devait à l'origine interpréter Ellen Ripley. Elle a appris ce changement lors :",
           "choices":["De la seconde semaine de tournage","Des essais de costumes", "D'un rendez-vous avec Ridley Scott, un jour avant le début du tournage", "De la réédition DVD"],
-          "answer":""
+          "answer":"Des essais de costumes"
         },
         {
           "text":"Au fait, quel était la mission du Nostromo avant que tout ne parte en sucette ?",
