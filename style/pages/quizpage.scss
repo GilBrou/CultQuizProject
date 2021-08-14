@@ -16,6 +16,10 @@
     border-radius: 20px;
     color: $tertiary-color;
   }
+  @include truemobile-style{
+    border-radius: 0px;
+    width: 100vw;
+  }
 }
 
 .bannerKaamelott{
