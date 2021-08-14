@@ -121,8 +121,8 @@
       "punchLine": "Vos voisins, eux, risquent de vous entendre crier.",
       "taunt": "Alors on se prend pour Ripley ?",
       "scoreReact" : [
-        "",
-        ""
+        "Vous êtes du genre à regarder au fond de l'oeuf gluant découvert sur une planète inconnue, non? ",
+        "Avec vous, le Xénomorphe finit grillé à point au lance-flamme, bravo !"
       ],
       "questions":[
         {
