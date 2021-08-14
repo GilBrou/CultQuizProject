@@ -191,14 +191,14 @@
           "answer":"Star Beast"
         },
         {
-          "text":"",
-          "choices":["","", "", ""],
-          "answer":""
+          "text":"La machine à fumée utilisée pendant le tournage à été emprunté à quel groupe de rock ?",
+          "choices":["Pink Floyd","The Who", "The BB Brunes", "The Rolling Stones"],
+          "answer":"The Who"
         },
         {
-          "text":"",
-          "choices":["","", "", ""],
-          "answer":""
+          "text":"Savez vous pourquoi, dans l'introduction, les lettres du titre ne sont composées que de simples traits avant d'apparaître plus clairement ?",
+          "choices":["Parce que c'est hyper classe","Parce que les sept traits font référence au nombre de fois où le mot ''Shit'' est pronomcé", "Parce que les sept traits annoncent le nombre de morts du film", "Parce que les sept traits indiquent le nombre de mois de tournage"],
+          "answer":"Parce que les sept traits annoncent le nombre de morts du film"
         },
         {
           "text":"",
