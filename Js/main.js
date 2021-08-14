@@ -40,7 +40,7 @@ const main = async () =>{
 
     element.addEventListener("click", function (event) {
       let targetId = element.id;
-      window.location.href = "QuizPage.html" + "?id=" + targetId;
+      window.location.href = "QuizPage.html";/*+ "?id=" + targetId;*/
     });
   }); 
 };
