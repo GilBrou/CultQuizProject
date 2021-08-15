@@ -571,11 +571,11 @@
       "name": "AHS",
       "id": "06",
       "tags": ["series"],
-      "punchLine": "C'est l'histoire de pleins de gens qui n'ont vraiment pas de bol...",
-      "taunt": "Vous pensez avoir les tripes pour ce quiz ?",
+      "punchLine": "Vous pensez avoir les tripes pour ce quiz ?",
+      "taunt": "Alors on veut sa petite dose d'hémoglobine ?",
       "scoreReact" : [
         "Vous deviez déjà être térrifié par le générique, non ?",
-        "D'accord, pour vous l'horreur est une seconde nature..."
+        "D'accord, pour vous l'horreur est une seconde nature...Il serait temps de s'en inquiéter."
       ],
       "questions":[
         {
@@ -684,10 +684,10 @@
       "name": "Fallout",
       "id": "07",
       "tags": ["jeux-video"],
-      "punchLine": "Les années cinquante...au 23ème siècle !",
-      "taunt": "Vous êtes vraiment S.P.E.C.I.A.L ?",
+      "punchLine": "Êtes-vous vraiment S.P.E.C.I.A.L ?",
+      "taunt": "Les années cinquante...au 23ème siècle, çe ne vous gêne pas ?",
       "scoreReact" : [
-        "Continuer de jouer à des jeux mobile, voulez-vous ?",
+        "Continuez plutôt de jouer à des jeux mobile, voulez-vous ?",
         "Vous en savez long, trop même...Vous êtes un proche du président Eden ?"
       ],
       "questions":[
