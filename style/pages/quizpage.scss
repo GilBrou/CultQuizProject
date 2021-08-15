@@ -22,27 +22,14 @@
   }
 }
 
-/*///Set up real urls for dynamic banners///////////////////////////////////////////////////////*/
-.bannerKaamelott{
-  background-image: url("../Ressources/Photos/QuizKaamelott.jpg");
-}
-.bannerAlien{
-  background-image: url("../Ressources/Photos/QuizAlien.jpg");
-}
-.bannerGOT{
-  background-image: url("../Ressources/Photos/QuizGOT.jpg");
-  background-position: 50% 17% ;   
-}
-.bannerFight_Club{
-  background-image: url("../Ressources/Photos/QuizFight_Club.jpg");
-  background-position: 50% 60% ;  
-}
+/////Restyling images/////
+
+.bannerAlien{background-position: 50% 17% ;}
+.bannerGame_Of_Thrones{background-position: 50% 17% ;}
+.bannerFight_Club{background-position: 50% 60%;}
 .bannerDisney{
-  background-image: url("../Ressources/Photos/QuizDisney.jpg");
   background-position: 50% 60% ; 
 }
-
-/*////////////////////////////////////////////////////////////////////////////////////////////////*/
 
 
 /*//////border logo/////*/

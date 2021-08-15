@@ -457,7 +457,7 @@
     {
       "name": "Disney",
       "id": "05",
-      "tags": ["series", "films", "animes"],
+      "tags": ["animes"],
       "punchLine": "Il vous reste quelques souvenirs d'enfance ?",
       "taunt": "Vous pensez vraiment connaître la firme aux presque cent ans d'existence ?",
       "scoreReact" : [

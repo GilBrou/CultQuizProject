@@ -67,7 +67,10 @@ class quizCard {
     let thisTaunt = document.querySelector(".taunt");
     thisTaunt.innerHTML = this.taunt;    
     let banner = document.querySelector(".banner");
-    banner.classList.add("banner" + this.name);     
+    banner.classList.add("banner" + this.name);
+    let backGroundUrl = "url(././Ressources/Photos/" + "Quiz" + this.name +".jpg)";
+    console.log(backGroundUrl);
+    banner.style.backgroundImage = backGroundUrl;
   }
 
 }

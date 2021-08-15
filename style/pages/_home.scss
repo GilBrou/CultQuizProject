@@ -39,7 +39,7 @@
 							pointer-events: none;
 			    		margin: 10px 0px 15px 0px; 
 			    		color: $tertiary-color;
-			    		font-size: 240%;
+			    		font-size: 175%;
 						}
 						.tags{display:none;}
 				}
@@ -94,13 +94,13 @@
 						.thatQuiz{
 							width: 70vw;
 							margin: auto;
-								.name{font-size: 300%;}
+								//.name{font-size: 300%;}
 						}	   		
 	  				.line-container{
 	  					opacity : 1;		    	
 	  					width: 75vw;
 	  					margin: auto;
-	  					height: 360px;
+	  					//height: 360px;
 	    					.line-content{
 	    						width: 75vw;
 	    						padding-top: 70px;
@@ -123,18 +123,18 @@
 						.thatQuiz{
 							width: 85%;
 							margin: auto;
-								.name{font-size: 300%;}
+								//.name{font-size: 300%;}
 						}	   		
 	  				.line-container{
 	  					opacity : 1;	    	
 	  					width: 100%;
 	  					margin: auto;
-	  					height: 360px;
+	  					//height: 360px;
 	    					.line-content{
 	    						width: 100%;
 	    						padding-top: 70px;
 	    							p{
-	    								font-size: 105%;
+	    								font-size: 115%;
 	    								margin: 0px 10px 10px 10px;
 	    							}
 	    					}
