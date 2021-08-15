@@ -156,7 +156,7 @@
           "answer":"John Hurt"
         },
         {
-          "text":"Quel animal est à bord du vaisseau, parvenant même à survivre à l'Alien ?",
+          "text":"Quel animal est à bord du vaisseau, survivant même à l'Alien ?",
           "choices":["Un furet","Un chat", "Un chien", "Une souris"],
           "answer":"Un chat"
         },
@@ -171,12 +171,12 @@
           "answer":"L’Étranger : le huitième passager"
         },
         {
-          "text":"Ce premier volet de la saga à été réalisé par :",
+          "text":"Ce premier volet de la saga a été réalisé par :",
           "choices":["Ridley Scott","David Fincher", "Jean-Pierre Jeunet", "James Cameron"],
           "answer":"Ridley Scott"
         },
         {
-          "text":" À certains moments,  pour accentuer à l'écran le gigantisme des lieux,  le réalisateur à eu l'idée de :",
+          "text":" À certains moments,  pour accentuer à l'écran le gigantisme des lieux,  le réalisateur a eu l'idée de :",
           "choices":["Construire des décors cinq fois plus gros que nécessaire","Filmer les acteurs avec des objectifs à focale courtes", "Rajouter énormément de fumée", "Remplacer les acteurs par des enfants"],
           "answer":"Remplacer les acteurs par des enfants"
         },
@@ -191,7 +191,7 @@
           "answer":"Star Beast"
         },
         {
-          "text":"La machine à fumée utilisée pendant le tournage à été empruntée à quel groupe de rock ?",
+          "text":"La machine à fumée utilisée pendant le tournage a été empruntée à quel groupe de rock ?",
           "choices":["Pink Floyd","The Who", "Les BB Brunes", "The Rolling Stones"],
           "answer":"The Who"
         },
@@ -461,7 +461,7 @@
       "punchLine": "Il vous reste quelques souvenirs d'enfance ?",
       "taunt": "Vous pensez vraiment connaître la firme centenaire ?",
       "scoreReact" : [
-        "Manifestement, vôtre âme d'enfant s'est fait la malle il y à longtemps.",
+        "Manifestement, vôtre âme d'enfant s'est fait la malle il y a longtemps.",
         "Woaw ! Vous avez manifestement des actions chez Disney !"
       ],
       "questions":[
