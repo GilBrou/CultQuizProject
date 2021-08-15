@@ -1018,6 +1018,119 @@
           "answer":""
         }               
       ]
-    }     
+    } 
+    {
+      "name": "Dune",
+      "id": "10",
+      "tags": ["livres", "films"],
+      "punchLine": "Envie de goûter au Gom Jabbar des Atréïdes ?",
+      "taunt": "Vous affronterez ce quiz, vous lui permettrez de passer sur vous, mais lorsqu'il sera passé et que vous tournerez votre oeil intérieur sur son chemin, que restera-t-il ?",      
+      "scoreReact" : [
+        "Niveau dunes, vous êtes plutôt Grau-Du-Roi...",
+        "Félicitations, vous êtes le Kwisatz Haderach et vous avez triomphé de cette épreuve, aidé par les mémoires de vos ancêtres !"
+      ],
+      "questions":[
+        {
+          "text":"",
+          "choices":["","", "", ""],
+          "answer":""
+        },        
+        {
+          "text":"",
+          "choices":["","", "", ""],
+          "answer":""
+        },
+        {
+          "text":"",
+          "choices":["","", "", ""],
+          "answer":""
+        },
+                        {
+          "text":"",
+          "choices":["","", "", ""],
+          "answer":""
+        },
+        {
+          "text":"",
+          "choices":["","", "", ""],
+          "answer":""
+        },
+                        {
+          "text":"",
+          "choices":["","", "", ""],
+          "answer":""
+        },
+        {
+          "text":"",
+          "choices":["","", "", ""],
+          "answer":""
+        },
+        {
+          "text":"",
+          "choices":["","", "", ""],
+          "answer":""
+        },
+                                {
+          "text":"",
+          "choices":["","", "", ""],
+          "answer":""
+        },
+        {
+          "text":"",
+          "choices":["","", "", ""],
+          "answer":""
+        },
+        {
+          "text":"",
+          "choices":["","", "", ""],
+          "answer":""
+        },
+        {
+          "text":"",
+          "choices":["","", "", ""],
+          "answer":""
+        },
+        {
+          "text":"",
+          "choices":["","", "", ""],
+          "answer":""
+        },
+        {
+          "text":"",
+          "choices":["","", "", ""],
+          "answer":""
+        },
+        {
+          "text":"",
+          "choices":["","", "", ""],
+          "answer":""
+        },
+        {
+          "text":"",
+          "choices":["","", "", ""],
+          "answer":""
+        },
+        {
+          "text":"",
+          "choices":["","", "", ""],
+          "answer":""
+        },
+        {
+          "text":"",
+          "choices":["","", "", ""],
+          "answer":""
+        },
+        {
+          "text":"",
+          "choices":["","", "", ""],
+          "answer":""
+        },                                                                                
+        {
+          "text":"",
+          "choices":["","", "", ""],
+          "answer":""
+        }               
+      ]
+    }        
   ]
 }
