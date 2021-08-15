@@ -1,4 +1,4 @@
-/////Photographer Class/////
+/////Quiz's Cards Class/////
 class quizCard {
   constructor(name, id, tags, punchLine, taunt, scoreReact, questions){
     this.name = name;
@@ -10,7 +10,7 @@ class quizCard {
     this.questions = questions;
   }
 
-  //Create And Display into Dom Quiz's Cards
+  //////Create And Display into Dom Quiz's Cards
   createAndDisplayQuizCards(main){
 
     //Dom element creation
@@ -59,11 +59,9 @@ class quizCard {
     name.classList.add("name");
     lineContainer.classList.add("line-container");
     lineContent.classList.add("line-content");
-
-    /*nextStep();*/
   }
 
-  //Display Quiz's info into page Dom
+  //////Display Quiz's info into page Dom
   DisplayQuizInfos(page){    
     document.title ="cultQuiz" + " " + this.name;
     let thisTaunt = document.querySelector(".taunt");
@@ -75,7 +73,6 @@ class quizCard {
 }
 
 /////Question Class/////
-
   class Question {
     constructor(text, choices, answer) {
       this.text = text;
@@ -89,7 +86,6 @@ class quizCard {
 
 
 /////Quiz class/////
-
 class Quiz {
   constructor(questions) {
     this.score = 0;

@@ -1,7 +1,6 @@
-/////HEADER/////
+/*///HEADER/////*/
 
 header{
-  //width: 95%;
   width: 100vw;
   max-width: 1300px;
   padding:1px;
@@ -9,62 +8,59 @@ header{
   @include self-text-align;
   margin-bottom: 20px;
   @include flex-wrap;
-  #logo{
-    border-bottom: 4px solid $fourth-color;
-    border-radius: 2PX;
-    padding: 20px;
-    margin: auto;
-    @include just-flex;
-    @include justify-content-center;
-    flex-wrap: nowrap;
-    .logo{
+    #logo{
+      border-bottom: 4px solid $fourth-color;
+      border-radius: 2PX;
+      padding: 20px;
+      margin: auto;
+      @include just-flex;
+      @include justify-content-center;
+      -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
-      width: 100%;
-      height: 134px;
-      min-width: 225px;  
-      max-width : 400px;
-      @include truemobile-style{
-        min-width: 225px; 
-        //width: 225px; 
+      .logo{
+        -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
         width: 100%;
-        max-width: 400px; 
-        max-height: 134px; 
-        //height: 75.7px;
-        height: 100%;
-        min-height: 75.7px;
+        height: 134px;
+        min-width: 225px;  
+        max-width : 400px;
+        @include truemobile-style{
+          min-width: 225px; 
+          width: 100%;
+          max-width: 400px; 
+          max-height: 134px; 
+          height: 100%;
+          min-height: 75.7px;
+        }
       }
     }
-  }
-  .sub-logo{   
-    padding: 77px 0px 0px 20px;
-    font-size: 140%;
-    @include just-flex;
-    @include self-text-align;
-    color: $primary-color;
-    //color: white;
-    flex-wrap: nowrap;
-    @include mobile-style{font-size: 170%;}
-    @include truemobile-style{font-size: 130%;}
-  } 
-  nav{
-    z-index: 1;
-    padding: 20px;
-    @include just-flex;
-    @include justify-content-center;
-    @include self-text-align;
-    @include flex-wrap;
-  }  
-  @include tablet-style{
-    #logo{
-      @include flex-column;
+    .sub-logo{   
+      padding: 77px 0px 0px 20px;
+      font-size: 140%;
+      @include just-flex;
+      @include self-text-align;
+      color: $primary-color;
+      -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+      @include mobile-style{font-size: 170%;}
+      @include truemobile-style{font-size: 130%;}
+    } 
+    nav{
+      z-index: 1;
+      padding: 20px;
+      @include just-flex;
       @include justify-content-center;
-      .logo{@include self-text-align;}
-      .sub-logo{padding : 0;}
+      @include self-text-align;
+      @include flex-wrap;
+    }  
+    @include tablet-style{
+      #logo{
+        @include flex-column;
+        @include justify-content-center;
+        .logo{@include self-text-align;}
+        .sub-logo{padding : 0;}
+      }
     }
-  }
-   /*@include truemobile-style{
-    margin-top: 20px;
-  }*/
 }
 
 /*///CONTACT MODALS/////*/
@@ -87,10 +83,10 @@ header{
       animation-name: modalopen;
       -webkit-animation-duration: 0.8s;
       animation-duration: 0.8s;
-      background: $tertiary-color;//////////////////
-      border: 5px solid $primary-color;/////////////
+      background: $tertiary-color;
+      border: 5px solid $primary-color;
+      -webkit-box-shadow: 0 5px 20px 3px rgba(0, 0, 0, 0.6);
       box-shadow: 0 5px 20px 3px rgba(0, 0, 0, 0.6);
-
       border-radius: 5px;
       overflow: hidden;
       position: relative;
@@ -99,7 +95,6 @@ header{
         line-height: 90%;
         font-size: 250%;
         text-align: left;
-        //padding-left: 15px;
         font-weight: 600;
       }    
       .modal-body2{
@@ -112,34 +107,29 @@ header{
           padding: 10px;
           @include flex-column;
           @include justify-content-center;
-          h1{
-            width: 60%;            
-            padding: 5px 10px 5px 10px;
-            border: 1px solid $fourth-color;
-            background-color : $fourth-color;
-            color: $primary-color;
-            border-radius: 5px;
-            @include self-text-align; 
-            @include truemobile-style{
-              width: 80%; 
-            }   
-          }
-          p{
-            font-size: 200%;
-            @include self-text-align;
-            color: $primary-color;/////////////
-            @include flex-wrap;
-            line-height: 120%;  
-            padding: 0px 20px 0px 20px; 
-            @include truemobile-style{
-              font-size: 150%;           
-            }        
-        }  
-      }
+            h1{
+              width: 60%;            
+              padding: 5px 10px 5px 10px;
+              border: 1px solid $fourth-color;
+              background-color : $fourth-color;
+              color: $primary-color;
+              border-radius: 5px;
+              @include self-text-align; 
+              @include truemobile-style{width: 80%;}   
+            }
+            p{
+              font-size: 200%;
+              @include self-text-align;
+              color: $primary-color;
+              @include flex-wrap;
+              line-height: 120%;  
+              padding: 0px 20px 0px 20px; 
+              @include truemobile-style{font-size: 150%;}        
+            }  
+        }
       }
       @include mobile-style{max-width: 480px;}
       @include truemobile-style{
-        //max-width: 450px;
         max-width: 80vw;
         min-width: 298px;;
       }
@@ -159,11 +149,10 @@ header{
 
 
 
-/////FOOTER/////
+/*///FOOTER/////*/
 footer{
   border-top: 4px solid $fourth-color;
   border-radius: 2PX;
-  //width: 95%;
   max-width: 1270px;
   margin: auto;
   padding: 15px;

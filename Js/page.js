@@ -13,21 +13,12 @@ const page = async () =>{
   let url = new URL(url_string);
   let targetId = url.searchParams.get("id");
 
-
- //listen to click on retry button
-  const retry = document.querySelectorAll(".retry");
-  Array.from(retry).map(element => {
-    element.addEventListener("click", function (event) {
-      window.location.href = "QuizPage.html" + "?id=" + targetId;
-    });
-  }); 
-
   /////Get Json Data
   let quizDataBase = await myFetch();  
   let quizData = quizDataBase.Quiz
   //for (let i in quizData){quizArray.push(quizData[i])};  
 
-  //Instanciate quizCard Class
+  /////Instanciate quizCard Class
   for (let i in quizData){
     if(quizData[i].name == targetId){
       let newQuizCard = new quizCard(
@@ -44,10 +35,9 @@ const page = async () =>{
     };    
   };
 
-  /////Display Questions/////
+  /////Display Questions
   let questions = [];
   let selectedQuestions = selectedQuiz.questions;
-
   for (let i in selectedQuestions){    
       let newQuestion = new Question(
         selectedQuestions[i].text,
@@ -57,13 +47,15 @@ const page = async () =>{
       questions.push(newQuestion);
     };
 
-  /////All functions/////
+  /////All functions
   const display = {
     elementShown: function(id, text) {
       let element = document.getElementById(id);
       element.innerHTML = text;
     },
+    /////Quiz Ending
     endQuiz: function() {
+      //Get Quiz Results
       function getResults(){
         let allQuestions = [];
         let allAnswers = [];
@@ -81,15 +73,10 @@ const page = async () =>{
         }
         for (let i in allResults){return allResults;}
       }
+
+      //Display score , score reaction and answers
       endQuizHTML = `<h1>Quiz terminé !<br>Votre score est de : ${quiz.score} / ${quiz.questions.length} </h1>`;
-      this.elementShown("quiz", endQuizHTML + getResults()/* + endQuizHTML3*/);
-
-      /*var elements = document.getElementById("quiz");
-      console.log(elements);
-      elements.innerHTML = elements.innerHTML.replace(/,/g,'');*/
-
-      ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
+      this.elementShown("quiz", endQuizHTML + getResults());
       const modalbg = document.querySelector(".bground2"); 
       const scoreReact = document.querySelector(".reaction");
       let ReactBad = selectedQuiz.scoreReact[0];
@@ -101,22 +88,26 @@ const page = async () =>{
       };     
       scoreReact.innerHTML = reaction;
       modalbg.style.display = "block";     
-
-      const closeBtn = document.querySelectorAll(".close");
+      
       /////close modals & ligthboxes
+      const closeBtn = document.querySelectorAll(".close");
+
       //on click X
       closeBtn.forEach((btn) => btn.addEventListener("click", closeModal));
+
       //on press enter on focus
-      closeBtn.forEach((btn) => btn.addEventListener("keyup", ckeckKeyClose));
-      //setTimeout(closeModal, 3000); //have to add close button
-      /////Close modal and lightboxes by enter key pressed on focus
+      closeBtn.forEach((btn) => btn.addEventListener("keyup", ckeckKeyClose));  
       function ckeckKeyClose(){if (event.keyCode === 13){closeModal();}}
-      //close  modal
-      function closeModal() {modalbg.style.display = "none";}
-      ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+      //on press escape key
+      document.addEventListener('keydown', function(e) {
+        if(lightBoxIsOpen = true){if (event.keyCode === 27){closeModal();}};
+      });
 
+      //close modal function
+      function closeModal() {modalbg.style.display = "none";}  
     },
+
     question: function(){this.elementShown("question", quiz.getCurrentQuestion().text);},
     choices: function(){
       let choices = quiz.getCurrentQuestion().choices;
@@ -139,7 +130,7 @@ const page = async () =>{
   };
 
 
-  /////Quiz App/////
+  /////Quiz App
   quizApp = () => {
     if (quiz.hasEnded()) {
       display.endQuiz();
@@ -149,9 +140,18 @@ const page = async () =>{
       display.progress();
     } 
   }
-  /////Create Quiz
+
+  ///// Quiz Creation
   let quiz = new Quiz(questions);
   quizApp();
+ 
+  /////Listen to click on retry button
+  const retry = document.querySelectorAll(".retry");
+  Array.from(retry).map(element => {
+    element.addEventListener("click", function (event) {
+      window.location.href = "QuizPage.html" + "?id=" + targetId;
+    });
+  }); 
 };
 
 /////Initiate Main Function On Page Load

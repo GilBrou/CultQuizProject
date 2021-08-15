@@ -6,8 +6,6 @@ function sortingTags (){
   const allTags = document.querySelectorAll(".films,.series,.jeux-video,.bd,.animes,.a80,.a90,.a00");
   const allTagsTag = document.querySelectorAll(".allTags");
   var allCards = document.getElementsByTagName("article");
-
-  //console.log(allCards);
   
   //Listen to "click" on all tags
   for (var i = 0; i < allTags.length ; i++) {
@@ -18,20 +16,15 @@ function sortingTags (){
       
       Array.from(allCards).map(element => {
 
-        //console.log(element);
-
         //Get taglists from current quiz card        
         let inTags = element.querySelector(':nth-child(1) > :nth-child(3)');
-        //console.log(inTags);
         let thatOne = inTags.classList;
-          //  console.log(thatOne);
 
         var getOutOrStay = 0;
 
         Array.from(thatOne).map(element => {
           //Check if selected tag is present in current taglist
           if (element == targetTag ){
-            //console.log(element);
             getOutOrStay++;
           };  
         });
@@ -57,5 +50,4 @@ function sortingTags (){
       });
     });
   };
-
 };

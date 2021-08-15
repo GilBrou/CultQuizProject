@@ -1,35 +1,33 @@
-/////TAGS/////
 
+/*///TAGS/////*/
 .films, .series, .jeux-video, .bd,
 .animes, .a80, .a90, .a00, .allTags{
-	font-weight: bold;	
-	margin: 5px;
-	padding: 5px 10px 5px 10px;
-	border: 1px solid $fourth-color;
-	background-color : $fourth-color;
-	color: $primary-color;
-	border-radius: 5px;
-	cursor: pointer;
-	flex-wrap: nowrap;
-		&:hover, &:active{
-			font-weight: bold;	
-			color: $tertiary-color;
-			background-color: $primary-color;
-			border: 1px solid $primary-color;
-	    transition: .5s;
-	     @include truemobile-style{
-				border: 1px solid $fourth-color;
-				background-color : $fourth-color;
-				color: $primary-color;
+  font-weight: bold;  
+  margin: 5px;
+  padding: 5px 10px 5px 10px;
+  border: 1px solid $fourth-color;
+  background-color : $fourth-color;
+  color: $primary-color;
+  border-radius: 5px;
+  cursor: pointer;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+    &:hover, &:active{
+      font-weight: bold;  
+      color: $tertiary-color;
+      background-color: $primary-color;
+      border: 1px solid $primary-color;
+      -webkit-transition: .5s;
+      -o-transition: .5s;
+      transition: .5s;
+      @include truemobile-style{
+        border: 1px solid $fourth-color;
+        background-color : $fourth-color;
+        color: $primary-color;
       }
-		}
-		@include mobile-style{
-			font-size: 150%;
-		}
-		@include truemobile-style{
-			font-size: 100%;
-			//padding: 15px;//instead of nothing	
-		}
+    }
+    @include mobile-style{font-size: 150%;}
+    @include truemobile-style{font-size: 100%;}
 }
 
 /*///MODAL CLOSE BUTTON/////*/
@@ -46,29 +44,29 @@
   -webkit-transform: scale(0.7);
   -ms-transform: scale(0.7);
   transform: scale(0.7);
-  &:before, &:after {
-    position: absolute;
-    left: 30px;
-    content: " ";
-    height: 60px;
-    width: 7px;
-    background-color: $primary-color;
-  }
-  &:before {
-    -webkit-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    transform: rotate(45deg);
-  }
-  &:after {
-   -webkit-transform: rotate(-45deg);
-   -ms-transform: rotate(-45deg);
-   transform: rotate(-45deg);
-  }
+    &:before, &:after {
+      position: absolute;
+      left: 30px;
+      content: " ";
+      height: 60px;
+      width: 7px;
+      background-color: $primary-color;
+    }
+    &:before {
+      -webkit-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+      transform: rotate(45deg);
+    }
+    &:after {
+     -webkit-transform: rotate(-45deg);
+     -ms-transform: rotate(-45deg);
+     transform: rotate(-45deg);
+    }
   @include mobile-style{
     right: 15px;
-     &:before, &:after {
-      height: 40px;
-      width: 5px;
-     }
+      &:before, &:after {
+        height: 40px;
+        width: 5px;
+      }
   }
 }

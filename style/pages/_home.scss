@@ -1,157 +1,163 @@
-/////HOMEPAGE/////
+/*///HOMEPAGE/////*/
 
-.main-section{
-	//@include justify-content-space-around;
-	//@include justify-content-space-between;
-	@include justify-content-center;
+/*///Main SECTION/////*/
+.main-section{@include justify-content-center;}
 
-
-}
-/////QuizCARDS/////
+/*///QuizCARDS/////*/
 .QuizCard{
 	margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-	.main-QuizCard{
-		width: 270px;
-  	height: 411px;
-  	position: relative;
-  	margin: 0 20px;
-		.thatQuiz{
-			cursor: pointer;
-  		background-color : $primary-color;
-  		@include justify-content-center;
-  		@include flex-column;
-  		margin: auto;
-  		border-radius: 25px;
-  		@include self-text-align;
-  		width: 20%;
-  		width: 230px;
-  		position: absolute;
-  		top: 0;
-  		left: 20px;
-  		z-index: 9999;      
-  		box-shadow: 0 5px 20px 3px rgba(0, 0, 0, 0.6);
-			.portrait{
-				pointer-events: none;
-      	@include portrait-style;
-      	@include self-text-align;
-			}
-			.name{
-				pointer-events: none;
-    		margin: 10px 0px 15px 0px; 
-    		color: $tertiary-color;
-    		font-size: 240%;
-			}
-			.tags{display:none;}		
-		}   		
-	  .line-container{
-	  	pointer-events: none;	    	
-			padding-bottom: 5px;
-	  	background: $fourth-color;
-	  	color: white;
-	  	width: 270px;
-	  	height: 335px;
-	  	display: flex;
-	  	flex-direction: column;
-	  	align-items: center;
-	  	border-radius: 25px;
-	  	position: absolute;
-	  	top: 20px;
-	  	box-shadow: 0 5px 20px 3px rgba(0, 0, 0, 0.6);
-	  	opacity: 0;
-	    .line-content{
-	    	pointer-events: none;
-	    	padding: 5px;
-  			width: 100%;
-  			position: absolute;
-  			bottom: 0;
-  			text-align: center;
-	    	p{
-	    		pointer-events: none;
-		    	padding: 5px 5px 10px 5px;
-	  			margin: 0px 5px 5px 5px;
-	  			font-size: 106%;
-	    	} 
-	    }
+		.main-QuizCard{
+			width: 270px;
+	  	height: 411px;
+	  	position: relative;
+	  	margin: 0 20px;
+				.thatQuiz{
+					cursor: pointer;
+  				background-color : $primary-color;
+  				@include justify-content-center;
+  				@include flex-column;
+  				margin: auto;
+  				border-radius: 25px;
+  				@include self-text-align;
+  				width: 20%;
+		  		width: 230px;
+		  		position: absolute;
+		  		top: 0;
+		  		left: 20px;
+		  		z-index: 9999;      
+  				-webkit-box-shadow: 0 5px 20px 3px rgba(0, 0, 0, 0.6);      
+  		     box-shadow: 0 5px 20px 3px rgba(0, 0, 0, 0.6);
+						.portrait{
+							pointer-events: none;
+			      	@include portrait-style;
+			      	@include self-text-align;
+						}
+						.name{
+							pointer-events: none;
+			    		margin: 10px 0px 15px 0px; 
+			    		color: $tertiary-color;
+			    		font-size: 240%;
+						}
+						.tags{display:none;}
+				}
+				.line-container{
+					pointer-events: none;	    	
+					padding-bottom: 5px;
+			  	background: $fourth-color;
+			  	color: white;
+			  	width: 270px;
+			  	height: 335px;
+			  	display: -webkit-box;
+			  	display: -ms-flexbox;
+			  	display: flex;
+			  	-webkit-box-orient: vertical;
+			  	-webkit-box-direction: normal;
+			  	-ms-flex-direction: column;
+			  	flex-direction: column;
+			  	-webkit-box-align: center;
+			  	-ms-flex-align: center;
+			  	align-items: center;
+			  	border-radius: 25px;
+			  	position: absolute;
+			  	top: 20px;
+			  	-webkit-box-shadow: 0 5px 20px 3px rgba(0, 0, 0, 0.6);
+			  	box-shadow: 0 5px 20px 3px rgba(0, 0, 0, 0.6);
+			  	opacity: 0;
+	    			.line-content{
+	    				pointer-events: none;
+	    				padding: 5px;
+  						width: 100%;
+			  			position: absolute;
+  						bottom: 0;
+  						text-align: center;
+	    					p{
+	    						pointer-events: none;
+		    					padding: 5px 5px 10px 5px;
+	  							margin: 0px 5px 5px 5px;
+	  							font-size: 106%;
+	    					} 
+	    			}
+	  		}
 	  }
-	}
-	@include mobile-style{
-		@include justify-content-center;
-		margin: auto;
-		@include self-text-align;
-		width: 100vw;
-		margin: auto;
-		.main-QuizCard{
-			width: 70vw;
+	  @include mobile-style{
+	  	@include justify-content-center;
 			margin: auto;
-			.thatQuiz{
-				width: 70vw;
-				margin: auto;
-				.portrait{}
-				.name{font-size: 300%;}
-			}	   		
-	  	.line-container{
-	  		opacity : 1;		    	
-	  		width: 75vw;
-	  		margin: auto;
-	  		height: 360px;
-	    	.line-content{
-	    		width: 75vw;
-	    		padding-top: 70px;
-	    		p{
-	    			font-size: 135%;
-	    			margin: 0px 10px 10px 10px;
-	    		}
-	    	}
-	    }
+			@include self-text-align;
+			width: 100vw;
+			margin: auto;
+				.main-QuizCard{
+					width: 70vw;
+					margin: auto;
+						.thatQuiz{
+							width: 70vw;
+							margin: auto;
+								.name{font-size: 300%;}
+						}	   		
+	  				.line-container{
+	  					opacity : 1;		    	
+	  					width: 75vw;
+	  					margin: auto;
+	  					height: 360px;
+	    					.line-content{
+	    						width: 75vw;
+	    						padding-top: 70px;
+	    							p{
+	    								font-size: 135%;
+	    								margin: 0px 10px 10px 10px;
+	    							}
+	    					}
+	    			}
+				}
 		}
-	}
-	@include truemobile-style{
-		width: 90%;
-		margin: auto;
-		@include justify-content-center;
-		.main-QuizCard{
+		@include truemobile-style{
 			width: 90%;
-			min-width: 276px;
 			margin: auto;
-			.thatQuiz{
-				width: 85%;
-				margin: auto;
-				.portrait{}
-				.name{font-size: 300%;}
-			}	   		
-	  	.line-container{
-	  		opacity : 1;	    	
-	  		width: 100%;
-	  		margin: auto;
-	  		height: 360px;
-	    	.line-content{
-	    		width: 100%;
-	    		padding-top: 70px;
-	    		p{
-	    			font-size: 105%;
-	    			margin: 0px 10px 10px 10px;
-	    		}
-	    	}
-	    	@include truemobile-style{width: 98%;}
-	    }
+			@include justify-content-center;
+				.main-QuizCard{
+					width: 90%;
+					min-width: 276px;
+					margin: auto;
+						.thatQuiz{
+							width: 85%;
+							margin: auto;
+								.name{font-size: 300%;}
+						}	   		
+	  				.line-container{
+	  					opacity : 1;	    	
+	  					width: 100%;
+	  					margin: auto;
+	  					height: 360px;
+	    					.line-content{
+	    						width: 100%;
+	    						padding-top: 70px;
+	    							p{
+	    								font-size: 105%;
+	    								margin: 0px 10px 10px 10px;
+	    							}
+	    					}
+	    					@include truemobile-style{width: 98%;}
+	    			}
+				}
 		}
-	}
 }     	  
 
 
-/////ANIMATION QuizCard/////
+/*///ANIMATION QuizCard/////*/
 
 .main-QuizCard:hover .line-container {
   opacity: 1;
+  -webkit-animation: bounceIn 0.6s linear;
   animation: bounceIn 0.6s linear;
   @include truemobile-style{
-  animation: none;
+	  -webkit-animation: none;
+	  animation: none;
   }
 }
 
-@keyframes bounceIn {
-  /*0%,*/
+@-webkit-keyframes bounceIn {
   20%,
   40%,
   60%,
@@ -160,13 +166,6 @@
     -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
     animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
   }
-
-  /*0% {
-    opacity: 0;
-    -webkit-transform: scale3d(0.3, 0.3, 0.3);
-    transform: scale3d(0.3, 0.3, 0.3);
-  }*/
-
   20% {
     -webkit-transform: scale3d(1.03, 1.03, 1.03);
     transform: scale3d(1.03, 1.03, 1.03);
@@ -191,15 +190,64 @@
   }
 }
 
- @keyframes bounce {
+@keyframes bounceIn {
+  20%,
+  40%,
+  60%,
+  80%,
+  to {
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+  20% {
+    -webkit-transform: scale3d(1.03, 1.03, 1.03);
+    transform: scale3d(1.03, 1.03, 1.03);
+  }
+  40% {
+    -webkit-transform: scale3d(0.9, 0.9, 0.9);
+    transform: scale3d(0.9, 0.9, 0.9);
+  }
+  60% {
+    opacity: 1;
+    -webkit-transform: scale3d(1.01, 1.01, 1.01);
+    transform: scale3d(1.01, 1.01, 1.01);
+  }
+  80% {
+    -webkit-transform: scale3d(0.97, 0.97, 0.97);
+    transform: scale3d(0.97, 0.97, 0.97);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+}
+
+ @-webkit-keyframes bounce {
   50% {
     opacity: 1;
-    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
   }
 
   100% {
     opacity: 1;
-    transform: scale(1);
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+ @keyframes bounce {
+  50% {
+    opacity: 1;
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+            transform: scale(1);
   }
 } 
 

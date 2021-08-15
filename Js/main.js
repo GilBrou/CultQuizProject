@@ -2,17 +2,14 @@
 const main = async () =>{
 
   
-  //Dom Elements
+  //////Dom Elements
   const main = document.getElementById('main-section');  
 
-   //Get Json Data
-  let quizDataBase = await myFetch();
-  
-  
+  //////Get Json Data
+  let quizDataBase = await myFetch();  
   let quizData = quizDataBase.Quiz
-  //console.log(quizData);
 
-  //Instanciate quizCard Class
+  //////Instanciate quizCard Class
   for (let i in quizData){
     let newQuizCard = new quizCard(
       quizData[i].name,
@@ -29,20 +26,19 @@ const main = async () =>{
   };
 
 
-   //Sort tags
+  //////Sort tags
   sortingTags ();
 
-  /////Events
+  /////Events/////
 
-  //listen to click on quiz
-  const QuizCard = document.querySelectorAll(".thatQuiz");
-  Array.from(QuizCard).map(element => {
-
-    element.addEventListener("click", function (event) {
-      let targetId = element.id;
-      window.location.href = "QuizPage.html" + "?id=" + targetId;
-    });
-  }); 
+    //listen to click on quiz
+    const QuizCard = document.querySelectorAll(".thatQuiz");
+    Array.from(QuizCard).map(element => {
+      element.addEventListener("click", function (event) {
+        let targetId = element.id;
+        window.location.href = "QuizPage.html" + "?id=" + targetId;
+      });
+    }); 
 };
 
 /////Initiate Main Function On Page Load

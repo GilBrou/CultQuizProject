@@ -1,19 +1,15 @@
 body {
-	width: 100vw;// instead of 98
-	//min-width: 437px;//instead of 495
+	width: 100vw;
 	min-width: 341px;    
 	margin: auto;
 	background-color: $tertiary-color;
 	font-family:  lato, Arial, Verdana, sans-serif;
-	//padding: px;
 	overflow-x: hidden;
 	a{
 		text-decoration: none;
 		color: black;
 	}
-	@include tablet-style{/*width: 95vw;*/}
 	@include mobile-style{
-		/*width: 100vw;*/
 		@include justify-content-center;
 		margin: 0;
 	}
@@ -21,7 +17,6 @@ body {
 
 main{
 	@include just-flex;
-	//width: 80%;
 	width: 100vw;
 	max-width: 1300px;
 	padding: 25px;
@@ -29,11 +24,7 @@ main{
 	margin: auto;
 	@include justify-content-center;
 	overflow-x: hidden;
-	@include mobile-style{
-		//width: 100%;
-		width: 100vw;
-		padding: 25px 0px 25px 0px;
-	}
+	@include mobile-style{padding: 25px 0px 25px 0px;}
 }
 
 
