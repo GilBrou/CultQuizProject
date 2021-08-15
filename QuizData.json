@@ -459,10 +459,10 @@
       "id": "05",
       "tags": ["animes"],
       "punchLine": "Il vous reste quelques souvenirs d'enfance ?",
-      "taunt": "Vous pensez vraiment connaître la firme aux presque cent ans d'existence ?",
+      "taunt": "Vous pensez vraiment connaître la firme centenaire ?",
       "scoreReact" : [
         "Manifestement, vôtre âme d'enfant s'est fait la malle il y à longtemps.",
-        "Woaw ! Vous avez manifestement une forte tendance à la nostalgie !"
+        "Woaw ! Vous avez manifestement des actions chez Disney !"
       ],
       "questions":[
         {
