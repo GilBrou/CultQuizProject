@@ -568,7 +568,7 @@
       ]
     },
     {
-      "name": "American_Horror_Story",
+      "name": "A.H.S",
       "id": "06",
       "tags": ["series"],
       "punchLine": "50 shades of horror",
@@ -679,6 +679,120 @@
           "answer":""
         }               
       ]
-    }          
+    },
+    {
+      "name": "Fallout",
+      "id": "07",
+      "tags": ["jeux-video"],
+      "punchLine": "Les années cinquante...au vingt-troisième siècle !",
+      "taunt": "",
+      "scoreReact" : [
+        "Continuer de jouer à des jeux mobile, voulez-vous ?",
+        "Vous en savez long, trop même...Vous êtes un proche du président Eden ?"
+      ],
+      "questions":[
+        {
+          "text":"",
+          "choices":["","", "", ""],
+          "answer":""
+        },        
+        {
+          "text":"",
+          "choices":["","", "", ""],
+          "answer":""
+        },
+        {
+          "text":"",
+          "choices":["","", "", ""],
+          "answer":""
+        },
+                        {
+          "text":"",
+          "choices":["","", "", ""],
+          "answer":""
+        },
+        {
+          "text":"",
+          "choices":["","", "", ""],
+          "answer":""
+        },
+                        {
+          "text":"",
+          "choices":["","", "", ""],
+          "answer":""
+        },
+        {
+          "text":"",
+          "choices":["","", "", ""],
+          "answer":""
+        },
+        {
+          "text":"",
+          "choices":["","", "", ""],
+          "answer":""
+        },
+                                {
+          "text":"",
+          "choices":["","", "", ""],
+          "answer":""
+        },
+        {
+          "text":"",
+          "choices":["","", "", ""],
+          "answer":""
+        },
+        {
+          "text":"",
+          "choices":["","", "", ""],
+          "answer":""
+        },
+        {
+          "text":"",
+          "choices":["","", "", ""],
+          "answer":""
+        },
+        {
+          "text":"",
+          "choices":["","", "", ""],
+          "answer":""
+        },
+        {
+          "text":"",
+          "choices":["","", "", ""],
+          "answer":""
+        },
+        {
+          "text":"",
+          "choices":["","", "", ""],
+          "answer":""
+        },
+        {
+          "text":"",
+          "choices":["","", "", ""],
+          "answer":""
+        },
+        {
+          "text":"",
+          "choices":["","", "", ""],
+          "answer":""
+        },
+        {
+          "text":"",
+          "choices":["","", "", ""],
+          "answer":""
+        },
+        {
+          "text":"",
+          "choices":["","", "", ""],
+          "answer":""
+        },                                                                                
+        {
+          "text":"",
+          "choices":["","", "", ""],
+          "answer":""
+        }               
+      ]
+    }     
+
   ]
 }
