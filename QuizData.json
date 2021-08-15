@@ -340,6 +340,120 @@
           "answer":""
         }               
       ]
-    }   
+    },
+    {
+      "name": "Fight Club",
+      "id": "04",
+      "tags": ["films", "a90"],
+      "punchLine": "Règle numéro 1 : Il est interdit de parler de ce quiz.",
+      "taunt": "Vous pensez vraiment être un flocon de neige merveilleux et unique ?",
+      "scoreReact" : [
+        "Je suis l'absence totale de surprise de Jack...",
+        "Bien joué ! Vous avez gagné un magnifique canapé ''Strïïng'' à rayures vertes et des condiments pour votre frigo !"
+      ],
+      "questions":[
+        {
+          "text":"",
+          "choices":["","", "", ""],
+          "answer":""
+        },        
+        {
+          "text":"",
+          "choices":["","", "", ""],
+          "answer":""
+        },
+        {
+          "text":"",
+          "choices":["","", "", ""],
+          "answer":""
+        },
+                        {
+          "text":"",
+          "choices":["","", "", ""],
+          "answer":""
+        },
+        {
+          "text":"",
+          "choices":["","", "", ""],
+          "answer":""
+        },
+                        {
+          "text":"",
+          "choices":["","", "", ""],
+          "answer":""
+        },
+        {
+          "text":"",
+          "choices":["","", "", ""],
+          "answer":""
+        },
+        {
+          "text":"",
+          "choices":["","", "", ""],
+          "answer":""
+        },
+                                {
+          "text":"",
+          "choices":["","", "", ""],
+          "answer":""
+        },
+        {
+          "text":"",
+          "choices":["","", "", ""],
+          "answer":""
+        },
+        {
+          "text":"",
+          "choices":["","", "", ""],
+          "answer":""
+        },
+        {
+          "text":"",
+          "choices":["","", "", ""],
+          "answer":""
+        },
+        {
+          "text":"",
+          "choices":["","", "", ""],
+          "answer":""
+        },
+        {
+          "text":"",
+          "choices":["","", "", ""],
+          "answer":""
+        },
+        {
+          "text":"",
+          "choices":["","", "", ""],
+          "answer":""
+        },
+        {
+          "text":"",
+          "choices":["","", "", ""],
+          "answer":""
+        },
+        {
+          "text":"",
+          "choices":["","", "", ""],
+          "answer":""
+        },
+        {
+          "text":"",
+          "choices":["","", "", ""],
+          "answer":""
+        },
+        {
+          "text":"",
+          "choices":["","", "", ""],
+          "answer":""
+        },                                                                                
+        {
+          "text":"",
+          "choices":["","", "", ""],
+          "answer":""
+        }               
+      ]
+    },        
+
   ]
 }
