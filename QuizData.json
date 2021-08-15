@@ -231,7 +231,7 @@
     {
       "name": "GOT",
       "id": "03",
-      "tags": ["series", "a00"],
+      "tags": ["livres", "series", "a00"],
       "punchLine": "Defeat is coming.",
       "taunt": "Intéréssé par le trône ?",
       "scoreReact" : [
@@ -344,8 +344,8 @@
     {
       "name": "Fight_Club",
       "id": "04",
-      "tags": ["films", "a90"],
-      "punchLine": "Règle numéro 1 : Il est interdit de parler de ce quiz.",
+      "tags": ["livres", "films", "a90"],
+      "punchLine": "Règle numéro 1 : il est interdit de parler de ce quiz.",
       "taunt": "Vous pensez vraiment être un flocon de neige merveilleux et unique ?",
       "scoreReact" : [
         "Je suis l'absence totale de surprise de Jack...",

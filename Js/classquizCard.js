@@ -38,8 +38,8 @@ class quizCard {
       
 
     //Assing to Dom
+    name.innerHTML = this.name;
     portrait.src = "./Ressources/Photos/Quiz" + this.name + ".jpg";
-    name.innerHTML = this.name;     
     tagline.innerHTML = this.punchLine;
 
 

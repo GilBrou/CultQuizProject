@@ -38,7 +38,14 @@ const main = async () =>{
         let targetId = element.id;
         window.location.href = "QuizPage.html" + "?id=" + targetId;
       });
-    }); 
+    });
+
+    //Remove"_" from names
+    const allNames = document.querySelectorAll(".name");
+    Array.from(allNames).map(element => {
+      element.innerHTML = element.innerHTML.replace(/_/g,' ');
+    });
+
 };
 
 /////Initiate Main Function On Page Load
