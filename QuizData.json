@@ -685,7 +685,7 @@
       "id": "07",
       "tags": ["jeux-video"],
       "punchLine": "Êtes-vous vraiment quelqu'un de S.P.E.C.I.A.L ?",
-      "taunt": "Les années cinquante...au 23ème siècle, çe ne vous gêne pas ?",
+      "taunt": "Les années cinquante...au 23ème siècle, ça ne vous gêne pas ?",
       "scoreReact" : [
         "Continuez plutôt de jouer à des jeux mobile, voulez-vous ?",
         "Vous en savez long, trop même...Vous êtes un proche du président Eden ?"
@@ -792,7 +792,119 @@
           "answer":""
         }               
       ]
-    }     
-
+    }, 
+    {
+      "name": "The_Walking_Dead",
+      "id": "08",
+      "tags": ["series", "jeux-video", "bd"],
+      "punchLine": "DONT DEAD, OPEN INSIDE",
+      "taunt": "Si saviez que TWD était un Comic Book, une Série TV et un Jeu vidéo, vous pourriez peut-être survivre à ce quiz...",
+      "scoreReact" : [
+        "Avouez, vous n'avez vu que deux épisodes, un peu par hasard ?",
+        "Vous savez tout ce qu'il y a à savoir sur l'apocalypse zombie...Vous survivrez peut-être."
+      ],
+      "questions":[
+        {
+          "text":"",
+          "choices":["","", "", ""],
+          "answer":""
+        },        
+        {
+          "text":"",
+          "choices":["","", "", ""],
+          "answer":""
+        },
+        {
+          "text":"",
+          "choices":["","", "", ""],
+          "answer":""
+        },
+                        {
+          "text":"",
+          "choices":["","", "", ""],
+          "answer":""
+        },
+        {
+          "text":"",
+          "choices":["","", "", ""],
+          "answer":""
+        },
+                        {
+          "text":"",
+          "choices":["","", "", ""],
+          "answer":""
+        },
+        {
+          "text":"",
+          "choices":["","", "", ""],
+          "answer":""
+        },
+        {
+          "text":"",
+          "choices":["","", "", ""],
+          "answer":""
+        },
+                                {
+          "text":"",
+          "choices":["","", "", ""],
+          "answer":""
+        },
+        {
+          "text":"",
+          "choices":["","", "", ""],
+          "answer":""
+        },
+        {
+          "text":"",
+          "choices":["","", "", ""],
+          "answer":""
+        },
+        {
+          "text":"",
+          "choices":["","", "", ""],
+          "answer":""
+        },
+        {
+          "text":"",
+          "choices":["","", "", ""],
+          "answer":""
+        },
+        {
+          "text":"",
+          "choices":["","", "", ""],
+          "answer":""
+        },
+        {
+          "text":"",
+          "choices":["","", "", ""],
+          "answer":""
+        },
+        {
+          "text":"",
+          "choices":["","", "", ""],
+          "answer":""
+        },
+        {
+          "text":"",
+          "choices":["","", "", ""],
+          "answer":""
+        },
+        {
+          "text":"",
+          "choices":["","", "", ""],
+          "answer":""
+        },
+        {
+          "text":"",
+          "choices":["","", "", ""],
+          "answer":""
+        },                                                                                
+        {
+          "text":"",
+          "choices":["","", "", ""],
+          "answer":""
+        }               
+      ]
+    }        
   ]
 }

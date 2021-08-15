@@ -152,6 +152,11 @@ const page = async () =>{
       window.location.href = "QuizPage.html" + "?id=" + targetId;
     });
   }); 
+
+  //focus on quiz
+  let here = document.getElementById('quiz');
+  here.scrollIntoView();
+
 };
 
 /////Initiate Main Function On Page Load
