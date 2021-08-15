@@ -121,7 +121,7 @@
       "punchLine": "Vos voisins, eux, risquent de vous entendre crier.",
       "taunt": "Vous pensez pouvoir rivaliser avec Ripley ?",
       "scoreReact" : [
-        "Vous êtes du genre à regarder au fond de l'œuf gluant découvert sur une planète inconnue, non? ",
+        "Vous êtes du genre à regarder au fond de l'œuf gluant découvert sur une planète inconnue, non ?",
         "Avec vous, le Xénomorphe finit grillé à point au lance-flamme, bravo !"
       ],
       "questions":[
@@ -132,7 +132,7 @@
         },
         {
           "text":"Quel artiste est à l'origine du design du Xénomorphe ?",
-          "choices":["H.R Giger","H.P Lovecraft", "H.G wells", "H.P. Blavatsky"],
+          "choices":["H.R Giger","H.P Lovecraft", "H.G Wells", "H.P. Blavatsky"],
           "answer":"H.R Giger"
         },
         {
@@ -140,7 +140,7 @@
           "choices":["Face-diggers","Chest-busters", "Flesh-eaters", "Face-huggers"],
           "answer":"Face-huggers"
         },
-                        {
+        {
           "text":"Ash, l'officier scientifique du Nostromo, est en vérité :",
           "choices":["Un extraterrestre","Bilbon Sacquet", "Un androïde", "Un clone"],
           "answer":"Un androïde"
@@ -151,21 +151,21 @@
           "answer":"Lieutenant"
         },
                         {
-          "text":"Quel acteur a eu le plaisir d'être le premier à avoir la poitrine déchiquetée par un Chest-buster ?",
+          "text":"Quel acteur a été le premier à avoir la poitrine déchiquetée par un Chest-buster ?",
           "choices":["Tom Skerrit","John Hurt", "Ian Holm", "Harry Dean Stanton"],
           "answer":"John Hurt"
         },
         {
           "text":"Quel animal est à bord du vaisseau, parvenant même à survivre à l'Alien ?",
-          "choices":["Mary, le furet","Jones, le chat", "Indiana, le chien", "Bob, la souris"],
-          "answer":"Jones, le chat"
+          "choices":["Un furet","Un chat", "Un chien", "Une souris"],
+          "answer":"Un chat"
         },
         {
           "text":"Quel est la fin de cette réplique culte : ''Je ne vous mentirai pas sur vos chances de survie mais...",
-          "choices":["vous allez vous en sortir ''","c'était pas une gastro ''", "vous avez intérêt de courir ''", "vous avez ma sympathie ''"],
-          "answer":"vous avez ma sympathie''"
+          "choices":["...vous allez vous en sortir ''","...c'était pas une gastro ''", "...vous avez intérêt de courir ''", "...vous avez ma sympathie ''"],
+          "answer":"...vous avez ma sympathie "
         },
-                                {
+        {
           "text":"Quel est le titre Québécois d'Alien : le huitième passager ?",
           "choices":["Alien : le passager clandestin","L’Étranger : le huitième passager", "L'Extraterrestre : le huitième passager", "Alien : le huitième voyageur"],
           "answer":"L’Étranger : le huitième passager"
@@ -176,12 +176,12 @@
           "answer":"Ridley Scott"
         },
         {
-          "text":" À certains moments, pour accentuer à l'écran le gigantisme des lieux, le réalisateur à eu l'idée de :",
+          "text":" À certains moments,  pour accentuer à l'écran le gigantisme des lieux,  le réalisateur à eu l'idée de :",
           "choices":["Construire des décors cinq fois plus gros que nécessaire","Filmer les acteurs avec des objectifs à focale courtes", "Rajouter énormément de fumée", "Remplacer les acteurs par des enfants"],
           "answer":"Remplacer les acteurs par des enfants"
         },
         {
-          "text":"Le film a gagné l'oscar :",
+          "text":"Le film a gagné l'Oscar :",
           "choices":["Des meilleurs effets visuels","Des meilleurs décors", "Du meilleur réalisateur", "Des meilleurs costumes"],
           "answer":"Des meilleurs effets visuels"
         },
@@ -192,16 +192,16 @@
         },
         {
           "text":"La machine à fumée utilisée pendant le tournage à été empruntée à quel groupe de rock ?",
-          "choices":["Pink Floyd","The Who", "The BB Brunes", "The Rolling Stones"],
+          "choices":["Pink Floyd","The Who", "Ze BB Brunes", "The Rolling Stones"],
           "answer":"The Who"
         },
         {
           "text":"Savez vous pourquoi, dans l'introduction, le titre n'est composé que de sept lignes avant d'apparaître plus clairement ?",
-          "choices":["Sans raisons, c'est juste hyper classe","En référence au nombre de fois où le mot ''Shit'' est prononcé", "Pour annoncer le nombre de morts du film", "Afin d'indiquer le nombre de suites originellement prévues"],
+          "choices":["Sans raisons, c'est juste hyper classe","En référence au nombre de fois où le mot ''Shit'' est prononcé", "Pour annoncer le nombre de morts du film", "Afin d'indiquer le nombre de suites prévues"],
           "answer":"Pour annoncer le nombre de morts du film"
         },
         {
-          "text":" Veronica Cartwright, qui joue le rôle de Lambert, devait à l'origine interpréter Ellen Ripley. Elle a appris ce changement lors :",
+          "text":" Veronica Cartwright,  qui joue le rôle de Lambert,  devait à l'origine interpréter Ellen Ripley. Elle a appris ce changement lors :",
           "choices":["De la seconde semaine de tournage","Des essais de costumes", "D'un rendez-vous avec Ridley Scott, un jour avant le début du tournage", "De la réédition DVD"],
           "answer":"Des essais de costumes"
         },
