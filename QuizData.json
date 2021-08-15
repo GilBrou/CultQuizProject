@@ -3,7 +3,7 @@
     {
       "name": "Kaamelott",
       "id": "01",
-      "tags":["a00", "films", "series"],
+      "tags":["films", "series"],
       "punchLine": "Si vous passez pour des pégus, faudra pas venir faire vos raclettes.",
       "taunt": "Alors on se prend pour un pro de Kaamelott ?",
       "scoreReact" : [
@@ -104,7 +104,7 @@
         },
         {
           "text":"Lorsque Léodagan et son père Goustan se moquent du roi, quels surnoms lui trouvent-il ?",
-          "choices":["Le brave, l'agréable, le mollasson et le mignonet","Le bon, le jovial, le gland et le jardinier", "L'aimable, le juste, le faiblard et le ramolli", "Le bon, le sympathique, le mou et le gentillet"],
+          "choices":["Le brave, l'agréable, le mollasson et le mignonnet","Le bon, le jovial, le gland et le jardinier", "L'aimable, le juste, le faiblard et le ramolli", "Le bon, le sympathique, le mou et le gentillet"],
           "answer":"Le bon, le sympathique, le mou et le gentillet" 
         },
         {
@@ -117,7 +117,7 @@
     {
       "name": "Alien",
       "id": "02",
-      "tags": ["films", "a80"],
+      "tags": ["films"],
       "punchLine": "Vos voisins, eux, risquent de vous entendre crier.",
       "taunt": "Vous pensez pouvoir rivaliser avec Ripley ?",
       "scoreReact" : [
@@ -132,13 +132,13 @@
         },
         {
           "text":"Quel artiste est à l'origine du design du Xénomorphe ?",
-          "choices":["H.R Giger","H.P Lovecraft", "H.G Wells", "H.P. Blavatsky"],
-          "answer":"H.R Giger"
+          "choices":["H.R. Giger","H.P. Lovecraft", "H.G. Wells", "H.P. Blavatsky"],
+          "answer":"H.R. Giger"
         },
         {
           "text":"Les œufs d'alien non fécondés donnent naissance aux:",
-          "choices":["Face-diggers","Chest-busters", "Flesh-eaters", "Face-huggers"],
-          "answer":"Face-huggers"
+          "choices":["Facediggers","Chestbusters", "Flesheaters", "Facehuggers"],
+          "answer":"Facehuggers"
         },
         {
           "text":"Ash, l'officier scientifique du Nostromo, est en vérité :",
@@ -151,7 +151,7 @@
           "answer":"Lieutenant"
         },
                         {
-          "text":"Quel acteur a été le premier à avoir la poitrine déchiquetée par un Chest-buster ?",
+          "text":"Quel acteur a été le premier à avoir la poitrine déchiquetée par un Chestbuster ?",
           "choices":["Tom Skerrit","John Hurt", "Ian Holm", "Harry Dean Stanton"],
           "answer":"John Hurt"
         },
@@ -192,7 +192,7 @@
         },
         {
           "text":"La machine à fumée utilisée pendant le tournage à été empruntée à quel groupe de rock ?",
-          "choices":["Pink Floyd","The Who", "Ze BB Brunes", "The Rolling Stones"],
+          "choices":["Pink Floyd","The Who", "Les BB Brunes", "The Rolling Stones"],
           "answer":"The Who"
         },
         {
@@ -229,9 +229,9 @@
       ]
     },
     {
-      "name": "GOT",
+      "name": "Game_Of_Thrones",
       "id": "03",
-      "tags": ["livres", "series", "a00"],
+      "tags": ["livres", "series"],
       "punchLine": "Defeat is coming.",
       "taunt": "Intéréssé par le trône ?",
       "scoreReact" : [
@@ -344,7 +344,7 @@
     {
       "name": "Fight_Club",
       "id": "04",
-      "tags": ["livres", "films", "a90"],
+      "tags": ["livres", "films"],
       "punchLine": "Règle numéro 1 : il est interdit de parler de ce quiz.",
       "taunt": "Vous pensez vraiment être un flocon de neige merveilleux et unique ?",
       "scoreReact" : [
@@ -457,7 +457,7 @@
     {
       "name": "Disney",
       "id": "05",
-      "tags": ["series", "films", "a90", "a80", "a00", "animes"],
+      "tags": ["series", "films", "animes"],
       "punchLine": "Il vous reste quelques souvenirs d'enfance ?",
       "taunt": "Vous pensez vraiment connaître la firme aux presque cent ans d'existence ?",
       "scoreReact" : [
