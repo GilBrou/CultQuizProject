@@ -161,9 +161,9 @@
           "answer":"Un chat"
         },
         {
-          "text":"Quel est la fin de cette réplique culte : ''Je ne vous mentirai pas sur vos chances de survie mais...",
-          "choices":["...vous allez vous en sortir ''","...c'était pas une gastro ''", "...vous avez intérêt de courir ''", "...vous avez ma sympathie ''"],
-          "answer":"...vous avez ma sympathie ''"
+          "text":"Quel est la fin de cette réplique culte : Je ne vous mentirai pas sur vos chances de survie mais...",
+          "choices":["...vous allez vous en sortir","...c'était pas une gastro", "...vous avez intérêt de courir", "...vous avez ma sympathie"],
+          "answer":"...vous avez ma sympathie"
         },
         {
           "text":"Quel est le titre Québécois d'Alien : le huitième passager ?",
