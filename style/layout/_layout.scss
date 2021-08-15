@@ -159,13 +159,26 @@ footer{
   @include just-flex;
   @include justify-content-space-around;
    a{
+    padding: 10px;
     font-size: 140%;
     margin: 0px 20px 0px 20px;;
     @include self-text-align;
     color: $primary-color;
+    border-radius: 5px;
+    background-color: $tertiary-color;
+    border: 1px solid $tertiary-color;
     @include tablet-style{font-size: 160%;}
     @include mobile-style{font-size: 180%;}
     @include truemobile-style{font-size: 160%;}
+      &:hover, &:active{
+        font-weight: bold; 
+        color: $tertiary-color;
+        background-color: $primary-color;
+        border: 1px solid $primary-color;
+        -webkit-transition: .5s;
+        -o-transition: .5s;
+        transition: .5s;
+      }
     }
 } 
 
