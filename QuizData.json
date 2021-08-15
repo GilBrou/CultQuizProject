@@ -566,6 +566,119 @@
           "answer":""
         }               
       ]
-    }     
+    },
+    {
+      "name": "American_Horror_Story",
+      "id": "06",
+      "tags": ["series"],
+      "punchLine": "50 shades of horror",
+      "taunt": "Vous pensez avoir les tripes pour ce quiz ?",
+      "scoreReact" : [
+        "Vous deviez déjà être térrifié par le générique, non ?",
+        "D'accord, pour vous l'horreur est une seconde nature..."
+      ],
+      "questions":[
+        {
+          "text":"",
+          "choices":["","", "", ""],
+          "answer":""
+        },        
+        {
+          "text":"",
+          "choices":["","", "", ""],
+          "answer":""
+        },
+        {
+          "text":"",
+          "choices":["","", "", ""],
+          "answer":""
+        },
+                        {
+          "text":"",
+          "choices":["","", "", ""],
+          "answer":""
+        },
+        {
+          "text":"",
+          "choices":["","", "", ""],
+          "answer":""
+        },
+                        {
+          "text":"",
+          "choices":["","", "", ""],
+          "answer":""
+        },
+        {
+          "text":"",
+          "choices":["","", "", ""],
+          "answer":""
+        },
+        {
+          "text":"",
+          "choices":["","", "", ""],
+          "answer":""
+        },
+                                {
+          "text":"",
+          "choices":["","", "", ""],
+          "answer":""
+        },
+        {
+          "text":"",
+          "choices":["","", "", ""],
+          "answer":""
+        },
+        {
+          "text":"",
+          "choices":["","", "", ""],
+          "answer":""
+        },
+        {
+          "text":"",
+          "choices":["","", "", ""],
+          "answer":""
+        },
+        {
+          "text":"",
+          "choices":["","", "", ""],
+          "answer":""
+        },
+        {
+          "text":"",
+          "choices":["","", "", ""],
+          "answer":""
+        },
+        {
+          "text":"",
+          "choices":["","", "", ""],
+          "answer":""
+        },
+        {
+          "text":"",
+          "choices":["","", "", ""],
+          "answer":""
+        },
+        {
+          "text":"",
+          "choices":["","", "", ""],
+          "answer":""
+        },
+        {
+          "text":"",
+          "choices":["","", "", ""],
+          "answer":""
+        },
+        {
+          "text":"",
+          "choices":["","", "", ""],
+          "answer":""
+        },                                                                                
+        {
+          "text":"",
+          "choices":["","", "", ""],
+          "answer":""
+        }               
+      ]
+    }          
   ]
 }
