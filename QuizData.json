@@ -260,19 +260,19 @@
           "answer":""
         },
         {
-          "text":"",
-          "choices":["","", "", ""],
-          "answer":""
-        },
-                        {
-          "text":"",
-          "choices":["","", "", ""],
-          "answer":""
+          "text":"Grand-Griffe, l'épée de Jon Snow, est ornée d'une tête de loup, mais lorsqu'elle appartenait à Jeor Mormont , il s'agissait d'une :",
+          "choices":["Tête d'ours","Défense de Mammouth", "Tête de cheval", "Aile de dragon"],
+          "answer":"Tête d'ours"
         },
         {
-          "text":"",
-          "choices":["","", "", ""],
-          "answer":""
+         "text":"",
+        "choices":["","", "", ""],
+        "answer":""
+        },
+        {
+          "text":"Une actrice de la série à adopté l'un des chiens interprétant un Loup Géant, de qui s'agit-il ?",
+          "choices":["Emilia Clarke (Daenerys)","Sophie Turner (Sansa)", "Lena Headey (Cersei)", "Maisie Williams (Arya)"],
+          "answer":"Sophie Turner (Sansa)"
         },
         {
           "text":"",
@@ -305,9 +305,14 @@
           "answer":""
         },
         {
-          "text":"",
-          "choices":["","", "", ""],
-          "answer":""
+          "text":"Quel est le nom du frère de Ned Stark enrôlé dans la Garde de Nuit ?",
+          "choices":["Rickdekard","Benjen", "Rickard", "Beljen"],
+          "answer":"Benjen"
+        },
+        {
+          "text":"Grâce au succès de la série, en 2012 on a recensé en France plus de 150 nouveaux-nés qui se prénommaient :",
+          "choices":["Sansa","Littlefinger", "Khaleesi", "Khaldrogo"],
+          "answer":"Khaleesi"
         },
         {
           "text":"",
@@ -325,9 +330,9 @@
           "answer":""
         },
         {
-          "text":"",
-          "choices":["","", "", ""],
-          "answer":""
+          "text":"Afin de détendre l'atmosphère pendant le tournage de la scène de viol, l'acteur Jason Momoa (Khal Drogo) réserva une surprise à sa partenaire :",
+          "choices":["Il colla sur son pubis deux petits yeux en plastique","Il écrivit des blagues cochones sur ses cuisses", "Il enfila une chaussette rose en peluche sur son sexe", "Il recouvrit son entrejambe de paillettes roses"],
+          "answer":"Il enfila une chaussette rose en peluche sur son sexe"
         },
         {
           "text":"Lorsque les fans suggéraient à George R.R. Martin de finir d'écrire la saga du Trône de Fer au plus vite, car son obésité riquait de le tuer rapidement, quelle fut sa réponse ?",
@@ -574,7 +579,7 @@
           "answer":"Lucifer"
         },
         {
-          "text":"Aurore, la Belle au bois dormant, est la princesse la moins bavarde de Disney. À votre avis, combien de lignes de dialogue à-t-elle ?",
+          "text":"Aurore, la Belle au bois dormant, est la princesse la moins bavarde de Disney. À votre avis, combien de lignes de dialogue a-t-elle ?",
           "choices":["7","18", "26", "31"],
           "answer":"18"
         },

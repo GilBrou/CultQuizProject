@@ -71,9 +71,14 @@ class quizCard {
       thatQuiz.appendChild(spe);
       spe.classList.add("spe");
       spe.innerHTML = "Comic book";
-    }    
+    } else if (this.id == "03"){
+      let spe = document.createElement('div');
+      thatQuiz.appendChild(spe);
+      spe.classList.add("spe");
+      spe.innerHTML = "+ de 18 ans";   
+    }
   }
-  }
+}
 
   //////Display Quiz's info into page Dom
   DisplayQuizInfos(page){    
