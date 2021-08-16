@@ -12,6 +12,7 @@ class quizCard {
 
   //////Create And Display into Dom Quiz's Cards
   createAndDisplayQuizCards(main){
+    //console.log(this.questions.length);
 
   /*
   //for now, remove unfilled quizzes
