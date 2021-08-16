@@ -22,17 +22,7 @@ class quizCard {
     let nTags = document.createElement('div');
     let lineContainer = document.createElement('div');
     let lineContent = document.createElement('div');
-    let tagline = document.createElement('p');
-
-    if(this.id == "08"){//for comic book version of the walking dead
-    let spe = document.createElement('div');
-    thatQuiz.appendChild(spe);
-    spe.classList.add("spe");
-    spe.innerHTML = "Comic book";
-    }
-
-
-  
+    let tagline = document.createElement('p'); 
 
 
     //Dom appending
@@ -69,6 +59,14 @@ class quizCard {
     name.classList.add("name");
     lineContainer.classList.add("line-container");
     lineContent.classList.add("line-content");
+
+    //for comic book version of the walking dead
+    if(this.id == "08"){
+      let spe = document.createElement('div');
+      thatQuiz.appendChild(spe);
+      spe.classList.add("spe");
+      spe.innerHTML = "Comic book";
+    }
   }
 
   //////Display Quiz's info into page Dom
