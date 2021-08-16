@@ -240,9 +240,9 @@
       ],
       "questions":[
         {
-          "text":"",
-          "choices":["","", "", ""],
-          "answer":""
+          "text":"Quel est le titre original de la saga littéraire de George R.R Martin qui à inspiré la série ?",
+          "choices":["Thrones Game","A Song of Ice and Fire", "A Dance with the Dragons", "The Iron Throne"],
+          "answer":"A Song of Ice and Fire"
         },        
         {
           "text":"Comment se nomme le Loup Géant d' Arya Stark ?",
