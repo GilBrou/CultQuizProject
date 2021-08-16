@@ -593,17 +593,17 @@
           "choices":["7","18", "26", "31"],
           "answer":"18"
         },
-                        {
-          "text":"À l'origine, quel était le prénom de Mickey ?",
-          "choices":["Mortimer","Miles", "Michael", "Maxwell"],
-          "answer":"Mortimer"
+         {
+          "text":"Comment s'apelle le bonhomme de neige dans La Reine des neiges ?",
+          "choices":["Pilaf","Hans", "Sven", "Olaf"],
+          "answer":"Olaf"
         },
         {
           "text":"Dans Monstres et Cie, quel code d'alerte correspond à la contamination par un enfant ou un objet humain ?",
           "choices":["118-218","313-12", "23-19", "60-42"],
           "answer":"23-19"
         },
-                        {
+        {
           "text":"Datant de 1941, quel est le premier long métrage en prises de vues réelles produit par les Studios Disney ?",
           "choices":["L'Île au trésor","Le Dragon récalcitrant", "La grande évasion", "Mélodie du Sud"],
           "answer":"Le Dragon récalcitrant"
@@ -664,19 +664,19 @@
           "answer":"Elle était accompagnée de sept autres statuettes plus petites"
         },
         {
-          "text":"",
-          "choices":["","", "", ""],
-          "answer":""
+          "text":"Quel était le premier dessin animé Disney à utiliser des images générées par ordinateur ?",
+          "choices":["Toy Story","Bernard et Bianca au pays des kangourous", "La Belle et la Bête", "Taram et le Chaudron Magique"],
+          "answer":"Taram et le Chaudron Magique"
         },
         {
-          "text":"",
-          "choices":["","", "", ""],
-          "answer":""
+          "text":"À l'origine, quel était le prénom de Mickey ?",
+          "choices":["Mortimer","Miles", "Michael", "Maxwell"],
+          "answer":"Mortimer"
         },                                                                                
         {
-          "text":"",
-          "choices":["","", "", ""],
-          "answer":""
+          "text":"Dans de nombreux longs-métrages, Les animateurs cachent souvent des références à d'autres productions Disney. Quels personnages peut-on voir dans Aladdin ?",
+          "choices":["Pinocchio, Sébastien et La Bête","Sébastien, Scar et Polochon", "Pinocchio, Scar et Pumba", "Madame Samovar, Sébastien et Scar"],
+          "answer":"Pinocchio, Sébastien et La Bête"
         }               
       ]
     },
