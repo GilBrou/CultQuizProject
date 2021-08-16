@@ -574,7 +574,7 @@
       "punchLine": "Il vous reste quelques souvenirs d'enfance ?",
       "taunt": "Vous pensez vraiment connaître la firme centenaire ?",
       "scoreReact" : [
-        "Manifestement, vôtre âme d'enfant s'est fait la malle il y a longtemps.",
+        "Manifestement, votre âme d'enfant s'est fait la malle il y a longtemps.",
         "Woaw ! Vous avez des actions chez Disney ou juste beaucoup de temps libre ?"
       ],
       "questions":[
@@ -584,17 +584,17 @@
           "answer":"Anastasia"
         },        
         {
-          "text":"Comment s'appelle le chat cruel dan Cendrillon ?",
+          "text":"Comment s'appelle le chat cruel dans Cendrillon ?",
           "choices":["Belzébuth","Diablo", "Satan", "Lucifer"],
           "answer":"Lucifer"
         },
         {
-          "text":"Aurore, la Belle au bois dormant, est la princesse la moins bavarde de Disney, à vôtre avis, combien de lignes de dialogue à-t-elle ?",
+          "text":"Aurore, la Belle au bois dormant, est la princesse la moins bavarde de Disney. À votre avis, combien de lignes de dialogue à-t-elle ?",
           "choices":["7","18", "26", "31"],
           "answer":"18"
         },
          {
-          "text":"Comment s'apelle le bonhomme de neige dans La Reine des neiges ?",
+          "text":"Comment s'appelle le bonhomme de neige dans La Reine des neiges ?",
           "choices":["Pilaf","Hans", "Sven", "Olaf"],
           "answer":"Olaf"
         },
@@ -610,7 +610,7 @@
         },
         {
           "text":"Dans Le Roi Lion, où est située la célèbre cicatrice de Scar ?",
-          "choices":["Sur son oeil gauche","Sous son oeil droit", "Sur sa joue gauche", "Sur son oeil droit"],
+          "choices":["Sur son œil gauche","Sous son œil droit", "Sur sa joue gauche", "Sur son œil droit"],
           "answer":"Sur son oeil gauche"
         },
         {
@@ -629,12 +629,12 @@
           "answer":"Le Livre de la jungle"
         },
         {
-          "text":"Quel est le domain dans lequel excelle Rebelle ?",
+          "text":"Quel est le domaine dans lequel excelle Rebelle ?",
           "choices":["La couture","La scultpture sur bois", "Le combat à l'épée", "Le tir à l'arc"],
           "answer":"Le tir à l'arc"
         },
         {
-          "text":"Pour être fort et se sentir à l'aise, combien de douzaines d'oeufs Gaston mangeait-il quand il était petit ?",
+          "text":"Pour être fort et se sentir à l'aise, combien de douzaines d'œufs Gaston mangeait-il quand il était petit ?",
           "choices":["1","3", "4", "5"],
           "answer":"4"
         },
@@ -649,8 +649,8 @@
           "answer":"Renifleur"
         },
         {
-          "text":"Comment s'apelle le rival de John Smith dans Pocahontas : une légende indienne ?",
-          "choices":["Rocoum","Locoum", "Kocoum", "Pocoum"],
+          "text":"Comment s'appelle le rival de John Smith dans Pocahontas : une légende indienne ?",
+          "choices":["Rocoum","Loucoum", "Kocoum", "Pocoum"],
           "answer":"Kocoum"
         },
         {
@@ -659,7 +659,7 @@
           "answer":"Robin Williams"
         },
         {
-          "text":"Un Oscar d'honneur à été attribué à Blanche neige et les sept nains lors de sa sortie en 1937, quel était la particularité de la statuette offerte à Walt Disney?",
+          "text":"Un Oscar d'honneur à été décerné à Blanche neige et les sept nains lors de sa sortie en 1937, quel était la particularité de la statuette offerte à Walt Disney?",
           "choices":["Elle portait un bonnet comme les nains du film","Elle était accompagnée de sept autres statuettes plus petites", "C'est la seule statuette à avoir été peinte en couleur et non dorée.", "La statuette représentait Blanche Neige"],
           "answer":"Elle était accompagnée de sept autres statuettes plus petites"
         },
