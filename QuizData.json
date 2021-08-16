@@ -233,7 +233,7 @@
       "id": "03",
       "tags": ["livres", "series"],
       "punchLine": "Playar Morghulis : defeat is coming.",
-      "taunt": "Intéréssé par le trône ?",
+      "taunt": "Intéressé par le trône ?",
       "scoreReact" : [
         "Tu ne sais rien, Jean Neige !",
         "Tes connaissances impressionnantes feraient même trembler Daenerys du Typhon de la Maison Targaryen, première du nom, Reine des Andals, de Rhoynar et des Premiers Hommes, Suzeraine des..."
@@ -255,7 +255,7 @@
           "answer":"Roose Bolton et Walder Frey"
         },
         {
-          "text":"Pourquoi Gregor Clegane (La Montagne) a-t-il défiguré son propre frère, Sandor (Le limier) lorsqu'ils étaient enfants ?",
+          "text":"Pourquoi Gregor Clegane (La Montagne) a-t-il défiguré son propre frère, Sandor (Le Limier) lorsqu'ils étaient enfants ?",
           "choices":["Parce qu'il lui avait volé son jouet","Parce que leur mère est morte en mettant au monde Sandor", "Parce qu'il était jaloux de son intelligence", "Pour prouver à leur père qu'il était le plus fort"],
           "answer":""
         },
@@ -275,7 +275,7 @@
           "answer":"Sophie Turner (Sansa)"
         },
         {
-          "text":"Au début de la série, qui est l'espion dépéché par les Lannisters auprès de Daenerys et son frère ?",
+          "text":"Au début de la série, qui est l'espion dépêché par les Lannisters auprès de Daenerys et son frère ?",
           "choices":["Jaqen H'ghar","Barristan Selmy", "Daario Naharis", "Jorah Mormont"],
           "answer":"Jorah Mormont"
         },
@@ -285,7 +285,7 @@
           "answer":"Rhaegar et Viserys"
         },
         {
-          "text":"Selon Syrio Forel : Il n’y a qu’un seul dieu, et ce dieu est la mort. Et on ne dit qu’une seule chose à la mort…",
+          "text":"Selon Syrio Forel il n’y a qu’un seul dieu, et ce dieu est la mort. Et on ne dit qu’une seule chose à la mort…",
           "choices":["Reviens plus tard","Je suis trop rapide pour toi", "Je t'offre mes ennemis", "Pas aujourd’hui"],
           "answer":"Pas aujourd’hui"
         },
@@ -313,11 +313,6 @@
           "text":"Grâce au succès de la série, en 2012 on a recensé en France plus de 150 nouveaux-nés qui se prénommaient :",
           "choices":["Sansa","Littlefinger", "Khaleesi", "Khaldrogo"],
           "answer":"Khaleesi"
-        },
-        {
-          "text":"",
-          "choices":["","", "", ""],
-          "answer":""
         },
         {
           "text":"",
