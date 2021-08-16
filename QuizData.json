@@ -245,7 +245,7 @@
           "answer":"A Song of Ice and Fire"
         },        
         {
-          "text":"Comment se nomme le Loup Géant d' Arya Stark ?",
+          "text":"Comment se nomme le Loup Géant d'Arya Stark ?",
           "choices":["Fantôme","Calpurnia", "Lady", "Nyméria"],
           "answer":"Nyméria"
         },
@@ -254,9 +254,9 @@
           "choices":["Walder Frey et Ramsay Bolton","Tywin Lannister et Walder Frey", "Le Silure et Roose Bolton", "Roose Bolton et Walder Frey"],
           "answer":"Roose Bolton et Walder Frey"
         },
-                        {
-          "text":"",
-          "choices":["","", "", ""],
+        {
+          "text":"Pourquoi Gregor Clegane (La Montagne) a-t-il défiguré son propre frère, Sandor (Le limier) lorsqu'ils étaient enfants ?",
+          "choices":["Parce qu'il lui avait volé son jouet","Parce que leur mère est morte en mettant au monde Sandor", "Parce qu'il était jaloux de son intelligence", "Pour prouver à leur père qu'il était le plus fort"],
           "answer":""
         },
         {
