@@ -74,8 +74,8 @@ class quizCard {
     } else if (this.id == "03"){
       let spe = document.createElement('div');
       thatQuiz.appendChild(spe);
-      spe.classList.add("spe");
-      spe.innerHTML = "+ de 18 ans";   
+      spe.classList.add("spe", "maj");
+      spe.innerHTML = "+ 18";   
     }
   }
 }

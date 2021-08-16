@@ -71,7 +71,7 @@ main{
         width: 500px;
       }
      @include mobile-style{
-        h2{
+        h2{   
           width: 80%;
           -ms-flex-item-align: center;
           -ms-grid-row-align: center;
@@ -172,6 +172,10 @@ main{
           p{font-size: 0.9rem;}
         }
     }
+  }
+
+  #question{
+   letter-spacing: 1px;
   }
 
 /*///ANSWERS DISPLAYING /////*/

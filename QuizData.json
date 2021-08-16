@@ -245,7 +245,7 @@
           "answer":""
         },        
         {
-          "text":"Comment se nomme le Loup Géant d'Arya Stark ?",
+          "text":"Comment se nomme le Loup Géant d' Arya Stark ?",
           "choices":["Fantôme","Calpurnia", "Lady", "Nyméria"],
           "answer":"Nyméria"
         },
@@ -260,7 +260,7 @@
           "answer":""
         },
         {
-          "text":"Grand-Griffe, l'épée de Jon Snow, est ornée d'une tête de loup, mais lorsqu'elle appartenait à Jeor Mormont , il s'agissait d'une :",
+          "text":"Grand-Griffe, l'épée de Jon Snow, est ornée d'une tête de loup, mais lorsqu'elle appartenait à Jeor Mormont il s'agissait d'une :",
           "choices":["Tête d'ours","Défense de Mammouth", "Tête de cheval", "Aile de dragon"],
           "answer":"Tête d'ours"
         },
@@ -275,9 +275,9 @@
           "answer":"Sophie Turner (Sansa)"
         },
         {
-          "text":"",
-          "choices":["","", "", ""],
-          "answer":""
+          "text":"Au début de la série, qui est l'espion dépéché par les Lannisters auprès de Daenerys et son frère ?",
+          "choices":["Jaqen H'ghar","Barristan Selmy", "Daario Naharis", "Jorah Mormont"],
+          "answer":"Jorah Mormont"
         },
                                 {
           "text":"Comment se nomment les frères de Daenerys ?",
@@ -335,9 +335,9 @@
           "answer":"Il enfila une chaussette rose en peluche sur son sexe"
         },
         {
-          "text":"Lorsque les fans suggéraient à George R.R. Martin de finir d'écrire la saga du Trône de Fer au plus vite, car son obésité riquait de le tuer rapidement, quelle fut sa réponse ?",
-          "choices":["Il partagea la vidéo de sa récente coloscopie","Il mit en ligne une vidéo de lui, complètement nu, sautant sur un trampoline en faisant des doigts d'honneur", "Il les menaça de tuer Aria dans le prochain roman s'ils continuaient ce genre de commentaires", "Il leur fit croire qu'il allait complètement arrêter l'écriture"],
-          "answer":"Il mit en ligne une vidéo de lui, complètement nu, sautant sur un trampoline en faisant des doigts d'honneur"
+          "text":"Lorsque les fans suggéraient à George R.R. Martin de finir d'écrire la saga du Trône de Fer au plus vite, car son obésité risquait de le tuer rapidement, il leur répondit par une vidéo :",
+          "choices":["De sa récente coloscopie","De lui, complètement nu, sautant sur un trampoline en faisant des doigts d'honneur", "Où il explique quels personnages allaient mourir dans le prochain tome", "De lui en train de manger une pièce montée"],
+          "answer":"De lui, complètement nu, sautant sur un trampoline en faisant des doigts d'honneur"
         }                                                                
       ]
     },
