@@ -798,10 +798,10 @@
       "id": "08",
       "tags": ["bd"],
       "punchLine": "DONT OPEN : LETHAL QUIZ INSIDE",
-      "taunt": "Vous croyez êtres un expert ? Chez vous, je ne sais pas, mais ici les Quiz n'ont pas été livrés avec un de mode d'emploi",
+      "taunt": "Vous croyez êtres un expert ? Chez vous, je ne sais pas, mais ici les Quiz n'ont pas été livrés avec un de mode d'emploi.",
       "scoreReact" : [
         "Ce n'est pas grave, il vous reste la version TV édulcorée.",
-        "Vous en savez assez sur l'apocalypse zombie...<br>Vous survivrez.<br>Pour l'instant..."
+        "Vous en savez assez sur l'apocalypse zombie, vous survivrez.<br>Pour l'instant..."
       ],
       "questions":[
         {

@@ -24,6 +24,16 @@ class quizCard {
     let lineContent = document.createElement('div');
     let tagline = document.createElement('p');
 
+    if(this.name == "The_Walking_Dead"){
+    let spe = document.createElement('div');
+    thatQuiz.appendChild(spe);
+    playIcon.classList.add(".spe");
+    spe.innerHTML = "Comic Book";
+    }
+
+
+  
+
 
     //Dom appending
     main.appendChild(aQuizCard);
