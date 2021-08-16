@@ -3,7 +3,7 @@
 function sortingTags (){
 
   //getting Tags classes
-  const allTags = document.querySelectorAll(".livres,.films,.series,.jeux-video,.bd,.animes");
+  const allTags = document.querySelectorAll(".livres,.films,.series,.jeux-video,.bede,.animes");
   const allTagsTag = document.querySelectorAll(".allTags");
   var allCards = document.getElementsByTagName("article");
   
