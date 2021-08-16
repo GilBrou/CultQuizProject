@@ -7,7 +7,7 @@
       "punchLine": "Si vous passez pour des pégus, faudra pas venir faire vos raclettes.",
       "taunt": "Alors on se prend pour un pro de Kaamelott ?",
       "scoreReact" : [
-        "Non, moi j'crois qu'il faut qu'vous arrêtiez d'essayer d'faire des Quiz.<br>Ça vous fatigue, déjà, et moi, quand vous faites un score comme ça,<br>ça me fout une angoisse...",
+        "Non, moi j'crois qu'il faut qu'vous arrêtiez d'essayer d'faire des Quiz.<br><br>Ça vous fatigue, déjà, et moi quand vous faites un score comme ça, ça me fout une angoisse...",
         "Alors là, Sire, je vous dis château !"
       ],
       "questions":[
@@ -236,7 +236,7 @@
       "taunt": "Intéréssé par le trône ?",
       "scoreReact" : [
         "Tu ne sais rien, Jean Neige !",
-        "Tes connaissances impressionnantes feraient même trembler Daenerys du Typhon de la Maison Targaryen,<br>première du nom, Reine des Andals, de Rhoynar et des Premiers Hommes, Suzeraine des..."
+        "Tes connaissances impressionnantes feraient même trembler Daenerys du Typhon de la Maison Targaryen, première du nom, Reine des Andals, de Rhoynar et des Premiers Hommes, Suzeraine des..."
       ],
       "questions":[
         {
@@ -349,7 +349,7 @@
       "taunt": "Vous pensez vraiment être un flocon de neige merveilleux et unique ?",
       "scoreReact" : [
         "Je suis l'absence totale de surprise de Jack...",
-        "Bien joué !<br>Vous avez gagné un magnifique canapé ''Strïïng'' à rayures vertes et des condiments pour votre frigo !"
+        "Bien joué !<br><br>Vous avez gagné un magnifique canapé ''Strïïng'' à rayures vertes et des condiments pour votre frigo !"
       ],
       "questions":[
         {
@@ -575,7 +575,7 @@
       "taunt": "Alors on veut sa petite dose d'hémoglobine ?",
       "scoreReact" : [
         "Vous deviez déjà être térrifié par le générique, non ?",
-        "D'accord, pour vous l'horreur est une seconde nature...<br>Il serait temps de s'en inquiéter."
+        "D'accord, pour vous l'horreur est une seconde nature...<br><br>Il serait temps de s'en inquiéter."
       ],
       "questions":[
         {
@@ -688,7 +688,7 @@
       "taunt": "Les années cinquante...au 23ème siècle, ça ne vous gêne pas ?",
       "scoreReact" : [
         "Continuez plutôt de jouer à des jeux mobile, voulez-vous ?",
-        "Vous en savez long, trop même...<br>Vous êtes de la famille du président Eden ?"
+        "Vous en savez long, trop même...<br><br>Vous êtes de la famille du président Eden ?"
       ],
       "questions":[
         {
@@ -801,7 +801,7 @@
       "taunt": "Vous croyez êtres un expert ? Chez vous, je ne sais pas, mais ici les quiz n'ont pas été livrés avec un de mode d'emploi.",
       "scoreReact" : [
         "Ce n'est pas grave, il vous reste la version TV édulcorée.",
-        "Vous en savez assez sur l'apocalypse zombie, vous survivrez.<br>Pour l'instant..."
+        "Vous en savez assez sur l'apocalypse zombie, vous survivrez.<br><br>Pour l'instant..."
       ],
       "questions":[
         {
@@ -914,7 +914,7 @@
       "taunt": "Dites-moi, M. Anderson, à quoi bon faire ce quiz si vous êtes dans l'incapacité d'y répondre ?",      
       "scoreReact" : [
         "Avouez, vous préferez un bon vieil épisode de L'inspecteur Derrick ?",
-        "Vous avez cessé d'essayer de répondre à ce quiz, car c’est impossible.<br>Vous vous êtes concentrés pour faire éclater la vérité : ce quiz n'existe pas plus que la cuillère.<br>Vous pourriez bien être l'élu..."
+        "Vous avez cessé d'essayer de répondre à ce quiz, car c’est impossible.<br><br>Vous vous êtes concentrés pour faire éclater la vérité : ce quiz n'existe pas plus que la cuillère.<br><br>Vous pourriez bien être l'élu..."
       ],
       "questions":[
         {
@@ -1027,7 +1027,7 @@
       "taunt": "Vous affronterez ce quiz, vous lui permettrez de passer sur vous, mais lorsqu'il sera passé et que vous tournerez votre oeil intérieur sur son chemin, que restera-t-il ?",      
       "scoreReact" : [
         "Niveau dunes, vous êtes plutôt Grau-Du-Roi...",
-        "Félicitations !<br>Vous êtes le Kwisatz Haderach et vous avez triomphé de cette épreuve,<br>aidé par les mémoires de vos ancêtres !"
+        "Félicitations !<br><br>Vous êtes le Kwisatz Haderach et vous avez triomphé de cette épreuve,<br>aidé par les mémoires de vos ancêtres !"
       ],
       "questions":[
         {
