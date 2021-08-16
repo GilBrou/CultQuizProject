@@ -265,9 +265,9 @@
           "answer":"Tête d'ours"
         },
         {
-         "text":"",
-        "choices":["","", "", ""],
-        "answer":""
+         "text":"Quel est la particularité du cousin des Stark, Robin Arryn, âgé de neuf ans ?",
+        "choices":["Il aime tuer des animaux","Il veut épouser sa tante", "Il continue de téter le sein de sa mère", "Il pense que Westeros et une marque de céréales"],
+        "answer":"Il continue de téter le sein de sa mère"
         },
         {
           "text":"Une actrice de la série à adopté l'un des chiens interprétant un Loup Géant, de qui s'agit-il ?",
