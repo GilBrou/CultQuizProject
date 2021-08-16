@@ -13,6 +13,18 @@ class quizCard {
   //////Create And Display into Dom Quiz's Cards
   createAndDisplayQuizCards(main){
 
+  /*
+  //for now, remove unfilled quizzes
+  if (this.name == "Game_Of_Thrones" || this.name ==  "Fight_Club" || this.name ==  "Matrix" || this.name == "AHS" || this.name ==  "Fallout" || this.name ==  "The_Walking_Dead" || this.name ==  "Dune"){
+  }
+  else {
+  */
+
+  //dont display it if question array is empty
+  if (this.questions.length < 20){//"Game_Of_Thrones" || this.name ==  "Fight_Club" || this.name ==  "Matrix" || this.name == "AHS" || this.name ==  "Fallout" || this.name ==  "The_Walking_Dead" || this.name ==  "Dune"){
+  }
+  else {
+
     //Dom element creation
     let aQuizCard = document.createElement('article');
     let mainQuizCard = document.createElement('div');
@@ -66,8 +78,9 @@ class quizCard {
       thatQuiz.appendChild(spe);
       spe.classList.add("spe");
       spe.innerHTML = "Comic book";
-    }
+    }    
   }
+}
 
   //////Display Quiz's info into page Dom
   DisplayQuizInfos(page){    

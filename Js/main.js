@@ -45,7 +45,6 @@ const main = async () =>{
     Array.from(allNames).map(element => {
       element.innerHTML = element.innerHTML.replace(/_/g,' ');
     });
-
 };
 
 /////Initiate Main Function On Page Load
