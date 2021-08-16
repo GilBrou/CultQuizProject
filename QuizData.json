@@ -796,12 +796,12 @@
     {
       "name": "The_Walking_Dead",
       "id": "08",
-      "tags": ["series", "jeux-video", "bd"],
-      "punchLine": "Attention Coral : DONT DEAD, OPEN INSIDE !",
-      "taunt": "Si vous saviez que TWD était un comic book, une série TV et un jeu vidéo, vous pourriez peut-être survivre à ce quiz...",
+      "tags": ["bd"],
+      "punchLine": "DONT OPEN : LETHAL QUIZ INSIDE",
+      "taunt": "Vous croyez êtres un expert ? Chez vous, je ne sais pas, mais ici les Quiz n'ont pas été livrés avec un de mode d'emploi",
       "scoreReact" : [
-        "Avouez, vous n'avez vu que deux épisodes, un peu par hasard ?",
-        "Vous savez tout ce qu'il y a à savoir sur l'apocalypse zombie...Vous survivrez peut-être."
+        "Ce n'est pas grave, il vous reste la version TV édulcorée.",
+        "Vous en savez assez sur l'apocalypse zombie...<br>Vous survivrez.<br>Pour l'instant..."
       ],
       "questions":[
         {
