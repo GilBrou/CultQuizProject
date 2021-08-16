@@ -913,8 +913,8 @@
       "punchLine": "Envie de descendre avec le lapin blanc au fond du gouffre ?",
       "taunt": "Dites-moi, M. Anderson, à quoi bon faire ce quiz si vous êtes dans l'incapacité d'y répondre ?",      
       "scoreReact" : [
-        "Avouez, vous n'avez vu que deux épisodes, un peu par hasard ?",
-        "Vous avez cessé d'essayer de répondre à ce quiz, car c’est impossible. Vous vous êtes concentrés pour faire éclater la vérité : ce quiz n'existe pas plus que la cuillère. Vous pourriez bien être l'élu..."
+        "Avouez, vous préferez un bon vieil épisode de L'inspecteur Derrick ?",
+        "Vous avez cessé d'essayer de répondre à ce quiz, car c’est impossible.<br>Vous vous êtes concentrés pour faire éclater la vérité : ce quiz n'existe pas plus que la cuillère.<br>Vous pourriez bien être l'élu..."
       ],
       "questions":[
         {
