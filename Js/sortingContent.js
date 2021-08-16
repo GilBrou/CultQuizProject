@@ -26,6 +26,7 @@ function sortingTags (){
           //Check if selected tag is present in current taglist
           if (element == targetTag ){
             getOutOrStay++;
+            
           };  
         });
 
