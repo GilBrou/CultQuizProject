@@ -136,7 +136,7 @@
           "answer":"H.R. Giger"
         },
         {
-          "text":"Les œufs d'alien non fécondés donnent naissance aux:",
+          "text":"Les œufs d'alien non fécondés donnent naissance aux :",
           "choices":["Facediggers","Chestbusters", "Flesheaters", "Facehuggers"],
           "answer":"Facehuggers"
         },
@@ -579,54 +579,54 @@
       ],
       "questions":[
         {
-          "text":"",
-          "choices":["","", "", ""],
-          "answer":""
+          "text":"Quelle proposition n'est pas un long métrage de Disney ?",
+          "choices":["Kuzco, l'empereur mégalo","Basil, détective privé", "Anastasia", "Peter Pan"],
+          "answer":"Anastasia"
         },        
         {
-          "text":"",
-          "choices":["","", "", ""],
-          "answer":""
+          "text":"Comment s'appelle le chat cruel dan Cendrillon ?",
+          "choices":["Belzébuth","Diablo", "Satan", "Lucifer"],
+          "answer":"Lucifer"
         },
         {
-          "text":"",
-          "choices":["","", "", ""],
-          "answer":""
+          "text":"Aurore, la Belle au bois dormant, est la princesse la moins bavarde de Disney, à vôtre avis, combien de lignes de dialogue à-t-elle ?",
+          "choices":["7","18", "26", "31"],
+          "answer":"18"
         },
                         {
-          "text":"",
-          "choices":["","", "", ""],
-          "answer":""
+          "text":"À l'origine, quel était le prénom de Mickey ?",
+          "choices":["Mortimer","Miles", "Michael", "Maxwell"],
+          "answer":"Mortimer"
         },
         {
-          "text":"",
-          "choices":["","", "", ""],
-          "answer":""
+          "text":"Dans Monstres et Cie, quel code d'alerte correspond à la contamination par un enfant ou un objet humain ?",
+          "choices":["118-218","313-12", "23-19", "60-42"],
+          "answer":"23-19"
         },
                         {
-          "text":"",
-          "choices":["","", "", ""],
-          "answer":""
+          "text":"Datant de 1941, quel est le premier long métrage en prises de vues réelles produit par les Studios Disney ?",
+          "choices":["L'Île au trésor","Le Dragon récalcitrant", "La grande évasion", "Mélodie du Sud"],
+          "answer":"Le Dragon récalcitrant"
         },
         {
-          "text":"",
-          "choices":["","", "", ""],
-          "answer":""
+          "text":"Dans Le Roi Lion, où est située la célèbre cicatrice de Scar ?",
+          "choices":["Sur son oeil gauche","Sous son oeil droit", "Sur sa joue gauche", "Sur son oeil droit"],
+          "answer":"Sur son oeil gauche"
         },
         {
-          "text":"",
-          "choices":["","", "", ""],
-          "answer":""
-        },
-                                {
-          "text":"",
-          "choices":["","", "", ""],
-          "answer":""
+          "text":"Complétez ces paroles chantées par Ariel : Moi je voudrais parcourir le monde, moi je voudrais voir le monde ....",
+          "choices":["Brûler","Danser", "Chanter", "Valser"],
+          "answer":"Danser"
         },
         {
-          "text":"",
-          "choices":["","", "", ""],
-          "answer":""
+          "text":"Quel personnage n'est pas dans Tarzan ?",
+          "choices":["Kala","Tantor", "Tok", "Kida"],
+          "answer":"Kida"
+        },
+        {
+          "text":"Quel est le dernier film supervisé par Walt Disney avant sa disparition ?",
+          "choices":["Robin des Bois","Les 101 Dalmatiens", "Le Livre de la jungle", "La Belle au bois dormant"],
+          "answer":"Le Livre de la jungle"
         },
         {
           "text":"",
