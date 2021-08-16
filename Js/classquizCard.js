@@ -24,11 +24,11 @@ class quizCard {
     let lineContent = document.createElement('div');
     let tagline = document.createElement('p');
 
-    if(this.name == "The_Walking_Dead"){
+    if(this.id == "08"){//for comic book version of the walking dead
     let spe = document.createElement('div');
     thatQuiz.appendChild(spe);
-    playIcon.classList.add(".spe");
-    spe.innerHTML = "Comic Book";
+    spe.classList.add("spe");
+    spe.innerHTML = "Comic book";
     }
 
 
