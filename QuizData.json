@@ -245,14 +245,14 @@
           "answer":""
         },        
         {
-          "text":"",
-          "choices":["","", "", ""],
-          "answer":""
+          "text":"Comment se nomme le Loup Géant d'Arya Stark ?",
+          "choices":["Fantôme","Calpurnia", "Lady", "Nyméria"],
+          "answer":"Nyméria"
         },
         {
-          "text":"",
-          "choices":["","", "", ""],
-          "answer":""
+          "text":"Par qui les Stark sont-ils trahis lors des noces pourpres ?",
+          "choices":["Walder Frey et Ramsay Bolton","Tywin Lannister et Walder Frey", "Le Silure et Roose Bolton", "Roose Bolton et Walder Frey"],
+          "answer":"Roose Bolton et Walder Frey"
         },
                         {
           "text":"",
@@ -280,9 +280,14 @@
           "answer":""
         },
                                 {
-          "text":"",
-          "choices":["","", "", ""],
-          "answer":""
+          "text":"Comment se nomment les frères de Daenerys ?",
+          "choices":["Rhaegar et Viserys","Rhaegis et thunkon", "Aegon et Viserion", "Aerys et Rhaegar"],
+          "answer":"Rhaegar et Viserys"
+        },
+        {
+          "text":"Selon Syrio Forel : Il n’y a qu’un seul dieu, et ce dieu est la mort. Et on ne dit qu’une seule chose à la mort…",
+          "choices":["Reviens plus tard","Je suis trop rapide pour toi", "Je t'offre mes ennemis", "Pas aujourd’hui"],
+          "answer":"Pas aujourd’hui"
         },
         {
           "text":"",
@@ -325,14 +330,9 @@
           "answer":""
         },
         {
-          "text":"",
-          "choices":["","", "", ""],
-          "answer":""
-        },
-        {
-          "text":"",
-          "choices":["","", "", ""],
-          "answer":""
+          "text":"Lorsque les fans suggéraient à George R.R. Martin de finir d'écrire la saga du Trône de Fer au plus vite, car son obésité riquait de le tuer rapidement, quelle fut sa réponse ?",
+          "choices":["Il partagea la vidéo de sa récente coloscopie","Il mit en ligne une vidéo de lui, complètement nu, sautant sur un trampoline en faisant des doigts d'honneur", "Il les menaça de tuer Aria dans le prochain roman s'ils continuaient ce genre de commentaires", "Il leur fit croire qu'il allait complètement arrêter l'écriture"],
+          "answer":"Il mit en ligne une vidéo de lui, complètement nu, sautant sur un trampoline en faisant des doigts d'honneur"
         }                                                                
       ]
     },
@@ -596,7 +596,7 @@
         {
           "text":"Dans Le Roi Lion, où est située la célèbre cicatrice de Scar ?",
           "choices":["Sur son œil gauche","Sous son œil droit", "Sur sa joue gauche", "Sur son œil droit"],
-          "answer":"Sur son oeil gauche"
+          "answer":"Sur son œil gauche"
         },
         {
           "text":"Complétez ces paroles chantées par Ariel : Moi je voudrais parcourir le monde, moi je voudrais voir le monde ....",
