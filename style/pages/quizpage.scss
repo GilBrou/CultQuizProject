@@ -1,5 +1,43 @@
+/*ONLOAD ANIMATION*/
 
-/*///BANNER/////*/
+/*Banner, Title, Progress & Retry or leave*/
+.jelloBanner{
+    -webkit-animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+            animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+.animTitle{
+    -webkit-animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 0.3s both;
+            animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 0.3s both;
+}
+.animprogress{
+    -webkit-animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 2s both;
+            animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 2s both;
+}
+.retryAnim{
+    -webkit-animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 2.4s both;
+            animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 2.4s both;
+}
+
+/*Quiz Buttons*/
+.animbutton0{
+    -webkit-animation: flip-in-hor-bottom 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.6s both;
+            animation: flip-in-hor-bottom 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.6s both;
+}
+.animbutton1{
+    -webkit-animation: flip-in-hor-bottom 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1s both;
+            animation: flip-in-hor-bottom 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1s both;
+}
+.animbutton2{
+    -webkit-animation: flip-in-hor-bottom 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1.4s both;
+            animation: flip-in-hor-bottom 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1.4s both;
+}
+.animbutton3{
+    -webkit-animation: flip-in-hor-bottom 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1.8s both;
+            animation: flip-in-hor-bottom 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1.8s both;
+}
+
+
+/*BANNER*/
 .banner{
   @include flex-column;
   width: 100%;  
@@ -8,22 +46,22 @@
   border-radius: 20px;
   background-size: 100%;
   background-repeat : no-repeat;
-    h1{
-      margin-top: 170px;
-      font-size: 130%;
-      padding: 17px;
-      @include self-text-align;
-      background-color: rgba(255, 255, 255, 0.7);
-      border-radius: 20px;
-      color: $tertiary-color;
-    }
+  h1{
+    margin-top: 170px;
+    font-size: 130%;
+    padding: 17px;
+    @include self-text-align;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 20px;
+    color: $tertiary-color;
+  }
   @include truemobile-style{
     border-radius: 0px;
     width: 100vw;
   }
 }
 
-/////Restyling images/////
+/*RESTYLING BANNER IMAGE*/
 .bannerKaamelott{background-position: 50% 35%;}
 .bannerAlien{background-position: 50% 50%;}
 .bannerGame_Of_Thrones{background-position: 50% 10%;}
@@ -35,11 +73,10 @@
 .bannerMatrix h1{background-color: rgba(255, 255, 255, 0.85);}
 .bannerDune{background-position: 50% 50%;}
 
-
-/*//////border logo/////*/
+/*BORDER LOGO*/
 header{#logo{border-bottom: 0px;}}
 
-/*//////MAIN SECTION/////*/
+/*MAIN SECTION*/
 main{
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -56,149 +93,222 @@ main{
     -ms-flex-wrap: nowrap;
     flex-wrap: nowrap;
   }
-    h3{
-      color: $primary-color;
-      font-size: 1.5rem;
-    }  
-    .container{
+  h3{
+    color: $primary-color;
+    font-size: 1.5rem;
+  }
+  .container{
+    #question{letter-spacing: 1px;}
+    .choices{
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      margin: 3rem auto 3rem;
+      width: 500px;
+    }
+    @include mobile-style{
+      h2{   
+        width: 80%;
+        -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+        @include self-text-align;
+        margin: auto;
+        -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+      }
       .choices{
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-        margin: 3rem auto 3rem;
-        width: 500px;
-      }
-     @include mobile-style{
-        h2{   
-          width: 80%;
-          -ms-flex-item-align: center;
-          -ms-grid-row-align: center;
-          align-self: center;
-          @include self-text-align;
-          margin: auto;
-          -ms-flex-wrap: nowrap;
-          flex-wrap: nowrap;
-        }
-        .choices{
-          width: 80%;
-          -ms-flex-item-align: center;
-          -ms-grid-row-align: center;
-          align-self: center;
-          @include self-text-align;
-          margin: auto;
-        }
+        width: 80%;
+        -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+        @include self-text-align;
+        margin: auto;
       }
     }
-    #progress {
-      font-size: 1.3rem;
+  }
+  #progress {
+    font-size: 1.3rem;
+    color: $primary-color;
+  }
+  button {
+    color: $tertiary-color;
+    background: $primary-color;
+    border: 1px solid $primary-color;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 0 45%;
+    flex: 1 0 45%;
+    width: 200px;
+    min-height: 80px;
+    height: auto;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    margin: .4rem;
+    outline: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-weight: 600;
+    &:hover{
       color: $primary-color;
+      background: $fourth-color;
+      border: 1px solid $fourth-color;
+      -webkit-transition: .4s;
+      -o-transition: .4s;
+      transition: .4s;
+      @include truemobile-style{
+        background: $primary-color;
+        color: $tertiary-color;
+      }
     }
-    button {
-      color: $tertiary-color;
-      background: $primary-color;
-      border: 1px solid $primary-color;
-      -webkit-box-flex: 1;
-      -ms-flex: 1 0 45%;
-      flex: 1 0 45%;
-      width: 200px;
-      min-height: 80px;
-      height: auto;
-      border-radius: 5px;
-      cursor: pointer;
-      border: none;
-      margin: .4rem;
-      outline: none;
-      -webkit-user-select: none;
-      -moz-user-select: none;
-      -ms-user-select: none;
-      user-select: none;
-      font-weight: 600;
+    &:active{
+      -webkit-transform: scale(1.05);
+      -ms-transform: scale(1.05);
+      transform: scale(1.05);
+      -webkit-transition: -webkit-transform .1s;
+      transition: -webkit-transform .1s;
+      -o-transition: transform .1s;
+      transition: transform .1s;
+      transition: transform .1s, -webkit-transform .1s;
+      @include truemobile-style{
+        -webkit-transform: none;
+        -ms-transform: none;
+        transform: none;
+      }
+    }
+    p{
+      font-size: 1.3rem;
+      margin: 0;
+    }
+  }
+  .retryOrLeave {
+    margin-top: 25px;
+    button{
+      @include justify-content-center;
+      height: 40px;
+      max-height: 40px;
+      min-height: 40px;
+      color: $primary-color;
+      background: $fourth-color;
+      border: 1px solid $fourth-color;
       &:hover{
-        color: $primary-color;
-        background: $fourth-color;
-        border: 1px solid $fourth-color;
+        border: 1px solid $tertiary-color;
+        background: $primary-color;
+        color: $tertiary-color;
         -webkit-transition: .4s;
         -o-transition: .4s;
         transition: .4s;
         @include truemobile-style{
-          background: $primary-color;
-          color: $tertiary-color;
-        }
-      }
-      &:active{
-        -webkit-transform: scale(1.05);
-        -ms-transform: scale(1.05);
-        transform: scale(1.05);
-        -webkit-transition: -webkit-transform .1s;
-        transition: -webkit-transform .1s;
-        -o-transition: transform .1s;
-        transition: transform .1s;
-        transition: transform .1s, -webkit-transform .1s;
-        @include truemobile-style{
-          -webkit-transform: none;
-          -ms-transform: none;
-          transform: none;
-        }
-      }
-      p{
-        font-size: 1.3rem;
-        margin: 0;
-      }
-    }
-    .retryOrLeave {
-      margin-top: 25px;
-        button{
-          @include justify-content-center;
-          height: 40px;
-          max-height: 40px;
-          min-height: 40px;
+          background: $tertiary-color;
           color: $primary-color;
-          background: $fourth-color;
-          border: 1px solid $fourth-color;
-          &:hover{
-            border: 1px solid $tertiary-color;
-            background: $primary-color;
-            color: $tertiary-color;
-            -webkit-transition: .4s;
-            -o-transition: .4s;
-            transition: .4s;
-            @include truemobile-style{
-              background: $tertiary-color;
-              color: $primary-color;
-            }  
-          }
-          p{font-size: 0.9rem;}
-        }
+        }  
+      }
+      p{font-size: 0.9rem;}
     }
   }
+}
 
-  #question{
-   letter-spacing: 1px;
-  }
-
-/*///ANSWERS DISPLAYING /////*/
-
+/*ANSWERS DISPLAYING*/
 .all-in-one{
   @include flex-column;
   @include justify-content-center;
-    p{font-size : 120%;}
-    .h2-quiz{
-      -webkit-box-flex : 1;
-      -ms-flex : 1;
-      flex : 1;
-      color: white;
-      margin: 0;
-    }
-    .h3-quiz{
-      margin: 0;
-      -webkit-box-flex : 1;
-      -ms-flex : 1;
-      flex : 1;
-    }
-    @include mobile-style{padding: 0px 30px 0px 30px;}
+  p{font-size : 120%;}
+  .h2-quiz{
+    -webkit-box-flex : 1;
+    -ms-flex : 1;
+    flex : 1;
+    color: white;
+    margin: 0;
   }
+  .h3-quiz{
+    margin: 0;
+    -webkit-box-flex : 1;
+    -ms-flex : 1;
+    flex : 1;
+  }
+  @include mobile-style{padding: 0px 30px 0px 30px;}
+} 
 
- 
-
+/*Result modal*/
+.bground2{
+  display: none;
+  position: fixed;
+  z-index: 100;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  background-color: $around-modal-bg-color;
+  .content2{
+    margin: 5% auto;
+    width: 100%;
+    max-width: 500px;
+    -webkit-animation-name: modalopen;
+    animation-name: modalopen;
+    -webkit-animation-duration: 0.8s;
+    animation-duration: 0.8s;
+    background: $tertiary-color;
+    border: 5px solid $primary-color;
+    -webkit-box-shadow: 0 5px 20px 3px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 5px 20px 3px rgba(0, 0, 0, 0.6);
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+    padding-top: 20px;
+    height: 100%;
+    max-height: 500px;
+    @include just-flex;
+    @include justify-content-center;
+    top: 40%;
+    -webkit-transform: translateY(-40%);
+    -ms-transform: translateY(-40%);
+    transform: translateY(-40%);
+    p{
+      line-height: 90%;
+      font-size: 250%;
+      text-align: left;
+      font-weight: 600;
+    }
+    .modal-body2{
+      margin: 15px auto;
+      -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+      @include justify-content-center;
+      .reaction{
+        padding: 10px;
+        @include flex-column;
+        @include justify-content-center;
+        h1{
+          width: 60%;            
+          padding: 5px 10px 5px 10px;
+          border: 1px solid $fourth-color;
+          background-color : $fourth-color;
+          color: $primary-color;
+          border-radius: 5px;
+          @include self-text-align; 
+          @include truemobile-style{width: 80%;}   
+        }
+        p{
+          font-size: 200%;
+          @include self-text-align;
+          color: $primary-color;
+          @include flex-wrap;
+          line-height: 120%;  
+          padding: 0px 20px 0px 20px; 
+          @include truemobile-style{font-size: 150%;}        
+        }  
+      }
+    }
+    @include mobile-style{max-width: 480px;}
+    @include truemobile-style{
+      max-width: 80vw;
+      min-width: 298px;;
+    }
+  }          
+}

@@ -1,155 +1,236 @@
-/*///HOMEPAGE/////*/
+/*ONLOAD ANIMATION*/
 
-/*///Main SECTION/////*/
+/*Logo*/
+.bounce-in-top {
+	-webkit-animation: bounce-in-top 1.1s both;
+	        animation: bounce-in-top 1.1s both;
+}
+
+/*Tags*/
+.swing-in-top-fwd {
+	-webkit-animation: swing-in-top-fwd 0.85s cubic-bezier(0.175, 0.885, 0.320, 1.275) 0.75s both;
+	        animation: swing-in-top-fwd 0.85s cubic-bezier(0.175, 0.885, 0.320, 1.275) 0.75s both;
+}
+
+/*Quiz*/
+
+.flip-it0 {
+	-webkit-animation: roll-in-blurred-left 0.4s cubic-bezier(0.230, 1.000, 0.320, 1.000) 1.1s both;
+	        animation: roll-in-blurred-left 0.4s cubic-bezier(0.230, 1.000, 0.320, 1.000) 1.1s both;
+}
+.flip-it1 {
+	-webkit-animation: roll-in-blurred-left 0.4s cubic-bezier(0.230, 1.000, 0.320, 1.000) 1.5s both;
+	        animation: roll-in-blurred-left 0.4s cubic-bezier(0.230, 1.000, 0.320, 1.000) 1.5s both;
+}
+.flip-it2 {
+	-webkit-animation: roll-in-blurred-left 0.4s cubic-bezier(0.230, 1.000, 0.320, 1.000) 1.9s both;
+	        animation: roll-in-blurred-left 0.4s cubic-bezier(0.230, 1.000, 0.320, 1.000) 1.9s both;
+}
+.flip-it3 {
+	-webkit-animation: roll-in-blurred-left 0.4s cubic-bezier(0.230, 1.000, 0.320, 1.000) 2.3s both;
+	        animation: roll-in-blurred-left 0.4s cubic-bezier(0.230, 1.000, 0.320, 1.000) 2.3s both;
+}
+.flip-it4 {
+	-webkit-animation: roll-in-blurred-left 0.4s cubic-bezier(0.230, 1.000, 0.320, 1.000) 2.7s both;
+	        animation: roll-in-blurred-left 0.4s cubic-bezier(0.230, 1.000, 0.320, 1.000) 2.7s both;
+}
+.flip-it5 {
+	-webkit-animation: roll-in-blurred-left 0.4s cubic-bezier(0.230, 1.000, 0.320, 1.000) 3.1s both;
+	        animation: roll-in-blurred-left 0.4s cubic-bezier(0.230, 1.000, 0.320, 1.000) 3.1s both;
+}
+.flip-it6 {
+	-webkit-animation: roll-in-blurred-left 0.4s cubic-bezier(0.230, 1.000, 0.320, 1.000) 3.5s both;
+	        animation: roll-in-blurred-left 0.4s cubic-bezier(0.230, 1.000, 0.320, 1.000) 3.5s both;
+}
+.flip-it7 {
+	-webkit-animation: roll-in-blurred-left 0.4s cubic-bezier(0.230, 1.000, 0.320, 1.000) 3.9s both;
+	        animation: roll-in-blurred-left 0.4s cubic-bezier(0.230, 1.000, 0.320, 1.000) 3.9s both;
+}
+.flip-it8 {
+	-webkit-animation: roll-in-blurred-left 0.4s cubic-bezier(0.230, 1.000, 0.320, 1.000) 4.3s both;
+	        animation: roll-in-blurred-left 0.4s cubic-bezier(0.230, 1.000, 0.320, 1.000) 4.3s both;
+}
+.flip-it9 {
+	-webkit-animation: roll-in-blurred-left 0.4s cubic-bezier(0.230, 1.000, 0.320, 1.000) 4.7s both;
+	        animation: roll-in-blurred-left 0.4s cubic-bezier(0.230, 1.000, 0.320, 1.000) 4.7s both;
+}
+
+/*Footer line*/
+.bounce-in-bottom {
+    -webkit-animation: bounce-in-bottom 1.1s both;
+            animation: bounce-in-bottom 1.1s both;
+}
+
+/*Footer links*/
+.swing-in-bottom-fwd {
+    -webkit-animation: swing-in-bottom-fwd 0.85s cubic-bezier(0.175, 0.885, 0.320, 1.275) 0.75s both;
+            animation: swing-in-bottom-fwd 0.85s cubic-bezier(0.175, 0.885, 0.320, 1.275) 0.75s both;
+}
+
+/*MAIN SECTION*/
 .main-section{@include justify-content-center;}
 
-/*///QuizCARDS/////*/
+/*QUIZCACRDS*/
 .QuizCard{
-	margin: auto;
+	//margin: auto;
+	margin: 0px 30px 0px 30px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-		.main-QuizCard{
+  .main-QuizCard{
+  	width: 270px;
+	 	height: 411px;
+	 	position: relative;
+  	margin: 0 20px;
+  	.thatQuiz{
+  		cursor: pointer;
+  		background-color : $primary-color;
+			@include justify-content-center;
+  		@include flex-column;
+ 			margin: auto;
+  		border-radius: 25px;
+  		@include self-text-align;
+  		width: 20%;
+		  width: 230px;
+		  position: absolute;
+		  top: 0;
+		  left: 20px;
+		  z-index: 9999;      
+  		-webkit-box-shadow: 0 5px 20px 3px rgba(0, 0, 0, 0.6);      
+  		box-shadow: 0 5px 20px 3px rgba(0, 0, 0, 0.6);
+			.portrait{
+				pointer-events: none;
+				@include portrait-style;
+			  @include self-text-align;
+			}
+		  .name{
+		  	pointer-events: none;
+	  		margin: 10px 0px 15px 0px; 
+			  color: $tertiary-color;
+			  font-size: 175%;
+			}
+			.tags{display:none;}
+		}
+		.line-container{
+			pointer-events: none;	    	
+			padding-bottom: 5px;
+			background: $fourth-color;
+			color: white;
 			width: 270px;
-	  	height: 411px;
-	  	position: relative;
-	  	margin: 0 20px;
-				.thatQuiz{
-					cursor: pointer;
-  				background-color : $primary-color;
-  				@include justify-content-center;
-  				@include flex-column;
-  				margin: auto;
-  				border-radius: 25px;
-  				@include self-text-align;
-  				width: 20%;
-		  		width: 230px;
-		  		position: absolute;
-		  		top: 0;
-		  		left: 20px;
-		  		z-index: 9999;      
-  				-webkit-box-shadow: 0 5px 20px 3px rgba(0, 0, 0, 0.6);      
-  		     box-shadow: 0 5px 20px 3px rgba(0, 0, 0, 0.6);
-						.portrait{
-							pointer-events: none;
-			      	@include portrait-style;
-			      	@include self-text-align;
-						}
-						.name{
-							pointer-events: none;
-			    		margin: 10px 0px 15px 0px; 
-			    		color: $tertiary-color;
-			    		font-size: 175%;
-						}
-						.tags{display:none;}
-				}
-				.line-container{
-					pointer-events: none;	    	
-					padding-bottom: 5px;
-			  	background: $fourth-color;
-			  	color: white;
-			  	width: 270px;
-			  	height: 335px;
-			  	display: -webkit-box;
-			  	display: -ms-flexbox;
-			  	display: flex;
-			  	-webkit-box-orient: vertical;
-			  	-webkit-box-direction: normal;
-			  	-ms-flex-direction: column;
-			  	flex-direction: column;
-			  	-webkit-box-align: center;
-			  	-ms-flex-align: center;
-			  	align-items: center;
-			  	border-radius: 25px;
-			  	position: absolute;
-			  	top: 20px;
-			  	-webkit-box-shadow: 0 5px 20px 3px rgba(0, 0, 0, 0.6);
-			  	box-shadow: 0 5px 20px 3px rgba(0, 0, 0, 0.6);
-			  	opacity: 0;
-	    			.line-content{
-	    				pointer-events: none;
-	    				padding: 5px;
-  						width: 100%;
-			  			position: absolute;
-  						bottom: 0;
-  						text-align: center;
-	    					p{
-	    						pointer-events: none;
-		    					padding: 5px 5px 10px 5px;
-	  							margin: 0px 5px 5px 5px;
-	  							font-size: 106%;
-	    					} 
-	    			}
-	  		}
+			height: 335px;
+			display: -webkit-box;
+			display: -ms-flexbox;
+			display: flex;
+			-webkit-box-orient: vertical;
+			-webkit-box-direction: normal;
+			-ms-flex-direction: column;
+			flex-direction: column;
+			-webkit-box-align: center;
+			-ms-flex-align: center;
+			align-items: center;
+			border-radius: 25px;
+			position: absolute;
+			top: 20px;
+			-webkit-box-shadow: 0 5px 20px 3px rgba(0, 0, 0, 0.6);
+			box-shadow: 0 5px 20px 3px rgba(0, 0, 0, 0.6);
+			opacity: 0;
+	    .line-content{
+	    	pointer-events: none;
+	 			padding: 5px;
+  			width: 100%;
+			  position: absolute;
+  			bottom: 0;
+  			text-align: center;
+	    	p{
+	    		pointer-events: none;
+					padding: 5px 5px 10px 5px;
+	  			margin: 0px 5px 5px 5px;
+	  			font-size: 106%;
+	    	} 
+	    }
 	  }
-	  @include mobile-style{
-	  	@include justify-content-center;
+	}
+	@include mobile-style{
+		@include justify-content-center;
+		margin: auto;
+		@include self-text-align;
+		width: 100vw;
+		margin: auto;
+		.main-QuizCard{
+			width: 70vw;
 			margin: auto;
-			@include self-text-align;
-			width: 100vw;
-			margin: auto;
-				.main-QuizCard{
-					width: 70vw;
-					margin: auto;
-						.thatQuiz{
-							width: 70vw;
-							margin: auto;
-								//.name{font-size: 300%;}
-						}	   		
-	  				.line-container{
-	  					opacity : 1;		    	
-	  					width: 75vw;
-	  					margin: auto;
-	  					//height: 360px;
-	    					.line-content{
-	    						width: 75vw;
-	    						padding-top: 70px;
-	    							p{
-	    								font-size: 135%;
-	    								margin: 0px 10px 10px 10px;
-	    							}
-	    					}
-	    			}
-				}
+			.thatQuiz{
+				width: 70vw;
+				margin: auto;
+			}
+			.line-container{
+				opacity : 1;		    	
+	 			width: 75vw;
+	  		margin: auto;
+	  		.line-content{
+	  			width: 75vw;
+	    		padding-top: 70px;
+	    		p{
+	    			font-size: 135%;
+	    			margin: 0px 10px 10px 10px;
+	    		}
+	    	}
+			}
 		}
 		@include truemobile-style{
 			width: 90%;
 			margin: auto;
 			@include justify-content-center;
-				.main-QuizCard{
-					width: 90%;
-					min-width: 276px;
+			.main-QuizCard{
+				width: 90%;
+				min-width: 276px;
+				margin: auto;
+				.thatQuiz{
+					width: 85%;
 					margin: auto;
-						.thatQuiz{
-							width: 85%;
-							margin: auto;
-								//.name{font-size: 300%;}
-						}	   		
-	  				.line-container{
-	  					opacity : 1;	    	
-	  					width: 100%;
-	  					margin: auto;
-	  					height: 360px;
-	    					.line-content{
-	    						width: 100%;
-	    						padding-top: 70px;
-	    							p{
-	    								font-size: 115%;
-	    								margin: 0px 10px 10px 10px;
-	    							}
-	    					}
-	    					@include truemobile-style{width: 98%;}
+				}	   		
+	  			.line-container{
+		  			opacity : 1;	    	
+	  				width: 100%;
+	  				margin: auto;
+	  				height: 360px;
+	    			.line-content{
+		    			width: 100%;
+	    				padding-top: 70px;
+	    				p{
+		    				font-size: 115%;
+	    					margin: 0px 10px 10px 10px;
+	    				}
 	    			}
-				}
+	    			@include truemobile-style{width: 98%;}
+	    		}
+			}
 		}
+	}
+}
+
+/*Reenable hover on quiz card once animated*/
+.hovered{
+	&:hover {
+		.line-container {
+			opacity: 1;
+  		-webkit-animation: bounceIn 0.6s linear;
+  		animation: bounceIn 0.6s linear;
+  		@include truemobile-style{
+	  		-webkit-animation: none;
+	  		animation: none;
+  		}
+		}
+	}
 } 
 
-/////Special infos/////
+/*SPECIALS TAGS*/
+
+/*Walking dead comic book*/
 .spe{
 	-webkit-box-direction: normal;
   color: $tertiary-color;
   background-color: $primary-color;
-  //border: 3px solid $primary-color;
   border-radius: 0px 25px 0px 25px;
   padding: 10px;
   text-align: center;
@@ -161,126 +242,40 @@
    z-index: 3;
    pointer-events: none;
  }
+
+ /*GOT + 18*/
  .maj{
  	background-color: red;
- 	//border: 3px solid red;
- 	//color : red;
  	color: $primary-color;
-
  }
 
-
-
-
-/*///ANIMATION QuizCard/////*/
-
-
-.hovered{
-	&:hover {
-		.line-container {
-	opacity: 1;
-  -webkit-animation: bounceIn 0.6s linear;
-  animation: bounceIn 0.6s linear;
-  @include truemobile-style{
-	  -webkit-animation: none;
-	  animation: none;
-  }
-}
-}}
-
-
-
-@-webkit-keyframes bounceIn {
-  20%,
-  40%,
-  60%,
-  80%,
-  to {
-    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
-    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
-  }
-  20% {
-    -webkit-transform: scale3d(1.03, 1.03, 1.03);
-    transform: scale3d(1.03, 1.03, 1.03);
-  }
-  40% {
-    -webkit-transform: scale3d(0.9, 0.9, 0.9);
-    transform: scale3d(0.9, 0.9, 0.9);
-  }
-  60% {
-    opacity: 1;
-    -webkit-transform: scale3d(1.01, 1.01, 1.01);
-    transform: scale3d(1.01, 1.01, 1.01);
-  }
-  80% {
-    -webkit-transform: scale3d(0.97, 0.97, 0.97);
-    transform: scale3d(0.97, 0.97, 0.97);
-  }
-  to {
-    opacity: 1;
-    -webkit-transform: scaleX(1);
-    transform: scaleX(1);
-  }
-}
-
-@keyframes bounceIn {
-  20%,
-  40%,
-  60%,
-  80%,
-  to {
-    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
-    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
-  }
-  20% {
-    -webkit-transform: scale3d(1.03, 1.03, 1.03);
-    transform: scale3d(1.03, 1.03, 1.03);
-  }
-  40% {
-    -webkit-transform: scale3d(0.9, 0.9, 0.9);
-    transform: scale3d(0.9, 0.9, 0.9);
-  }
-  60% {
-    opacity: 1;
-    -webkit-transform: scale3d(1.01, 1.01, 1.01);
-    transform: scale3d(1.01, 1.01, 1.01);
-  }
-  80% {
-    -webkit-transform: scale3d(0.97, 0.97, 0.97);
-    transform: scale3d(0.97, 0.97, 0.97);
-  }
-  to {
-    opacity: 1;
-    -webkit-transform: scaleX(1);
-    transform: scaleX(1);
-  }
-}
-
- @-webkit-keyframes bounce {
-  50% {
-    opacity: 1;
-    -webkit-transform: scale(1.1);
-            transform: scale(1.1);
-  }
-
-  100% {
-    opacity: 1;
-    -webkit-transform: scale(1);
-            transform: scale(1);
-  }
-}
-
- @keyframes bounce {
-  50% {
-    opacity: 1;
-    -webkit-transform: scale(1.1);
-            transform: scale(1.1);
-  }
-
-  100% {
-    opacity: 1;
-    -webkit-transform: scale(1);
-            transform: scale(1);
-  }
+/*FOOTER*/
+footer{
+  border-top: 4px solid $fourth-color;
+  border-radius: 2PX;
+  max-width: 1270px;
+  margin: auto;
+  padding: 15px;
+  @include just-flex;
+  @include justify-content-space-around;
+   a{
+    padding: 10px;
+    font-size: 140%;
+    margin: 0px 20px 0px 20px;
+    @include self-text-align;
+    color: $primary-color;
+    border-radius: 5px;
+    background-color: transparent;
+    @include tablet-style{font-size: 160%;}
+    @include mobile-style{font-size: 180%;}
+    @include truemobile-style{font-size: 160%;}
+      &:hover, &:active{
+        font-weight: bold; 
+        color: $tertiary-color;
+        background-color: $primary-color;
+        -webkit-transition: .5s;
+        -o-transition: .5s;
+        transition: .5s;
+      }
+    }
 } 
-

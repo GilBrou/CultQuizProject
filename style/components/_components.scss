@@ -1,5 +1,5 @@
 
-/*///TAGS/////*/
+/*Tags*/
 .films, .series, .jeux-video, .bede,
 .animes, .allTags, .livres{
   font-weight: bold;  
@@ -30,8 +30,7 @@
     @include truemobile-style{font-size: 100%;}
 }
 
-/*///MODAL CLOSE BUTTON/////*/
-
+/*Modal closing button*/
 .close {
   position: absolute;
   right: 5px;
