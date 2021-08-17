@@ -17,6 +17,7 @@ class quizCard {
   if (this.questions.length < 20){//"Game_Of_Thrones" || this.name ==  "Fight_Club" || this.name ==  "Matrix" || this.name == "AHS" || this.name ==  "Fallout" || this.name ==  "The_Walking_Dead" || this.name ==  "Dune"){
   }
   else {
+  
 
     //Dom element creation
     let aQuizCard = document.createElement('article');
