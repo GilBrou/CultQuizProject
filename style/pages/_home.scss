@@ -174,7 +174,10 @@
 
 /*///ANIMATION QuizCard/////*/
 
-.main-QuizCard:hover .line-container {
+
+.hovered{
+	&:hover {
+		.line-container {
 	opacity: 1;
   -webkit-animation: bounceIn 0.6s linear;
   animation: bounceIn 0.6s linear;
@@ -183,6 +186,9 @@
 	  animation: none;
   }
 }
+}}
+
+
 
 @-webkit-keyframes bounceIn {
   20%,

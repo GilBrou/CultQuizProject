@@ -157,7 +157,28 @@ const page = async () =>{
   let here = document.getElementById('quiz');
   here.scrollIntoView();
 
+  /*
+  //listen to click on logo(backhome)
+  const log = document.querySelectorAll(".logo");
+  Array.from(log).map(element => {
+    element.addEventListener("click", function (event) {
+        event.preventDefault()
+       window.location.href = "index.html" + "?id=" +"noAnim";
+    });
+  });
+
+  //listen to click on btn(backhome)
+  const log2 = document.querySelectorAll(".backhome");
+  Array.from(log2).map(element => {
+    element.addEventListener("click", function (event) {
+        event.preventDefault()
+       window.location.href = "index.html" + "?id=" +"noAnim";
+    });
+  });
+  */
 };
+
+
 
 /////Initiate Main Function On Page Load
 window.onload = page;

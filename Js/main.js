@@ -45,6 +45,19 @@ const main = async () =>{
     Array.from(allNames).map(element => {
       element.innerHTML = element.innerHTML.replace(/_/g,' ');
     });
+
+    const timed = document.querySelectorAll(".QuizCard")
+    i = 0;
+    Array.from(timed).map(element => {
+      timeId = "flip-it" + i;
+      element.classList.add(timeId);
+      i++;
+    });
+
+    const QuizCards = document.querySelectorAll(".main-QuizCard");
+    Array.from(QuizCards).map(element => {
+      element.classList.add("hovered");
+    });    
 };
 
 /////Initiate Main Function On Page Load
