@@ -176,9 +176,47 @@ const page = async () =>{
     });
   });
   */
+
+  ///ANIMATE CHOICES BUTTONS 
+  let allFour = [];
+  let guess0 = document.getElementById('guess0');
+  let guess1 = document.getElementById('guess1');
+  let guess2 = document.getElementById('guess2');
+  let guess3 = document.getElementById('guess3');
+  allFour.push(guess0, guess1, guess2, guess3);
+  let inumber = 0;
+  for(let i in allFour){
+    let animClass = "animbutton" + inumber;
+    allFour[i].classList.add(animClass);
+    inumber++;
+  };
+
+  /////ANIMATE Banner.jelloBanner
+    const jelloBanner = document.querySelectorAll(".banner");
+    Array.from(jelloBanner).map(element => {
+      element.classList.add("jelloBanner");
+    }); 
+
+  /////ANIMATE TITLE APPEARANCE
+  let animTitle = document.getElementById('question');
+  animTitle.classList.add("animTitle");
+
+  /////ANIMATE question lenght display
+  let animprogress = document.getElementById('progress');
+  animprogress.classList.add("animprogress");
+
+  /////ANIMATE retry or leave
+  const retryAnim = document.querySelectorAll(".retryOrLeave");
+  Array.from(retryAnim).map(element => {
+    element.classList.add("retryAnim");
+  });  
+
+
+
+
+
+  
+
 };
-
-
-
 /////Initiate Main Function On Page Load
 window.onload = page;

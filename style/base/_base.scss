@@ -460,3 +460,166 @@ main{
     opacity: 1;
   }
 }
+
+
+.jelloBanner{
+    -webkit-animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+            animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+.animTitle{
+    -webkit-animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 0.3s both;
+            animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 0.3s both;
+}
+.animprogress{
+    -webkit-animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 2s both;
+            animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 2s both;
+}
+
+@-webkit-keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.animbutton0{
+    -webkit-animation: flip-in-hor-bottom 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.6s both;
+            animation: flip-in-hor-bottom 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.6s both;
+}
+.animbutton1{
+    -webkit-animation: flip-in-hor-bottom 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1s both;
+            animation: flip-in-hor-bottom 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1s both;
+}
+.animbutton2{
+    -webkit-animation: flip-in-hor-bottom 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1.4s both;
+            animation: flip-in-hor-bottom 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1.4s both;
+}
+.animbutton3{
+    -webkit-animation: flip-in-hor-bottom 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1.8s both;
+            animation: flip-in-hor-bottom 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1.8s both;
+}
+
+@-webkit-keyframes flip-in-hor-bottom {
+  0% {
+    -webkit-transform: rotateX(80deg);
+            transform: rotateX(80deg);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: rotateX(0);
+            transform: rotateX(0);
+    opacity: 1;
+  }
+}
+@keyframes flip-in-hor-bottom {
+  0% {
+    -webkit-transform: rotateX(80deg);
+            transform: rotateX(80deg);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: rotateX(0);
+            transform: rotateX(0);
+    opacity: 1;
+  }
+}
+
+.retryAnim{
+    -webkit-animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 2.4s both;
+            animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 2.4s both;
+}
+
+
+
+
+////////////////////////background anim/////////////
+.animation-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -800;
+}
+
+.page-bg { 
+}
+
+.particle,
+.particle:after {
+  background: transparent;
+}
+
+.particle:after {
+  position: absolute;
+  content: "";
+  top: $spacing;
+}
+
+.particle-1 {
+  animation: animParticle $time-1 linear infinite;
+  @include particles(600);
+  height: 1px;
+  width: 1px;
+}
+
+.particle-1:after {
+  @include particles(600);
+  height: 1px;
+  width: 1px;
+}
+
+.particle-2 {
+  animation: animParticle $time-2 linear infinite;
+  @include particles(200);
+  height: 2px;
+  width: 2px;
+}
+
+.particle-2:after {
+  @include particles(200);
+  height: 2px;
+  width: 2px;
+}
+
+.particle-3 {
+  animation: animParticle $time-3 linear infinite;
+  @include particles(100);
+  height: 3px;
+  width: 3px;
+}
+
+.particle-3:after {
+  @include particles(100);
+  height: 3px;
+  width: 3px;
+}
+
+.particle-4 {
+  animation: animParticle $time-4 linear infinite;
+  @include particles(400);
+  height: 1px;
+  width: 1px;
+}
+
+.particle-4:after {
+  @include particles(400);
+  height: 1px;
+  width: 1px;
+}
+
+@keyframes animParticle {
+  from { transform: translateY(0px); }
+  to   { transform: translateY($spacing * -1); }
+}

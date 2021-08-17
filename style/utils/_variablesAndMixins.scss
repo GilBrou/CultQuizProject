@@ -145,3 +145,28 @@ width: 220px;
 height: 220px;
 border-radius: 50%;
 }
+
+
+////////////////////////////
+
+//$color-bg: #111;
+$color-particle: $primary-color;
+$spacing: 2560px;
+$time-1: 60s;
+$time-2: 120s;
+$time-3: 180s;
+$time-4: 600s;
+
+/* Pauls awesome mixin */
+@function particles($max) {
+   $val: 0px 0px $color-particle;
+   @for $i from 1 through $max {
+      $val: #{$val},
+      random($spacing)+px random($spacing)+px $color-particle;
+   }
+   @return $val;
+}
+
+@mixin particles($max) {
+   box-shadow: particles($max);
+}
