@@ -820,9 +820,9 @@
           "answer":""
         },
         {
-          "text":"",
-          "choices":["","", "", ""],
-          "answer":""
+          "text":"Quelle est le nom de la ville construite autour d'une bombe atomique n'ayant pas explosé ?",
+          "choices":["","", "", "Megaton"],
+          "answer":"Megaton"
         },
                                 {
           "text":"",
