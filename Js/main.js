@@ -1,6 +1,5 @@
 /////On page load/////
 const main = async () =>{
-
   
   //////Dom Elements
   const main = document.getElementById('main-section');  
@@ -25,7 +24,6 @@ const main = async () =>{
     newQuizCard.createAndDisplayQuizCards(main);
   };
 
-
   //////Sort tags
   sortingTags ();
 
@@ -46,18 +44,15 @@ const main = async () =>{
       element.innerHTML = element.innerHTML.replace(/_/g,' ');
     });
 
+    //Add card animation className
     const timed = document.querySelectorAll(".QuizCard")
     i = 0;
     Array.from(timed).map(element => {
       timeId = "flip-it" + i;
       element.classList.add(timeId);
       i++;
-    });
-
-    const QuizCards = document.querySelectorAll(".main-QuizCard");
-    Array.from(QuizCards).map(element => {
-      element.classList.add("hovered");
-    });    
+    });  
+    
 };
 
 /////Initiate Main Function On Page Load

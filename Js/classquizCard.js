@@ -16,8 +16,7 @@ class quizCard {
   //dont display it if question array is empty
   if (this.questions.length < 20){//"Game_Of_Thrones" || this.name ==  "Fight_Club" || this.name ==  "Matrix" || this.name == "AHS" || this.name ==  "Fallout" || this.name ==  "The_Walking_Dead" || this.name ==  "Dune"){
   }
-  else {
-  
+  else {  
 
     //Dom element creation
     let aQuizCard = document.createElement('article');
@@ -29,7 +28,6 @@ class quizCard {
     let lineContainer = document.createElement('div');
     let lineContent = document.createElement('div');
     let tagline = document.createElement('p'); 
-
 
     //Dom appending
     main.appendChild(aQuizCard);
@@ -57,7 +55,7 @@ class quizCard {
 
     //Assign classes & refs or ids to Dom elements
     aQuizCard.id = this.id; 
-    aQuizCard.classList.add("QuizCard");
+    aQuizCard.classList.add("QuizCard", "hovered");
     mainQuizCard.classList.add("main-QuizCard");
     thatQuiz.classList.add("thatQuiz");
     thatQuiz.id = this.name;

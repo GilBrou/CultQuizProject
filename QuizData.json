@@ -265,12 +265,12 @@
           "answer":"Tête d'ours"
         },
         {
-         "text":"Quel est la particularité du cousin des Stark, Robin Arryn, âgé de neuf ans ?",
-        "choices":["Il aime tuer des animaux","Il veut épouser sa tante", "Il continue de téter le sein de sa mère", "Il pense que Westeros et une marque de céréales"],
+         "text":"Quelle est la particularité du cousin des Stark, Robin Arryn, âgé de neuf ans ?",
+        "choices":["Il aime tuer des animaux","Il veut épouser sa tante", "Sa mère continue de l'allaiter", "Il pense que Westeros et une marque de céréales"],
         "answer":"Il continue de téter le sein de sa mère"
         },
         {
-          "text":"Une actrice de la série à adopté l'un des chiens interprétant un Loup Géant, de qui s'agit-il ?",
+          "text":"Une actrice à adopté l'un des chiens interprétant un Loup Géant, de qui s'agit-il ?",
           "choices":["Emilia Clarke (Daenerys)","Sophie Turner (Sansa)", "Lena Headey (Cersei)", "Maisie Williams (Arya)"],
           "answer":"Sophie Turner (Sansa)"
         },
@@ -279,10 +279,10 @@
           "choices":["Jaqen H'ghar","Barristan Selmy", "Daario Naharis", "Jorah Mormont"],
           "answer":"Jorah Mormont"
         },
-                                {
-          "text":"Comment se nomment les frères de Daenerys ?",
-          "choices":["Rhaegar et Viserys","Rhaegis et thunkon", "Aegon et Viserion", "Aerys et Rhaegar"],
-          "answer":"Rhaegar et Viserys"
+        {
+          "text":"Lorsque Lyanna, âgée de dix ans, prend la tête de la maison Mormont, quel message envoie-t-elle aux prétendants au trône ?",
+          "choices":["Ceux qui combattent quand il est l'heure de discuter n'auront bientôt plus l'occasion de s'exprimer","Le Nord n'a que faire de vos disputes, même l'hiver ne peut le soumettre", "Je ne reconnaît qu'un roi, et son nom est Stark", "J'ai déjà pas peur des géants, alors allez bien vous faire foutre"],
+          "answer":"Je ne reconnaît qu'un roi, et son nom est Stark"
         },
         {
           "text":"Selon Syrio Forel il n’y a qu’un seul dieu, et ce dieu est la mort. Et on ne dit qu’une seule chose à la mort…",
@@ -290,19 +290,19 @@
           "answer":"Pas aujourd’hui"
         },
         {
-          "text":"",
-          "choices":["","", "", ""],
-          "answer":""
+          "text":"Comment Tyrion résume-t-il ses compétences ?",
+          "choices":["Je bois, et je sais des choses","Je survis depuis le moment où je suis né", "J'aime les duels judiciaires","Ma langue est mon épée, et nulle armure ne saurait la parer"],
+          "answer":"Je bois, et je sais des choses"
         },
         {
-          "text":"",
-          "choices":["","", "", ""],
-          "answer":""
+          "text":"Quel Sauvageon tombe sous le charme de Brienne de Torth ?",
+          "choices":["Craster ''Bon-Papa''","Elkor ''Seigneur-des-Os''", "Tormund ''Fléau-d'Ogres''", "Mance ''Vieux-Corbac''"],
+          "answer":"Tormund ''Fléau-d'Ogres''"
         },
         {
-          "text":"",
-          "choices":["","", "", ""],
-          "answer":""
+          "text":"Qui a dit : Quand on joue au jeu des Trônes, soit on gagne soit on meurt ?",
+          "choices":["Villeroy & Boch","Cersei Lannister", "Petyr Baelish", "Lord Varys"],
+          "answer":"Cersei Lannister"
         },
         {
           "text":"Quel est le nom du frère de Ned Stark enrôlé dans la Garde de Nuit ?",
@@ -315,23 +315,28 @@
           "answer":"Khaleesi"
         },
         {
-          "text":"",
-          "choices":["","", "", ""],
-          "answer":""
+          "text":"Quel emblème représente la maison Greyjoy ?",
+          "choices":["Un requin","un crâne et une vague", "Une saucisse", "Une seiche"],
+          "answer":"Une seiche"
         },
         {
-          "text":"",
-          "choices":["","", "", ""],
-          "answer":""
+          "text":"Qui à dit : Le gros poisson mange le petit poisson, et je continue de barboter au milieu ?",
+          "choices":["Littlefinger","Lord Varys", "Cersei", "Hodor"],
+          "answer":"Lord Varys"          
+        },
+        {
+          "text":"Comment se nomment les frères de Daenerys ?",
+          "choices":["Rhaegar et Viserys","Rhaegis et Thunkon", "Aegon et Viserion", "Aerys et Rhaegar"],
+          "answer":"Rhaegar et Viserys"         
         },
         {
           "text":"Afin de détendre l'atmosphère pendant le tournage de la scène de viol, l'acteur Jason Momoa (Khal Drogo) réserva une surprise à sa partenaire :",
-          "choices":["Il colla sur son pubis deux petits yeux en plastique","Il écrivit des blagues cochones sur ses cuisses", "Il enfila une chaussette rose en peluche sur son sexe", "Il recouvrit son entrejambe de paillettes roses"],
+          "choices":["Il colla sur son pubis deux petits yeux en plastique","Il écrivit des blagues cochonnes sur ses cuisses", "Il enfila une chaussette rose en peluche sur son sexe", "Il recouvrit son entrejambe de paillettes roses"],
           "answer":"Il enfila une chaussette rose en peluche sur son sexe"
         },
         {
           "text":"Lorsque les fans suggéraient à George R.R. Martin de finir d'écrire la saga du Trône de Fer au plus vite, car son obésité risquait de le tuer rapidement, il leur répondit par une vidéo :",
-          "choices":["De sa récente coloscopie","De lui, complètement nu, sautant sur un trampoline en faisant des doigts d'honneur", "Où il explique quels personnages allaient mourir dans le prochain tome", "De lui en train de manger une pièce montée"],
+          "choices":["De sa récente coloscopie","De lui, complètement nu, sautant sur un trampoline en leur faisant des doigts d'honneur", "Où il explique quels personnages allaient mourir dans le prochain tome", "De lui en train de manger une pièce montée"],
           "answer":"De lui, complètement nu, sautant sur un trampoline en faisant des doigts d'honneur"
         }                                                                
       ]
@@ -614,7 +619,7 @@
           "answer":"Le Livre de la jungle"
         },
         {
-          "text":"Quel est le domaine dans lequel excelle Rebelle ?",
+          "text":"Quel est le domaine dans lequel excelle Mérida ?",
           "choices":["La couture","La scultpture sur bois", "Le combat à l'épée", "Le tir à l'arc"],
           "answer":"Le tir à l'arc"
         },
@@ -629,7 +634,7 @@
           "answer":"Devenir un gentil"
         },
         {
-          "text":"laquelle de ces propositions a vraiment été envisagée pour nommer l'un des nains dans Blanche neige ?",
+          "text":"Laquelle de ces propositions a vraiment été envisagée pour nommer l'un des nains dans Blanche neige ?",
           "choices":["Barbouillé","Renifleur", "Grassouillet", "Déprimé"],
           "answer":"Renifleur"
         },

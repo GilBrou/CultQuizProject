@@ -11,6 +11,15 @@ function sortingTags (){
   for (var i = 0; i < allTags.length ; i++) {
     allTags[i].addEventListener("click", function (event) {
 
+      //RemoveQuiz cards animations when sorted this way
+      const timed = document.querySelectorAll(".QuizCard")
+      i = 0;
+      Array.from(timed).map(element => {
+        timeId = "flip-it" + i;
+        element.classList.remove(timeId);
+        i++;
+      });       
+
       //Get selected tag className
       var targetTag = event.target.className;
       

@@ -4,9 +4,13 @@
 /*COMMON*/
 
 /*Background animation*/
+@-webkit-keyframes animParticle {
+  from { -webkit-transform: translateY(0px); transform: translateY(0px); }
+  to   { -webkit-transform: translateY($spacing * -1); transform: translateY($spacing * -1); }
+}
 @keyframes animParticle {
-  from { transform: translateY(0px); }
-  to   { transform: translateY($spacing * -1); }
+  from { -webkit-transform: translateY(0px); transform: translateY(0px); }
+  to   { -webkit-transform: translateY($spacing * -1); transform: translateY($spacing * -1); }
 }
 
 /*PAGE*/

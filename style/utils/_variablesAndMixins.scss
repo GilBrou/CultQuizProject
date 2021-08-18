@@ -32,7 +32,7 @@ $break-truemobile:508px;
 }
 
 /*Breakpoints*/
-@mixin particles($max) {box-shadow: particles($max);}
+@mixin particles($max) {-webkit-box-shadow: particles($max);box-shadow: particles($max);}
 
 @mixin tablet-style{
 	@media screen and(max-width: $break-tablet){
