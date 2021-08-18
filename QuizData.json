@@ -257,7 +257,7 @@
         {
           "text":"Pourquoi Gregor Clegane (La Montagne) a-t-il défiguré son propre frère, Sandor (Le Limier) lorsqu'ils étaient enfants ?",
           "choices":["Parce qu'il lui avait volé son jouet","Parce que leur mère est morte en mettant au monde Sandor", "Parce qu'il était jaloux de son intelligence", "Pour prouver à leur père qu'il était le plus fort"],
-          "answer":""
+          "answer":"Parce qu'il lui avait volé son jouet"
         },
         {
           "text":"Grand-Griffe, l'épée de Jon Snow, est ornée d'une tête de loup, mais lorsqu'elle appartenait à Jeor Mormont il s'agissait d'une :",
@@ -267,7 +267,7 @@
         {
          "text":"Quelle est la particularité du cousin des Stark, Robin Arryn, âgé de neuf ans ?",
         "choices":["Il aime tuer des animaux","Il veut épouser sa tante", "Sa mère continue de l'allaiter", "Il pense que Westeros et une marque de céréales"],
-        "answer":"Il continue de téter le sein de sa mère"
+        "answer":"Sa mère continue de l'allaiter"
         },
         {
           "text":"Une actrice à adopté l'un des chiens interprétant un Loup Géant, de qui s'agit-il ?",
@@ -337,7 +337,7 @@
         {
           "text":"Lorsque les fans suggéraient à George R.R. Martin de finir d'écrire la saga du Trône de Fer au plus vite, car son obésité risquait de le tuer rapidement, il leur répondit par une vidéo :",
           "choices":["De sa récente coloscopie","De lui, complètement nu, sautant sur un trampoline en leur faisant des doigts d'honneur", "Où il explique quels personnages allaient mourir dans le prochain tome", "De lui en train de manger une pièce montée"],
-          "answer":"De lui, complètement nu, sautant sur un trampoline en faisant des doigts d'honneur"
+          "answer":"De lui, complètement nu, sautant sur un trampoline en leur faisant des doigts d'honneur"
         }                                                                
       ]
     },
