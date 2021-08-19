@@ -157,7 +157,7 @@ const page = async () =>{
   let here = document.getElementById('quiz');
   here.scrollIntoView();
 
-  /*
+  
   //listen to click on logo(backhome)
   const log = document.querySelectorAll(".logo");
   Array.from(log).map(element => {
@@ -175,7 +175,7 @@ const page = async () =>{
        window.location.href = "index.html" + "?id=" +"noAnim";
     });
   });
-  */
+  
 
   ///ANIMATE CHOICES BUTTONS 
   let allFour = [];

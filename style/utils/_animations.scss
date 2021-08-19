@@ -1,5 +1,121 @@
 
 /*ANIMATIONS*/
+/*ONLOAD ANIMATION*/
+@-webkit-keyframes spin{
+  0%{
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100%{
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes spin{
+  0%{
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100%{
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+  
+@-webkit-keyframes fadeout{
+ 0%{
+  opacity: 0.80; 
+  visibility: visible;
+ } 
+ 100%{
+  opacity: 0;
+  z-index: -1;
+  visibility: hidden;
+ } 
+}
+  
+@keyframes fadeout{
+  0%{
+    opacity: 0.80;
+    visibility: visible;
+  }
+  100%{
+    opacity: 0;
+    z-index: -1;
+    visibility: hidden;
+  } 
+}
+
+/*ONLOAD ANIMATION2*/
+
+/*Logo*/
+.bounce-in-top {
+  -webkit-animation: bounce-in-top 1.1s 2.2s both;
+          animation: bounce-in-top 1.1s 2.2s both;
+}
+
+/*Tags*/
+.swing-in-top-fwd {
+  -webkit-animation: swing-in-top-fwd 0.85s cubic-bezier(0.175, 0.885, 0.320, 1.275) 2.95s both;
+          animation: swing-in-top-fwd 0.85s cubic-bezier(0.175, 0.885, 0.320, 1.275) 2.95s both;
+}
+
+/*Quiz*/
+
+.flip-it0 {
+  -webkit-animation: roll-in-blurred-left 0.4s cubic-bezier(0.230, 1.000, 0.320, 1.000) 3.3s both;
+          animation: roll-in-blurred-left 0.4s cubic-bezier(0.230, 1.000, 0.320, 1.000) 3.3s both;
+}
+.flip-it1 {
+  -webkit-animation: roll-in-blurred-left 0.4s cubic-bezier(0.230, 1.000, 0.320, 1.000) 3.5s both;
+          animation: roll-in-blurred-left 0.4s cubic-bezier(0.230, 1.000, 0.320, 1.000) 3.5s both;
+}
+.flip-it2 {
+  -webkit-animation: roll-in-blurred-left 0.4s cubic-bezier(0.230, 1.000, 0.320, 1.000) 3.9s both;
+          animation: roll-in-blurred-left 0.4s cubic-bezier(0.230, 1.000, 0.320, 1.000) 3.9s both;
+}
+.flip-it3 {
+  -webkit-animation: roll-in-blurred-left 0.4s cubic-bezier(0.230, 1.000, 0.320, 1.000) 4.3s both;
+          animation: roll-in-blurred-left 0.4s cubic-bezier(0.230, 1.000, 0.320, 1.000) 4.3s both;
+}
+.flip-it4 {
+  -webkit-animation: roll-in-blurred-left 0.4s cubic-bezier(0.230, 1.000, 0.320, 1.000) 4.7s both;
+          animation: roll-in-blurred-left 0.4s cubic-bezier(0.230, 1.000, 0.320, 1.000) 4.7s both;
+}
+.flip-it5 {
+  -webkit-animation: roll-in-blurred-left 0.4s cubic-bezier(0.230, 1.000, 0.320, 1.000) 5.1s both;
+          animation: roll-in-blurred-left 0.4s cubic-bezier(0.230, 1.000, 0.320, 1.000) 5.1s both;
+}
+.flip-it6 {
+  -webkit-animation: roll-in-blurred-left 0.4s cubic-bezier(0.230, 1.000, 0.320, 1.000) 5.5s both;
+          animation: roll-in-blurred-left 0.4s cubic-bezier(0.230, 1.000, 0.320, 1.000) 5.5s both;
+}
+.flip-it7 {
+  -webkit-animation: roll-in-blurred-left 0.4s cubic-bezier(0.230, 1.000, 0.320, 1.000) 5.9s both;
+          animation: roll-in-blurred-left 0.4s cubic-bezier(0.230, 1.000, 0.320, 1.000) 5.9s both;
+}
+.flip-it8 {
+  -webkit-animation: roll-in-blurred-left 0.4s cubic-bezier(0.230, 1.000, 0.320, 1.000) 6.3s both;
+          animation: roll-in-blurred-left 0.4s cubic-bezier(0.230, 1.000, 0.320, 1.000) 6.3s both;
+}
+.flip-it9 {
+  -webkit-animation: roll-in-blurred-left 0.4s cubic-bezier(0.230, 1.000, 0.320, 1.000) 6.7s both;
+          animation: roll-in-blurred-left 0.4s cubic-bezier(0.230, 1.000, 0.320, 1.000) 6.7s both;
+}
+
+/*Footer line*/
+.bounce-in-bottom {
+    -webkit-animation: bounce-in-bottom 1.1s 2.2s both;
+            animation: bounce-in-bottom 1.1s 2.2s both;
+}
+
+/*Footer links*/
+.swing-in-bottom-fwd {
+    -webkit-animation: swing-in-bottom-fwd 0.85s cubic-bezier(0.175, 0.885, 0.320, 1.275) 2.95s both;
+            animation: swing-in-bottom-fwd 0.85s cubic-bezier(0.175, 0.885, 0.320, 1.275) 2.95s both;
+}
+
 
 /*COMMON*/
 
