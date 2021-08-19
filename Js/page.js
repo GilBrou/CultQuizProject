@@ -35,6 +35,8 @@ const page = async () =>{
     };    
   };
 
+  
+
   /////Display Questions
   let questions = [];
   let selectedQuestions = selectedQuiz.questions;

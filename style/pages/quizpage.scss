@@ -37,6 +37,38 @@
 }
 
 
+/*QUIZ NAME*/
+.nameOfQuiz{
+  padding-left:20px;
+  font-size: 400%;
+  font-weight: 150;
+  letter-spacing: .2rem;
+  color :$primary-color;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+  text-align: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  @include tablet-style{
+    padding: 0;
+    margin: auto;
+  }
+  @include truemobile-style{
+    font-size: 200%;
+    letter-spacing: unset;
+  }
+}
+
 /*BANNER*/
 .banner{
   @include flex-column;

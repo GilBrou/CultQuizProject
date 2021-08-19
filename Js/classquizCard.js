@@ -89,6 +89,9 @@ class quizCard {
     banner.classList.add("banner" + this.name);
     let backGroundUrl = "url(././Ressources/Photos/" + "Quiz" + this.name +".jpg)";
     banner.style.backgroundImage = backGroundUrl;
+    const nameOfQuiz = document.querySelector(".nameOfQuiz");
+    nameOfQuiz.innerHTML = this.name;
+    nameOfQuiz.innerHTML = nameOfQuiz.innerHTML.replace(/_/g,' ');
   }
 
 }

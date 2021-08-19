@@ -7,6 +7,7 @@
 	z-index: 999;	
 	@include flex-row-centered;
 	@include justify-content-center;
+	overflow: hidden;
 	overflow-x: hidden;
 	visibility: hidden;
 	-webkit-animation: fadeout 3s ease-in-out forwards;
@@ -18,6 +19,7 @@
 }
 
 .loader {
+	overflow: hidden;
 	padding: 0px;
   border: 16px solid $primary-color;
   border-top: 16px solid $fourth-color;
