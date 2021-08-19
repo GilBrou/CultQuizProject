@@ -61,3 +61,15 @@ function sortingTags (){
     });
   };
 };
+
+//listen to click on quiz cards
+function goToQuiz(){
+  //listen to click on quiz
+  const QuizCard = document.querySelectorAll(".thatQuiz");
+  Array.from(QuizCard).map(element => {
+    element.addEventListener("click", function (event) {
+      let targetId = element.id;
+      window.location.href = "QuizPage.html" + "?id=" + targetId;
+    });
+  });
+}

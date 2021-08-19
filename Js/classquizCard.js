@@ -13,8 +13,8 @@ class quizCard {
   //////Create And Display into Dom Quiz's Cards
   createAndDisplayQuizCards(main){
 
-  //dont display it if question array is empty
-  if (this.questions.length < 20){//"Game_Of_Thrones" || this.name ==  "Fight_Club" || this.name ==  "Matrix" || this.name == "AHS" || this.name ==  "Fallout" || this.name ==  "The_Walking_Dead" || this.name ==  "Dune"){
+  //dont display it if it isn't ready
+  if (this.questions.length < 20){
   }
   else {  
 
@@ -42,7 +42,8 @@ class quizCard {
       
 
     //Assing to Dom
-    name.innerHTML = this.name;
+    name.innerHTML = this.name;    
+    name.innerHTML = name.innerHTML.replace(/_/g,' ');
     portrait.src = "./Ressources/Photos/Quiz" + this.name + ".jpg";
     tagline.innerHTML = this.punchLine;
 
