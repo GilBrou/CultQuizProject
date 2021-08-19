@@ -34,7 +34,11 @@ const main = async () =>{
   sortingTags ();
 
   ///////listen and move to selected quiz
-  goToQuiz();   
+  goToQuiz();
+
+  /////Multiplayer modal
+  multiModal();
+
 };
 
 /////Initiate Main Function On Page Load

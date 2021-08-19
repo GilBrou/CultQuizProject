@@ -57,6 +57,59 @@
   		<div class="particle2 particle2-4"></div>
 		</div>
 
+		<!--/////CONTACT MODAL/////<-->    
+    <div class="bground2">
+      <div class="content2">
+        <div class="modal-body2">
+          <span class="close" title="Close contact form"></span>
+          <!--/////CONTACT FORM/////<--> 
+          <form
+          class = "modal-form"
+          name="multi"
+          action="index.html"
+          method="get"
+          onsubmit="validate();">
+
+	          <!--/////FIRST player/////<--> 
+	          <div class="formData">
+	          	<label>Joueur / Équipe 1</label><br>
+	            <input
+	              class="text-control first"
+	              type="text"
+	              id="first"
+	              name="first"
+	              minlength="2"
+	              required
+	            /><br>                
+	          </div>
+
+	          <!--/////SECOND player/////<--> 
+	          <div class="formData">
+		          <label>Joueur / Équipe 2</label><br>
+	              <input
+	                class="text-control second"
+	                type="text"
+	                id="second"
+	                name="second"
+	                minlength="2"
+	                required
+	             /><br>                
+	          </div>           
+
+	          <input
+	          	class="btn-submit button-type"
+	            type="submit"
+	            aria-label="send"
+	            title= "send"
+	            value="Envoyer"/>
+          </form>
+
+          
+        </div>
+      </div>
+    </div> 
+
+
 	</body>
 
 	<script type="text/javascript" src="Js/classquizCard.js"></script>
