@@ -57,6 +57,7 @@ function addAnim(){
   });
 }
 
+/*
 function multiModal(){
   //Display score , score reaction and answers
   const modalbg = document.querySelector(".bground2"); 
@@ -81,3 +82,4 @@ function multiModal(){
       function closeModal() {modalbg.style.display = "none";}  
 
   }
+*/
