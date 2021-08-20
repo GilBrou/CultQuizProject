@@ -10,6 +10,7 @@ function sortingTags (){
   //Listen to "click" on all tags
   for (var i = 0; i < allTags.length ; i++) {
     allTags[i].addEventListener("click", function (event) {
+        event.preventDefault();
 
       //RemoveQuiz cards animations when sorted this way
       const timed = document.querySelectorAll(".QuizCard")
@@ -51,6 +52,7 @@ function sortingTags (){
   //Listen to "click" on allTagsTag
   for (var i = 0; i < allTagsTag.length ; i++) {
     allTagsTag[i].addEventListener("click", function (event) {
+      event.preventDefault();
       //Get all quiz cards
       var allCards = document.getElementsByTagName("article");
       Array.from(allCards).map(element => {
@@ -68,6 +70,7 @@ function goToQuiz(){
   const QuizCard = document.querySelectorAll(".thatQuiz");
   Array.from(QuizCard).map(element => {
     element.addEventListener("click", function (event) {
+      event.preventDefault();
       let targetId = element.id;
       window.location.href = "QuizPage.html" + "?id=" + targetId;
     });

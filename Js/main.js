@@ -33,8 +33,7 @@ const main = async () =>{
   //////Sort tags
   sortingTags ();
 
-  ///////listen and move to selected quiz
-  goToQuiz();
+  goToQuiz()
 };
 
 /////Initiate Main Function On Page Load

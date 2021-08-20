@@ -51,7 +51,7 @@ header{
       @include justify-content-center;
       @include self-text-align;
       @include flex-wrap;
-      .multi{
+      .multi, .solo{
         font-weight: bold;  
         margin: 5px;
         padding: 5px 10px 5px 10px;

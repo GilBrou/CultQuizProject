@@ -33,7 +33,7 @@
 				<a class="bede" href="#">Bd, Comic Books, Mangas</a>
 				<a class="animes" href="#">Dessins animés</a>
 				<a class="swing-in-top-fwd multi" href="#">Jouer à plusieurs</a>
-				<a class="swing-in-top-fwd multi solo" href="#">Un seul joueur</a>
+				<a class="solo" href="#">Un seul joueur</a>
 			</nav>
 				
 		</header>
@@ -41,7 +41,7 @@
 		<main id="main-section" class="main-section"></main>
 
 		<footer class="bounce-in-bottom">
-			<a class="foot1 swing-in-bottom-fwd" href="#">À propos</a>
+			<a class="foot1 swing-in-bottom-fwd" id="infoSite" href="#">À propos</a>
 			<a class="contact swing-in-bottom-fwd" href="mailto:gillian.brousse@neuf.fr">Contact</a>
 		</footer>
 
@@ -59,8 +59,8 @@
 		</div>
 
 		<!--/////multiplayer MODAL/////<--> 
-<!--
-    <div class="bground2">
+
+    <div class="bground2 openMultiModal">
       <div class="content2">
         <div class="modal-body2">
           <span class="close" title="Close contact form"></span>
@@ -73,9 +73,7 @@
           name="multi"
           action="index.html"
           method="get"
-          onsubmit="validate();">
-
-	  
+          onsubmit="validate();">	  
 	          <div class="formData">
 	          	<label>Joueur / Équipe 1</label><br>
 	            <input
@@ -86,9 +84,7 @@
 	              minlength="2"
 	              required
 	            />             
-	          </div>
-
-	  
+	          </div>	  
 	          <div class="formData">
 		          <label>Joueur / Équipe 2</label><br>
 	              <input
@@ -99,23 +95,16 @@
 	                minlength="2"
 	                required
 	             />              
-	          </div><br>        
-
+	          </div><br> 
 	          <div class="lastLine">
-	          	<input
-	          	class="btn-submit btn"
-	            type="submit"
-	            aria-label="send"
-	            title= "send"
-	            value="Jouer à plusieurs"/><br>
-	           <button class="btn">Retour</button>
+	            <button class="btn-submit btn">Jouer à plusieurs</button>
+	           <button class="btn back">Retour</button>
 	           </div> 
           </form>          
         </div>
       </div>
     </div> 
-    <-->
-    
+        
 	</body>
 
 	<script type="text/javascript" src="Js/classquizCard.js"></script>

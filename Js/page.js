@@ -1,6 +1,6 @@
 /////On page load/////
 const page = async () =>{
-  
+
   /////Dom Elements
   const main = document.getElementById('main-section');   
   
@@ -34,8 +34,6 @@ const page = async () =>{
       newQuizCard.DisplayQuizInfos(page);
     };    
   };
-
-  
 
   /////Display Questions
   let questions = [];
