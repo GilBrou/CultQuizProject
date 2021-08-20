@@ -2,13 +2,13 @@
 const main = async () =>{
   
   //////Dom Elements
-  const main = document.getElementById('main-section');  
+  const main = document.getElementById('main-section');   
 
   //////Get Json Data
   let quizDataBase = await myFetch();  
   let quizData = quizDataBase.Quiz
-  let MultiDataBase = await myMultiFetch();  
-  let MultiData = quizDataBase.Players
+  //let MultiDataBase = await myMultiFetch();  
+  //let MultiData = quizDataBase.Players
 
   //////Instanciate quizCard Class
   for (let i in quizData){
@@ -34,7 +34,8 @@ const main = async () =>{
 
   //////Sort tags
   sortingTags ();
-
+ 
+  ////Got to selected Quiz
   goToQuiz()
 };
 

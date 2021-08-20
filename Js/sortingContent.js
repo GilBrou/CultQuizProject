@@ -68,11 +68,13 @@ function sortingTags (){
 function goToQuiz(){
   //listen to click on quiz
   const QuizCard = document.querySelectorAll(".thatQuiz");
+
   Array.from(QuizCard).map(element => {
     element.addEventListener("click", function (event) {
       event.preventDefault();
       let targetId = element.id;
       window.location.href = "QuizPage.html" + "?id=" + targetId;
+      //window.location.href = "QuizPage.html" + "?id=" + targetId + "?J1=" + player1 + "?S1=" + player1Score + "?J2=" + player2 + "?S2=" + player2Score;
     });
   });
 }

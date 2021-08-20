@@ -6,21 +6,10 @@ const myFetch = async () =>{
   .then(function(data){return data});
 
 };
-  const myMultiFetch = async () =>{ 
-  return await fetch('https://raw.githubusercontent.com/GilBrou/CultQuizProject/main/Multiata.json')
-  .then(function(resp){return resp.json();})
-  .then(function(data){return data});
-}
 
 /////remove loader if page already load
 function OnlyLoadOnce(){
-
-  //get location id
-  let myUrl = window.location.href;
-  let url_string = (window.location.href);
-  let url = new URL(url_string);
-  let targetId = url.searchParams.get("id");
-  if (targetId == "noAnim"){
+if (window.location.href.indexOf("noAnim") != -1){
       //Remove all animations if page already load
       const loader = document.querySelector(".loader-background");
       loader.style.display = "none"; 
@@ -48,6 +37,23 @@ function OnlyLoadOnce(){
         element.classList.remove("swing-in-bottom-fwd"); 
       });
    }
+
+ /////check if multiplayer mode is toggled
+
+   
+  if (window.location.href.indexOf("J1") != -1){
+    let isMultiOn = true;
+    console.log("multi is ON");
+    multiBtn.style.display= "none";
+    soloBtn.style.display= "block";
+    ///display players infos in dom
+  }
+  if (window.location.href.indexOf("J1") < 1){
+    let isMultiOn = false;
+    console.log("multi is OFF");
+    multiBtn.style.display= "block";
+    soloBtn.style.display= "none";
+  }
 }
 
 //Add QuizCard card animations (className)

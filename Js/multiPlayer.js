@@ -34,15 +34,11 @@ function openModal(){
 {
 	let isMultiOn = false;
 
-
 //validate multiplayer form
 function validate(){
 	event.preventDefault();
 	closeModal();
-	multiBtn.style.display= "none";
-	soloBtn.style.display= "block";
 	multiplayerOn();
-
 }
 
 //multiplayer mode on
@@ -50,7 +46,11 @@ function multiplayerOn(){
 	isMultiOn = true;
 	console.log("Le mode multijoueur sera bientôt actif, promis ;) !");
 	alert("Le mode multijoueur sera bientôt actif, promis ;) !");
-	checkMulti();
+	let player1 = first.value;
+	let player1Score = 0;
+	let player2 = second.value;
+	let player2Score = 0; 
+	window.location.href = "index.html" + "?id=" +"noAnim" + "?J1=" + player1 + "?S1=" + player1Score + "?J2=" + player2 + "?S2=" + player2Score;
 }
 
 /////Toggle Solo mode again
@@ -63,24 +63,7 @@ function multiplayerOff(){
 	soloBtn.style.display= "none";
 	multiBtn.classList.remove("swing-in-top-fwd"); 
 	multiBtn.style.display= "block";
-	checkMulti();
+	window.location.href = "index.html" + "?id=" +"noAnim";
 }
 
-function checkMulti(){
-	if(isMultiOn == true){
-		//alert("multi ON");
-		console.log("multi ON");		
-		let player1 = first.value;
-		let player1Score = 0;
-		let player2 = second.value;
-		let player2Score = 0; 
-		console.log(player1, player1Score, player2, player2Score);
-
-	  //window.location.href = "QuizPage.html" + "?id=" + targetId + "?J1=" + player1 + "?S1=" + player1Score + "?J2=" + player2 + "?S2=" + player2Score;
-	} else {
-			//alert("multi OFF");
-			console.log("multi OFF");
-
-	}
-}
 }///multi scope
