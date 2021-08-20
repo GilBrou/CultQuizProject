@@ -336,10 +336,13 @@ main{
         }  
       }
     }
-    @include mobile-style{max-width: 480px;}
+    @include mobile-style{
+      max-width: 480px;
+      top: 7vh;
+    }
     @include truemobile-style{
       max-width: 80vw;
-      min-width: 298px;;
+      min-width: 298px;      
     }
   }          
 }
