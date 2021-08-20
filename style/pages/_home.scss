@@ -245,10 +245,10 @@ footer{
     }
 }
 
-/*Result modal*/
+/*modal*/
 .bground2{
   letter-spacing: 1px;
-  display: none;/////////////////////////////
+  display: none;
   position: fixed;
   z-index: 100;
   left: 0;
@@ -260,8 +260,7 @@ footer{
   .content2{
   	z-index: 100;
     margin: 5% auto;
-    width: 100%;
-    max-width: 500px;
+    width: 50vw;
     -webkit-animation-name: modalopen;
     animation-name: modalopen;
     -webkit-animation-duration: 0.8s;
@@ -282,43 +281,76 @@ footer{
     -webkit-transform: translateY(-40%);
     -ms-transform: translateY(-40%);
     transform: translateY(-40%);
-    p{
-      line-height: 90%;
-      font-size: 250%;
-      text-align: left;
-      font-weight: 600;
-    }
+    font-size: 100%;
+    text-align: justify;
+    font-weight: 600;
     .modal-body2{
-      margin: 15px auto;
+    	@include flex-column;
+    	width: 100%;
+    	height: auto;
+      margin: 20px;
       -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
       @include justify-content-center;
-      .reaction{
-        padding: 10px;
-        @include flex-column;
-        @include justify-content-center;
-        h1{
-          width: 60%;            
-          padding: 5px 10px 5px 10px;
-          border: 1px solid $fourth-color;
-          background-color : $fourth-color;
-          color: $primary-color;
-          border-radius: 5px;
-          @include self-text-align; 
-          @include truemobile-style{width: 80%;}   
-        }
-        p{
-          font-size: 200%;
-          @include self-text-align;
-          color: $primary-color;
-          @include flex-wrap;
-          line-height: 120%;  
-          padding: 0px 20px 0px 20px; 
-          @include truemobile-style{font-size: 150%;}        
-        }  
+      h1{      	
+      	color: $primary-color;
+      	font-size: 150%;
+      	@include self-text-align;
       }
-    }
+      .firstH1{margin-right: 8%;}
+      .modal-form{ 
+      	@include flex-column;
+	      width: 100%;
+    		height: 50%;
+      	margin: auto;
+      	.formData{@include just-flex; width: 50%;  	margin: auto;}
+      	.btn {
+      		width: 200px;
+      		height: 40px;      		
+      		margin: auto;
+      		color: $primary-color;
+    			background: $fourth-color;  			
+			    font-weight: bold;
+			    font-size: 120%;
+			    border-radius: 5px;
+			    cursor: pointer;
+			    border: none;
+			    outline: none;
+			    user-select: none;
+			    &:hover{
+			      color: $fourth-color;
+			      background: $primary-color;
+			      transition: .4s;
+			      @include truemobile-style{
+			        background: $fourth-color;
+			        color: $primary-color;
+			      }
+			    }		
+			  }
+			 	label{
+	        font-size: 150%;
+	        color: $primary-color;
+       		width: 50%;
+       		@include self-text-align;
+      		margin: auto;
+        	@include truemobile-style{margin: 11px 0px 11px 0px;}
+      	}
+      	input{
+      		margin: 20px;
+	        padding: 8px;
+        	border: 0.8px solid #ccc;
+        	outline: none;
+        	font-size: 300%;
+	      }
+	      .lastLine{
+	      	width: 50%;
+	      	@include just-flex;
+	      	@include justify-content-center;
+	      	margin: auto;
+	      }
+      }
+     }
     @include mobile-style{max-width: 480px;}
     @include truemobile-style{
       max-width: 80vw;

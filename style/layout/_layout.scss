@@ -66,6 +66,9 @@ header{
         @include mobile-style{font-size: 150%;}
         @include truemobile-style{font-size: 100%;}
       }
+      .solo{
+        display: none;
+      }
     }  
     @include tablet-style{
       #logo{

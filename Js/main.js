@@ -35,10 +35,6 @@ const main = async () =>{
 
   ///////listen and move to selected quiz
   goToQuiz();
-
-  /////Multiplayer modal
-  multiModal();
-
 };
 
 /////Initiate Main Function On Page Load

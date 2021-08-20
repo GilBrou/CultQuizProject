@@ -240,7 +240,7 @@
       ],
       "questions":[
         {
-          "text":"Quel est le titre original de la saga littéraire de George R.R Martin qui à inspiré la série ?",
+          "text":"Quel est le titre original de la saga littéraire de George R.R Martin à l'origine de la série ?",
           "choices":["Thrones Game","A Song of Ice and Fire", "A Dance with the Dragons", "The Iron Throne"],
           "answer":"A Song of Ice and Fire"
         },        
