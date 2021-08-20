@@ -44,13 +44,12 @@ function validate(){
 //multiplayer mode on
 function multiplayerOn(){
 	isMultiOn = true;
-	console.log("Le mode multijoueur sera bientôt actif, promis ;) !");
-	alert("Le mode multijoueur sera bientôt actif, promis ;) !");
+	//console.log("Le mode multijoueur sera bientôt actif, promis ;) !");	
 	let player1 = first.value;
 	let player1Score = 0;
 	let player2 = second.value;
 	let player2Score = 0; 
-	window.location.href = "index.html" + "?id=" +"noAnim" + "?J1=" + player1 + "?S1=" + player1Score + "?J2=" + player2 + "?S2=" + player2Score;
+	window.location.href = "index.html" + "?id=" +"noAnim" + "&J1=" + player1 + "&S1=" + player1Score + "&J2=" + player2 + "&S2=" + player2Score;
 }
 
 /////Toggle Solo mode again

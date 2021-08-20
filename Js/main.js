@@ -7,8 +7,6 @@ const main = async () =>{
   //////Get Json Data
   let quizDataBase = await myFetch();  
   let quizData = quizDataBase.Quiz
-  //let MultiDataBase = await myMultiFetch();  
-  //let MultiData = quizDataBase.Players
 
   //////Instanciate quizCard Class
   for (let i in quizData){

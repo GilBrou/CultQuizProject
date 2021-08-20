@@ -8,6 +8,7 @@ header{
   margin-bottom: 20px;
   @include flex-wrap;
     #logo{
+      z-index: 1;
       border-bottom: 4px solid $fourth-color;
       border-radius: 2PX;
       padding: 20px;
@@ -78,4 +79,46 @@ header{
         .sub-logo{padding : 0;}
       }
     }
+}
+
+
+/*Multibanner*/
+.multiheader{
+  z-index: -10;
+  margin: auto;
+  width: 80%;
+  height: 20%;
+  @include just-flex;
+  background-color : $primary-color;  
+  border-radius : 0px 0px 15px 15px;
+  display: none;
+  .Player{
+    flex:0.8;    
+    @include just-flex;
+    @include justify-content-center;
+    /*border 4px solid;*/
+    background-color: $fourth-color;
+    color: $primary-color;    
+    margin: 5px;
+    @include self-text-align;
+    .nom-player{
+      margin: 0px 5px 0px 5px;
+      font-weight: bold;
+      font-size: 200%;
+    }
+    .score{
+      margin: 0px 5px 0px 5px;
+      font-weight: bold;
+      font-size: 200%;}
+    }
+    .player1{border-radius : 0px 5px 5px 15px;}
+    .player2{border-radius : 5px 0px 15px 5px;}
+  .contre{
+    @include self-text-align;
+    p{ margin: 0px;}
+    color: $fourth-color;
+    font-weight: bold;
+    font-size: 200%;
+    flex:0.2;
+  }
 }
