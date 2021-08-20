@@ -82,43 +82,47 @@ header{
 }
 
 
-/*Multibanner*/
+/*Multibanner*//////shadow et bordure bleu plus fine
 .multiheader{
+  background-color : $fourth-color;
   z-index: -10;
   margin: auto;
-  width: 80%;
+  margin-top: -4px;;
+  width: 50%;
+  padding: 0px 5px 0px 5px;
   height: 20%;
   @include just-flex;
-  background-color : $primary-color;  
-  border-radius : 0px 0px 15px 15px;
+  border-radius : 0px 0px 20px 20px;
   display: none;
   .Player{
-    flex:0.8;    
+    font-size: 150%;
+    flex:0.5;    
     @include just-flex;
     @include justify-content-center;
-    /*border 4px solid;*/
-    background-color: $fourth-color;
-    color: $primary-color;    
-    margin: 5px;
+    background-color: $primary-color;
+    color: $tertiary-color;    
+    margin: 5px 0px 5px 0px;
+    padding: 3px;
     @include self-text-align;
     .nom-player{
       margin: 0px 5px 0px 5px;
       font-weight: bold;
-      font-size: 200%;
     }
     .score{
       margin: 0px 5px 0px 5px;
       font-weight: bold;
-      font-size: 200%;}
     }
-    .player1{border-radius : 0px 5px 5px 15px;}
-    .player2{border-radius : 5px 0px 15px 5px;}
+  }
+  .player1{border-radius : 0px 5px 5px 15px;}
+  .player2{border-radius : 5px 0px 15px 5px;}
   .contre{
     @include self-text-align;
+    background-color : $fourth-color;
+    margin: 5px 0px 5px 0px;
     p{ margin: 0px;}
-    color: $fourth-color;
+    color: $primary-color;
     font-weight: bold;
     font-size: 200%;
-    flex:0.2;
+    flex:0.1;
   }
 }
