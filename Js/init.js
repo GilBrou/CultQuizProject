@@ -43,38 +43,63 @@ if (window.location.href.indexOf("noAnim") != -1){
    
   if (window.location.href.indexOf("J1") != -1){
     let isMultiOn = true;
-    console.log("multi is ON");
-    multiBtn.style.display= "none";
-    soloBtn.style.display= "block";
-    let multiheader = document.querySelector(".multiheader");
-    multiheader.style.display = "flex";
-    let myUrl = window.location.href;
-    let url_string = (window.location.href);
-    let url = new URL(url_string);
-    let UrlPlay1 = url.searchParams.get("J1");
-    let UrlPlay2 = url.searchParams.get("J2");
-    let UrlScore1 = url.searchParams.get("S1");
-    let UrlScore2 = url.searchParams.get("S2");
-    let play1 = document.querySelector(".nom-player1");
-    let play2 = document.querySelector(".nom-player2");
-    let score1 = document.querySelector(".sPlayer1");
-    let score2 = document.querySelector(".sPlayer2");
-    play1.innerHTML = UrlPlay1;
-    score1.innerHTML = (": " + " " + UrlScore1 + " "+ "points");
-    play2.innerHTML = UrlPlay2;
-    score2.innerHTML = (": " + " " + UrlScore2 + " "+ "points");
-
-    alert("Le mode multijoueur sera bientôt actif, promis ;) !");
-  }
+    //console.log("multi is ON");
+    var path = window.location.pathname;
+    var page = path.split("/").pop();
+    //console.log(page);
+    if(page == "index.html"){
+        multiBtn.style.display= "none";
+        soloBtn.style.display= "block";
+        let multiheader = document.querySelector(".multiheader");
+        multiheader.style.display = "flex";
+        let myUrl = window.location.href;
+        let url_string = (window.location.href);
+        let url = new URL(url_string);
+        let UrlPlay1 = url.searchParams.get("J1");
+        let UrlPlay2 = url.searchParams.get("J2");
+        let UrlScore1 = url.searchParams.get("S1");
+        let UrlScore2 = url.searchParams.get("S2");
+        let play1 = document.querySelector(".nom-player1");
+        let play2 = document.querySelector(".nom-player2");
+        let score1 = document.querySelector(".sPlayer1");
+        let score2 = document.querySelector(".sPlayer2");
+        play1.innerHTML = UrlPlay1;
+        score1.innerHTML = (": " + " " + UrlScore1 + " "+ "points");
+        play2.innerHTML = UrlPlay2;
+        score2.innerHTML = (": " + " " + UrlScore2 + " "+ "points");
+      } else if (page == "QuizPageMulti.html") {
+        let multiheader = document.querySelector(".multiheader");
+        multiheader.style.display = "flex";
+        let myUrl = window.location.href;
+        let url_string = (window.location.href);
+        let url = new URL(url_string);
+        let UrlPlay1 = url.searchParams.get("J1");
+        let UrlPlay2 = url.searchParams.get("J2");
+        let UrlScore1 = url.searchParams.get("S1");
+        let UrlScore2 = url.searchParams.get("S2");
+        let play1 = document.querySelector(".nom-player1");
+        let play2 = document.querySelector(".nom-player2");
+        let score1 = document.querySelector(".sPlayer1");
+        let score2 = document.querySelector(".sPlayer2");
+        play1.innerHTML = UrlPlay1;
+        score1.innerHTML = (": " + " " + UrlScore1 + " "+ "points");
+        play2.innerHTML = UrlPlay2;
+        score2.innerHTML = (": " + " " + UrlScore2 + " "+ "points");
+      }
+  }   
 
   if (window.location.href.indexOf("J1") < 1){
     let isMultiOn = false;
     console.log("multi is OFF");
+    if(page == "index.html"){
     multiBtn.style.display= "block";
     soloBtn.style.display= "none";
-     let multiheader = document.querySelector(".multiheader");
-     multiheader.style.display = "none";
-
+    let multiheader = document.querySelector(".multiheader");
+    multiheader.style.display = "none";
+   }else{
+    let multiheader = document.querySelector(".multiheader");
+    multiheader.style.display = "none";
+   }
   }
 }
 

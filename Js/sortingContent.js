@@ -71,10 +71,23 @@ function goToQuiz(){
 
   Array.from(QuizCard).map(element => {
     element.addEventListener("click", function (event) {
-      event.preventDefault();
+
+      event.preventDefault();      
       let targetId = element.id;
+
+      if (window.location.href.indexOf("J1") != -1){
+        let myUrl = window.location.href;
+        let url_string = (window.location.href);
+        let url = new URL(url_string);
+        let UrlPlay1 = url.searchParams.get("J1");
+        let UrlPlay2 = url.searchParams.get("J2");
+        let UrlScore1 = url.searchParams.get("S1");
+        let UrlScore2 = url.searchParams.get("S2");
+        window.location.href = "QuizPageMulti.html" + "?id=" + targetId + "&J1=" + UrlPlay1 + "&S1=" + UrlScore1 + "&J2=" + UrlPlay2 + "&S2=" + UrlScore2;
+      } else{
       window.location.href = "QuizPage.html" + "?id=" + targetId;
-      //window.location.href = "QuizPage.html" + "?id=" + targetId + "?J1=" + player1 + "?S1=" + player1Score + "?J2=" + player2 + "?S2=" + player2Score;
+    }
+      
     });
   });
 }

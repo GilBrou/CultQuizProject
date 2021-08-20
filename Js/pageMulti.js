@@ -48,6 +48,12 @@ const page = async () =>{
       );
       questions.push(newQuestion);
     };
+/*
+    //////////////split questions into two
+    let Half1 = questions.slice(1,2,5,8,9,12,15,16,18,20); 
+    let Half2 = questions.slice(3,4,6,7,10,11,13,14,17,19);  
+   console.log(Half2);
+*/
 
   /////All functions
   const display = {
