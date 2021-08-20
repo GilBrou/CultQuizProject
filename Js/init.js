@@ -6,6 +6,12 @@ const myFetch = async () =>{
   .then(function(data){return data});
 
 };
+  const myMultiFetch = async () =>{ 
+
+  return await fetch('https://raw.githubusercontent.com/GilBrou/CultQuizProject/main/Multiata.json')
+  .then(function(resp){return resp.json();})
+  .then(function(data){return data});
+};
 
 /////remove loader if page already load
 function OnlyLoadOnce(){
