@@ -36,7 +36,6 @@
 
 /*QUIZCACRDS*/
 .QuizCard{
-	/*margin: auto;*/
 	margin: 0px 5px 0px 5px;/**/
   display: -webkit-box;
   display: -ms-flexbox;
@@ -153,21 +152,21 @@
 					width: 85%;
 					margin: auto;
 				}	   		
-	  			.line-container{
-		  			opacity : 1;	    	
-	  				width: 100%;
-	  				margin: auto;
-	  				height: 360px;
-	    			.line-content{
-		    			width: 100%;
-	    				padding-top: 70px;
-	    				p{
-		    				font-size: 115%;
-	    					margin: 0px 10px 10px 10px;
-	    				}
+	  		.line-container{
+		  		opacity : 1;	    	
+	  			width: 100%;
+	  			margin: auto;
+	  			height: 360px;
+	    		.line-content{
+		    		width: 100%;
+	    			padding-top: 70px;
+	    			p{
+		    			font-size: 115%;
+	    				margin: 0px 10px 10px 10px;
 	    			}
-	    			@include truemobile-style{width: 98%;}
 	    		}
+	    		@include truemobile-style{width: 98%;}
+	    	}
 			}
 		}
 	}

@@ -64,9 +64,9 @@ if (window.location.href.indexOf("noAnim") != -1){
         let score1 = document.querySelector(".sPlayer1");
         let score2 = document.querySelector(".sPlayer2");
         play1.innerHTML = UrlPlay1;
-        score1.innerHTML = (": " + " " + UrlScore1 + " "+ "points");
+        score1.innerHTML = (UrlScore1 + " "+ "points");
         play2.innerHTML = UrlPlay2;
-        score2.innerHTML = (": " + " " + UrlScore2 + " "+ "points");
+        score2.innerHTML = (UrlScore2 + " "+ "points");
       } else if (page == "QuizPageMulti.html") {
         let multiheader = document.querySelector(".multiheader");
         multiheader.style.display = "flex";

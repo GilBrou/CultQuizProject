@@ -155,7 +155,7 @@ const page = async () =>{
   }); 
 
   //focus on quiz
-  let here = document.getElementById('quiz');
+  let here = document.getElementById('main-section');
   here.scrollIntoView();
 
   

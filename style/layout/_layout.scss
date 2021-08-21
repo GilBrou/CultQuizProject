@@ -57,19 +57,23 @@ header{
         margin: 5px;
         padding: 5px 10px 5px 10px;
         background-color : $primary-color;
-        border: 1px solid $primary-color;
+        border: 2px solid $primary-color;
         color: $tertiary-color;
         border-radius: 5px;
         cursor: pointer;
         -ms-flex-wrap: nowrap;
         flex-wrap: nowrap;
-        &:hover, &:active{border: 1px solid $fourth-color;}
+        &:hover, &:active{ 
+          background-color : $tertiary-color;
+          border: 1px solid $tertiary-color;
+          color: $primary-color;
+          transition: .3s;
+          border: 2px solid $fourth-color;
+        }
         @include mobile-style{font-size: 150%;}
         @include truemobile-style{font-size: 100%;}
       }
-      .solo{
-        display: none;
-      }
+      .solo{display: none;}
     }  
     @include tablet-style{
       #logo{
@@ -86,16 +90,16 @@ header{
 .multiheader{
   @include just-flex;
   @include justify-content-center;
-  width: 100%;
   z-index: -10;
   margin: auto;
-  width: 50%;
+  width: 60%;
   padding: 0px 5px 0px 5px;
   height: 20%;
   @include just-flex;
   border-radius : 0px 0px 20px 20px;
   display: none;
   .Player{
+    min-width: 152px;
     box-shadow: 0 5px 20px 3px rgba(0, 0, 0, 0.3);
     font-size: 150%;
     @include just-flex;
@@ -113,9 +117,15 @@ header{
       margin: 0px 5px 0px 5px;
       font-weight: bold;
     }
+    @include mobile-style{
+        width: 40%;
+        @include flex-column;
+        border-radius: 5px 5px 5px 5px;
+    }
   }
   .player1{border-radius : 0px 15px 5px 15px;}
   .player2{border-radius : 15px 0px 15px 5px;}
+  .player1, .player2{@include mobile-style{border-radius: 5px;}}
   .contre{
     @include self-text-align;
     margin: 5px;
@@ -127,6 +137,7 @@ header{
     font-weight: bold;
     font-size: 200%;
     flex:0.1;
-
+    @include truemobile-style{margin:3px;}
   }
+  @include mobile-style{width: unset;}
 }
