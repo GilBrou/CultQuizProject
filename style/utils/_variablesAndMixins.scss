@@ -18,6 +18,7 @@ $time-4: 600s;
 $break-tablet:1199px;
 $break-mobile:820px;
 $break-truemobile:508px;
+$break-minimobile:424px;
 
 /*MIXINS*/
 
@@ -30,27 +31,19 @@ $break-truemobile:508px;
    }
    @return $val;
 }
-
-/*Breakpoints*/
 @mixin particles($max) {-webkit-box-shadow: particles($max);box-shadow: particles($max);}
 
+/*Breakpoints*/
+
 @mixin tablet-style{
-	@media screen and(max-width: $break-tablet){
-		@content;
-	}
-}
+	@media screen and(max-width: $break-tablet){@content;}}
 
 @mixin mobile-style{
-	@media screen and( max-width:$break-mobile){
-		@content;
-	}
-}
+	@media screen and( max-width:$break-mobile){@content;}}
 
-@mixin truemobile-style{
-	@media screen and(max-width: $break-truemobile){
-		@content;
-	}
-}
+@mixin truemobile-style{@media screen and(max-width: $break-truemobile){@content;}}
+
+@mixin minimobile-style{@media screen and(max-width: $break-minimobile){@content;}}
 
 
 /*Styles*/

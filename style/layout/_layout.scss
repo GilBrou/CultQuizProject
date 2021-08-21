@@ -82,12 +82,13 @@ header{
 }
 
 
-/*Multibanner*//////shadow et bordure bleu plus fine
+/*Multibanner*//////
 .multiheader{
-  background-color : $fourth-color;
+  @include just-flex;
+  @include justify-content-center;
+  width: 100%;
   z-index: -10;
   margin: auto;
-  margin-top: -4px;;
   width: 50%;
   padding: 0px 5px 0px 5px;
   height: 20%;
@@ -95,8 +96,8 @@ header{
   border-radius : 0px 0px 20px 20px;
   display: none;
   .Player{
+    box-shadow: 0 5px 20px 3px rgba(0, 0, 0, 0.3);
     font-size: 150%;
-    flex:0.5;    
     @include just-flex;
     @include justify-content-center;
     background-color: $primary-color;
@@ -113,16 +114,19 @@ header{
       font-weight: bold;
     }
   }
-  .player1{border-radius : 0px 5px 5px 15px;}
-  .player2{border-radius : 5px 0px 15px 5px;}
+  .player1{border-radius : 0px 15px 5px 15px;}
+  .player2{border-radius : 15px 0px 15px 5px;}
   .contre{
     @include self-text-align;
-    background-color : $fourth-color;
-    margin: 5px 0px 5px 0px;
-    p{ margin: 0px;}
+    margin: 5px;
+    p{ margin: 5px;
+      -webkit-animation: heartbeat 2s ease-in-out infinite alternate both;
+      animation: heartbeat 2s ease-in-out infinite alternate both;
+    }
     color: $primary-color;
     font-weight: bold;
     font-size: 200%;
     flex:0.1;
+
   }
 }

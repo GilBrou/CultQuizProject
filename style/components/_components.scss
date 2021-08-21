@@ -61,11 +61,4 @@
      -ms-transform: rotate(-45deg);
      transform: rotate(-45deg);
     }
-  @include mobile-style{
-    right: 15px;
-      &:before, &:after {
-        height: 40px;
-        width: 5px;
-      }
-  }
 }
