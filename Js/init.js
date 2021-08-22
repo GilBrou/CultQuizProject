@@ -39,7 +39,6 @@ if (window.location.href.indexOf("noAnim") != -1){
    }
 
  /////check if multiplayer mode is toggled
-
    
   if (window.location.href.indexOf("J1") != -1){
     let isMultiOn = true;

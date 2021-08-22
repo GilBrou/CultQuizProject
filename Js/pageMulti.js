@@ -15,6 +15,10 @@ const page = async () =>{
   let url_string = (window.location.href);
   let url = new URL(url_string);
   let targetId = url.searchParams.get("id");
+  let Player1 = url.searchParams.get("J1");
+  let Player2 = url.searchParams.get("J2");
+  let score1 = url.searchParams.get("S1");
+  let score2 = url.searchParams.get("S2");
 
   /////Get Json Data
   let quizDataBase = await myFetch();  
@@ -49,31 +53,29 @@ const page = async () =>{
       );
       questions0.push(newQuestion);
     };
-    console.log(questions0); 
-    randomize();
 
-    /////Randomize first array   
+/////RANDOMIZE///////////////////////////////////////////////////////////////////////////
+randomize();
 function randomize(){
-      var currentIndex = questions0.length, temporaryValue, randomIndex;  
-      while (0 !== currentIndex) {
-
-      // Pick a remaining element...
-      randomIndex = Math.floor(Math.random() * currentIndex);
-      currentIndex -= 1;
-
-      // And swap it with the current element.
-      temporaryValue = questions0[currentIndex];
-      questions0[currentIndex] = questions0[randomIndex];
-      questions0[randomIndex] = temporaryValue;
-      }
-      return questions0;
-    }
-    console.log("random done");
-
-    let half = Math.ceil(questions0.length / 2);
-    questions = questions0.splice(0,half);
-    //questions = first 10 questions quiz
-    //questions0 = second 10 questions quiz
+  var currentIndex = questions0.length, temporaryValue, randomIndex;  
+  while (0 !== currentIndex) {
+    // Pick a remaining element...
+    randomIndex = Math.floor(Math.random() * currentIndex);
+    currentIndex -= 1;
+    // And swap it with the current element.
+    temporaryValue = questions0[currentIndex];
+    questions0[currentIndex] = questions0[randomIndex];
+    questions0[randomIndex] = temporaryValue;
+  }
+return questions0;
+}
+/////SPLIT IN HALF///////////////////////////////////////////////////////////////////////////
+let half = Math.ceil(questions0.length / 2);
+  let questions1 = questions0.splice(0,half);//first 10 questions quiz
+  let questions2 = questions0; //first 10 questions quiz
+/////SET FIRST 10 QUESTIONS//////////////////////////////////////////////////////////////////
+    questions = questions1;
+   
 
   /////All functions
   const display = {
@@ -133,9 +135,8 @@ function randomize(){
         });
 
         //close modal function
-        function closeModal() {modalbg.style.display = "none";}         
-    },
-
+        function closeModal() {modalbg.style.display = "none";}
+     },    
     question: function(){this.elementShown("question", quiz.getCurrentQuestion().text);},
     choices: function(){
       let choices = quiz.getCurrentQuestion().choices;
@@ -159,25 +160,19 @@ function randomize(){
 
   /////Quiz App
   quizApp = () => {
-    let first = true;
-    if(first == true){
-      if (quiz.hasEnded()) {
-      display.endQuiz();
-      } else {
-        display.question();
-        display.choices();
-        display.progress();
-      }
-      console.log("firstime");
-      first = false; 
+    if (quiz.hasEnded()) {
+    display.endQuiz();
+    nextQuiz();
     } else {
-      console.log("secondtime");
-    }
+      display.question();
+      display.choices();
+      display.progress();
+    } 
   }
 
   ///// Quiz Creation
   let quiz = new Quiz(questions);
-  quizApp();
+    quizApp();
  
   /////Listen to click on retry button
   const retry = document.querySelectorAll(".retry");
@@ -243,7 +238,16 @@ function randomize(){
   const retryAnim = document.querySelectorAll(".retryOrLeave");
   Array.from(retryAnim).map(element => {
     element.classList.add("retryAnim");
-  });  
+  }); 
+
+  function nextQuiz(){
+    /////SET FIRST 10 QUESTIONS//////////////////////////////////////////////////////////////////
+    questions = questions2;
+    console.log(questions2);
+     //let quiz = new Quiz(questions2);
+
+
+  }
 
 
 
