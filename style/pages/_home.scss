@@ -293,6 +293,11 @@ footer{
 			    transition: .4s;
 			    background-color: $primary-color;
 			    &:before, &:after{background-color: $fourth-color;}
+				}
+				@include mobile-style{
+					transform: scale(0.4);
+					right: -5px;
+    			top: -5px;
 				}			 
       }
       p{      	
