@@ -39,6 +39,7 @@ const page = async () =>{
 
   /////Display Questions
   let questions = [];
+  let questions0 = [];
   let selectedQuestions = selectedQuiz.questions;
   for (let i in selectedQuestions){    
       let newQuestion = new Question(
@@ -46,14 +47,33 @@ const page = async () =>{
         selectedQuestions[i].choices,
         selectedQuestions[i].answer
       );
-      questions.push(newQuestion);
+      questions0.push(newQuestion);
     };
-/*
-    //////////////split questions into two
-    let Half1 = questions.slice(1,2,5,8,9,12,15,16,18,20); 
-    let Half2 = questions.slice(3,4,6,7,10,11,13,14,17,19);  
-   console.log(Half2);
-*/
+    console.log(questions0); 
+    randomize();
+
+    /////Randomize first array   
+function randomize(){
+      var currentIndex = questions0.length, temporaryValue, randomIndex;  
+      while (0 !== currentIndex) {
+
+      // Pick a remaining element...
+      randomIndex = Math.floor(Math.random() * currentIndex);
+      currentIndex -= 1;
+
+      // And swap it with the current element.
+      temporaryValue = questions0[currentIndex];
+      questions0[currentIndex] = questions0[randomIndex];
+      questions0[randomIndex] = temporaryValue;
+      }
+      return questions0;
+    }
+    console.log("random done");
+
+    let half = Math.ceil(questions0.length / 2);
+    questions = questions0.splice(0,half);
+    //questions = first 10 questions quiz
+    //questions0 = second 10 questions quiz
 
   /////All functions
   const display = {
@@ -62,58 +82,58 @@ const page = async () =>{
       element.innerHTML = text;
     },
     /////Quiz Ending
-    endQuiz: function() {
-      //Get Quiz Results
-      function getResults(){
-        let allQuestions = [];
-        let allAnswers = [];
-        let allResults = [];
-        for (let i in questions){
-          Q = questions[i].text;
-          allQuestions.push(Q);
-          A = questions[i].answer;
-          allAnswers.push(A);
+    endQuiz: function() {    
+        //Get Quiz Results
+        function getResults(){
+          let allQuestions = [];
+          let allAnswers = [];
+          let allResults = [];
+          for (let i in questions){
+            Q = questions[i].text;
+            allQuestions.push(Q);
+            A = questions[i].answer;
+            allAnswers.push(A);
+          }
+          for (let i in allQuestions){
+            let thatQAndA ='<div class="all-in-one">' + '<p class="h2-quiz">' + allQuestions[i]
+            + '</p>' + '<p class="h3-quiz">' +  allAnswers[i] + '</p>' + '</div>';
+            allResults.push(thatQAndA);
+          }
+          for (let i in allResults){return allResults;}
         }
-        for (let i in allQuestions){
-          let thatQAndA ='<div class="all-in-one">' + '<p class="h2-quiz">' + allQuestions[i]
-          + '</p>' + '<p class="h3-quiz">' +  allAnswers[i] + '</p>' + '</div>';
-          allResults.push(thatQAndA);
-        }
-        for (let i in allResults){return allResults;}
-      }
 
-      //Display score , score reaction and answers
-      endQuizHTML = `<h1>Quiz terminé !<br>Votre score est de : ${quiz.score} / ${quiz.questions.length} </h1>`;
-      this.elementShown("quiz", endQuizHTML + getResults());
-      const modalbg = document.querySelector(".bground2"); 
-      const scoreReact = document.querySelector(".reaction");
-      let ReactBad = selectedQuiz.scoreReact[0];
-      let ReactGood = selectedQuiz.scoreReact[1];
-      if(quiz.score < 10){      
-        reaction = `<h1>Score : ${quiz.score} / ${quiz.questions.length}</h1><br><p>` + ReactBad + `</p><br>`;
-      } else {
-        reaction = `<h1>Score : ${quiz.score} / ${quiz.questions.length}</h1><br><p>` + ReactGood + `</p><br>`;
-      };     
-      scoreReact.innerHTML = reaction;
-      modalbg.style.display = "block";     
-      
-      /////close modals & ligthboxes
-      const closeBtn = document.querySelectorAll(".close");
+        //Display score , score reaction and answers
+        endQuizHTML = `<h1>Quiz terminé !<br>Votre score est de : ${quiz.score} / ${quiz.questions.length} </h1>`;
+        this.elementShown("quiz", endQuizHTML + getResults());
+        const modalbg = document.querySelector(".bground2"); 
+        const scoreReact = document.querySelector(".reaction");
+        let ReactBad = selectedQuiz.scoreReact[0];
+        let ReactGood = selectedQuiz.scoreReact[1];
+        if(quiz.score < 10){      
+          reaction = `<h1>Score : ${quiz.score} / ${quiz.questions.length}</h1><br><p>` + ReactBad + `</p><br>`;
+        } else {
+          reaction = `<h1>Score : ${quiz.score} / ${quiz.questions.length}</h1><br><p>` + ReactGood + `</p><br>`;
+        };     
+        scoreReact.innerHTML = reaction;
+        modalbg.style.display = "block";     
+        
+        /////close modals & ligthboxes
+        const closeBtn = document.querySelectorAll(".close");
 
-      //on click X
-      closeBtn.forEach((btn) => btn.addEventListener("click", closeModal));
+        //on click X
+        closeBtn.forEach((btn) => btn.addEventListener("click", closeModal));
 
-      //on press enter on focus
-      closeBtn.forEach((btn) => btn.addEventListener("keyup", ckeckKeyClose));  
-      function ckeckKeyClose(){if (event.keyCode === 13){closeModal();}}
+        //on press enter on focus
+        closeBtn.forEach((btn) => btn.addEventListener("keyup", ckeckKeyClose));  
+        function ckeckKeyClose(){if (event.keyCode === 13){closeModal();}}
 
-      //on press escape key
-      document.addEventListener('keydown', function(e) {
-        if(lightBoxIsOpen = true){if (event.keyCode === 27){closeModal();}};
-      });
+        //on press escape key
+        document.addEventListener('keydown', function(e) {
+          if(lightBoxIsOpen = true){if (event.keyCode === 27){closeModal();}};
+        });
 
-      //close modal function
-      function closeModal() {modalbg.style.display = "none";}  
+        //close modal function
+        function closeModal() {modalbg.style.display = "none";}         
     },
 
     question: function(){this.elementShown("question", quiz.getCurrentQuestion().text);},
@@ -139,13 +159,20 @@ const page = async () =>{
 
   /////Quiz App
   quizApp = () => {
-    if (quiz.hasEnded()) {
+    let first = true;
+    if(first == true){
+      if (quiz.hasEnded()) {
       display.endQuiz();
+      } else {
+        display.question();
+        display.choices();
+        display.progress();
+      }
+      console.log("firstime");
+      first = false; 
     } else {
-      display.question();
-      display.choices();
-      display.progress();
-    } 
+      console.log("secondtime");
+    }
   }
 
   ///// Quiz Creation
