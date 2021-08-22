@@ -252,14 +252,13 @@ footer{
 	top: 0;
 	left: 0;
   letter-spacing: 1px;  
-  z-index: 100;  
   height: 100%;
   width: 100%;
   overflow: auto;
   background-color: $around-modal-bg-color;
   .content2{
-  	z-index: 100;
   	top: 20vh;
+  	z-index: 100;
     margin: 5% auto;
     width: 50vw;
     height: auto;
@@ -276,170 +275,109 @@ footer{
     padding: 20px;
     @include just-flex;
     @include justify-content-center;   
-    font-size: 100%;      
+    font-size: 100%; 
+    @include tablet-style{
+	   		width: 70vw;
+		  	height: auto;
+			}     
     .modal-body2{
-    	@include flex-column;
     	width: 100%;
-    	height: auto;    	
-      margin: 20px;
-      -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
-      @include justify-content-center;
-      .close{      	
-      	background-color: $primary-color;
-      	border-radius: 5px;
-      	border: 5px solid $primary-color;
-      	&:before, &:after{background-color: $fourth-color;}
+    	height: 100%;    	
+      padding: 40px 0px 0px 0px;
+      .close{   
+      	border-radius: 15px;   
+      	&:before, &:after{background-color: $primary-color;}
       	&:hover{
-      		color: $primary-color;
-			    background: $fourth-color;
-			    -webkit-transition: .4s;
+    	    -webkit-transition: .4s;
 			    -o-transition: .4s;
 			    transition: .4s;
-			    &:before, &:after{background-color: $primary-color;}
-			  }	
-			  @include tablet-style{
-    			transform: scale(0.7); 
-    			right: -5px;
-    			top: 0px; 
-    			width: 55px;
-    			height: 40; 	
-  			}
-  			@include truemobile-style{
-  				top: -5px; 
-			  	border: 5px solid $tertiary-color;
-			  	background-color: $tertiary-color;
-  				&:before, &:after{background-color: $primary-color;}  	
-    			transform: scale(0.5); 
-  			}
+			    background-color: $primary-color;
+			    &:before, &:after{background-color: $fourth-color;}
+				}			 
       }
-      h1{      	
+      p{      	
       	color: $primary-color;
-      	font-size: 150%;
-      	text-align: justify;
-      	@include mobile-style{font-size: 130%;}
-      	@include truemobile-style{flex:1;}
-      	@include minimobile-style{flex: 0.5;}
+       	text-align: justify;
+       	font-size: 150%;
+       	margin: 6px;
+       	font-weight: bold;
+       	@include mobile-style{font-size: 105%;}
       }
-      .firstH1{
-      	margin-right: 8%;
-      	@include truemobile-style{z-index : 3;}
-      }   
-      .modal-form{
-      overflow: auto; 
-      	@include flex-column;
-	      width: 100%;
-    		height: 50%;
-      	margin: auto;
-      	.formData{      
-      		@include justify-content-center;
-      		@include just-flex;
-      		width: 100%;
-      		margin: auto;
-      		label{
-      			-ms-flex-wrap: nowrap;
-      			flex-wrap: nowrap;
-      			font-size: 150%;
-		        border-radius: 5px;
-	      		border: 2px solid $fourth-color;
-	      		font-size: bold;
-		      	font-weight:800;
-		      	padding: 5px;
-		        color: $primary-color;
-		        background-color: $fourth-color;
-	       		width: 50%;	
-	       		max-width : 250px;      
-	       		@include self-text-align;
-	       		@include mobile-style{
-	        		width: 65%;
-	        		font-size: 99%;
-	        		padding: 3px;
-	        	}
-	        	@include truemobile-style{font-size: 80%;}  
-	      	}
-	      	input{	     
-	      		max-width : 200px;  	
-	      		border-radius: 5px;
-	      		margin: 20px;
-		        padding: 8px;
-	        	border: 0.8px solid #ccc;
-	        	outline: none;
-	        	font: 1.5em lato, Arial;
+      .modal-form{  
+      	flex-wrap: nowrap;   	
+       	.formData{
+       		padding: 10px;
+	       	@include just-flex;
+	       	@include justify-content-center; 
+       		label{
+       			@include self-text-align;  
+      			width: 40%;      			
+      			padding: 5px;
+      			margin: 5px;
+      			color: $primary-color;
+      			background-color: $fourth-color;
+      			border-radius: 5px;
+       			text-align: center;
+       			font-size: 150%;     
+       			font-weight: bold;
+      		}
+	      	input{	
+	      		@include self-text-align;       
+	         	font: 1.5em lato, Arial;
 	        	color: $fourth-color;
-	        	font-weight: bold;
-	        	@include mobile-style{
-	        		width: 45%;
-	        		padding: 3px;
-	        	}
-	        	@include truemobile-style{
-	        		margin: 10px;
-	        		font: 1.1em lato, Arial;
-	        		padding: 10px;   
-	        	}   	
+	        	font-weight: bold;	
+	        	width: 40%;
+	        	padding: 5px; 
+	        	margin: 5px;  
+	        	border-radius: 5px      	
 		      }
+		      @include mobile-style{
+	       		@include flex-column;	       		
+	       		label, input{
+	       			width: 70%;
+	       			font-size: 105%;
+	       		}	       		
+      	 	}
+      	 	@include truemobile-style{
+      			padding: 10px 0px 0px 0px;   
+	       		@include flex-column;
+	       		label, input{width: 100%;}	       		
+      	 	}  
 		    }
-		    .lastLine{	 
-	      	width: 100%;
-	      	@include just-flex;
-	      	@include justify-content-center;
-	      	margin: auto;
-	      	.btn {
-	      		-ms-flex-wrap: nowrap;
-	      		flex-wrap: nowrap;
-	      		width: 30%;
-	      		height: 40px;      		
-	      		margin: auto;
-	      		color: $fourth-color;
-	    			background: $primary-color;  			
-				    font-weight: bold;
-				    font-size: 120%;
-				    border-radius: 5px;
-				    cursor: pointer;
-				    border: none;
-				    outline: none;
-				    -webkit-user-select: none;
-				       -moz-user-select: none;
-				        -ms-user-select: none;
-				            user-select: none;
-				    &:hover{
-				      color: $primary-color;
-				      background: $fourth-color;
-				      -webkit-transition: .4s;
-				      -o-transition: .4s;
-				      transition: .4s;
-				    }
-				    @include tablet-style{width: 45%;}
-				    @include mobile-style{
-	        		width: 80%;
-	        		padding: 5px;
-	        		height: auto;
-	        	}      		
-			  	}
-	     	}
-	     	@include truemobile-style{flex: 1;}
-	     	 @include minimobile-style{flex: 2;}     
-      }
-    @include truemobile-style{
-    	height: 80%;
-    	width: 95%;
-    }
-    @include minimobile-style{height:95%;}      
+		    .btn-wrapper{
+		    	margin-top: 15px;
+	       	@include just-flex;
+	       	@include justify-content-center; 		    	
+			    .btn {
+			    	min-width: 183px;
+		      	flex-wrap: nowrap;
+		      	width: 35%;
+		      	height: auto;      		
+		      	margin: auto;
+		      	color: $fourth-color;
+		    		background: $primary-color;  			
+					  font-weight: bold;
+					  font-size: 150%;
+					  border-radius: 5px;
+					  cursor: pointer;
+					  border: none;
+					  outline: none;
+					  padding: 4px;
+					  -webkit-user-select: none;
+					  -moz-user-select: none;
+					  -ms-user-select: none;
+					  user-select: none;
+					  @include self-text-align;  
+					  &:hover{
+						  -webkit-animation: heartbeat 1.5s ease-in-out infinite both;
+		        	animation: heartbeat 1.5s ease-in-out infinite both;
+					  }
+					  @include mobile-style {	font-size: 105%;}
+					}
+	     	} 
+      }    
    	}
-   	@include tablet-style{
-   		width: 70vw;
-	  	height: auto;
-		}
-    @include mobile-style{
-    	top: 10vh;
-    	margin-left: auto;
-	  	margin-right: auto;
-	  	height: auto;
-	  }
-	  @include truemobile-style{
-	  	top:3vh;
-	  	height: 80vh;
-	  }
-	  @include minimobile-style{font-size:80%;}
+   	@include mobile-style{font-size: 90%;}
+   	@include mobile-style{top: 5vh;}	   	 
 	 }	  
 	}
