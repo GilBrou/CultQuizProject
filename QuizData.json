@@ -626,8 +626,8 @@
         },
         {
           "text":"À l'origine, quel acteur devait interprêter le personnage de Tyler Durden ?",
-          "choices":["russel crowe","leonardo dicaprio", "Jude Law", "Johnny Depp"],
-          "answer":"russel crowe",
+          "choices":["Russel Crowe","Leonardo Dicaprio", "Jude Law", "Johnny Depp"],
+          "answer":"Russel Crowe",
           "player": "1"
         },
         {
