@@ -329,7 +329,7 @@
         },
         {
           "text":"Lorsque Lyanna, âgée de dix ans, prend la tête de la maison Mormont, quel message envoie-t-elle aux prétendants au trône ?",
-          "choices":["Ceux qui combattent quand il est l'heure de discuter sont déja morts","Le Nord n'a que faire de vos disputes, même l'hiver ne peut le soumettre", "Je ne reconnaît qu'un roi, et son nom est Stark", "J'ai déjà pas peur des géants, alors allez bien vous faire foutre"],
+          "choices":["Ceux qui combattent quand il est l'heure de discuter sont déjà morts","Le Nord n'a que faire de vos disputes, même l'hiver ne peut le soumettre", "Je ne reconnaît qu'un roi, et son nom est Stark", "J'ai déjà pas peur des géants, alors allez bien vous faire foutre"],
           "answer":"Je ne reconnaît qu'un roi, et son nom est Stark",
           "player": "1"
         },
@@ -408,7 +408,7 @@
       "punchLine": "Envie de descendre avec le lapin blanc au fond du gouffre ?",
       "taunt": "Dites-moi, M. Anderson, à quoi bon faire ce quiz si vous êtes dans l'incapacité d'y répondre ?",      
       "scoreReact" : [
-        "Avouez, vous préferez un bon vieil épisode de L'inspecteur Derrick ?",
+        "Avouez, vous préférez un bon vieil épisode de L'inspecteur Derrick ?",
         "Vous avez cessé d'essayer de répondre à ce quiz, car c’est impossible.<br><br>Vous vous êtes concentrés pour faire éclater la vérité : ce quiz n'existe pas plus que la cuillère.<br><br>Vous pourriez bien être l'élu..."
       ],
       "questions":[
@@ -541,7 +541,7 @@
       ],
       "questions":[
         {
-          "text":"Quel est la troisème règle du Fight Club ?",
+          "text":"Quel est la troisième règle du Fight Club ?",
           "choices":["Il est interdit de parler du Fight Club","Les combats continueront aussi longtemps que nécessaire", "Quelqu'un crie stop, quelqu'un s'écroule ou n'en peut plus, le combat est terminé", "Un seul combat à la fois"],
           "answer":"Quelqu'un crie stop, quelqu'un s'écroule ou n'en peut plus, le combat est terminé",
           "player": "1"
@@ -577,13 +577,13 @@
           "player": "2"
         },
         {
-          "text":"En quelle année le film est-il sorti en france ?",
+          "text":"En quelle année le film est-il sorti en France ?",
           "choices":["1996","1999", "2000", "2002"],
           "answer":"1999",
           "player": "1"
         },
         {
-          "text":"Au cinéma, comment Tyler apelle-t'il les petites taches sur la pellicule qui indique qu'elle doit bientôt être changée ?",
+          "text":"Au cinéma, comment Tyler appelle-t-il les petites taches sur la pellicule qui indique qu'elle doit bientôt être changée ?",
           "choices":["Des trous de balles","Des brûlures de cigarettes", "Des trous noirs", "Des vortex pelliculaires"],
           "answer":"Des brûlures de cigarettes",
           "player": "2"
@@ -595,7 +595,7 @@
           "player": "1"
         },
         {
-          "text":"Le personnage de Brad Pitt donne soi-disant la recette du napalm :",
+          "text":"Le film nous confie la soi-disant la recette du napalm :",
           "choices":["Un quart graisse de porc, trois quarts de poudre à canon","Moitié huile de friture, moitié jus de citron", "Un quart de Kérosène, trois quarts de graisse humaine ", "Moitié essence, moitié concentré de jus d'orange"],
           "answer":"Moitié essence, moitié concentré de jus d'orange",
           "player": "2"
@@ -625,7 +625,7 @@
           "player": "2"
         },
         {
-          "text":"À l'origine, quel acteur devait interprêter le personnage de Tyler Durden ?",
+          "text":"À l'origine, quel acteur devait interpréter le personnage de Tyler Durden ?",
           "choices":["Russel Crowe","Leonardo Dicaprio", "Jude Law", "Johnny Depp"],
           "answer":"Russel Crowe",
           "player": "1"
@@ -649,7 +649,7 @@
           "player": "2"
         },                                                                              
         {
-          "text":"''Where is my mind ?'', la musique accompagnant l'exposion finale est un morceau des :",
+          "text":"''Where is my mind ?'', la musique accompagnant l’explosion finale est un morceau des :",
           "choices":["Smithy","Tricky", "Pixies", "Ministry"],
           "answer":"Pixies",
           "player": "1"
