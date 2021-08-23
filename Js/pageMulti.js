@@ -3,9 +3,16 @@ const page = async () =>{
 
   /////Dom Elements
   const main = document.getElementById('main-section');
+  main.style.paddingTop = "0";
 
   /////remove loader if pag already load
-  OnlyLoadOnce();    
+  OnlyLoadOnce();
+
+  let retry = document.querySelector(".retryOrLeave");
+  retry.style.margin = "0";
+  retry.style.display = "none";
+  
+
   
   /////Variables
   let selectedQuiz;
@@ -74,22 +81,6 @@ function randomize(){
   questions0 = questions0.splice(0,half);//first 10 questions quiz
   return questions0;
 }
-  //console.log(questions0);
-
-/*
-/////Assing roles / SET FIRST 10 QUESTIONS
-    questions = questions1;
-    let player = player1;
-    let currentScore = score1;
-*/
-/*
-/////SET 10 last QUESTIONS
-    //questions = questions2;
-    //let player = player2;
-    //let currentScore = score2;
-*/
-   
-
   /////All functions
   const display = {
     //Quiz display 2
@@ -146,7 +137,13 @@ function randomize(){
         closeBtn.forEach((btn) => btn.addEventListener("keyup", ckeckKeyClose));  
         function ckeckKeyClose(){if(event.keyCode === 13){closeModal();}} 
         document.addEventListener('keydown', function(e){if(event.keyCode === 27){closeModal();}});
-        function closeModal(){modalbg.style.display = "none";}
+        function closeModal(){
+          //backbutton display
+          let retry = document.querySelector(".retryOrLeave");
+          retry.classList.remove("retryAnim");
+          retry.style.display = "flex";
+          modalbg.style.display = "none";
+        }
     },
 
     //Quiz display 2
@@ -184,14 +181,6 @@ function randomize(){
   ///// Quiz Creation
   let quiz = new Quiz(questions);
     quizApp();
- 
-  /////Listen to click on retry button
-  const retry = document.querySelectorAll(".retry");
-  Array.from(retry).map(element => {
-    element.addEventListener("click", function (event) {
-      document.location.reload();
-    });
-  }); 
 
   //focus on quiz
   let here = document.getElementById('quiz');
@@ -202,8 +191,12 @@ function randomize(){
   const log = document.querySelectorAll(".logo");
   Array.from(log).map(element => {
     element.addEventListener("click", function (event) {
-        event.preventDefault()
-       window.location.href = "index.html" + "?id=" +"noAnim";
+      event.preventDefault()
+      let Nscore1 = document.querySelector(".sPlayer1").innerHTML;
+      let Nscore2 = document.querySelector(".sPlayer2").innerHTML;
+      let Cplayer1 = document.querySelector(".nom-player1").innerHTML;
+      let Cplayer2 = document.querySelector(".nom-player2").innerHTML;
+      window.location.href = "index.html" + "?id="  +"noAnim" + "&J1=" + Cplayer1 + "&S1=" + Nscore1 + "&J2=" + Cplayer2 + "&S2=" + Nscore2;
     });
   });
 
@@ -211,8 +204,12 @@ function randomize(){
   const log2 = document.querySelectorAll(".backhome");
   Array.from(log2).map(element => {
     element.addEventListener("click", function (event) {
-        event.preventDefault()
-       window.location.href = "index.html" + "?id=" +"noAnim";
+      event.preventDefault()
+      let Nscore1 = document.querySelector(".sPlayer1").innerHTML;
+      let Nscore2 = document.querySelector(".sPlayer2").innerHTML;
+      let Cplayer1 = document.querySelector(".nom-player1").innerHTML;
+      let Cplayer2 = document.querySelector(".nom-player2").innerHTML;
+      window.location.href = "index.html" + "?id="  +"noAnim" + "&J1=" + Cplayer1 + "&S1=" + Nscore1 + "&J2=" + Cplayer2 + "&S2=" + Nscore2;
     });
   });
   
@@ -249,22 +246,7 @@ function randomize(){
   const retryAnim = document.querySelectorAll(".retryOrLeave");
   Array.from(retryAnim).map(element => {
     element.classList.add("retryAnim");
-  });
-
-/*
-//////Get and Display players turns
-let currentQuestion = document.getElementById("question").innerHTML;
-console.log(currentQuestion);
-for (let i in questions0){
-  if (questions0 == currentQuestion){
-    console.log(player2, score2)
-  } else {
-    console.log(player1, score1);
-  }
-}
-*/ 
-
-  
+  });  
 
 };
 /////Initiate Main Function On Page Load

@@ -116,7 +116,7 @@ class Question {
             let score =  score1.innerHTML;                        
             score++   
             score1.innerHTML = score;
-            score1.classList.add("animpoint"); 
+            score1.classList.add("animpoint");
             if (score == 1){ points1.innerHTML = "point";}
           } else {
             let score2 = document.querySelector(".sPlayer2");
@@ -124,7 +124,7 @@ class Question {
             let score =  score2.innerHTML;  
             score++   
             score2.innerHTML = score;
-            score2.classList.add("animpoint") ;
+            score2.classList.add("animpoint");
             if (score == 1){ points2.innerHTML = "point";} 
           }
           setTimeout(function(){
@@ -132,7 +132,7 @@ class Question {
             let score2 = document.querySelector(".sPlayer2");
             score1.classList.remove("animpoint"); 
             score2.classList.remove("animpoint"); 
-          }, 650);
+          }, 800);
         }
       }
       return this.answer === choice;

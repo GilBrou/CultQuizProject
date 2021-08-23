@@ -56,7 +56,7 @@ header{
         font-weight: bold;  
         margin: 5px;
         padding: 5px 10px 5px 10px;
-        //background-color : $primary-color;
+        /*background-color : $primary-color;*/
         border: 2px solid $fourth-color;
         color: $primary-color;
         border-radius: 5px;
@@ -67,6 +67,8 @@ header{
           background-color : $primary-color;
           border: 1px solid $primary-color;
           color: $tertiary-color;
+          -webkit-transition: .3s;
+          -o-transition: .3s;
           transition: .3s;
           border: 2px solid $fourth-color;
         }
@@ -86,7 +88,7 @@ header{
 }
 
 
-/*Multibanner*//////
+/*Multibanner*//*///*/
 .multiheader{
   @include just-flex;
   @include justify-content-center;
@@ -101,7 +103,8 @@ header{
   .Player{
     width:45%;
     min-width: 152px;
-    box-shadow: 0 5px 20px 3px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0 5px 20px 3px rgba(0, 0, 0, 0.3);
+            box-shadow: 0 5px 20px 3px rgba(0, 0, 0, 0.3);
     font-size: 150%;
     @include just-flex;
     @include justify-content-center;
@@ -115,12 +118,12 @@ header{
       font-weight: bold;
       color: $fourth-color;
        @include self-text-align;
-       font-size: 120%;    
+       /*font-size: 120%;    */
     }
     .score{
       margin: 0px 5px 0px 5px;
       font-weight: bold;  
-      font-size: 120%;    
+      /*font-size: 120%;    */
       @include self-text-align;
     }
     .scoreN{
@@ -128,9 +131,10 @@ header{
       background-color : $fourth-color;
       color: $primary-color;
       border-radius: 50px;
-      width: 34px;
-      //height: 30px;
-      padding: 2px;
+      width: 30px;
+      /*height: 30px;*/
+      padding: 5px;
+      font-size: 100%;
       @include justify-content-center;
     }
     @include mobile-style{
@@ -152,7 +156,9 @@ header{
     color: $primary-color;
     font-weight: bold;
     font-size: 200%;
-    flex:0.1;
+    -webkit-box-flex:0.1;
+        -ms-flex:0.1;
+            flex:0.1;
     @include truemobile-style{margin:3px;}
   }
   @include mobile-style{width: unset;}
