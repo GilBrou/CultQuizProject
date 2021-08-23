@@ -71,7 +71,7 @@ class quizCard {
       thatQuiz.appendChild(spe);
       spe.classList.add("spe");
       spe.innerHTML = "Comic book";
-    } else if (this.id == "03"){
+    } else if (this.id == "03" || this.id == "04"){
       let spe = document.createElement('div');
       thatQuiz.appendChild(spe);
       spe.classList.add("spe", "maj");

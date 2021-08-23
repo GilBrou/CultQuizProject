@@ -31,7 +31,7 @@ const main = async () =>{
   OnlyLoadOnce(); 
 
   //////Sort tags
-  sortingTags ();
+  sortingTags();
  
   ////Got to selected Quiz
   goToQuiz()
