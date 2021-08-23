@@ -98,10 +98,11 @@ class quizCard {
 
 /////Question Class/////
   class Question {
-    constructor(text, choices, answer) {
+    constructor(text, choices, answer, player) {
       this.text = text;
       this.choices = choices;
       this.answer = answer;
+      this.player = player;
     }
     isCorrectAnswer(choice) {
       return this.answer === choice;

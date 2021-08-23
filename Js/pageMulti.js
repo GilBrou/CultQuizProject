@@ -52,9 +52,12 @@ const page = async () =>{
         selectedQuestions[i].answer
       );
       questions0.push(newQuestion);
+      questions.push(newQuestion);
     };
 
 /////RANDOMIZE
+randomize();
+function randomize(){
   var currentIndex = questions0.length, temporaryValue, randomIndex;  
   while (0 !== currentIndex) {
     // Pick a remaining element...
@@ -65,18 +68,19 @@ const page = async () =>{
     questions0[currentIndex] = questions0[randomIndex];
     questions0[randomIndex] = temporaryValue;
   }
-return questions0;
+  /////SPLIT IN HALF
+  let half = Math.ceil(questions0.length / 2);
+  questions0 = questions0.splice(0,half);//first 10 questions quiz
+  return questions0;
 }
-/////SPLIT IN HALF
-let half = Math.ceil(questions0.length / 2);
-  let questions1 = questions0.splice(0,half);//first 10 questions quiz
-  let questions2 = questions0; //first 10 questions quiz
+  //console.log(questions0);
 
-/////SET FIRST 10 QUESTIONS
+/*
+/////Assing roles / SET FIRST 10 QUESTIONS
     questions = questions1;
     let player = player1;
     let currentScore = score1;
-
+*/
 /*
 /////SET 10 last QUESTIONS
     //questions = questions2;
@@ -125,9 +129,9 @@ let half = Math.ceil(questions0.length / 2);
         const scoreReact = document.querySelector(".reaction");
         let ReactBad = selectedQuiz.scoreReact[0];
         let ReactGood = selectedQuiz.scoreReact[1];
-        if(quiz.score < 10){reaction = `<h1>Score de ` + player + ` : <br>${quiz.score} / ${quiz.questions.length}</h1><br><p>` + ReactBad + `</p><br>`;
+        if(quiz.score < 10){reaction = `<h1>Score : <br>${quiz.score} / ${quiz.questions.length}</h1><br><p>` + ReactBad + `</p><br>`;
         } else {
-        reaction = `<h1>Score de ` + player + ` : <br>${quiz.score} / ${quiz.questions.length}</h1><br><p>` + ReactGood + `</p><br>`;
+        reaction = `<h1>Score : <br>${quiz.score} / ${quiz.questions.length}</h1><br><p>` + ReactGood + `</p><br>`;
         };
         scoreReact.innerHTML = reaction;
 
@@ -244,20 +248,20 @@ let half = Math.ceil(questions0.length / 2);
   const retryAnim = document.querySelectorAll(".retryOrLeave");
   Array.from(retryAnim).map(element => {
     element.classList.add("retryAnim");
-  }); 
+  });
 
-  function nextQuiz(){
-    /////SET FIRST 10 QUESTIONS//////////////////////////////////////////////////////////////////
-    questions = questions2;
-    console.log(questions2);
-     //let quiz = new Quiz(questions2);
-
-
+/*
+//////Get and Display players turns
+let currentQuestion = document.getElementById("question").innerHTML;
+console.log(currentQuestion);
+for (let i in questions0){
+  if (questions0 == currentQuestion){
+    console.log(player2, score2)
+  } else {
+    console.log(player1, score1);
   }
-
-
-
-
+}
+*/ 
 
   
 

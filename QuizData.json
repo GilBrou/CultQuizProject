@@ -14,103 +14,123 @@
         {
           "text":"Lorsqu'elle doit participer à une pièce de théâtre, pour quel rôle se prépare Guenièvre ?",
           "choices":["Andromaque","Hécube", "Pénélope", "Cassandre"],
-          "answer":"Cassandre"
+          "answer":"Cassandre",
+          "player": "1"
         },
         {
           "text":"Lorsque le joueur de bonneteau escroque Karadoc, il explique à celui-ci qu'il est imbattable car il possède...",
           "choices":["La vision de l'aigle","l’œil de lynx", "L'œil de truite", "L'œil de taupe"],
-          "answer":"L'œil de taupe"
+          "answer":"L'œil de taupe",
+          "player": "2"
         },
         {
           "text":"Selon Lancelot, ce ne serait pas bon pour son autorité que ses soldats apprennent qu'il est...",
           "choices":["Une petite vierge","Un gros innocent", "Une grosse pucelle", "Un sacré puceau"],
-          "answer":"Une grosse pucelle"
+          "answer":"Une grosse pucelle",
+          "player": "1"
         },
         {
           "text":"Pas du tout, les lapins, les lapins, c'est...",
           "choices":["Mignon","Gentil", "Caca", "Pas bien"],
-          "answer":"Gentil"
+          "answer":"Gentil",
+          "player": "2"
         },
         {
           "text":"Lorsqu'il a un coup de mou, que propose le Maître d'armes à Arthur ?",
          "choices":["Une saucisse grillée, un tonnelet de pinard et des filles","Un cochon rôti, un tonnelet de picrate et des gonzesses", "Des graines, un grand verre d'eau et un bon dodo",
           "Un croque, un godet d'hydromel et des femmes"],    
-          "answer":"Une saucisse grillée, un tonnelet de pinard et des filles" 
+          "answer":"Une saucisse grillée, un tonnelet de pinard et des filles",
+          "player": "1" 
         },
         {
           "text":"Que demande Seli à Ygerne et Cryda : C'est des claques dans le museau qu'elles cherchent, les...?",
           "choices":["Sœurs Tape-Dur","Sœurs Sourire", "Sœurs Casse-Burne", "Sœurs Pécores"],
-          "answer":"Sœurs Tape-Dur"
+          "answer":"Sœurs Tape-Dur",
+          "player": "2"
         },
         {
           "text":"Comment s'appelle le compagnon sur lequel Arthur refuse de taper au début du livre VI ?",
           "choices":["Appius Manilius", "Titus Nipius Glaucia", "Caius Camillus", "Caius Papinius"],
-          "answer":"Caius Papinius"
+          "answer":"Caius Papinius",
+          "player": "1"
         },
         {
             "text":"Quel est l'autre nom sous lequel Méléagan est connu ?",
           "choices":["La Question","La Réponse", "Le Verdict", "Le Bourreau"],
-          "answer":"La Réponse"
+          "answer":"La Réponse",
+          "player": "2"
         },
         {
           "text":"Que trouve-t-on vraiment la nuit en forêt ?",
           "choices":["Mais de tout... C'est une forêt !", "De minuscules lapereaux, mignons et inoffensifs", "Des lapins adultes", "Des faisans d'une toise et demie"],
-          "answer":"Mais de tout... C'est une forêt !"
+          "answer":"Mais de tout... C'est une forêt !",
+          "player": "1"
         },
         {
           "text":"Afin de la courtiser, qu'offre Arthur à la jeune fille qui ne sait pas qui il est ?",
           "choices":["Un poème","884 charrettes de bouse", "Une fleur", "Une place au château"],
-          "answer":"Une fleur" 
+          "answer":"Une fleur",
+          "player": "2" 
         },
         {
           "text":"Complétez l'émouvant poème d'Yvain : La colombe blanche et sèche... ?",
          "choices": ["Peut donner de l'élan à un pigeon", "Cesse de nous esbaudir les oreilles", "Retombe souvent sur sa poitrine", "Rabat son crincrin dans la prairie de notre enfance."],
-          "answer":"Retombe souvent sur sa poitrine" 
+          "answer":"Retombe souvent sur sa poitrine",
+          "player": "1" 
         },
         {
           "text":"Qu'est-ce qui est petit et marron ?",
           "choices":["Un marron", "Franchement, j'saurais pas dire", "La potion de fécondité", "La pierre de Lune"],
-          "answer":"Un marron" 
+          "answer":"Un marron",
+          "player": "2" 
         },
         {
           "text":"Vous êtes d'accord pour dire que la définition même des taxes et les critiques qu'elles soulèvent forment une dichotomie?",
          "choices": ["C'est pas faux", "Ouais, c'est pas faux", "Euh, c'est pas faux", "C'est... non, je connais pas c'mot là"],
-          "answer":"C'est... non, je connais pas c'mot là"
+          "answer":"C'est... non, je connais pas c'mot là",
+          "player": "1"
         },
         {
           "text":"Avec qui Arthur a-t-il eu un enfant ?",
           "choices":["La fille de Roparzh","La sœur du tavernier", "La fille de Gethenoc", "L'une des jumelles du pêcheur"],
-          "answer":"La fille de Gethenoc" 
+          "answer":"La fille de Gethenoc",
+          "player": "2" 
         },
         {
           "text":"À quel âge Arthur a-t-il retiré l'épée pour la première fois ?",
           "choices":["8 ans", "6 ans", "4 ans", "2 ans"],
-          "answer":"4 ans" 
+          "answer":"4 ans",
+          "player": "1" 
         },
         {
           "text":"Où est passé Grüdu ?",
           "choices":["Il s'est fait tuer par le maître d'armes","Qui ?", "Il est parti retrouver ses parents fromagers", "Il a été enlevé par Attila"],
-          "answer":"Il a été enlevé par Attila" 
+          "answer":"Il a été enlevé par Attila" ,
+          "player": "2"
         },
         {
           "text":"Que mangent les oiseaux venimeux ?",
          "choices": ["Des noix et des escalopes de veau","Des noisettes et des escalopes de veau", "Des noix de cajou et des escalopes de veau", "Des baguettes et des escalopes de veau"],
-          "answer":"Des noisettes et des escalopes de veau" 
+          "answer":"Des noisettes et des escalopes de veau",
+          "player": "1" 
         },
         {
           "text":"Quels objets Perceval a t-il déjà ramené d'une visite à travers un portail dimensionnel ?",
          "choices": ["Un totem et une poule","Un sabre laser et un totem", "Une poule et un tambour", "Un tambour et un sabre laser"],
-          "answer":"Un sabre laser et un totem" 
+          "answer":"Un sabre laser et un totem",
+          "player": "2" 
         },
         {
           "text":"Lorsque Léodagan et son père Goustan se moquent du roi, quels surnoms lui trouvent-il ?",
           "choices":["Le brave, l'agréable, le mollasson et le mignonnet","Le bon, le jovial, le gland et le jardinier", "L'aimable, le juste, le faiblard et le ramolli", "Le bon, le sympathique, le mou et le gentillet"],
-          "answer":"Le bon, le sympathique, le mou et le gentillet" 
+          "answer":"Le bon, le sympathique, le mou et le gentillet",
+          "player": "1" 
         },
         {
           "text":"Pour Karadoc, y'a pas trente-six recettes du bonheur :",
           "choices":["La joie de vivre et le cochon","La joie de vivre et le saucisson", "La joie de vivre et le jambon", "La joie de vivre et le gras"],
-          "answer":"La joie de vivre et le jambon"         
+          "answer":"La joie de vivre et le jambon",
+          "player": "2"         
         }
       ]
     },
@@ -128,102 +148,122 @@
         {
           "text":"Comment s'appelle l'intelligence artificielle du Nostromo ?",
           "choices":["Hal-9000","Maman", "Papa", "LV-426"],
-          "answer":"Maman"
+          "answer":"Maman",
+          "player": "1"
         },
         {
           "text":"Quel artiste est à l'origine du design du Xénomorphe ?",
           "choices":["H.R. Giger","H.P. Lovecraft", "H.G. Wells", "H.P. Blavatsky"],
-          "answer":"H.R. Giger"
+          "answer":"H.R. Giger",
+          "player": "2"          
         },
         {
           "text":"Les œufs d'alien non fécondés donnent naissance aux :",
           "choices":["Facediggers","Chestbusters", "Flesheaters", "Facehuggers"],
-          "answer":"Facehuggers"
+          "answer":"Facehuggers",
+          "player": "1"
         },
         {
           "text":"Ash, l'officier scientifique du Nostromo, est en vérité :",
           "choices":["Un extraterrestre","Bilbon Sacquet", "Un androïde", "Un clone"],
-          "answer":"Un androïde"
+          "answer":"Un androïde",
+          "player": "2"
         },
         {
           "text":"Ellen Ripley possède le grade de :",
           "choices":["Navigatrice","Capitaine", "Chef-ingénieur", "Lieutenant"],
-          "answer":"Lieutenant"
+          "answer":"Lieutenant",
+          "player": "1"
         },
                         {
           "text":"Quel acteur a été le premier à avoir la poitrine déchiquetée par un Chestbuster ?",
           "choices":["Tom Skerrit","John Hurt", "Ian Holm", "Harry Dean Stanton"],
-          "answer":"John Hurt"
+          "answer":"John Hurt",
+          "player": "2"
         },
         {
           "text":"Quel animal est à bord du vaisseau, survivant même à l'Alien ?",
           "choices":["Un furet","Un chat", "Un chien", "Une souris"],
-          "answer":"Un chat"
+          "answer":"Un chat",
+          "player": "1"
         },
         {
           "text":"Quel est la fin de cette réplique culte : Je ne vous mentirai pas sur vos chances de survie mais...",
           "choices":["...vous allez vous en sortir","...c'était pas une gastro", "...vous avez intérêt de courir", "...vous avez ma sympathie"],
-          "answer":"...vous avez ma sympathie"
+          "answer":"...vous avez ma sympathie",
+          "player": "2"
         },
         {
           "text":"Quel est le titre Québécois d'Alien : le huitième passager ?",
           "choices":["Alien : le passager clandestin","L’Étranger : le huitième passager", "L'Extraterrestre : le huitième passager", "Alien : le huitième voyageur"],
-          "answer":"L’Étranger : le huitième passager"
+          "answer":"L’Étranger : le huitième passager",
+          "player": "1"
         },
         {
           "text":"Ce premier volet de la saga a été réalisé par :",
           "choices":["Ridley Scott","David Fincher", "Jean-Pierre Jeunet", "James Cameron"],
-          "answer":"Ridley Scott"
+          "answer":"Ridley Scott",
+          "player": "2"
         },
         {
           "text":" À certains moments,  pour accentuer à l'écran le gigantisme des lieux,  le réalisateur a eu l'idée de :",
           "choices":["Construire des décors cinq fois plus gros que nécessaire","Filmer les acteurs avec des objectifs à focale courtes", "Rajouter énormément de fumée", "Remplacer les acteurs par des enfants"],
-          "answer":"Remplacer les acteurs par des enfants"
+          "answer":"Remplacer les acteurs par des enfants",
+          "player": "1"
         },
         {
           "text":"Le film a gagné l'Oscar :",
           "choices":["Des meilleurs effets visuels","Des meilleurs décors", "Du meilleur réalisateur", "Des meilleurs costumes"],
-          "answer":"Des meilleurs effets visuels"
+          "answer":"Des meilleurs effets visuels",
+          "player": "2"
         },
         {
           "text":"Quel était le premier titre d'Alien ?",
           "choices":["Oh, fuck","The Menace Within", "Space Hitchhiker", "Star Beast"],
-          "answer":"Star Beast"
+          "answer":"Star Beast",
+          "player": "1"
         },
         {
           "text":"La machine à fumée utilisée pendant le tournage a été empruntée à quel groupe de rock ?",
           "choices":["Pink Floyd","The Who", "Les BB Brunes", "The Rolling Stones"],
-          "answer":"The Who"
+          "answer":"The Who",
+          "player": "2"
         },
         {
           "text":"Savez vous pourquoi, dans l'introduction, le titre n'est composé que de sept lignes avant d'apparaître plus clairement ?",
           "choices":["Sans raisons, c'est juste hyper classe","En référence au nombre de fois où le mot ''Shit'' est prononcé", "Pour annoncer le nombre de morts du film", "Afin d'indiquer le nombre de suites prévues"],
-          "answer":"Pour annoncer le nombre de morts du film"
+          "answer":"Pour annoncer le nombre de morts du film",
+          "player": "1"
         },
         {
           "text":" Veronica Cartwright,  qui joue le rôle de Lambert,  devait à l'origine interpréter Ellen Ripley. Elle a appris ce changement lors :",
           "choices":["De la seconde semaine de tournage","Des essais de costumes", "D'un rendez-vous avec Ridley Scott, un jour avant le début du tournage", "De la réédition DVD"],
-          "answer":"Des essais de costumes"
+          "answer":"Des essais de costumes",
+          "player": "2"
         },
         {
           "text":"Au fait, quel était la mission du Nostromo avant que tout ne parte en sucette ?",
           "choices":["La recherche de vie extraterrestre","La vente d'armes", "L'acheminement de minerai", "La surveillance de colonies spatiales"],
-          "answer":"L'acheminement de minerai"
+          "answer":"L'acheminement de minerai",
+          "player": "1"
         },
         {
           "text":"Pourquoi les membres du vaisseau partent-il à la recherche de la source du mystérieux signal ?",
           "choices":["Parce ce qu'ils sont serviables","Parce qu'ils pensent trouver une technologie avancée", "Pour trouver des matériaux afin de réparer le Nostromo", "Parce qu'ils y sont obligé par contrat"],
-          "answer":"Parce qu'ils y sont obligé par contrat"
+          "answer":"Parce qu'ils y sont obligé par contrat",
+          "player": "2"
         },
         {
           "text":"Comment Ripley se débarrasse-t-elle de l'Alien à la fin du film ?",
           "choices":["En l'expulsant hors de la navette","En lui tirant une balle dans la bouche", "En lui tirant sur le doigt", "En le carbonisant grâce à son lance-flammes"],
-          "answer":"En l'expulsant hors de la navette"
+          "answer":"En l'expulsant hors de la navette",
+          "player": "1"
         },                                                                                
         {
           "text":"Comment s'appelle la compagnie pour laquelle travaillent Ripley et ses compagnons ?",
           "choices":["La Weyland-Yutani Corporation","Le Weyland Consortium", "La Leland-Tiffany Bakery", "La Yutani Incorporated"],
-          "answer":"La Weyland-Yutani Corporation"
+          "answer":"La Weyland-Yutani Corporation",
+          "player": "2"
         }
 
       ]
@@ -242,102 +282,122 @@
         {
           "text":"Quel est le titre original de la saga littéraire de George R.R Martin à l'origine de la série ?",
           "choices":["Thrones Game","A Song of Ice and Fire", "A Dance with the Dragons", "The Iron Throne"],
-          "answer":"A Song of Ice and Fire"
+          "answer":"A Song of Ice and Fire",
+          "player": "1"
         },        
         {
           "text":"Comment se nomme le Loup Géant d'Arya Stark ?",
           "choices":["Fantôme","Calpurnia", "Lady", "Nyméria"],
-          "answer":"Nyméria"
+          "answer":"Nyméria",
+          "player": "2"
         },
         {
           "text":"Par qui les Stark sont-ils trahis lors des noces pourpres ?",
           "choices":["Walder Frey et Ramsay Bolton","Tywin Lannister et Walder Frey", "Le Silure et Roose Bolton", "Roose Bolton et Walder Frey"],
-          "answer":"Roose Bolton et Walder Frey"
+          "answer":"Roose Bolton et Walder Frey",
+          "player": "1"
         },
         {
           "text":"Pourquoi Gregor Clegane (La Montagne) a-t-il défiguré son propre frère, Sandor (Le Limier) lorsqu'ils étaient enfants ?",
           "choices":["Parce qu'il lui avait volé son jouet","Parce que leur mère est morte en mettant au monde Sandor", "Parce qu'il était jaloux de son intelligence", "Pour prouver à leur père qu'il était le plus fort"],
-          "answer":"Parce qu'il lui avait volé son jouet"
+          "answer":"Parce qu'il lui avait volé son jouet",
+          "player": "2"
         },
         {
           "text":"Grand-Griffe, l'épée de Jon Snow, est ornée d'une tête de loup, mais lorsqu'elle appartenait à Jeor Mormont il s'agissait d'une :",
           "choices":["Tête d'ours","Défense de Mammouth", "Tête de cheval", "Aile de dragon"],
-          "answer":"Tête d'ours"
+          "answer":"Tête d'ours",
+          "player": "1"
         },
         {
          "text":"Quelle est la particularité du cousin des Stark, Robin Arryn, âgé de neuf ans ?",
         "choices":["Il aime tuer des animaux","Il veut épouser sa tante", "Sa mère continue de l'allaiter", "Il pense que Westeros et une marque de céréales"],
-        "answer":"Sa mère continue de l'allaiter"
+        "answer":"Sa mère continue de l'allaiter",
+          "player": "2"
         },
         {
           "text":"Une actrice à adopté l'un des chiens interprétant un Loup Géant, de qui s'agit-il ?",
           "choices":["Emilia Clarke (Daenerys)","Sophie Turner (Sansa)", "Lena Headey (Cersei)", "Maisie Williams (Arya)"],
-          "answer":"Sophie Turner (Sansa)"
+          "answer":"Sophie Turner (Sansa)",
+          "player": "1"
         },
         {
           "text":"Au début de la série, qui est l'espion dépêché par les Lannisters auprès de Daenerys et son frère ?",
           "choices":["Jaqen H'ghar","Barristan Selmy", "Daario Naharis", "Jorah Mormont"],
-          "answer":"Jorah Mormont"
+          "answer":"Jorah Mormont",
+          "player": "2"
         },
         {
           "text":"Lorsque Lyanna, âgée de dix ans, prend la tête de la maison Mormont, quel message envoie-t-elle aux prétendants au trône ?",
-          "choices":["Ceux qui combattent quand il est l'heure de discuter n'auront bientôt plus l'occasion de s'exprimer","Le Nord n'a que faire de vos disputes, même l'hiver ne peut le soumettre", "Je ne reconnaît qu'un roi, et son nom est Stark", "J'ai déjà pas peur des géants, alors allez bien vous faire foutre"],
-          "answer":"Je ne reconnaît qu'un roi, et son nom est Stark"
+          "choices":["Ceux qui combattent quand il est l'heure de discuter sont déja morts","Le Nord n'a que faire de vos disputes, même l'hiver ne peut le soumettre", "Je ne reconnaît qu'un roi, et son nom est Stark", "J'ai déjà pas peur des géants, alors allez bien vous faire foutre"],
+          "answer":"Je ne reconnaît qu'un roi, et son nom est Stark",
+          "player": "1"
         },
         {
-          "text":"Selon Syrio Forel il n’y a qu’un seul dieu, et ce dieu est la mort. Et on ne dit qu’une seule chose à la mort…",
+          "text":"Selon Syrio Forel, on ne dit qu’une seule chose à la mort…",
           "choices":["Reviens plus tard","Je suis trop rapide pour toi", "Je t'offre mes ennemis", "Pas aujourd’hui"],
-          "answer":"Pas aujourd’hui"
+          "answer":"Pas aujourd’hui",
+          "player": "2"
         },
         {
           "text":"Comment Tyrion résume-t-il ses compétences ?",
           "choices":["Je bois, et je sais des choses","Je survis depuis le moment où je suis né", "J'aime les duels judiciaires","Ma langue est mon épée, et nulle armure ne saurait la parer"],
-          "answer":"Je bois, et je sais des choses"
+          "answer":"Je bois, et je sais des choses",
+          "player": "1"
         },
         {
           "text":"Quel Sauvageon tombe sous le charme de Brienne de Torth ?",
           "choices":["Craster ''Bon-Papa''","Elkor ''Seigneur-des-Os''", "Tormund ''Fléau-d'Ogres''", "Mance ''Vieux-Corbac''"],
-          "answer":"Tormund ''Fléau-d'Ogres''"
+          "answer":"Tormund ''Fléau-d'Ogres''",
+          "player": "2"
         },
         {
           "text":"Qui a dit : Quand on joue au jeu des Trônes, soit on gagne soit on meurt ?",
           "choices":["Villeroy & Boch","Cersei Lannister", "Petyr Baelish", "Lord Varys"],
-          "answer":"Cersei Lannister"
+          "answer":"Cersei Lannister",
+          "player": "1"
         },
         {
           "text":"Quel est le nom du frère de Ned Stark enrôlé dans la Garde de Nuit ?",
           "choices":["Rickdekard","Benjen", "Rickard", "Beljen"],
-          "answer":"Benjen"
+          "answer":"Benjen",
+          "player": "2"
         },
         {
           "text":"Grâce au succès de la série, en 2012 on a recensé en France plus de 150 nouveaux-nés qui se prénommaient :",
           "choices":["Sansa","Littlefinger", "Khaleesi", "Khaldrogo"],
-          "answer":"Khaleesi"
+          "answer":"Khaleesi",
+          "player": "1"
         },
         {
           "text":"Quel emblème représente la maison Greyjoy ?",
           "choices":["Un requin","un crâne et une vague", "Une saucisse", "Une seiche"],
-          "answer":"Une seiche"
+          "answer":"Une seiche",
+          "player": "2"
         },
         {
           "text":"Qui à dit : Le gros poisson mange le petit poisson, et je continue de barboter au milieu ?",
           "choices":["Littlefinger","Lord Varys", "Cersei", "Hodor"],
-          "answer":"Lord Varys"          
+          "answer":"Lord Varys",
+          "player": "1"          
         },
         {
           "text":"Comment se nomment les frères de Daenerys ?",
           "choices":["Rhaegar et Viserys","Rhaegis et Thunkon", "Aegon et Viserion", "Aerys et Rhaegar"],
-          "answer":"Rhaegar et Viserys"         
+          "answer":"Rhaegar et Viserys",
+          "player": "2"         
         },
         {
           "text":"Afin de détendre l'atmosphère pendant le tournage de la scène de viol, l'acteur Jason Momoa (Khal Drogo) réserva une surprise à sa partenaire :",
           "choices":["Il colla sur son pubis deux petits yeux en plastique","Il écrivit des blagues cochonnes sur ses cuisses", "Il enfila une chaussette rose en peluche sur son sexe", "Il recouvrit son entrejambe de paillettes roses"],
-          "answer":"Il enfila une chaussette rose en peluche sur son sexe"
+          "answer":"Il enfila une chaussette rose en peluche sur son sexe",
+          "player": "1"
         },
         {
-          "text":"Lorsque les fans suggéraient à George R.R. Martin de finir d'écrire la saga du Trône de Fer au plus vite, car son obésité risquait de le tuer rapidement, il leur répondit par une vidéo :",
-          "choices":["De sa récente coloscopie","De lui, complètement nu, sautant sur un trampoline en leur faisant des doigts d'honneur", "Où il explique quels personnages allaient mourir dans le prochain tome", "De lui en train de manger une pièce montée"],
-          "answer":"De lui, complètement nu, sautant sur un trampoline en leur faisant des doigts d'honneur"
+          "text":"Lorsque les fans ont suggéré à George R.R. Martin d'écrire la fin de la saga au plus vite, car son obésité risquait de le tuer, il leur répondit par une vidéo :",
+          "choices":["De sa récente coloscopie","De lui, complètement nu, sautant sur un trampoline", "Où il explique quels personnages allaient mourir dans le prochain tome", "De lui en train de manger une pièce montée"],
+          "answer":"De lui, complètement nu, sautant sur un trampoline",
+          "player": "2"
         }                                                                
       ]
     },
@@ -355,97 +415,117 @@
         {
           "text":"",
           "choices":["","", "", ""],
-          "answer":""
+          "answer":"",
+          "player": "1"
+
         },        
         {
           "text":"",
           "choices":["","", "", ""],
-          "answer":""
+          "answer":"",
+          "player": "2"
         },
         {
           "text":"",
           "choices":["","", "", ""],
-          "answer":""
+          "answer":"",
+          "player": "1"
         },
                         {
           "text":"",
           "choices":["","", "", ""],
-          "answer":""
+          "answer":"",
+          "player": "2"
         },
         {
           "text":"",
           "choices":["","", "", ""],
-          "answer":""
+          "answer":"",
+          "player": "1"
         },
                         {
           "text":"",
           "choices":["","", "", ""],
-          "answer":""
+          "answer":"",
+          "player": "2"
         },
         {
           "text":"",
           "choices":["","", "", ""],
-          "answer":""
+          "answer":"",
+          "player": "1"
         },
         {
           "text":"",
           "choices":["","", "", ""],
-          "answer":""
+          "answer":"",
+          "player": "2"
         },
                                 {
           "text":"",
           "choices":["","", "", ""],
-          "answer":""
+          "answer":"",
+          "player": "1"
         },
         {
           "text":"",
           "choices":["","", "", ""],
-          "answer":""
+          "answer":"",
+          "player": "2"
         },
         {
           "text":"",
           "choices":["","", "", ""],
-          "answer":""
+          "answer":"",
+          "player": "1"
         },
         {
           "text":"",
           "choices":["","", "", ""],
-          "answer":""
+          "answer":"",
+          "player": "2"
         },
         {
           "text":"",
           "choices":["","", "", ""],
-          "answer":""
+          "answer":"",
+          "player": "1"
         },
         {
           "text":"",
           "choices":["","", "", ""],
-          "answer":""
+          "answer":"",
+          "player": "2"
         },
         {
           "text":"",
           "choices":["","", "", ""],
-          "answer":""
+          "answer":"",
+          "player": "1"
         },
         {
           "text":"",
           "choices":["","", "", ""],
-          "answer":""
+          "answer":"",
+          "player": "2"
         },
         {
           "text":"",
           "choices":["","", "", ""],
-          "answer":""
+          "answer":"",
+          "player": "1"
         },
         {
           "text":"",
           "choices":["","", "", ""],
-          "answer":""
+          "answer":"",
+          "player": "2"
         },                                                                              
         {
           "text":"",
           "choices":["","", "", ""],
-          "answer":""
+          "answer":"",
+          "player": "1"
         }               
       ]
     },
@@ -463,97 +543,117 @@
         {
           "text":"",
           "choices":["","", "", ""],
-          "answer":""
+          "answer":"",
+          "player": "1"
+
         },        
         {
           "text":"",
           "choices":["","", "", ""],
-          "answer":""
+          "answer":"",
+          "player": "2"
         },
         {
           "text":"",
           "choices":["","", "", ""],
-          "answer":""
+          "answer":"",
+          "player": "1"
         },
                         {
           "text":"",
           "choices":["","", "", ""],
-          "answer":""
+          "answer":"",
+          "player": "2"
         },
         {
           "text":"",
           "choices":["","", "", ""],
-          "answer":""
+          "answer":"",
+          "player": "1"
         },
                         {
           "text":"",
           "choices":["","", "", ""],
-          "answer":""
+          "answer":"",
+          "player": "2"
         },
         {
           "text":"",
           "choices":["","", "", ""],
-          "answer":""
+          "answer":"",
+          "player": "1"
         },
         {
           "text":"",
           "choices":["","", "", ""],
-          "answer":""
+          "answer":"",
+          "player": "2"
         },
                                 {
           "text":"",
           "choices":["","", "", ""],
-          "answer":""
+          "answer":"",
+          "player": "1"
         },
         {
           "text":"",
           "choices":["","", "", ""],
-          "answer":""
+          "answer":"",
+          "player": "2"
         },
         {
           "text":"",
           "choices":["","", "", ""],
-          "answer":""
+          "answer":"",
+          "player": "1"
         },
         {
           "text":"",
           "choices":["","", "", ""],
-          "answer":""
+          "answer":"",
+          "player": "2"
         },
         {
           "text":"",
           "choices":["","", "", ""],
-          "answer":""
+          "answer":"",
+          "player": "1"
         },
         {
           "text":"",
           "choices":["","", "", ""],
-          "answer":""
+          "answer":"",
+          "player": "2"
         },
         {
           "text":"",
           "choices":["","", "", ""],
-          "answer":""
+          "answer":"",
+          "player": "1"
         },
         {
           "text":"",
           "choices":["","", "", ""],
-          "answer":""
+          "answer":"",
+          "player": "2"
         },
         {
           "text":"",
           "choices":["","", "", ""],
-          "answer":""
+          "answer":"",
+          "player": "1"
         },
         {
           "text":"",
           "choices":["","", "", ""],
-          "answer":""
-        },                                                                                
+          "answer":"",
+          "player": "2"
+        },                                                                              
         {
           "text":"",
           "choices":["","", "", ""],
-          "answer":""
+          "answer":"",
+          "player": "1"
         }               
       ]
     }, 
@@ -571,102 +671,122 @@
         {
           "text":"Quelle proposition n'est pas un long métrage de Disney ?",
           "choices":["Kuzco, l'empereur mégalo","Basil, détective privé", "Anastasia", "Peter Pan"],
-          "answer":"Anastasia"
+          "answer":"Anastasia",
+          "player": "1"
         },        
         {
           "text":"Comment s'appelle le chat cruel dans Cendrillon ?",
           "choices":["Belzébuth","Diablo", "Satan", "Lucifer"],
-          "answer":"Lucifer"
+          "answer":"Lucifer",
+          "player": "2"
         },
         {
           "text":"Aurore, la Belle au bois dormant, est la princesse la moins bavarde de Disney. À votre avis, combien de lignes de dialogue a-t-elle ?",
           "choices":["7","18", "26", "31"],
-          "answer":"18"
+          "answer":"18",
+          "player": "1"
         },
          {
           "text":"Comment s'appelle le bonhomme de neige dans La Reine des neiges ?",
           "choices":["Pilaf","Hans", "Sven", "Olaf"],
-          "answer":"Olaf"
+          "answer":"Olaf",
+          "player": "2"
         },
         {
           "text":"Dans Monstres et Cie, quel code d'alerte correspond à la contamination par un enfant ou un objet humain ?",
           "choices":["118-218","313-12", "23-19", "60-42"],
-          "answer":"23-19"
+          "answer":"23-19",
+          "player": "1"
         },
         {
           "text":"Datant de 1941, quel est le premier long métrage en prises de vues réelles produit par les Studios Disney ?",
           "choices":["L'Île au trésor","Le Dragon récalcitrant", "La grande évasion", "Mélodie du Sud"],
-          "answer":"Le Dragon récalcitrant"
+          "answer":"Le Dragon récalcitrant",
+          "player": "2"
         },
         {
           "text":"Dans Le Roi Lion, où est située la célèbre cicatrice de Scar ?",
           "choices":["Sur son œil gauche","Sous son œil droit", "Sur sa joue gauche", "Sur son œil droit"],
-          "answer":"Sur son œil gauche"
+          "answer":"Sur son œil gauche",
+          "player": "1"
         },
         {
           "text":"Complétez ces paroles chantées par Ariel : Moi je voudrais parcourir le monde, moi je voudrais voir le monde ....",
           "choices":["Brûler","Danser", "Chanter", "Valser"],
-          "answer":"Danser"
+          "answer":"Danser",
+          "player": "2"
         },
         {
           "text":"Quel personnage n'est pas dans Tarzan ?",
           "choices":["Kala","Tantor", "Tok", "Kida"],
-          "answer":"Kida"
+          "answer":"Kida",
+          "player": "1"
         },
         {
           "text":"Quel est le dernier film supervisé par Walt Disney avant sa disparition ?",
           "choices":["Robin des Bois","Les 101 Dalmatiens", "Le Livre de la jungle", "La Belle au bois dormant"],
-          "answer":"Le Livre de la jungle"
+          "answer":"Le Livre de la jungle",
+          "player": "2"
         },
         {
           "text":"Quel est le domaine dans lequel excelle Mérida ?",
           "choices":["La couture","La scultpture sur bois", "Le combat à l'épée", "Le tir à l'arc"],
-          "answer":"Le tir à l'arc"
+          "answer":"Le tir à l'arc",
+          "player": "1"
         },
         {
           "text":"Pour être fort et se sentir à l'aise, combien de douzaines d'œufs Gaston mangeait-il quand il était petit ?",
           "choices":["1","3", "4", "5"],
-          "answer":"4"
+          "answer":"4",
+          "player": "2"
         },
         {
           "text":"Dans Les Mondes de Ralph, quel est le rêve de Ralph ?",
           "choices":["Devenir un gentil","Déménager à Sugar Rush", "Jouer à Call-of-Duty", "Jouer à Hero's Duty"],
-          "answer":"Devenir un gentil"
+          "answer":"Devenir un gentil",
+          "player": "1"
         },
         {
           "text":"Laquelle de ces propositions a vraiment été envisagée pour nommer l'un des nains dans Blanche neige ?",
           "choices":["Barbouillé","Renifleur", "Grassouillet", "Déprimé"],
-          "answer":"Renifleur"
+          "answer":"Renifleur",
+          "player": "2"
         },
         {
           "text":"Comment s'appelle le rival de John Smith dans Pocahontas : une légende indienne ?",
           "choices":["Rocoum","Loucoum", "Kocoum", "Pocoum"],
-          "answer":"Kocoum"
+          "answer":"Kocoum",
+          "player": "1"
         },
         {
           "text":"Le personnage du Génie dans Aladdin à été inspiré et doublé en V.O par quel acteur ?",
           "choices":["Robin Williams","Jim Carrey", "Woody Allen", "Sylvester Stallone"],
-          "answer":"Robin Williams"
+          "answer":"Robin Williams",
+          "player": "2"
         },
         {
           "text":"Un Oscar d'honneur à été décerné à Blanche neige et les sept nains lors de sa sortie en 1937, quel était la particularité de la statuette offerte à Walt Disney?",
           "choices":["Elle portait un bonnet comme les nains du film","Elle était accompagnée de sept autres statuettes plus petites", "C'est la seule statuette à avoir été peinte en couleur et non dorée.", "La statuette représentait Blanche Neige"],
-          "answer":"Elle était accompagnée de sept autres statuettes plus petites"
+          "answer":"Elle était accompagnée de sept autres statuettes plus petites",
+          "player": "1"
         },
         {
           "text":"Quel était le premier dessin animé Disney à utiliser des images générées par ordinateur ?",
           "choices":["Toy Story","Bernard et Bianca au pays des kangourous", "La Belle et la Bête", "Taram et le Chaudron Magique"],
-          "answer":"Taram et le Chaudron Magique"
+          "answer":"Taram et le Chaudron Magique",
+          "player": "2"
         },
         {
           "text":"À l'origine, quel était le prénom de Mickey ?",
           "choices":["Mortimer","Miles", "Michael", "Maxwell"],
-          "answer":"Mortimer"
+          "answer":"Mortimer",
+          "player": "1"
         },                                                                                
         {
           "text":"Dans de nombreux longs-métrages, Les animateurs cachent souvent des références à d'autres productions Disney. Quels personnages peut-on voir dans Aladdin ?",
           "choices":["Pinocchio, Sébastien et La Bête","Sébastien, Scar et Polochon", "Pinocchio, Scar et Pumba", "Madame Samovar, Sébastien et Scar"],
-          "answer":"Pinocchio, Sébastien et La Bête"
+          "answer":"Pinocchio, Sébastien et La Bête",
+          "player": "2"
         }               
       ]
     },
@@ -684,97 +804,117 @@
         {
           "text":"",
           "choices":["","", "", ""],
-          "answer":""
+          "answer":"",
+          "player": "1"
+
         },        
         {
           "text":"",
           "choices":["","", "", ""],
-          "answer":""
+          "answer":"",
+          "player": "2"
         },
         {
           "text":"",
           "choices":["","", "", ""],
-          "answer":""
-        },
-        {
-          "text":"",
-          "choices":["","", "", ""],
-          "answer":""
+          "answer":"",
+          "player": "1"
         },
                         {
           "text":"",
           "choices":["","", "", ""],
-          "answer":""
+          "answer":"",
+          "player": "2"
         },
         {
           "text":"",
           "choices":["","", "", ""],
-          "answer":""
+          "answer":"",
+          "player": "1"
+        },
+                        {
+          "text":"",
+          "choices":["","", "", ""],
+          "answer":"",
+          "player": "2"
         },
         {
           "text":"",
           "choices":["","", "", ""],
-          "answer":""
+          "answer":"",
+          "player": "1"
+        },
+        {
+          "text":"",
+          "choices":["","", "", ""],
+          "answer":"",
+          "player": "2"
         },
                                 {
           "text":"",
           "choices":["","", "", ""],
-          "answer":""
+          "answer":"",
+          "player": "1"
         },
         {
           "text":"",
           "choices":["","", "", ""],
-          "answer":""
+          "answer":"",
+          "player": "2"
         },
         {
           "text":"",
           "choices":["","", "", ""],
-          "answer":""
+          "answer":"",
+          "player": "1"
         },
         {
           "text":"",
           "choices":["","", "", ""],
-          "answer":""
+          "answer":"",
+          "player": "2"
         },
         {
           "text":"",
           "choices":["","", "", ""],
-          "answer":""
+          "answer":"",
+          "player": "1"
         },
         {
           "text":"",
           "choices":["","", "", ""],
-          "answer":""
+          "answer":"",
+          "player": "2"
         },
         {
           "text":"",
           "choices":["","", "", ""],
-          "answer":""
+          "answer":"",
+          "player": "1"
         },
         {
           "text":"",
           "choices":["","", "", ""],
-          "answer":""
+          "answer":"",
+          "player": "2"
         },
         {
           "text":"",
           "choices":["","", "", ""],
-          "answer":""
+          "answer":"",
+          "player": "1"
         },
         {
           "text":"",
           "choices":["","", "", ""],
-          "answer":""
-        },
+          "answer":"",
+          "player": "2"
+        },                                                                              
         {
           "text":"",
           "choices":["","", "", ""],
-          "answer":""
-        },                                                                                
-        {
-          "text":"",
-          "choices":["","", "", ""],
-          "answer":""
+          "answer":"",
+          "player": "1"
         }               
       ]
     },
@@ -792,97 +932,117 @@
         {
           "text":"",
           "choices":["","", "", ""],
-          "answer":""
+          "answer":"",
+          "player": "1"
+
         },        
         {
           "text":"",
           "choices":["","", "", ""],
-          "answer":""
+          "answer":"",
+          "player": "2"
+        },
+        {
+          "text":"",
+          "choices":["","", "", ""],
+          "answer":"",
+          "player": "1"
         },
                         {
           "text":"",
           "choices":["","", "", ""],
-          "answer":""
+          "answer":"",
+          "player": "2"
         },
         {
           "text":"",
           "choices":["","", "", ""],
-          "answer":""
+          "answer":"",
+          "player": "1"
         },
                         {
           "text":"",
           "choices":["","", "", ""],
-          "answer":""
+          "answer":"",
+          "player": "2"
         },
         {
           "text":"",
           "choices":["","", "", ""],
-          "answer":""
+          "answer":"",
+          "player": "1"
         },
         {
-          "text":"Quelle est le nom de la ville construite autour d'une bombe atomique n'ayant pas explosé ?",
-          "choices":["","", "", "Megaton"],
-          "answer":"Megaton"
+          "text":"",
+          "choices":["","", "", ""],
+          "answer":"",
+          "player": "2"
         },
                                 {
           "text":"",
           "choices":["","", "", ""],
-          "answer":""
+          "answer":"",
+          "player": "1"
         },
         {
           "text":"",
           "choices":["","", "", ""],
-          "answer":""
+          "answer":"",
+          "player": "2"
         },
         {
           "text":"",
           "choices":["","", "", ""],
-          "answer":""
+          "answer":"",
+          "player": "1"
         },
         {
           "text":"",
           "choices":["","", "", ""],
-          "answer":""
+          "answer":"",
+          "player": "2"
         },
         {
           "text":"",
           "choices":["","", "", ""],
-          "answer":""
+          "answer":"",
+          "player": "1"
         },
         {
           "text":"",
           "choices":["","", "", ""],
-          "answer":""
+          "answer":"",
+          "player": "2"
         },
         {
           "text":"",
           "choices":["","", "", ""],
-          "answer":""
+          "answer":"",
+          "player": "1"
         },
         {
           "text":"",
           "choices":["","", "", ""],
-          "answer":""
+          "answer":"",
+          "player": "2"
         },
         {
           "text":"",
           "choices":["","", "", ""],
-          "answer":""
+          "answer":"",
+          "player": "1"
         },
         {
           "text":"",
           "choices":["","", "", ""],
-          "answer":""
-        },
+          "answer":"",
+          "player": "2"
+        },                                                                              
         {
           "text":"",
           "choices":["","", "", ""],
-          "answer":""
-        },                                                                                
-        {
-          "text":"",
-          "choices":["","", "", ""],
-          "answer":""
+          "answer":"",
+          "player": "1"
         }               
       ]
     }, 
@@ -900,97 +1060,117 @@
         {
           "text":"",
           "choices":["","", "", ""],
-          "answer":""
+          "answer":"",
+          "player": "1"
+
         },        
         {
           "text":"",
           "choices":["","", "", ""],
-          "answer":""
+          "answer":"",
+          "player": "2"
         },
         {
           "text":"",
           "choices":["","", "", ""],
-          "answer":""
-        },
-        {
-          "text":"",
-          "choices":["","", "", ""],
-          "answer":""
+          "answer":"",
+          "player": "1"
         },
                         {
           "text":"",
           "choices":["","", "", ""],
-          "answer":""
+          "answer":"",
+          "player": "2"
         },
         {
           "text":"",
           "choices":["","", "", ""],
-          "answer":""
+          "answer":"",
+          "player": "1"
+        },
+                        {
+          "text":"",
+          "choices":["","", "", ""],
+          "answer":"",
+          "player": "2"
         },
         {
           "text":"",
           "choices":["","", "", ""],
-          "answer":""
+          "answer":"",
+          "player": "1"
+        },
+        {
+          "text":"",
+          "choices":["","", "", ""],
+          "answer":"",
+          "player": "2"
         },
                                 {
           "text":"",
           "choices":["","", "", ""],
-          "answer":""
+          "answer":"",
+          "player": "1"
         },
         {
           "text":"",
           "choices":["","", "", ""],
-          "answer":""
+          "answer":"",
+          "player": "2"
         },
         {
           "text":"",
           "choices":["","", "", ""],
-          "answer":""
+          "answer":"",
+          "player": "1"
         },
         {
           "text":"",
           "choices":["","", "", ""],
-          "answer":""
+          "answer":"",
+          "player": "2"
         },
         {
           "text":"",
           "choices":["","", "", ""],
-          "answer":""
+          "answer":"",
+          "player": "1"
         },
         {
           "text":"",
           "choices":["","", "", ""],
-          "answer":""
+          "answer":"",
+          "player": "2"
         },
         {
           "text":"",
           "choices":["","", "", ""],
-          "answer":""
+          "answer":"",
+          "player": "1"
         },
         {
           "text":"",
           "choices":["","", "", ""],
-          "answer":""
+          "answer":"",
+          "player": "2"
         },
         {
           "text":"",
           "choices":["","", "", ""],
-          "answer":""
+          "answer":"",
+          "player": "1"
         },
         {
           "text":"",
           "choices":["","", "", ""],
-          "answer":""
-        },
+          "answer":"",
+          "player": "2"
+        },                                                                              
         {
           "text":"",
           "choices":["","", "", ""],
-          "answer":""
-        },                                                                                
-        {
-          "text":"",
-          "choices":["","", "", ""],
-          "answer":""
+          "answer":"",
+          "player": "1"
         }               
       ]
     }, 
@@ -1008,97 +1188,117 @@
         {
           "text":"",
           "choices":["","", "", ""],
-          "answer":""
+          "answer":"",
+          "player": "1"
+
         },        
         {
           "text":"",
           "choices":["","", "", ""],
-          "answer":""
+          "answer":"",
+          "player": "2"
         },
         {
           "text":"",
           "choices":["","", "", ""],
-          "answer":""
-        },
-        {
-          "text":"",
-          "choices":["","", "", ""],
-          "answer":""
+          "answer":"",
+          "player": "1"
         },
                         {
           "text":"",
           "choices":["","", "", ""],
-          "answer":""
+          "answer":"",
+          "player": "2"
         },
         {
           "text":"",
           "choices":["","", "", ""],
-          "answer":""
+          "answer":"",
+          "player": "1"
+        },
+                        {
+          "text":"",
+          "choices":["","", "", ""],
+          "answer":"",
+          "player": "2"
         },
         {
           "text":"",
           "choices":["","", "", ""],
-          "answer":""
+          "answer":"",
+          "player": "1"
+        },
+        {
+          "text":"",
+          "choices":["","", "", ""],
+          "answer":"",
+          "player": "2"
         },
                                 {
           "text":"",
           "choices":["","", "", ""],
-          "answer":""
+          "answer":"",
+          "player": "1"
         },
         {
           "text":"",
           "choices":["","", "", ""],
-          "answer":""
+          "answer":"",
+          "player": "2"
         },
         {
           "text":"",
           "choices":["","", "", ""],
-          "answer":""
+          "answer":"",
+          "player": "1"
         },
         {
           "text":"",
           "choices":["","", "", ""],
-          "answer":""
+          "answer":"",
+          "player": "2"
         },
         {
           "text":"",
           "choices":["","", "", ""],
-          "answer":""
+          "answer":"",
+          "player": "1"
         },
         {
           "text":"",
           "choices":["","", "", ""],
-          "answer":""
+          "answer":"",
+          "player": "2"
         },
         {
           "text":"",
           "choices":["","", "", ""],
-          "answer":""
+          "answer":"",
+          "player": "1"
         },
         {
           "text":"",
           "choices":["","", "", ""],
-          "answer":""
+          "answer":"",
+          "player": "2"
         },
         {
           "text":"",
           "choices":["","", "", ""],
-          "answer":""
+          "answer":"",
+          "player": "1"
         },
         {
           "text":"",
           "choices":["","", "", ""],
-          "answer":""
-        },
+          "answer":"",
+          "player": "2"
+        },                                                                              
         {
           "text":"",
           "choices":["","", "", ""],
-          "answer":""
-        },                                                                                
-        {
-          "text":"",
-          "choices":["","", "", ""],
-          "answer":""
+          "answer":"",
+          "player": "1"
         }               
       ]
     }        
