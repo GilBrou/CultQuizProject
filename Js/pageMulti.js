@@ -15,11 +15,11 @@ const page = async () =>{
   let url_string = (window.location.href);
   let url = new URL(url_string);
   let targetId = url.searchParams.get("id");
-  let Player1 = url.searchParams.get("J1");
-  let Player2 = url.searchParams.get("J2");
+  let player1 = url.searchParams.get("J1");
+  let player2 = url.searchParams.get("J2");
   let score1 = url.searchParams.get("S1");
   let score2 = url.searchParams.get("S2");
-
+  
   /////Get Json Data
   let quizDataBase = await myFetch();  
   let quizData = quizDataBase.Quiz   
@@ -54,9 +54,7 @@ const page = async () =>{
       questions0.push(newQuestion);
     };
 
-/////RANDOMIZE///////////////////////////////////////////////////////////////////////////
-randomize();
-function randomize(){
+/////RANDOMIZE
   var currentIndex = questions0.length, temporaryValue, randomIndex;  
   while (0 !== currentIndex) {
     // Pick a remaining element...
@@ -69,89 +67,98 @@ function randomize(){
   }
 return questions0;
 }
-/////SPLIT IN HALF///////////////////////////////////////////////////////////////////////////
+/////SPLIT IN HALF
 let half = Math.ceil(questions0.length / 2);
   let questions1 = questions0.splice(0,half);//first 10 questions quiz
   let questions2 = questions0; //first 10 questions quiz
-/////SET FIRST 10 QUESTIONS//////////////////////////////////////////////////////////////////
+
+/////SET FIRST 10 QUESTIONS
     questions = questions1;
+    let player = player1;
+    let currentScore = score1;
+
+/*
+/////SET 10 last QUESTIONS
+    //questions = questions2;
+    //let player = player2;
+    //let currentScore = score2;
+*/
    
 
   /////All functions
   const display = {
+    //Quiz display 2
     elementShown: function(id, text) {
       let element = document.getElementById(id);
       element.innerHTML = text;
     },
-    /////Quiz Ending
-    endQuiz: function() {    
-        //Get Quiz Results
-        function getResults(){
-          let allQuestions = [];
-          let allAnswers = [];
-          let allResults = [];
-          for (let i in questions){
-            Q = questions[i].text;
-            allQuestions.push(Q);
-            A = questions[i].answer;
-            allAnswers.push(A);
-          }
-          for (let i in allQuestions){
-            let thatQAndA ='<div class="all-in-one">' + '<p class="h2-quiz">' + allQuestions[i]
-            + '</p>' + '<p class="h3-quiz">' +  allAnswers[i] + '</p>' + '</div>';
-            allResults.push(thatQAndA);
-          }
-          for (let i in allResults){return allResults;}
-        }
 
-        //Display score , score reaction and answers
+    /////End of quiz
+    endQuiz: function(){
+
+      //Get Results
+      function getResults(){
+        let allQuestions = [];
+        let allAnswers = [];
+        let allResults = [];
+        for (let i in questions){
+          Q = questions[i].text;
+          allQuestions.push(Q);
+          A = questions[i].answer;
+          allAnswers.push(A);
+        }
+        for (let i in allQuestions){
+          let thatQAndA ='<div class="all-in-one">' + '<p class="h2-quiz">' + allQuestions[i]
+          + '</p>' + '<p class="h3-quiz">' +  allAnswers[i] + '</p>' + '</div>';
+          allResults.push(thatQAndA);
+        }
+        for (let i in allResults){return allResults;}
+      }
+
+      /////Display score, reaction, answers and modal
+        
+        //End text
         endQuizHTML = `<h1>Quiz terminé !<br>Votre score est de : ${quiz.score} / ${quiz.questions.length} </h1>`;
         this.elementShown("quiz", endQuizHTML + getResults());
-        const modalbg = document.querySelector(".bground2"); 
+
+        //Reaction
         const scoreReact = document.querySelector(".reaction");
         let ReactBad = selectedQuiz.scoreReact[0];
         let ReactGood = selectedQuiz.scoreReact[1];
-        if(quiz.score < 10){      
-          reaction = `<h1>Score : ${quiz.score} / ${quiz.questions.length}</h1><br><p>` + ReactBad + `</p><br>`;
+        if(quiz.score < 10){reaction = `<h1>Score de ` + player + ` : <br>${quiz.score} / ${quiz.questions.length}</h1><br><p>` + ReactBad + `</p><br>`;
         } else {
-          reaction = `<h1>Score : ${quiz.score} / ${quiz.questions.length}</h1><br><p>` + ReactGood + `</p><br>`;
-        };     
+        reaction = `<h1>Score de ` + player + ` : <br>${quiz.score} / ${quiz.questions.length}</h1><br><p>` + ReactGood + `</p><br>`;
+        };
         scoreReact.innerHTML = reaction;
-        modalbg.style.display = "block";     
-        
-        /////close modals & ligthboxes
+
+        //Reaction Modal
+        const modalbg = document.querySelector(".bground2"); 
+        modalbg.style.display = "block"; 
         const closeBtn = document.querySelectorAll(".close");
 
-        //on click X
+        //modal closing
         closeBtn.forEach((btn) => btn.addEventListener("click", closeModal));
-
-        //on press enter on focus
         closeBtn.forEach((btn) => btn.addEventListener("keyup", ckeckKeyClose));  
-        function ckeckKeyClose(){if (event.keyCode === 13){closeModal();}}
+        function ckeckKeyClose(){if(event.keyCode === 13){closeModal();}} 
+        document.addEventListener('keydown', function(e){if(event.keyCode === 27){closeModal();}});
+        function closeModal(){modalbg.style.display = "none";}
+    },
 
-        //on press escape key
-        document.addEventListener('keydown', function(e) {
-          if(lightBoxIsOpen = true){if (event.keyCode === 27){closeModal();}};
-        });
-
-        //close modal function
-        function closeModal() {modalbg.style.display = "none";}
-     },    
+    //Quiz display 2
     question: function(){this.elementShown("question", quiz.getCurrentQuestion().text);},
     choices: function(){
       let choices = quiz.getCurrentQuestion().choices;
       guessHandler = (id, guess) => {
-        document.getElementById(id).onclick = function() {
-          quiz.guess(guess);
-          quizApp();
-        }
+        document.getElementById(id).onclick = function(){quiz.guess(guess);quizApp();}
       }
+
       //display choices and handle guess
       for(let i = 0; i < choices.length; i++) {
         this.elementShown("choice" + i, choices[i]);
         guessHandler("guess" + i, choices[i]);
       }
     },
+    //progress
     progress: function() {
       let currentQuestionNumber = quiz.currentQuestionIndex + 1;
       this.elementShown("progress", currentQuestionNumber + " sur " + quiz.questions.length);
@@ -162,7 +169,6 @@ let half = Math.ceil(questions0.length / 2);
   quizApp = () => {
     if (quiz.hasEnded()) {
     display.endQuiz();
-    nextQuiz();
     } else {
       display.question();
       display.choices();
