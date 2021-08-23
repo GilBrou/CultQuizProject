@@ -607,7 +607,7 @@
           "player": "1"
         },
         {
-          "text":"Complétez cette réplique : Même ____ subit les outrages du temps.",
+          "text":"Complétez cette réplique : Même ...... subit les outrages du temps.",
           "choices":["La Vénus de Milo","Guernica", "La Vierge Marie ", "La Joconde"],
           "answer":"La Joconde",
           "player": "2"
