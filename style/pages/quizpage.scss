@@ -188,7 +188,7 @@ main{
     &:hover{
       color: $primary-color;
       background: $fourth-color;
-      border: 1px solid $fourth-color;
+      //border: 1px solid $fourth-color;
       -webkit-transition: .4s;
       -o-transition: .4s;
       transition: .4s;
@@ -197,6 +197,7 @@ main{
         color: $tertiary-color;
       }
     }
+    /*
     &:active{
       -webkit-transform: scale(1.05);
       -ms-transform: scale(1.05);
@@ -212,6 +213,7 @@ main{
         transform: none;
       }
     }
+    */
     p{
       font-size: 1.3rem;
       margin: 0;

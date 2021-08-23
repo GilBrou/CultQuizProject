@@ -596,7 +596,7 @@
         },
         {
           "text":"Le personnage de Brad Pitt donne soi-disant la recette du napalm :",
-          "choices":["Un quart graisse de porc, trois quart de poudre à canon","Moitié huile de friture, moitié jus de citron", "Un quart de Kérosène, trois quart de graisse humaine ", "Moitié essence, moitié concentré de jus d'orange"],
+          "choices":["Un quart graisse de porc, trois quarts de poudre à canon","Moitié huile de friture, moitié jus de citron", "Un quart de Kérosène, trois quarts de graisse humaine ", "Moitié essence, moitié concentré de jus d'orange"],
           "answer":"Moitié essence, moitié concentré de jus d'orange",
           "player": "2"
         },
