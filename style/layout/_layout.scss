@@ -94,7 +94,8 @@ header{
   @include justify-content-center;
   z-index: -10;
   margin: auto;
-  width: 60%;
+  //width: 60%;
+  width: 68%;
   padding: 0px 5px 0px 5px;
   height: 20%;
   @include just-flex;
