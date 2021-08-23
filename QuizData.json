@@ -638,7 +638,7 @@
         },
         {
           "text":"Comment se nomme le projet ultime de Tyler ?",
-          "choices":["Le Projet Remize à zéro","Le Projet Anarchie", "Le Projet Apocalypse", "Le Projet Chaos"],
+          "choices":["Le Projet Remise à zéro","Le Projet Anarchie", "Le Projet Apocalypse", "Le Projet Chaos"],
           "answer":"Le Projet Chaos",
           "player": "1"
         },
