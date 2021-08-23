@@ -8,12 +8,11 @@ const page = async () =>{
   /////remove loader if pag already load
   OnlyLoadOnce();
 
+  /////Remove button since quiz is not completer
   let retry = document.querySelector(".retryOrLeave");
   retry.style.margin = "0";
   retry.style.display = "none";
-  
 
-  
   /////Variables
   let selectedQuiz;
 
@@ -63,24 +62,6 @@ const page = async () =>{
       questions.push(newQuestion);
     };
 
-/////RANDOMIZE
-randomize();
-function randomize(){
-  var currentIndex = questions0.length, temporaryValue, randomIndex;  
-  while (0 !== currentIndex) {
-    // Pick a remaining element...
-    randomIndex = Math.floor(Math.random() * currentIndex);
-    currentIndex -= 1;
-    // And swap it with the current element.
-    temporaryValue = questions0[currentIndex];
-    questions0[currentIndex] = questions0[randomIndex];
-    questions0[randomIndex] = temporaryValue;
-  }
-  /////SPLIT IN HALF
-  let half = Math.ceil(questions0.length / 2);
-  questions0 = questions0.splice(0,half);//first 10 questions quiz
-  return questions0;
-}
   /////All functions
   const display = {
     //Quiz display 2
@@ -91,6 +72,9 @@ function randomize(){
 
     /////End of quiz
     endQuiz: function(){
+
+      let turn = document.querySelector(".thatPlayer");
+      turn.style.display = "none";
 
       //Get Results
       function getResults(){
@@ -112,15 +96,15 @@ function randomize(){
       }
 
       /////Display score, reaction, answers and modal
-        
+              
         //End text
         endQuizHTML = `<h1>Quiz terminé !<br>Votre score est de : ${quiz.score} / ${quiz.questions.length} </h1>`;
         this.elementShown("quiz", endQuizHTML + getResults());
 
         //Reaction
         const scoreReact = document.querySelector(".reaction");
-        let ReactBad = selectedQuiz.scoreReact[0];
-        let ReactGood = selectedQuiz.scoreReact[1];
+        let ReactBad = "L'important, vous savez, c'est de participer.<br> Et dans votre cas, ça vaut mieux...";
+        let ReactGood = "Clairement, vous êtes faits pour répondre à des quiz.<br> Il est temps de quitter votre ancienne vie pour accomplir votre destinée.";
         if(quiz.score < 10){reaction = `<h1>Score : <br>${quiz.score} / ${quiz.questions.length}</h1><br><p>` + ReactBad + `</p><br>`;
         } else {
         reaction = `<h1>Score : <br>${quiz.score} / ${quiz.questions.length}</h1><br><p>` + ReactGood + `</p><br>`;
@@ -147,7 +131,21 @@ function randomize(){
     },
 
     //Quiz display 2
-    question: function(){this.elementShown("question", quiz.getCurrentQuestion().text);},
+    question: function(){
+      this.elementShown("question", quiz.getCurrentQuestion().text);
+      let CQ = document.getElementById("question").innerHTML;
+      let turn = document.querySelector(".thatPlayer");
+      let playerTurn;
+      for( let i in questions){
+        if(CQ == questions[i].text){
+          whatP = questions[i].player;
+          if( whatP == 1){playerTurn = player1}
+          else {playerTurn = player2}    
+        }
+      }
+      turn.innerHTML = "Tour de :" + " " + playerTurn;
+
+    },
     choices: function(){
       let choices = quiz.getCurrentQuestion().choices;
       guessHandler = (id, guess) => {
