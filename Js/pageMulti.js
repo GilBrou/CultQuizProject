@@ -49,7 +49,8 @@ const page = async () =>{
       let newQuestion = new Question(
         selectedQuestions[i].text,
         selectedQuestions[i].choices,
-        selectedQuestions[i].answer
+        selectedQuestions[i].answer,
+        selectedQuestions[i].player
       );
       questions0.push(newQuestion);
       questions.push(newQuestion);

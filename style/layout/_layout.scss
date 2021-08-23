@@ -113,10 +113,25 @@ header{
     .nom-player{
       margin: 0px 5px 0px 5px;
       font-weight: bold;
+      color: $fourth-color;
+       @include self-text-align;
+       font-size: 120%;    
     }
     .score{
       margin: 0px 5px 0px 5px;
-      font-weight: bold;
+      font-weight: bold;  
+      font-size: 120%;    
+      @include self-text-align;
+    }
+    .scoreN{
+      @include self-text-align;
+      background-color : $fourth-color;
+      color: $primary-color;
+      border-radius: 50px;
+      width: 34px;
+      //height: 30px;
+      padding: 2px;
+      @include justify-content-center;
     }
     @include mobile-style{
         width: 40%;
@@ -141,4 +156,10 @@ header{
     @include truemobile-style{margin:3px;}
   }
   @include mobile-style{width: unset;}
+}
+
+
+.animpoint{
+  -webkit-animation: jello-horizontal 0.9s both;
+  animation: jello-horizontal 0.9s both;
 }

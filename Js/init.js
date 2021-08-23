@@ -42,10 +42,8 @@ if (window.location.href.indexOf("noAnim") != -1){
    
   if (window.location.href.indexOf("J1") != -1){
     let isMultiOn = true;
-    //console.log("multi is ON");
     var path = window.location.pathname;
     var page = path.split("/").pop();
-    //console.log(page);
     if(page == "index.html"){
         multiBtn.style.display= "none";
         soloBtn.style.display= "block";
@@ -63,10 +61,13 @@ if (window.location.href.indexOf("noAnim") != -1){
         let score1 = document.querySelector(".sPlayer1");
         let score2 = document.querySelector(".sPlayer2");
         play1.innerHTML = UrlPlay1;
-        score1.innerHTML = (UrlScore1 + " "+ "points");
+        if (UrlScore1 == 1){score1.innerHTML = (UrlScore1 + " "+ "point");}
+        else{score1.innerHTML = (UrlScore1 + " "+ "points");}
         play2.innerHTML = UrlPlay2;
-        score2.innerHTML = (UrlScore2 + " "+ "points");
-      } else if (page == "QuizPageMulti.html") {
+        if (UrlScore2 == 1){score2.innerHTML = (UrlScore2 + " "+ "point");}
+        else{score2.innerHTML = (UrlScore2 + " "+ "points");}
+      }
+      else if (page == "QuizPageMulti.html") {
         let multiheader = document.querySelector(".multiheader");
         multiheader.style.display = "flex";
         let myUrl = window.location.href;
@@ -80,10 +81,14 @@ if (window.location.href.indexOf("noAnim") != -1){
         let play2 = document.querySelector(".nom-player2");
         let score1 = document.querySelector(".sPlayer1");
         let score2 = document.querySelector(".sPlayer2");
+        let points1 = document.querySelector(".points1");
+        let points2 = document.querySelector(".points2");
         play1.innerHTML = UrlPlay1;
-        score1.innerHTML = (": " + " " + UrlScore1 + " "+ "points");
+        score1.innerHTML = (UrlScore1);
         play2.innerHTML = UrlPlay2;
-        score2.innerHTML = (": " + " " + UrlScore2 + " "+ "points");
+        score2.innerHTML = (UrlScore2);        
+        if (UrlScore1 == 1){ points1.innerHTML = "point";} 
+        if (UrlScore2 == 1){ points2.innerHTML = "point";} 
       }
   }   
 

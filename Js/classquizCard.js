@@ -97,7 +97,7 @@ class quizCard {
 }
 
 /////Question Class/////
-  class Question {
+class Question {
     constructor(text, choices, answer, player) {
       this.text = text;
       this.choices = choices;
@@ -105,6 +105,36 @@ class quizCard {
       this.player = player;
     }
     isCorrectAnswer(choice) {
+      if(this.answer === choice){        
+        let myUrl = window.location.href;
+        let url_string = (window.location.href);
+        let url = new URL(url_string);
+        if (window.location.href.indexOf("J1") != -1){
+          if(this.player === "1" ){
+            let score1 = document.querySelector(".sPlayer1");
+            let points1 = document.querySelector(".points1");  
+            let score =  score1.innerHTML;                        
+            score++   
+            score1.innerHTML = score;
+            score1.classList.add("animpoint"); 
+            if (score == 1){ points1.innerHTML = "point";}
+          } else {
+            let score2 = document.querySelector(".sPlayer2");
+            let points2 = document.querySelector(".points2");  
+            let score =  score2.innerHTML;  
+            score++   
+            score2.innerHTML = score;
+            score2.classList.add("animpoint") ;
+            if (score == 1){ points2.innerHTML = "point";} 
+          }
+          setTimeout(function(){
+            let score1 = document.querySelector(".sPlayer1");
+            let score2 = document.querySelector(".sPlayer2");
+            score1.classList.remove("animpoint"); 
+            score2.classList.remove("animpoint"); 
+          }, 650);
+        }
+      }
       return this.answer === choice;
     }
   }
