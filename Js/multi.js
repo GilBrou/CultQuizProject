@@ -31,7 +31,7 @@ function openModal(){
 	function closeModal() {modalbg.style.display = "none";}  
 
 
-{
+{///multi scope
 	let isMultiOn = false;
 
 //validate multiplayer form
@@ -65,4 +65,4 @@ function multiplayerOff(){
 	window.location.href = "index.html" + "?id=" +"noAnim";
 }
 
-}///multi scope
+}

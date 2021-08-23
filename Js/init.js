@@ -96,7 +96,7 @@ if (window.location.href.indexOf("noAnim") != -1){
 
   if (window.location.href.indexOf("J1") < 1){
     let isMultiOn = false;
-    console.log("multi is OFF");
+    //console.log("multi is OFF");
     if(page == "index.html"){
     multiBtn.style.display= "block";
     soloBtn.style.display= "none";
