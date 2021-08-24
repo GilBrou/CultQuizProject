@@ -413,9 +413,9 @@
       ],
       "questions":[
         {
-          "text":"",
-          "choices":["","", "", ""],
-          "answer":"",
+          "text":"Au début du film, quel animal Neo doit-il suivre pour découvrir la vérité ?",
+          "choices":["Un chat","Un Chien", "Un lapin", "Une souris"],
+          "answer":"Un lapin",
           "player": "1"
 
         },        
@@ -432,21 +432,9 @@
           "player": "1"
         },
                         {
-          "text":"",
-          "choices":["","", "", ""],
-          "answer":"",
-          "player": "2"
-        },
-        {
-          "text":"",
-          "choices":["","", "", ""],
-          "answer":"",
-          "player": "1"
-        },
-                        {
-          "text":"",
-          "choices":["","", "", ""],
-          "answer":"",
+          "text":"Avant de rencontrer l'Oracle, Neo fait la connaissance d'un enfant qui s'amuse à plier : ",
+          "choices":["Le continuum espace temps","Une fourchette", "Une cuillère", "un couteau"],
+          "answer":"Une cuillère",
           "player": "2"
         },
         {
@@ -456,21 +444,45 @@
           "player": "1"
         },
         {
-          "text":"",
-          "choices":["","", "", ""],
-          "answer":"",
+          "text":"Complétez cette réplique de Morpheus : On est pas le meilleur quand on le croit, ...",
+          "choices":["mais quand on le sait","mais quand on le prouve", "mais quand les autres le croient", "mais ça aide bien quand même"],
+          "answer":"mais quand on le sait",
+          "player": "2"
+        },
+        {
+          "text":"Comment s'appelle le vaisseau commandé par Morpheus ?",
+          "choices":["Le Caduceus","Le Logos", "Le Vigilant", "Le Nebuchadnezzar"],
+          "answer":"Nebuchadnezzar",
+          "player": "1"
+        },
+        {
+          "text":"Comment s'appelle la dernière ville humaine ?",
+          "choices":["Hellion","Tribe", "Sion", "Prime"],
+          "answer":"Sion",
           "player": "2"
         },
                                 {
+          "text":"Quelle pilule permet à Neo de se réveiller dans le monde réel ?",
+          "choices":["La pilule rouge","la pilule bleue", "la pilule blouge", "N'importe laquelle avec un bon café"],
+          "answer":"La pilule rouge",
+          "player": "1"
+        },
+        {
+          "text":"Quel choix Les Wachowski ont-ils fait, allant à l'encontre des habitudes Hollywoodiennes de l'époque ?",
+          "choices":["","", "Les acteurs principaux ont réalisé la quasi-totalité de leurs combats et cascades eux-même", ""],
+          "answer":"",
+          "player": "2"
+        },
+        {
           "text":"",
           "choices":["","", "", ""],
           "answer":"",
           "player": "1"
         },
         {
-          "text":"",
-          "choices":["","", "", ""],
-          "answer":"",
+          "text":"Pendant la production, au sein du studio Warner Bros, comment surnommait-on le film ?",
+          "choices":["Les pirates en cuir","Le film que personne ne comprend", "Le truc qui parle d'internet", "Le dernier film des Wachowski"],
+          "answer":"Le film que personne ne comprend",
           "player": "2"
         },
         {
@@ -486,9 +498,9 @@
           "player": "2"
         },
         {
-          "text":"",
-          "choices":["","", "", ""],
-          "answer":"",
+          "text":"Qui était le premier a se voir proposer le rôle de l'Agent Smith ?",
+          "choices":["Guy Pearce","Lambert Wilson", "Anthony Hopkins", "Jean Reno"],
+          "answer":"Jean Reno",
           "player": "1"
         },
         {
@@ -498,21 +510,9 @@
           "player": "2"
         },
         {
-          "text":"",
-          "choices":["","", "", ""],
-          "answer":"",
-          "player": "1"
-        },
-        {
-          "text":"",
-          "choices":["","", "", ""],
-          "answer":"",
-          "player": "2"
-        },
-        {
-          "text":"",
-          "choices":["","", "", ""],
-          "answer":"",
+          "text":"Quel livre a principalement inspiré les Wachowski pour l'écriture de Matrix ?",
+          "choices":["''Simulacres et simulation'' de Jean Baudrillard","''Ubik'' de Philip K. Dick", "''Neuromancien'' de William Gibson", "''Jack Barron et l'Éternité'' de Norman Spinrad"],
+          "answer":"''Simulacres et simulation'' de Jean Baudrillard",
           "player": "1"
         },
         {
@@ -526,7 +526,13 @@
           "choices":["","", "", ""],
           "answer":"",
           "player": "1"
-        }               
+        },
+        {
+          "text":"",
+          "choices":["","", "", ""],
+          "answer":"",
+          "player": "2"
+        }                 
       ]
     },
     {
