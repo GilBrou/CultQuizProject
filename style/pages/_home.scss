@@ -48,6 +48,10 @@
   	.thatQuiz{
   		cursor: pointer;
   		background-color : $primary-color;
+  		background-image: url("../Ressources/Textures/2-200.png");//texture
+			background-blend-mode: multiply;//texture
+			background-size: contain;//texture
+    	background-repeat: round;//texture
 			@include justify-content-center;
   		@include flex-column;
  			margin: auto;
@@ -78,6 +82,10 @@
 			pointer-events: none;	    	
 			padding-bottom: 5px;
 			background: $fourth-color;
+			//background-image: url("../Ressources/Textures/2.png");//texture
+			//background-blend-mode: color-burn;//texture
+			//background-size: contain;//texture
+    	//background-repeat: round;//texture
 			color: white;
 			width: 270px;
 			height: 335px;
@@ -386,3 +394,8 @@ footer{
    	@include mobile-style{top: 5vh;}	   	 
 	 }	  
 	}
+
+  .contre p{
+    -webkit-animation: heartbeat 2s ease-in-out infinite alternate both;
+    animation: heartbeat 2s ease-in-out infinite alternate both;
+  }

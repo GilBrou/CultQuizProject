@@ -3,6 +3,11 @@ body{
     min-width: 341px;    
     margin: auto;
     background-color: $tertiary-color;
+    background-image: url("../Ressources/Textures/1.png");//texture
+    background-attachment: fixed;
+    //background-blend-mode: soft-light;//texture
+    background-blend-mode: overlay;//texture
+    background-size: cover;//texture
     font-family:  lato, Arial, Verdana, sans-serif;
     overflow-x: hidden;
     a{
