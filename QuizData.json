@@ -650,7 +650,7 @@
         },                                                                              
         {
           "text":"''Where is my mind ?'', la musique accompagnant l’explosion finale est un morceau des :",
-          "choices":["Smithy","Tricky", "Pixies", "Ministry"],
+          "choices":["Smithy","Trickies", "Pixies", "Ministry"],
           "answer":"Pixies",
           "player": "1"
         },
