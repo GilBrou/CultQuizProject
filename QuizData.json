@@ -469,13 +469,13 @@
         },
         {
           "text":"Pour ce film, Les Wachowski ont fait un choix allant à l'encontre des habitudes Hollywoodiennes de l'époque ?",
-          "choices":["Ils ont réalisé les trois films d'un seul coup","Les effets spéciaux sont 100% numériques", "Les acteurs ont réalisé la quasi-totalité de leurs combats et cascades eux-même", "Ils n'ont tourné aucune scène en studio"],
-          "answer":"Les acteurs ont réalisé la quasi-totalité de leurs combats et cascades eux-même",
+          "choices":["Ils ont réalisé les trois films d'un seul coup","Les effets spéciaux sont 100% numériques", "Les acteurs ont réalisé la quasi-totalité de leurs combats et cascades eux-mêmes", "Ils n'ont tourné aucune scène en studio"],
+          "answer":"Les acteurs ont réalisé la quasi-totalité de leurs combats et cascades eux-mêmes",
           "player": "2"
         },
         {
           "text":"Quelle est la particularité des frères Tank et Dozer ?",
-          "choices":["Ils sont sortis de la Matrice alors qu'ils étaient enfant","Ce sont les seuls personnages incapable de comprendre le code de la Matrice", "Ils sont nés naturellement et non cultivés par les machines", "Ils s'apellent en réalité Pelleteuse et Grue"],
+          "choices":["Ils sont sortis de la Matrice alors qu'ils étaient enfant","Ce sont les seuls personnages incapable de comprendre le code de la Matrice", "Ils sont nés naturellement et non cultivés par les machines", "Ils s'appellent en réalité Pelleteuse et Grue"],
           "answer":"Ils sont nés naturellement et non cultivés par les machines",
           "player": "1"
         },
@@ -528,7 +528,7 @@
           "player": "1"
         },
         {
-          "text":"Les Wachowski ont été relativement libres concernant leur film, Malheureusement, un élément de Matrix à été retiré à la demande de Warner Bros ? ",
+          "text":"Les Wachowski ont été relativement libres concernant leur film, malheureusement, un élément de Matrix à été retiré à la demande de Warner Bros ? ",
           "choices":["Neo devait mourir et Trinity se révélait être l'élue","Le personnage de Switch était un homme qui changeait de sexe en entrant dans la Matrice", "On apprenait que Jesus Christ était l'un des premiers humains à briser les règles de la Matrice", "Les humains cultivés par les machines ne possédaient pas de sexes."],
           "answer":"Le personnage de Switch était un homme qui changeait de sexe en entrant dans la Matrice",
           "player": "2"
@@ -649,7 +649,7 @@
           "player": "1"
         },
         {
-          "text":"Selon Tyler, s'améliorer sois-même, c'est ... :",
+          "text":"Selon Tyler, s'améliorer soi-même, c'est ... :",
           "choices":["Son péché mignon","De la masturbation", "Pour les gros cons", "Entretenir sa prison"],
           "answer":"De la masturbation",
           "player": "2"
@@ -665,7 +665,7 @@
           "choices":["Je veux porter ton avortement","Tu me baise aussi bien que mon grand-père", "On ne m'a pas baisée comme ça depuis la maternelle", "D'habitude, je préfère le viol"],
           "answer":"Je veux porter ton avortement",
           "player": "2"
-        }               
+        }
       ]
     }, 
     {
