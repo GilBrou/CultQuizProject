@@ -452,7 +452,7 @@
         {
           "text":"Comment s'appelle le vaisseau commandé par Morpheus ?",
           "choices":["Le Caduceus","Le Logos", "Le Vigilant", "Le Nebuchadnezzar"],
-          "answer":"Nebuchadnezzar",
+          "answer":"Le Nebuchadnezzar",
           "player": "1"
         },
         {
@@ -469,8 +469,8 @@
         },
         {
           "text":"Pour ce film, Les Wachowski ont fait un choix allant à l'encontre des habitudes Hollywoodiennes de l'époque ?",
-          "choices":["Ils ont réalisé les trois films d'un seul coup","Les effets spéciaux sont 100% numériques", "Les acteurs principaux ont réalisé la quasi-totalité de leurs combats et cascades eux-même", "Ils n'ont tourné aucune scène en studio"],
-          "answer":"Les acteurs principaux ont réalisé la quasi-totalité de leurs combats et cascades eux-même",
+          "choices":["Ils ont réalisé les trois films d'un seul coup","Les effets spéciaux sont 100% numériques", "Les acteurs ont réalisé la quasi-totalité de leurs combats et cascades eux-même", "Ils n'ont tourné aucune scène en studio"],
+          "answer":"Les acteurs ont réalisé la quasi-totalité de leurs combats et cascades eux-même",
           "player": "2"
         },
         {
