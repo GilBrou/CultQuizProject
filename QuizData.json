@@ -409,7 +409,7 @@
       "taunt": "Dites-moi, M. Anderson, à quoi bon faire ce quiz si vous êtes dans l'incapacité d'y répondre ?",      
       "scoreReact" : [
         "Avouez, vous préférez un bon vieil épisode de L'inspecteur Derrick ?",
-        "Vous avez cessé d'essayer de répondre à ce quiz, car c’est impossible.<br><br>Vous vous êtes concentrés pour faire éclater la vérité : ce quiz n'existe pas plus que la cuillère.<br><br>Vous pourriez bien être l'élu..."
+        "Vous avez cessé d'essayer de répondre à ce quiz, car c’est impossible.<br>Vous vous êtes concentrés pour faire éclater la vérité : ce quiz n'existe pas plus que la cuillère.<br>Vous pourriez bien être l'élu(e)..."
       ],
       "questions":[
         {
@@ -420,33 +420,33 @@
 
         },        
         {
-          "text":"",
-          "choices":["","", "", ""],
-          "answer":"",
+          "text":"Dans le monde réel, Comment s’appellent les machines qui traquent les survivants ?",
+          "choices":["Les Agents","Les Vigies", "Les Sentinelles", "Les Officiers"],
+          "answer":"Les Sentinelles",
           "player": "2"
         },
         {
-          "text":"",
-          "choices":["","", "", ""],
-          "answer":"",
+          "text":"Lorsque Morpheus contacte Neo via son ordinateur, que lui dit-il en premier ?",
+          "choices":["Suis le lapin blanc","Réveille-toi", "Toc - toc", "La base virale VPS à été mise à jour"],
+          "answer":"Réveille-toi",
           "player": "1"
         },
                         {
           "text":"Avant de rencontrer l'Oracle, Neo fait la connaissance d'un enfant qui s'amuse à plier : ",
-          "choices":["Le continuum espace temps","Une fourchette", "Une cuillère", "un couteau"],
+          "choices":["Le continuum espace temps","Une fourchette", "Une cuillère", "Une barre de fer"],
           "answer":"Une cuillère",
           "player": "2"
         },
         {
-          "text":"",
-          "choices":["","", "", ""],
-          "answer":"",
+          "text":"Pourquoi Cypher passe-t-il un accord avec l'Agent Smith ?",
+          "choices":["Pour prendre la place de Morpheus","Pour pouvoir réintégrer la Matrice", "Parce qu'il est en réalité une machine", "Parce qu'il déteste Neo"],
+          "answer":"Pour pouvoir réintégrer la Matrice",
           "player": "1"
         },
         {
-          "text":"Complétez cette réplique de Morpheus : On est pas le meilleur quand on le croit, ...",
-          "choices":["mais quand on le sait","mais quand on le prouve", "mais quand les autres le croient", "mais ça aide bien quand même"],
-          "answer":"mais quand on le sait",
+          "text":"Complétez cette réplique : On est pas le meilleur quand on le croit, ...",
+          "choices":["Mais quand on le sait","Mais quand on le prouve", "Mais quand les autres le croient", "Mais ça aide bien quand même"],
+          "answer":"Mais quand on le sait",
           "player": "2"
         },
         {
@@ -463,38 +463,38 @@
         },
                                 {
           "text":"Quelle pilule permet à Neo de se réveiller dans le monde réel ?",
-          "choices":["La pilule rouge","la pilule bleue", "la pilule blouge", "N'importe laquelle avec un bon café"],
+          "choices":["La pilule rouge","la pilule bleue", "la pilule bleuge", "La pilule verte"],
           "answer":"La pilule rouge",
           "player": "1"
         },
         {
-          "text":"Quel choix Les Wachowski ont-ils fait, allant à l'encontre des habitudes Hollywoodiennes de l'époque ?",
-          "choices":["","", "Les acteurs principaux ont réalisé la quasi-totalité de leurs combats et cascades eux-même", ""],
-          "answer":"",
+          "text":"Pour ce film, Les Wachowski ont fait un choix allant à l'encontre des habitudes Hollywoodiennes de l'époque ?",
+          "choices":["Ils ont réalisé les trois films d'un seul coup","Les effets spéciaux sont 100% numériques", "Les acteurs principaux ont réalisé la quasi-totalité de leurs combats et cascades eux-même", "Ils n'ont tourné aucune scène en studio"],
+          "answer":"Les acteurs principaux ont réalisé la quasi-totalité de leurs combats et cascades eux-même",
           "player": "2"
         },
         {
-          "text":"",
-          "choices":["","", "", ""],
-          "answer":"",
+          "text":"Quelle est la particularité des frères Tank et Dozer ?",
+          "choices":["Ils sont sortis de la Matrice alors qu'ils étaient enfant","Ce sont les seuls personnages incapable de comprendre le code de la Matrice", "Ils sont nés naturellement et non cultivés par les machines", "Ils s'apellent en réalité Pelleteuse et Grue"],
+          "answer":"Ils sont nés naturellement et non cultivés par les machines",
           "player": "1"
         },
         {
           "text":"Pendant la production, au sein du studio Warner Bros, comment surnommait-on le film ?",
-          "choices":["Les pirates en cuir","Le film que personne ne comprend", "Le truc qui parle d'internet", "Le dernier film des Wachowski"],
+          "choices":["Les pirates informatiques en cuir","Le film que personne ne comprend", "Le truc qui parle d'internet", "La catastrophe Wachowski"],
           "answer":"Le film que personne ne comprend",
           "player": "2"
         },
         {
-          "text":"",
-          "choices":["","", "", ""],
-          "answer":"",
+          "text":"Quel est le nom du programme qui a créé la Matrice ?",
+          "choices":["L'oracle","Le Mérovingien", "L'Architecte", "Le Maître des clés"],
+          "answer":"L'Architecte",
           "player": "1"
         },
         {
-          "text":"",
-          "choices":["","", "", ""],
-          "answer":"",
+          "text":"Pourquoi les machines cultivent-elle des humains ?",
+          "choices":["Parce que sans eux, elles n'ont plus aucun but","Pour utiliser l'énergie électrique de leurs corps", "Pour continuer à apprendre et évoluer à leur contact", "Parce qu'elles aiment bien jardiner après une dure journée au bureau"],
+          "answer":"Pour utiliser l'énergie électrique de leurs corps",
           "player": "2"
         },
         {
@@ -504,33 +504,33 @@
           "player": "1"
         },
         {
-          "text":"",
-          "choices":["","", "", ""],
-          "answer":"",
+          "text":"Quel personnage ne fait pas parti de l'équipe de Morpheus",
+          "choices":["Switch","Niobe", "Le Mulot", "Apoc"],
+          "answer":"Niobe",
           "player": "2"
         },
         {
-          "text":"Quel livre a principalement inspiré les Wachowski pour l'écriture de Matrix ?",
+          "text":"Quel livre n'a pas inspiré les Wachowski pour l'écriture de Matrix ?",
           "choices":["''Simulacres et simulation'' de Jean Baudrillard","''Ubik'' de Philip K. Dick", "''Neuromancien'' de William Gibson", "''Jack Barron et l'Éternité'' de Norman Spinrad"],
-          "answer":"''Simulacres et simulation'' de Jean Baudrillard",
+          "answer":"''Jack Barron et l'Éternité'' de Norman Spinrad",
           "player": "1"
         },
         {
-          "text":"",
-          "choices":["","", "", ""],
-          "answer":"",
+          "text":"Quel Oscar n'a pas été remporté par le film ?",
+          "choices":["Meilleur montage","Meilleurs effets visuels", "Meilleur son", "Meilleur film"],
+          "answer":"Meilleur film",
           "player": "2"
         },                                                                              
         {
-          "text":"",
-          "choices":["","", "", ""],
-          "answer":"",
+          "text":"Que signifient réellement les lignes de code vertes représentant la Matrice dans le film ?",
+          "choices":["Des poèmes Japonais","Des recettes de sushi", "Les noms des personnes ayant travaillé sur le film", "L'annuaire téléphonique de Los Angeles"],
+          "answer":"Des recettes de sushi",
           "player": "1"
         },
         {
-          "text":"",
-          "choices":["","", "", ""],
-          "answer":"",
+          "text":"Les Wachowski ont été relativement libres concernant leur film, Malheureusement, un élément de Matrix à été retiré à la demande de Warner Bros ? ",
+          "choices":["Neo devait mourir et Trinity se révélait être l'élue","Le personnage de Switch était un homme qui changeait de sexe en entrant dans la Matrice", "On apprenait que Jesus Christ était l'un des premiers humains à briser les règles de la Matrice", "Les humains cultivés par les machines ne possédaient pas de sexes."],
+          "answer":"Le personnage de Switch était un homme qui changeait de sexe en entrant dans la Matrice",
           "player": "2"
         }                 
       ]
