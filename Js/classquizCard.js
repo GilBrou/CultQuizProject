@@ -14,9 +14,9 @@ class quizCard {
   createAndDisplayQuizCards(main){
 
   //dont display it if it isn't ready
-  if (this.questions.length > 50){
+  /*if (this.questions.length < 20){
   }
-  else {  
+  else {  */
 
     //Dom element creation
     let aQuizCard = document.createElement('article');
@@ -50,9 +50,7 @@ class quizCard {
 
     //Setup Taglist
     nTags.classList.add("tags");
-    for (let i in this.tags){
-        nTags.classList.add(this.tags[i]);
-    }
+    for (let i in this.tags){nTags.classList.add(this.tags[i]);}
 
     //Assign classes & refs or ids to Dom elements
     aQuizCard.id = this.id; 
@@ -77,7 +75,7 @@ class quizCard {
       spe.classList.add("spe", "maj");
       spe.innerHTML = "+ 18";   
     }
-  }
+  //}
 }
 
   //////Display Quiz's info into page Dom
