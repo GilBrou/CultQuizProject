@@ -14,9 +14,9 @@ class quizCard {
   createAndDisplayQuizCards(main){
 
   //dont display it if it isn't ready
-  /*if (this.questions.length < 20){
+  if (this.questions.length < 20){
   }
-  else {  */
+  else {
 
     //Dom element creation
     let aQuizCard = document.createElement('article');
@@ -75,7 +75,7 @@ class quizCard {
       spe.classList.add("spe", "maj");
       spe.innerHTML = "+ 18";   
     }
-  //}
+  }
 }
 
   //////Display Quiz's info into page Dom
