@@ -929,7 +929,7 @@
       ]
     },
     {
-      "name": "Fallout",
+      "name": "Fallout 3",
       "id": "07",
       "tags": ["jeux-video"],
       "punchLine": "Êtes-vous vraiment quelqu'un de S.P.E.C.I.A.L ?",
@@ -945,7 +945,14 @@
           "answer":"",
           "player": "1"
 
-        },        
+        }, 
+        {
+          "text":"",
+          "choices":["","", "", ""],
+          "answer":"",
+          "player": "1"
+
+        },             
         {
           "text":"",
           "choices":["","", "", ""],
