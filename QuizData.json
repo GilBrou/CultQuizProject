@@ -945,13 +945,6 @@
           "answer":"",
           "player": "1"
 
-        }, 
-        {
-          "text":"",
-          "choices":["","", "", ""],
-          "answer":"",
-          "player": "1"
-
         },             
         {
           "text":"",
@@ -1060,7 +1053,14 @@
           "choices":["","", "", ""],
           "answer":"",
           "player": "1"
-        }               
+        },
+        {
+          "text":"",
+          "choices":["","", "", ""],
+          "answer":"",
+          "player": "2"
+
+        }                
       ]
     }, 
     {
