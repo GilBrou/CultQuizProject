@@ -1188,12 +1188,12 @@
           "choices":["","", "", ""],
           "answer":"",
           "player": "1"
-        }
+        },
         {
           "text":"",
           "choices":["","", "", ""],
           "answer":"",
-          "player": "1"
+          "player": "2"
         }                  
       ]
     }, 
@@ -1227,19 +1227,7 @@
           "answer":"",
           "player": "1"
         },
-                        {
-          "text":"",
-          "choices":["","", "", ""],
-          "answer":"",
-          "player": "2"
-        },
         {
-          "text":"",
-          "choices":["","", "", ""],
-          "answer":"",
-          "player": "1"
-        },
-                        {
           "text":"",
           "choices":["","", "", ""],
           "answer":"",
@@ -1257,7 +1245,19 @@
           "answer":"",
           "player": "2"
         },
-                                {
+        {
+          "text":"",
+          "choices":["","", "", ""],
+          "answer":"",
+          "player": "1"
+        },
+        {
+          "text":"",
+          "choices":["","", "", ""],
+          "answer":"",
+          "player": "2"
+        },
+        {
           "text":"",
           "choices":["","", "", ""],
           "answer":"",

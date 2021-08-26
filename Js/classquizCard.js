@@ -14,7 +14,7 @@ class quizCard {
   createAndDisplayQuizCards(main){
 
   //dont display it if it isn't ready
-  if (this.questions.length < 20){
+  if (this.questions.length > 50){
   }
   else {  
 
