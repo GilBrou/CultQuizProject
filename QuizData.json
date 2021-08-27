@@ -953,7 +953,7 @@
         },
         {
            "text":"Qui a créé les Super Mutants ?",
-          "choices":["La Confrérie de l'Acier","Richard Moreau, un médecin des terres désolées", "L'Enclave", "Un marchand itinérant du nom d' ''Harold''"],
+          "choices":["La Confrérie de l'Acier","Richard Moreau, un médecin des terres désolées", "L'Enclave", "Un marchand itinérant du nom d' Harold"],
           "answer":"Richard Moreau, un médecin des terres désolées",
           "player": "1"
 
