@@ -940,126 +940,126 @@
       ],
       "questions":[
         {
-          "text":"",
-          "choices":["","", "", ""],
-          "answer":"",
-          "player": "1"
-
-        },             
-        {
-          "text":"",
-          "choices":["","", "", ""],
-          "answer":"",
-          "player": "2"
-        },
-        {
           "text":"Quel est la devise des jeux Fallout ?",
           "choices":["People Never Changes","Survival Prevails ", "Peace Always Fails", "War Never Changes"],
           "answer":"War Never Changes",
           "player": "1"
         },
-                        {
-          "text":"Pourquoi l'entreprise Vault-Tec a-t-elle construit les fameux abris ?",
+        {
+          "text":"Pourquoi l'entreprise Vault-Tec a-t-elle construit ses fameux abris ?",
           "choices":["Pour pouvoir repeupler la terre après l'apocalypse","Pour mettre en place des expériences scientifiques", "Uniquement pour l'argent, le flouze et la moula", "Afin de protéger les citoyens Américains de la menace communiste ?"],
           "answer":"Pour mettre en place des expériences scientifiques",
           "player": "2"
         },
         {
-          "text":"",
-          "choices":["","", "", ""],
-          "answer":"",
+           "text":"Qui a créé les Super Mutants ?",
+          "choices":["La Confrérie de l'Acier","Richard Moreau, un médecin des terres désolées", "L'Enclave", "Un marchand itinérant du nom d' ''Harold''"],
+          "answer":"Richard Moreau, un médecin des terres désolées",
           "player": "1"
-        },
-                        {
-          "text":"",
-          "choices":["","", "", ""],
-          "answer":"",
+
+        },        
+        {
+          "text":"Quel arme permet de tirer des Mini-Nuke ?",
+          "choices":["Un Pip-Boy","Un Fat-Man", "Un Atom-Launcher", "Un Big-Boy"],
+          "answer":"Un Fat-Man",
           "player": "2"
         },
         {
-          "text":"",
-          "choices":["","", "", ""],
-          "answer":"",
+          "text":"Dans le premier jeu, de quel abri est originaire le personnage principal ?",
+          "choices":["L'abri 110","Il n'a jamais vécu dans un abri", "L'abri 13", "L'abri côtier"],
+          "answer":"L'abri 13",
           "player": "1"
         },
         {
-          "text":"",
-          "choices":["","", "", ""],
-          "answer":"",
+          "text":"Qui est ''l'Être Élu'', le héros de Fallout 2 ?",
+          "choices":["Une Goule des terres désolées","Un ancien soldat de la RNC", "Une adolescente dont les parents ont été tranformés en Super Mutants", "Le petit-fils du protagoniste de Fallout"],
+          "answer":"Le petit-fils du protagoniste de Fallout",
           "player": "2"
         },
-                                {
+        {
+          "text":"Comment nomme-t-on les androïdes ayant une apparence humaine ?",
+          "choices":["Les Droïdes","Les Synthétiques", "Les Réplicants", "les Autres"],
+          "answer":"Les synthétiques",
+          "player": "1"
+        },
+        {
+          "text":"Les Super Mutants à la peau bleue amateurs de Stealth Boys sont les :",
+          "choices":["Obscurums","Nocturnes", "Obscurs", "Noctambules"],
+          "answer":"Nocturnes",
+          "player": "2"
+        },
+        {
+          "text":"Quel jeu commence en 2077 et permet de voir la chute des bombes en direct ?",
+          "choices":["Fallout","Fallout 76", "Fallout 4", "Aucun à ce jour"],
+          "answer":"Fallout 4",
+          "player": "1"
+        },
+        {
+          "text":"Quelle compagnie a produit les Mr Handy ?",
+          "choices":["Nuka-cola","Vault-Tech", "RobCo Industries", "Wilson Automatoys"],
+          "answer":"RobCo Industries",
+          "player": "2"
+        },
+        {
+          "text":"À quoi servent les Mentats ?",
+          "choices":["À comploter contre ses ennemis du Landsraad","À augmenter la résistance aux dégâts", "À augmenter l'Intelligence, la Perception et le Charisme", "À augmenter la Force, l'Endurance et la Santé Max"],
+          "answer":"À augmenter l'Intelligence, la Perception et le Charisme",
+          "player": "1"
+        },
+        {
+          "text":"Quand est sorti le premier jeu de la série ?",
+          "choices":["1976","1992", "1997", "2002"],
+          "answer":"1997",
+          "player": "2"
+        },
+        {
+          "text":"Quel jeu fallout est sorti sur mobile ?",
+          "choices":["Fallout mobile","Fallout Shelter", "Fallout 76", "RataupeCrush-Saga"],
+          "answer":"Fallout Shelter",
+          "player": "1"
+        },
+        {
           "text":"Qui a lancé les premiers missiles ayant conduits à la destruction du monde ?",
           "choices":["Le Canada","La Chine", "Les U.S.A", "La Belgique"],
           "answer":"La Chine",
-          "player": "1"
-        },
-        {
-          "text":"",
-          "choices":["","", "", ""],
-          "answer":"",
           "player": "2"
         },
         {
-          "text":"",
-          "choices":["","", "", ""],
-          "answer":"",
+          "text":"Quelle ville a été construite autour d'une bombe nucléaire n'ayant pas explosée ?",
+          "choices":["Nipton","Broken Hills", "Megaton", "Underworld"],
+          "answer":"Megaton",
           "player": "1"
         },
         {
-          "text":"",
-          "choices":["","", "", ""],
-          "answer":"",
+          "text":"Quel animal étrange croisé dans les jeux existe bel et bien ?",
+          "choices":["L’Écorcheur, mais il s'agit d'un type de plancton","Le Radscorpion, mais on ne le trouve que dans les environs d'Hiroshima", "Le Yaoguai, mais c'est juste un ours sans poils", "Le Rataupe, mais il est beaucoup plus petit"],
+          "answer":"Le Rataupe, mais il est beaucoup plus petit",
           "player": "2"
         },
         {
-          "text":"",
-          "choices":["","", "", ""],
-          "answer":"",
+          "text":"Comment s'appelle le premier Fallout à être sorti sur consoles ?",
+          "choices":["Fallout New Vegas","Fallout : Brotherhood of Steel", "Fallout Tactics", "Fallout 3"],
+          "answer":"Fallout : Brotherhood of Steel",
           "player": "1"
         },
         {
-          "text":"",
-          "choices":["","", "", ""],
-          "answer":"",
+          "text":"Dans quel opus croise-t-on ''Les serpents des tunnels'' ?",
+          "choices":["Fallout 3","Fallout Tactics", "Fallout 4", "Dans chaque jeu"],
+          "answer":"Fallout 3",
           "player": "2"
         },
         {
-          "text":"",
-          "choices":["","", "", ""],
-          "answer":"",
+          "text":"En 2015, un fan plein d'humour a envoyé le fruit de sept ans et demi de travail au studio Bethesda. En échange, il a reçu en retour une copie de Fallout 4, qui venait juste de sortir. Que leur a-t-il envoyé ?",
+          "choices":["2240 capsules de soda","Un Pip-Boy entièrement fonctionnel", "Un remake rétro de Fallout 3 sur Mégadrive", "Une armure assistée taille réelle de 230 kilos"],
+          "answer":"2240 capsules de soda",
           "player": "1"
         },
         {
-          "text":"",
-          "choices":["","", "", ""],
-          "answer":"",
+          "text":"Quel produit dérivé officiel de Fallout n'existe pas ?",
+          "choices":["Le Monopoly Fallout","Le livre de recette du survivant d'abri", "La tête d'Écorcheur en trophée de chasse à mettre au mur", "Les comic books de Grognak le Barbare"],
+          "answer":"Les comic books de Grognak le Barbare",
           "player": "2"
-        },
-        {
-          "text":"",
-          "choices":["","", "", ""],
-          "answer":"",
-          "player": "1"
-        },
-        {
-          "text":"",
-          "choices":["","", "", ""],
-          "answer":"",
-          "player": "2"
-        },                                                                              
-        {
-          "text":"",
-          "choices":["","", "", ""],
-          "answer":"",
-          "player": "1"
-        },
-        {
-          "text":"",
-          "choices":["","", "", ""],
-          "answer":"",
-          "player": "2"
-        }                
+        }
       ]
     }, 
     {
@@ -1074,66 +1074,7 @@
       ],
       "questions":[
         {
-          "text":"",
-          "choices":["","", "", ""],
-          "answer":"",
-          "player": "1"
 
-        },        
-        {
-          "text":"",
-          "choices":["","", "", ""],
-          "answer":"",
-          "player": "2"
-        },
-        {
-          "text":"",
-          "choices":["","", "", ""],
-          "answer":"",
-          "player": "1"
-        },
-                        {
-          "text":"",
-          "choices":["","", "", ""],
-          "answer":"",
-          "player": "2"
-        },
-        {
-          "text":"",
-          "choices":["","", "", ""],
-          "answer":"",
-          "player": "1"
-        },
-                        {
-          "text":"",
-          "choices":["","", "", ""],
-          "answer":"",
-          "player": "2"
-        },
-        {
-          "text":"",
-          "choices":["","", "", ""],
-          "answer":"",
-          "player": "1"
-        },
-        {
-          "text":"",
-          "choices":["","", "", ""],
-          "answer":"",
-          "player": "2"
-        },
-                                {
-          "text":"",
-          "choices":["","", "", ""],
-          "answer":"",
-          "player": "1"
-        },
-        {
-          "text":"",
-          "choices":["","", "", ""],
-          "answer":"",
-          "player": "2"
-        },
         {
           "text":"",
           "choices":["","", "", ""],
