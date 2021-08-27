@@ -959,9 +959,9 @@
           "player": "1"
         },
                         {
-          "text":"",
-          "choices":["","", "", ""],
-          "answer":"",
+          "text":"Pourquoi l'entreprise Vault-Tec a-t-elle construit les fameux abris ?",
+          "choices":["Pour pouvoir repeupler la terre après l'apocalypse","Pour mettre en place des expériences scientifiques", "Uniquement pour l'argent, le flouze et la moula", "Afin de protéger les citoyens Américains de la menace communiste ?"],
+          "answer":"Pour mettre en place des expériences scientifiques",
           "player": "2"
         },
         {
@@ -989,9 +989,9 @@
           "player": "2"
         },
                                 {
-          "text":"",
-          "choices":["","", "", ""],
-          "answer":"",
+          "text":"Qui a lancé les premiers missiles ayant conduits à la destruction du monde ?",
+          "choices":["Le Canada","La Chine", "Les U.S.A", "La Belgique"],
+          "answer":"La Chine",
           "player": "1"
         },
         {
