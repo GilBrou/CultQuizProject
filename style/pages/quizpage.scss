@@ -90,6 +90,18 @@
   @include truemobile-style{
     border-radius: 0px;
     width: 100vw;
+    justify-content: flex-end;
+    h1{
+      padding: 15px 5px 15px 5px;
+      margin : 0px;      
+      justify-content: center;
+      background-color: $fourth-color;
+      font-size: 110%;
+       width: 100vw;
+      color: white;
+      border-radius: 0px;
+      align-self: flex-end;
+    }
   }
 }
 
@@ -97,12 +109,32 @@
 .bannerKaamelott{background-position: 50% 35%;}
 .bannerAlien{background-position: 50% 50%;}
 .bannerGame_Of_Thrones{background-position: 50% 10%;}
-.bannerFight_Club{background-position: 50% 60%;h1{background-color: rgba(255, 255, 255, 0.85);}}
+.bannerFight_Club{background-position: 50% 60%;
+  h1{
+    background-color: rgba(255, 255, 255, 0.85);
+    @include truemobile-style{background-color: $fourth-color;}
+    }
+  }
 .bannerDisney{background-position: 50% 40%;}
 .bannerAHS{background-position: 50% 20%;}
-.bannerFallout{background-position: 50% 30%;h1{background-color: rgba(255, 255, 255, 0.85);}}
-.bannerThe_Walking_Dead{background-position: 50% 15%;h1{background-color: rgba(255, 255, 255, 0.9);}}
-.bannerMatrix h1{background-color: rgba(255, 255, 255, 0.85);}
+.bannerFallout{background-position: 50% 30%;
+  h1{
+    background-color: rgba(255, 255, 255, 0.85);
+    @include truemobile-style{background-color: $fourth-color;}
+    }
+  }
+.bannerThe_Walking_Dead{
+  background-position: 50% 15%;
+    h1{
+      background-color: rgba(255, 255, 255, 0.9);
+      @include truemobile-style{background-color: $fourth-color;}
+      }
+    }
+
+.bannerMatrix h1{
+  background-color: rgba(255, 255, 255, 0.85);
+  @include truemobile-style{background-color: $fourth-color;}
+}
 .bannerDune{background-position: 50% 50%;}
 
 /*BORDER LOGO*/

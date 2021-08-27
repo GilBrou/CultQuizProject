@@ -1141,58 +1141,58 @@
       ],
       "questions":[
         {
-          "text":"",
-          "choices":["","", "", ""],
-          "answer":"",
+          "text":"Quelle est la planète d'origine des Atréïdes ?",
+          "choices":["Giedi Prime","Caladan", "Salusa Secundus", "Arrakis"],
+          "answer":"Caladan",
           "player": "1"
 
         },        
         {
-          "text":"",
-          "choices":["","", "", ""],
-          "answer":"",
+          "text":"Qui est la traître qui précipite la fin du Duc Leto ?",
+          "choices":["Stilgar","Duncan Idaho", "Gurney Halleck", "Le docteur Yueh"],
+          "answer":"Le docteur Yueh",
           "player": "2"
         },
         {
-          "text":"",
-          "choices":["","", "", ""],
-          "answer":"",
+          "text":"Comment s'appelle la servante Fremen au service des Atréïdes ?",
+          "choices":["La Fedaykin","La Thufir Hawat", "La Shadout Mapes", "La Mahadi"],
+          "answer":"La Shadout Mapes",
           "player": "1"
         },
         {
-          "text":"",
-          "choices":["","", "", ""],
-          "answer":"",
+          "text":"Quel est le surnom du neveu du Baron Harkonnen, Rabban ?",
+          "choices":["Le Rouge","La Bête", "La Brute", "La Peste"],
+          "answer":"La Bête",
           "player": "2"
         },
         {
-          "text":"",
-          "choices":["","", "", ""],
-          "answer":"",
+          "text":"Le Krys, couteau des Fremen, est confectionné à partir de quel matériau ?",
+          "choices":["Du diamant","Une dent du Ver des Sables", "Un éclat de météorite", "De métal provenant des armes d'ennemis tués au combat"],
+          "answer":"Une dent du Ver des Sables",
           "player": "1"
         },
         {
-          "text":"",
-          "choices":["","", "", ""],
-          "answer":"",
+          "text":"Qui est l'empereur qui confia la charge d'Arrakis au Duc ?",
+          "choices":["Shaddam V","Padish IV ", "Shaddam IV", "Shazam IV"],
+          "answer":"Shaddam IV",
           "player": "2"
         },
         {
-          "text":"",
-          "choices":["","", "", ""],
-          "answer":"",
+          "text":"Contre l'avis des Bene Gesserit, Jessica a entre-autre enseigné à Paul :",
+          "choices":["Le Zensunni","La Voix", "L'art de l'épée", "La Balisette"],
+          "answer":"La Voix",
           "player": "1"
         },
         {
-          "text":"",
-          "choices":["","", "", ""],
-          "answer":"",
+          "text":"Lorsqu'il rencontre les Fremen, quel est le nom du jeune homme que Paul est obligé de tuer en combat singulier ?",
+          "choices":["Liet","Korba", "Feyd-Rautha", "Jamis"],
+          "answer":"Jamis",
           "player": "2"
         },
         {
-          "text":"",
-          "choices":["","", "", ""],
-          "answer":"",
+          "text":"Quel est la particularité du distille que portent les Fremen ?",
+          "choices":["Il transforme l'énergie cinétique et rafraîchit son porteur ","Il permet de s'enterrer vivant pour se cacher dans le sable", "Il produit un super tord boyaux", "Il recycle l'eau du corps"],
+          "answer":"Il recycle l'eau du corps",
           "player": "1"
         },
         {

@@ -141,7 +141,7 @@ header{
         @include flex-column;
         border-radius: 5px 5px 5px 5px;
     }
-  }
+  
   .player1{
     border-radius : 0px 15px 5px 15px;
     background-image: url("../Ressources/Textures/2.png");//texture
@@ -169,7 +169,6 @@ header{
   }
   @include mobile-style{width: unset;}
 }
-
 
 .animpoint{
   -webkit-animation: jello-horizontal 0.9s both;
