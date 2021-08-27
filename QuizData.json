@@ -947,7 +947,7 @@
         },
         {
           "text":"Pourquoi l'entreprise Vault-Tec a-t-elle construit ses fameux abris ?",
-          "choices":["Pour pouvoir repeupler la terre après l'apocalypse","Pour mettre en place des expériences scientifiques", "Uniquement pour l'argent, le flouze et la moula", "Afin de protéger les citoyens Américains de la menace communiste ?"],
+          "choices":["Pour pouvoir repeupler la terre après l'apocalypse","Pour mettre en place des expériences scientifiques", "Uniquement pour l'argent, le flouze et la moula", "Afin de protéger les citoyens Américains de la menace communiste"],
           "answer":"Pour mettre en place des expériences scientifiques",
           "player": "2"
         },
@@ -979,7 +979,7 @@
         {
           "text":"Comment nomme-t-on les androïdes ayant une apparence humaine ?",
           "choices":["Les Droïdes","Les Synthétiques", "Les Réplicants", "les Autres"],
-          "answer":"Les synthétiques",
+          "answer":"Les Synthétiques",
           "player": "1"
         },
         {
@@ -1049,7 +1049,7 @@
           "player": "2"
         },
         {
-          "text":"En 2015, un fan plein d'humour a envoyé le fruit de sept ans et demi de travail au studio Bethesda. En échange, il a reçu en retour une copie de Fallout 4, qui venait juste de sortir. Que leur a-t-il envoyé ?",
+          "text":"En 2015, un fan plein d'humour a envoyé le fruit de sept ans et demi de travail au studio Bethesda. En échange, il a reçu une copie de Fallout 4, qui venait juste de sortir. Que leur a-t-il envoyé ?",
           "choices":["2240 capsules de soda","Un Pip-Boy entièrement fonctionnel", "Un remake rétro de Fallout 3 sur Mégadrive", "Une armure assistée taille réelle de 230 kilos"],
           "answer":"2240 capsules de soda",
           "player": "1"
