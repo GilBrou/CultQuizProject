@@ -940,9 +940,9 @@
       ],
       "questions":[
         {
-          "text":"Quel est la devise des jeux Fallout ?",
-          "choices":["People Never Changes","Survival Prevails ", "Peace Always Fails", "War Never Changes"],
-          "answer":"War Never Changes",
+          "text":"Laquelle de ces faction n'existe pas dans Fallout ?",
+          "choices":["Les Disciples de l'Apocalypse","La République de Dave", "La Légion de Caesar", "Les Wasteland Wolves"],
+          "answer":"Les Wasteland Wolves",
           "player": "1"
         },
         {
@@ -996,7 +996,7 @@
         },
         {
           "text":"Quelle compagnie a produit les Mr Handy ?",
-          "choices":["Nuka-cola","Vault-Tech", "RobCo Industries", "Wilson Automatoys"],
+          "choices":["Nuka-cola","Vault-Tec", "RobCo Industries", "Wilson Atomatoys"],
           "answer":"RobCo Industries",
           "player": "2"
         },
@@ -1013,7 +1013,7 @@
           "player": "2"
         },
         {
-          "text":"Quel jeu fallout est sorti sur mobile ?",
+          "text":"Quel jeu de la licence est sorti sur mobile ?",
           "choices":["Fallout mobile","Fallout Shelter", "Fallout 76", "RataupeCrush-Saga"],
           "answer":"Fallout Shelter",
           "player": "1"
@@ -1050,7 +1050,7 @@
         },
         {
           "text":"En 2015, un fan plein d'humour a envoyé le fruit de sept ans et demi de travail au studio Bethesda. En échange, il a reçu une copie de Fallout 4, qui venait juste de sortir. Que leur a-t-il envoyé ?",
-          "choices":["2240 capsules de soda","Un Pip-Boy entièrement fonctionnel", "Un remake rétro de Fallout 3 sur Mégadrive", "Une armure assistée taille réelle de 230 kilos"],
+          "choices":["2240 capsules de soda","Un Pip-Boy entièrement fonctionnel", "Un remake rétro de Fallout 3 sur Megadrive", "Une armure assistée taille réelle de 230 kilos"],
           "answer":"2240 capsules de soda",
           "player": "1"
         },
