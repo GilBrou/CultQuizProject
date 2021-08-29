@@ -1,6 +1,6 @@
 const modalbg = document.querySelector(".bground2"); 
 
-/////Open modals & ligthboxes
+/////Open modal
 const multiBtn = document.querySelector(".multi");
 const soloBtn = document.querySelector(".solo");
 multiBtn.addEventListener("click", openModal);

@@ -93,7 +93,6 @@ if (window.location.href.indexOf("noAnim") != -1){
         if (UrlScore2 == 1){ points2.innerHTML = "point";} 
       }
   }   
-
   if (window.location.href.indexOf("J1") < 1){
     let isMultiOn = false;
     //console.log("multi is OFF");

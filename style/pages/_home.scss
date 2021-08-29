@@ -82,10 +82,6 @@
 			pointer-events: none;	    	
 			padding-bottom: 5px;
 			background: $fourth-color;
-			//background-image: url("../Ressources/Textures/2.png");//texture
-			//background-blend-mode: color-burn;//texture
-			//background-size: contain;//texture
-    	//background-repeat: round;//texture
 			color: white;
 			width: 270px;
 			height: 335px;
@@ -252,7 +248,7 @@ footer{
     }
 }
 
-/*modal*/
+/*Modals*/
 .bground2{
 	z-index: 100;
 	display: none;
@@ -398,4 +394,14 @@ footer{
   .contre p{
     -webkit-animation: heartbeat 2s ease-in-out infinite alternate both;
     animation: heartbeat 2s ease-in-out infinite alternate both;
+  }
+
+  /*About Modal*/
+  .openAbout{
+  	.content2{
+  		top: 5vh;
+  		height: 70vh;
+  		.modal-body2{@include justify-content-center;}
+  	}
+
   }

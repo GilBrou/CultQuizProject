@@ -33,8 +33,38 @@ const main = async () =>{
   //////Sort tags
   sortingTags();
  
-  ////Got to selected Quiz
+  /////Got to selected Quiz
   goToQuiz()
+
+  /////Open About Modal  
+  const aboutBtn = document.querySelector(".foot1");
+  const aboutModal = document.querySelector(".openAbout");
+  aboutBtn.addEventListener("click", openAbout);
+  function openAbout(){
+    event.preventDefault(); 
+    aboutModal.style.display = "block";
+  }
+  /////Close About Modal
+  const closeBtn = document.querySelectorAll(".close");
+  const closeBtn2 = document.querySelectorAll(".back");
+
+    //on click X
+    closeBtn.forEach((btn) => btn.addEventListener("click", closeModal));
+    closeBtn2.forEach((btn) => btn.addEventListener("click", closeModal));
+
+    //on press enter on focus
+    closeBtn.forEach((btn) => btn.addEventListener("keyup", ckeckKeyClose));  
+    closeBtn2.forEach((btn) => btn.addEventListener("keyup", ckeckKeyClose));
+    function ckeckKeyClose(){if (event.keyCode === 13){closeModal();}}
+
+    //on press escape key
+    document.addEventListener('keydown', function(e){
+      if(event.keyCode === 27){closeModal();};
+    });
+
+    //close modal function
+    function closeModal() {aboutModal.style.display = "none";}     
+
 };
 
 /////Initiate Main Function On Page Load
