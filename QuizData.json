@@ -1167,20 +1167,20 @@
         },
         {
           "text":"Le Krys, couteau des Fremen, est confectionné à partir de quel matériau ?",
-          "choices":["Du diamant","Une dent du Ver des Sables", "Un éclat de météorite", "De métal provenant des armes d'ennemis tués au combat"],
+          "choices":["Du diamant","Une dent de Ver des Sables", "Un éclat de météorite", "De métal provenant des armes d'ennemis tués au combat"],
           "answer":"Une dent du Ver des Sables",
           "player": "1"
         },
         {
           "text":"Qui est l'empereur qui confia la charge d'Arrakis au Duc ?",
-          "choices":["Shaddam V","Padish IV ", "Shaddam IV", "Shazam IV"],
+          "choices":["Sadam V","Padisha VI ", "Shaddam IV", "Shazam IV"],
           "answer":"Shaddam IV",
           "player": "2"
         },
         {
-          "text":"Contre l'avis des Bene Gesserit, Jessica a entre-autre enseigné à Paul :",
-          "choices":["Le Zensunni","La Voix", "L'art de l'épée", "La Balisette"],
-          "answer":"La Voix",
+          "text":"Comment Paul et sa mère se libèrent-ils des hommes censés les tuer dans le désert ?",
+          "choices":["Grâce au Zensunni","En utilisant La Voix", "En faisant s'écraser l'Ornithoptère", "Grâce à Duncan Idaho"],
+          "answer":"En utilisant La Voix",
           "player": "1"
         },
         {
@@ -1191,14 +1191,14 @@
         },
         {
           "text":"Quel est la particularité du distille que portent les Fremen ?",
-          "choices":["Il transforme l'énergie cinétique et rafraîchit son porteur ","Il permet de s'enterrer vivant pour se cacher dans le sable", "Il produit un super tord boyaux", "Il recycle l'eau du corps"],
+          "choices":["Il convertit l'énergie cinétique pour rafraîchir son porteur ","Il permet de s'enterrer vivant pour se cacher dans le sable", "Il produit un super tord boyaux", "Il recycle l'eau du corps"],
           "answer":"Il recycle l'eau du corps",
           "player": "1"
         },
         {
-          "text":"",
-          "choices":["","", "", ""],
-          "answer":"",
+          "text":"Quel musicien à joué dans le film de David Lynch ?",
+          "choices":["Bono","Sting", "Keith Richards", "Angus Young"],
+          "answer":"Sting",
           "player": "2"
         },
         {

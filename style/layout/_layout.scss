@@ -96,13 +96,13 @@ header{
   @include justify-content-center;
   z-index: -10;
   margin: auto;
-  //width: 60%;
   width: 68%;
   padding: 0px 5px 0px 5px;
   height: 20%;
   @include just-flex;
   border-radius : 0px 0px 20px 20px;
   display: none;
+  .Player{
     width:45%;
     min-width: 152px;
     -webkit-box-shadow: 0 5px 20px 3px rgba(0, 0, 0, 0.3);
@@ -141,7 +141,7 @@ header{
         @include flex-column;
         border-radius: 5px 5px 5px 5px;
     }
-  
+  }
   .player1{
     border-radius : 0px 15px 5px 15px;
     background-image: url("../Ressources/Textures/2.png");//texture
