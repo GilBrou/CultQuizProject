@@ -304,7 +304,7 @@ footer{
     			top: -5px;
 				}			 
       }
-      p{      	
+      .normalModal{      	
       	color: $primary-color;
        	text-align: justify;
        	font-size: 150%;
@@ -398,9 +398,16 @@ footer{
 
   /*About Modal*/
   .openAbout{
-  	.content2{
+  	.content2{  		
   		top: 5vh;
-  		height: 70vh;
+  		//height: 70vh;
+  		.openAboutp{
+  			color: $primary-color;
+       	text-align: center;
+       	font-size: 150%;
+       	margin: 6px;
+       	font-weight: bold;
+  		}
   		.modal-body2{@include justify-content-center;}
   	}
 
