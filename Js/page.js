@@ -34,8 +34,8 @@ const page = async () =>{
       );
       selectedQuiz = newQuizCard;
       newQuizCard.DisplayQuizInfos(page);
-    };    
-  };
+    }    
+  }
 
   /////Display Questions
   let questions = [];
@@ -47,7 +47,7 @@ const page = async () =>{
         selectedQuestions[i].answer
       );
       questions.push(newQuestion);
-    };
+    }
 
   /////All functions
   const display = {
@@ -87,7 +87,7 @@ const page = async () =>{
         reaction = `<h1>Score : ${quiz.score} / ${quiz.questions.length}</h1><br><p>` + ReactBad + `</p><br>`;
       } else {
         reaction = `<h1>Score : ${quiz.score} / ${quiz.questions.length}</h1><br><p>` + ReactGood + `</p><br>`;
-      };     
+      }
       scoreReact.innerHTML = reaction;
       modalbg.style.display = "block";     
       
@@ -103,7 +103,7 @@ const page = async () =>{
 
       //on press escape key
       document.addEventListener('keydown', function(e) {
-        if(lightBoxIsOpen = true){if (event.keyCode === 27){closeModal();}};
+        if(lightBoxIsOpen = true){if (event.keyCode === 27){closeModal();}}
       });
 
       //close modal function
@@ -190,7 +190,7 @@ const page = async () =>{
     let animClass = "animbutton" + inumber;
     allFour[i].classList.add(animClass);
     inumber++;
-  };
+  }
 
   /////ANIMATE Banner.jelloBanner
     const jelloBanner = document.querySelectorAll(".banner");
@@ -210,14 +210,8 @@ const page = async () =>{
   const retryAnim = document.querySelectorAll(".retryOrLeave");
   Array.from(retryAnim).map(element => {
     element.classList.add("retryAnim");
-  });  
-
-
-
-
-
-  
-
+  }); 
 };
+
 /////Initiate Main Function On Page Load
 window.onload = page;

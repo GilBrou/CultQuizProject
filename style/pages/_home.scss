@@ -36,7 +36,7 @@
 
 /*QUIZCACRDS*/
 .QuizCard{
-	margin: 0px 5px 0px 5px;/**/
+	margin: 0px 5px 0px 5px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -48,10 +48,10 @@
   	.thatQuiz{
   		cursor: pointer;
   		background-color : $primary-color;
-  		background-image: url("../Ressources/Textures/2-200.png");//texture
-			background-blend-mode: multiply;//texture
-			background-size: contain;//texture
-    	background-repeat: round;//texture
+  		background-image: url("../Ressources/Textures/2-200.png");
+			background-blend-mode: multiply;
+			background-size: contain;
+    	background-repeat: round;
 			@include justify-content-center;
   		@include flex-column;
  			margin: auto;
@@ -276,7 +276,7 @@ footer{
     background: $tertiary-color;
     overflow: hidden;
     position: relative;
-    padding: 20px;
+    //padding: 20px;
     @include just-flex;
     @include justify-content-center;   
     font-size: 100%; 
@@ -285,9 +285,11 @@ footer{
 		  	height: auto;
 			}     
     .modal-body2{
+    	background-image: url("../Ressources/Textures/3.png");
+    	background-size: cover;//texture
     	width: 100%;
     	height: 100%;    	
-      padding: 40px 0px 0px 0px;
+      padding: 60px 20px 20px 20px;
       .close{   
       	border-radius: 15px;   
       	&:before, &:after{background-color: $primary-color;}
@@ -390,7 +392,6 @@ footer{
    	@include mobile-style{top: 5vh;}	   	 
 	 }	  
 	}
-
   .contre p{
     -webkit-animation: heartbeat 2s ease-in-out infinite alternate both;
     animation: heartbeat 2s ease-in-out infinite alternate both;
@@ -400,13 +401,34 @@ footer{
   .openAbout{
   	.content2{  		
   		top: 5vh;
-  		//height: 70vh;
   		.openAboutp{
   			color: $primary-color;
        	text-align: center;
        	font-size: 150%;
        	margin: 6px;
        	font-weight: bold;
+  		}
+  		.oA{
+  			text-align :left;
+  			font-weight: normal;
+  			padding-left : 13%;
+  			@include tablet-style{
+  			padding-left: 0;
+  			text-align :center;
+  			}
+  			@include truemobile-style{font-size: 140%;}
+  		}
+  		.oA1{
+  			font-weight: normal;
+  			width: 21%;
+  			padding-bottom: 5px;
+  			border-bottom: 2px solid $primary-color;
+  			@include tablet-style{
+  				text-align :left;
+  				border-bottom: none;
+  				width: auto;
+  			}
+  			@include truemobile-style{font-size: 140%;}
   		}
   		.modal-body2{@include justify-content-center;}
   	}

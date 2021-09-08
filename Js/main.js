@@ -22,7 +22,7 @@ const main = async () =>{
 
     //Create Dom elements from Photographers
     newQuizCard.createAndDisplayQuizCards(main);
-  };
+  }
 
   //Add QuizCard card animations (className)
   addAnim(); 
@@ -59,7 +59,7 @@ const main = async () =>{
 
     //on press escape key
     document.addEventListener('keydown', function(e){
-      if(event.keyCode === 27){closeModal();};
+      if(event.keyCode === 27){closeModal();}
     });
 
     //close modal function

@@ -3,20 +3,19 @@ body{
     min-width: 341px;    
     margin: auto;
     background-color: $tertiary-color;
-    background-image: url("../Ressources/Textures/1.png");//texture
+    background-image: url("../Ressources/Textures/1.png");
     background-attachment: fixed;
-    //background-blend-mode: soft-light;//texture
-    background-blend-mode: overlay;//texture
-    background-size: cover;//texture
+    background-blend-mode: overlay;
+    background-size: cover;
     font-family:  lato, Arial, Verdana, sans-serif;
     overflow-x: hidden;
     a{
-        text-decoration: none;
-        color: black;
+      text-decoration: none;
+      color: black;
     }
     @include mobile-style{
-        @include justify-content-center;
-        margin: 0;
+      @include justify-content-center;
+      margin: 0;
     }
 }
 
@@ -33,7 +32,6 @@ main{
 }
 
 /*Background animation*/
-
 .animation-wrapper {
     position: fixed;
     top: 0;

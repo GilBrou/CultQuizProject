@@ -133,10 +133,38 @@ class Question {
           }, 800);
         }
       }
+      else{  
+      console.log("bad")      
+      let myUrl = window.location.href;
+      let url_string = (window.location.href);
+      let url = new URL(url_string);
+      if (window.location.href.indexOf("J1") != -1){
+        if(this.player === "1" ){
+          let score1 = document.querySelector(".sPlayer1");
+          score1.classList.add("animpoint");
+          score1.style.backgroundColor = '#C51D1D';
+        } else {
+          let score2 = document.querySelector(".sPlayer2");   
+          score2.classList.add("animpoint");
+          score2.style.backgroundColor = '#C51D1D';
+        }
+        setTimeout(function(){
+          let score1 = document.querySelector(".sPlayer1");
+          let score2 = document.querySelector(".sPlayer2");
+          score1.style.backgroundColor = '#2C6B80';
+          score2.style.backgroundColor = '#2C6B80';
+          }, 300)
+        setTimeout(function(){
+          let score1 = document.querySelector(".sPlayer1");
+          let score2 = document.querySelector(".sPlayer2");
+          score1.classList.remove("animpoint"); 
+          score2.classList.remove("animpoint"); 
+          }, 800);
+        }        
+      }
       return this.answer === choice;
     }
   }
-
 
 /////Quiz class/////
 class Quiz {

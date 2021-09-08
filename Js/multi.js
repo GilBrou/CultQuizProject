@@ -24,7 +24,7 @@ function openModal(){
 
 	//on press escape key
 	document.addEventListener('keydown', function(e){
-		if(event.keyCode === 27){closeModal();};
+		if(event.keyCode === 27){closeModal();}
 	});
 
 	//close modal function
@@ -44,7 +44,6 @@ function validate(){
 //multiplayer mode on
 function multiplayerOn(){
 	isMultiOn = true;
-	//console.log("Le mode multijoueur sera bientôt actif, promis ;) !");	
 	let player1 = first.value;
 	let player1Score = 0;
 	let player2 = second.value;
